@@ -39,16 +39,34 @@ games = [
 def get_games():
     return jsonify(games)
 
-@app.route('/api/games/<string:main_platform>/')
-def get_platform(main_platform):
-
-    # FILTRAMOS LOS JUEGOS POR PLATFORMA
+@app.route('/api/games/title/<string:title>/')
+def get_title(title):
+    # FILTRAMOS LOS JUEGOS POR TITULO
     filtered = [
         game for game in games #ELEMENTO_A_GUARDAR for VARIABLE in LISTA
-        if main_platform.lower() in game["main_platform"].lower() #.lower(): convierte todo a minusculas
+        if title.lower() in game["title"].lower() #.lower(): convierte todo a minusculas
     ]
 
-    # Si la lista está vacía - plataforma invalida o sin juegos
+    # Si la lista esta vacia - title invalido o sin juegos
+    if not filtered:
+        response = {
+            "status": "error",
+            "message": f"No se encontraron juegos con el nombre de: {title}"
+        },404
+    else:
+        response = jsonify(filtered),200
+    
+    return response
+
+@app.route('/api/games/platform/<string:main_platform>/')
+def get_platform(main_platform):
+    # FILTRAMOS LOS JUEGOS POR PLATFORMA
+    filtered = [
+        game for game in games
+        if main_platform.lower() in game["main_platform"].lower()
+    ]
+
+    # Si la lista esta vacia - plataforma invalida o sin juegos
     if not filtered:
         response = {
             "status": "error",
