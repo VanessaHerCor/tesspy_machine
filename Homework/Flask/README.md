@@ -118,7 +118,7 @@ Pantalla de bienvenida.
 
 ## 📌 **3. Obtener un videojuego por ID**
 
-**GET /api/games/<id>/**
+**GET /api/games/"id"/**
 
     Ejemplo:
 
@@ -130,7 +130,7 @@ Pantalla de bienvenida.
 
 ## 📌 **4. Buscar videojuegos por título**
 
-**GET /api/games/title/<title>/**
+**GET /api/games/title/"title"/**
 
     Ejemplo:
 
@@ -142,7 +142,7 @@ Pantalla de bienvenida.
 
 ## 📌 **5. Buscar videojuegos por plataforma**
 
-**GET /api/games/platform/<platform>/**
+**GET /api/games/platform/"platform"/**
 
     Ejemplo:
 
@@ -183,7 +183,7 @@ _**Retorna el nuevo elemento con ID autoincremental.**_
 
 ## 📌 **7. Actualizar un videojuego (PUT)**
 
-**PUT /api/games/<id>/**
+**PUT /api/games/"id"/**
 
 Puedes enviar un JSON parcial, solo actualizando los campos deseados (esto se pasa por el body):
 
@@ -198,7 +198,7 @@ Puedes enviar un JSON parcial, solo actualizando los campos deseados (esto se pa
 
 ## 📌 **8. Eliminar un videojuego (DELETE)**
 
-**DELETE /api/games/<id>/**
+**DELETE /api/games/"id"/**
 
 Ejemplo:
 
