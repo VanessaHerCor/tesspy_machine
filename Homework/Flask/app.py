@@ -25,7 +25,7 @@ games = [
 ]
 
 #ID autoincremental para nuevos juegos
-next_id = 16
+next_id = 17
 
 @app.route('/')
 def home():
@@ -84,7 +84,7 @@ def get_games():
 
 @app.route('/api/games/title/<string:title>/')
 def get_title(title):
-    # FILTRAMOS LOS JUEGOS POR TITULO
+    # FILTRAR LOS JUEGOS POR TITULO
     filtered = [
         game for game in games #ELEMENTO_A_GUARDAR for VARIABLE in LISTA
         if title.lower() in game["title"].lower() #.lower(): convierte todo a minusculas
@@ -103,7 +103,7 @@ def get_title(title):
 
 @app.route('/api/games/platform/<string:main_platform>/')
 def get_platform(main_platform):
-    # FILTRAMOS LOS JUEGOS POR PLATFORMA
+    # FILTRAR LOS JUEGOS POR PLATFORMA
     filtered = [
         game for game in games
         if main_platform.lower() in game["main_platform"].lower()
@@ -157,7 +157,38 @@ def add_game():
         "game": new_game
     }), 201 # 201 Created
 
-## 4. DELETE (Eliminar un Elemento)
+#UPDATE (Modificar un elemento existente)
+#Metodo PUT en la misma ruta del GET individual, ejemplo /api/games/12/
+@app.route('/api/games/<int:game_id>/', methods=['PUT'])
+def update_game(game_id):
+    global games
+
+    # Buscar el juego por ID
+    game = next((g for g in games if g["id"] == game_id), None)
+
+    if not game:
+        return jsonify({"message": f"Juego con ID {game_id} no encontrado"}), 404
+
+    # Obtener campos enviados en el body (JSON)
+    update_data = request.get_json()
+
+    if not update_data:
+        return jsonify({
+            "status": "error",
+            "message": "Debes enviar al menos un campo para actualizar."
+        }), 400
+
+    # Actualizar solo los campos enviados
+    for key, value in update_data.items():
+        if key in game:   # Solo si el campo existe en el juego
+            game[key] = value
+
+    return jsonify({
+        "message": f"Juego con ID {game_id} actualizado correctamente",
+        "updated_game": game
+    }), 200
+
+#DELETE (Eliminar un Elemento)
 # Ruta: /api/games/3/
 @app.route('/api/games/<int:game_id>/', methods=['DELETE'])
 def delete_game(game_id):
@@ -176,15 +207,8 @@ def delete_game(game_id):
             "deleted": deleted_game
         }), 200
     else:
-        return jsonify({"message": f"Juego con ID {game_id} no encontrado"}), 404
+        return jsonify({"message": f"No se pudo eliminar. Juego con ID {game_id} no encontrado"}), 404
 
-# {
-#     "title": "Celeste",
-#     "genre": "Platformer / Precision",
-#     "score": 96,
-#     "main_platform": "Switch / PC",
-#     "coop": false
-# }
 
 if __name__ == '__main__':
     # Asegúrate de usar un puerto que no esté en uso, 8001 está bien
