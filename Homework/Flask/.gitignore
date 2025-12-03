@@ -1,0 +1,41 @@
+```
+# === Archivos de Python ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# === Entornos virtuales ===
+venv/
+.env/
+env/
+
+# === Archivos de configuración sensibles ===
+*.env
+*.secret
+*.key
+
+# === Archivos de sistema ===
+.DS_Store
+Thumbs.db
+
+# === Carpeta de caché de Flask / herramientas ===
+instance/
+.cache/
+
+# === Archivos de logs ===
+*.log
+
+# === Archivos temporales ===
+*.tmp
+*.temp
+
+# === Configuración de IDEs ===
+.vscode/
+*.code-workspace
+.idea/
+
+# === Otros ===
+__MACOSX/
+```
+
