@@ -2,6 +2,8 @@ from flask import Flask, request, jsonify
 # Flask: la clase principal para crear la aplicación web
 # request: un objeto que te permite leer datos enviados por el cliente (JSON, query params, headers, formularios, etc)
 # jsonify: una función que convierte listas/diccionarios de Python en una respuesta JSON válida para enviar al navegador
+from datetime import datetime
+from werkzeug.security import generate_password_hash, check_password_hash
 
 app = Flask(__name__)
 
@@ -209,7 +211,86 @@ def delete_game(game_id):
     else:
         return jsonify({"message": f"No se pudo eliminar. Juego con ID {game_id} no encontrado"}), 404
 
+# Parte del usuario
+users = [
+            {
+                'user_id': 'user-1',
+                'username': 'user-admin',
+                'role': 'admin',
+                'password_hash': generate_password_hash('user-admin-123'),
+                'created_at': datetime.now()
+            },
+               {
+                'user_id': 'user-1',
+                'username': 'user-manager',
+                'role': 'manager',
+                'password_hash': generate_password_hash('user-mager-123'),
+                'created_at': datetime.now()
+            },
+        ]
 
+def get_users_by_username(username):
+    return list(filter(lambda u: u["username"]== username, users))
+
+def authenticate_user(username, password):
+    users  = get_users_by_username(username)
+    print(f"users found: {users}, with username : {username}" )
+    if len(users)<= 0 or not check_password_hash(users[0]['password_hash'], password):
+        return None, False
+    else:
+        return users[0], True
+   
+@app.route('/api/signIn', methods= ['POST'])
+def sign_in():
+    if not request.json or 'username' not in request.json or 'password' not in request.json:
+        return jsonify({
+            'error': 'Datos inválidos',
+            'message': 'Se requieren username y password'
+        }), 400
+    username = request.json['username']
+    password = request.json['password']
+    if len(get_users_by_username(username) ) >0:
+        return  jsonify({
+            'error': 'Nombre de usuario ya existe'
+        }), 400
+    user_id = 'user-'+str(uuid.uuid4())
+    users.append({
+                'user_id': user_id,
+                'username': username,
+                'role': 'client',
+                'password_hash': generate_password_hash(password),
+                'created_at': datetime.now()
+            })
+    return {
+        'username': username,
+        'user_id': user_id
+    }, 201
+
+    
+@app.route('/api/login', methods=['POST'])
+def login():
+    if not request.json or 'username' not in request.json or 'password' not in request.json:
+        return jsonify({
+            'error': 'Datos inválidos',
+            'message': 'Se requieren username y password'
+        }), 400
+        
+    username = request.json['username']
+    password = request.json['password']
+    user, auth_result = authenticate_user(username,password)
+    if auth_result:
+        user_id = user.get('user_id') 
+        token = create_access_token(identity=username,additional_claims={
+            'user_id': user_id,
+            'role': user["role"]
+        })
+        return {"message": "login success", "access_token": token}, 200
+    else:
+        return {"message": "Not authorized"}, 401
+    
+
+    
+# Lo que levanta el servidor
 if __name__ == '__main__':
     # Asegúrate de usar un puerto que no esté en uso, 8001 está bien
     app.run(debug=True, port=8001)
