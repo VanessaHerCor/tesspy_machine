@@ -2,10 +2,39 @@ from flask import Flask, request, jsonify
 # Flask: la clase principal para crear la aplicación web
 # request: un objeto que te permite leer datos enviados por el cliente (JSON, query params, headers, formularios, etc)
 # jsonify: una función que convierte listas/diccionarios de Python en una respuesta JSON válida para enviar al navegador
-from datetime import datetime
+from datetime import datetime, timedelta
 from werkzeug.security import generate_password_hash, check_password_hash
+import uuid
+from flask_jwt_extended import create_access_token, JWTManager, jwt_required,get_jwt
+import os
+
+# Crear un decorador para proteger rutas segun el rol
+from functools import wraps
+from flask_jwt_extended import get_jwt
+
+def role_required(required_role):
+    def decorator(fn):
+        @wraps(fn)
+        def wrapper(*args, **kwargs):
+            claims = get_jwt()
+            user_role = claims.get("role", None)
+
+            if user_role != required_role:
+                return jsonify({
+                    "status": "error",
+                    "message": "No tienes permisos para realizar esta acción."
+                }), 403
+
+            return fn(*args, **kwargs)
+        return wrapper
+    return decorator
 
 app = Flask(__name__)
+
+# Configuración de JWT
+app.config["JWT_SECRET_KEY"] = os.getenv("JWT_SECRET_KEY", "dev-secret") #Deberia ser una clave secreta mas segura en produccion
+app.config["JWT_ACCESS_TOKEN_EXPIRES"] = timedelta(minutes=15)  #Deberia ser una clave secreta mas segura en produccion
+jwt = JWTManager(app)
 
 games = [
     {"id": 1,"title": "Portal","genre": "First-person puzzle","score": 90,"main_platform": "PC","coop": False},
@@ -39,6 +68,7 @@ def home():
 # Obtenert Uno GET ONE (Por ID)
 #Ruta de ejemplo: /api/games/3/
 @app.route('/api/games/<int:game_id>/', methods=['GET'])
+@jwt_required() #Protege la ruta con JWT, requiere token valido
 def get_game(game_id):
 
     #Otra forma °° Revisa cada g dentro de la lista games y se queda solo con los que tengan g["id"] == game_id
@@ -53,6 +83,7 @@ def get_game(game_id):
 #Obtener todo con parametros Opcionales)
 #Mas o menos Ruta: /api/games/?genre=Puzzle&coop=true
 @app.route('/api/games/', methods=['GET'])
+@jwt_required() #Protege la ruta con JWT, requiere token valido
 def get_games():
     global games
     
@@ -84,9 +115,10 @@ def get_games():
         
     return jsonify(filtered_games), 200
 
+# FILTRAR LOS JUEGOS POR TITULO
 @app.route('/api/games/title/<string:title>/')
+@jwt_required() #Protege la ruta con JWT, requiere token valido
 def get_title(title):
-    # FILTRAR LOS JUEGOS POR TITULO
     filtered = [
         game for game in games #ELEMENTO_A_GUARDAR for VARIABLE in LISTA
         if title.lower() in game["title"].lower() #.lower(): convierte todo a minusculas
@@ -103,9 +135,10 @@ def get_title(title):
     
     return response
 
+# FILTRAR LOS JUEGOS POR PLATFORMA
 @app.route('/api/games/platform/<string:main_platform>/')
+@jwt_required() #Protege la ruta con JWT, requiere token valido
 def get_platform(main_platform):
-    # FILTRAR LOS JUEGOS POR PLATFORMA
     filtered = [
         game for game in games
         if main_platform.lower() in game["main_platform"].lower()
@@ -124,6 +157,8 @@ def get_platform(main_platform):
 
 #POST agregar un Elemento
 @app.route('/api/games/', methods=['POST'])
+@jwt_required() #Protege la ruta con JWT, requiere token valido
+@role_required("admin") #Protege la ruta segun el rol
 def add_game():
     global next_id
     
@@ -162,6 +197,8 @@ def add_game():
 #UPDATE (Modificar un elemento existente)
 #Metodo PUT en la misma ruta del GET individual, ejemplo /api/games/12/
 @app.route('/api/games/<int:game_id>/', methods=['PUT'])
+@jwt_required() #Protege la ruta con JWT, requiere token valido
+@role_required("admin") #Protege la ruta segun el rol
 def update_game(game_id):
     global games
 
@@ -193,6 +230,8 @@ def update_game(game_id):
 #DELETE (Eliminar un Elemento)
 # Ruta: /api/games/3/
 @app.route('/api/games/<int:game_id>/', methods=['DELETE'])
+@jwt_required() #Protege la ruta con JWT, requiere token valido
+@role_required("admin") #Protege la ruta segun el rol
 def delete_game(game_id):
     global games
     global next_id
@@ -211,85 +250,133 @@ def delete_game(game_id):
     else:
         return jsonify({"message": f"No se pudo eliminar. Juego con ID {game_id} no encontrado"}), 404
 
-# Parte del usuario
+# ______________________________________________________________________________________________________________________________________
+# Parte del usuario y autenticacion JWT
+
+
 users = [
-            {
-                'user_id': 'user-1',
-                'username': 'user-admin',
-                'role': 'admin',
-                'password_hash': generate_password_hash('user-admin-123'),
-                'created_at': datetime.now()
-            },
-               {
-                'user_id': 'user-1',
-                'username': 'user-manager',
-                'role': 'manager',
-                'password_hash': generate_password_hash('user-mager-123'),
-                'created_at': datetime.now()
-            },
-        ]
+    {
+        "id": "a4f0507c-1b93-4fa3-ba5d-67a1e4ae8f30",
+        "username": "admin",
+        "password": generate_password_hash("admin123"),
+        "age": 30,
+        "role": "admin",
+        "created_at": "2025-01-01T10:00:00"
+    },
+    {
+        "id": "d32ed2f9-1a89-4f32-9da7-5b13c8bcb85d",
+        "username": "vanessa",
+        "password": generate_password_hash("shadow_love"),
+        "age": 26,
+        "role": "admin",
+        "created_at": "2025-02-02T08:30:00"
+    },
+    {
+        "id": "19e3b9fe-4d3f-4cb7-9f13-874a8d66f743",
+        "username": "player1",
+        "password": generate_password_hash("gamerpass"),
+        "age": 20,
+        "role": "user",
+        "created_at": "2025-03-10T14:15:00"
+    },
+    {
+        "id": "8c125350-9e58-4d99-9cd4-6f03f29e9e71",
+        "username": "sofia",
+        "password": generate_password_hash("coffee123"),
+        "age": 22,
+        "role": "user",
+        "created_at": "2025-03-20T11:45:00"
+    },
+    {
+        "id": "312ca3f2-2955-4a66-a7cc-26be4d932a47",
+        "username": "marcos",
+        "password": generate_password_hash("qwerty007"),
+        "age": 28,
+        "role": "user",
+        "created_at": "2025-04-01T09:00:00"
+    }
+]
 
-def get_users_by_username(username):
-    return list(filter(lambda u: u["username"]== username, users))
+@app.route('/api/register/', methods=['POST'])
+def register_user():
+    user_data = request.get_json()
 
-def authenticate_user(username, password):
-    users  = get_users_by_username(username)
-    print(f"users found: {users}, with username : {username}" )
-    if len(users)<= 0 or not check_password_hash(users[0]['password_hash'], password):
-        return None, False
-    else:
-        return users[0], True
-   
-@app.route('/api/signIn', methods= ['POST'])
-def sign_in():
-    if not request.json or 'username' not in request.json or 'password' not in request.json:
+    required = ["username", "password", "age"]
+
+    # Validar campos
+    if not user_data or not all(field in user_data for field in required):
         return jsonify({
-            'error': 'Datos inválidos',
-            'message': 'Se requieren username y password'
+            "status": "error",
+            "message": f"Datos inválidos. Se requieren: {', '.join(required)}."
         }), 400
-    username = request.json['username']
-    password = request.json['password']
-    if len(get_users_by_username(username) ) >0:
-        return  jsonify({
-            'error': 'Nombre de usuario ya existe'
-        }), 400
-    user_id = 'user-'+str(uuid.uuid4())
-    users.append({
-                'user_id': user_id,
-                'username': username,
-                'role': 'client',
-                'password_hash': generate_password_hash(password),
-                'created_at': datetime.now()
-            })
-    return {
-        'username': username,
-        'user_id': user_id
-    }, 201
 
-    
-@app.route('/api/login', methods=['POST'])
+    username = user_data["username"]
+
+    # Validar usuario duplicado
+    if any(u["username"] == username for u in users):
+        return jsonify({
+            "status": "error",
+            "message": "El usuario ya existe. Elige otro nombre."
+        }), 409  # 409: conflicto
+
+    # Crear usuario nuevo
+    new_user = {
+        "id": str(uuid.uuid4()),
+        "username": username,
+        "password": generate_password_hash(user_data["password"]),
+        "age": user_data["age"],
+        "role": "user",
+        "created_at": datetime.now().isoformat()
+    }
+
+    users.append(new_user)
+
+    return jsonify({
+        "status": "success",
+        "message": "Usuario registrado exitosamente",
+        "user": {
+            "id": new_user["id"],
+            "username": new_user["username"]
+        }
+    }), 201
+
+@app.route('/api/login/', methods=['POST'])
 def login():
-    if not request.json or 'username' not in request.json or 'password' not in request.json:
-        return jsonify({
-            'error': 'Datos inválidos',
-            'message': 'Se requieren username y password'
-        }), 400
-        
-    username = request.json['username']
-    password = request.json['password']
-    user, auth_result = authenticate_user(username,password)
-    if auth_result:
-        user_id = user.get('user_id') 
-        token = create_access_token(identity=username,additional_claims={
-            'user_id': user_id,
-            'role': user["role"]
-        })
-        return {"message": "login success", "access_token": token}, 200
-    else:
-        return {"message": "Not authorized"}, 401
-    
+    login_data = request.get_json()
 
-    
+    if not login_data or "username" not in login_data or "password" not in login_data:
+        return jsonify({
+            "status": "error",
+            "message": "Debes enviar username y password."
+        }), 400
+
+    username = login_data["username"]
+    password = login_data["password"]
+
+    # Buscar usuario
+    user = next((u for u in users if u["username"] == username), None)
+
+    # Validar existencia y contraseña
+    if not user or not check_password_hash(user["password"], password):
+        return jsonify({
+            "status": "error",
+            "message": "Usuario y/o contraseña incorrectos."
+        }), 401
+
+    # Crear token JWT
+    token = create_access_token(
+        identity=user["id"], 
+        additional_claims={"role": user["role"]}
+    )
+
+    return jsonify({
+        "status": "success",
+        "message": "Login exitoso.",
+        "access_token": token
+    }), 200
+
+
+# _______________________________________________________________________________________________________________________________________
 # Lo que levanta el servidor
 if __name__ == '__main__':
     # Asegúrate de usar un puerto que no esté en uso, 8001 está bien
