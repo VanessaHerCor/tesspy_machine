@@ -1,7 +1,8 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template
 # Flask: la clase principal para crear la aplicación web
 # request: un objeto que te permite leer datos enviados por el cliente (JSON, query params, headers, formularios, etc)
 # jsonify: una función que convierte listas/diccionarios de Python en una respuesta JSON válida para enviar al navegador
+# render_template: para renderizar archivos HTML con Jinja2
 from datetime import datetime, timedelta
 from werkzeug.security import generate_password_hash, check_password_hash
 #import uuid ya no necesito esto
@@ -67,10 +68,79 @@ def connect_db():
         print("✅ Conexión a MongoDB exitosa")
         print(f"✅ Games collection OK: {games_collection is not None}")
         print(f"✅ Users collection OK: {users_collection is not None}")
+        
+        # Crear usuarios iniciales si no existen
+        create_initial_users()
+        
+        # Cargar videojuegos quemados a MongoDB
+        load_initial_games()
 
     except Exception as e:
         print(f"❌ Error conectando a MongoDB: {e}")
         print("⚠️ La aplicación requiere MongoDB para funcionar correctamente.")
+
+
+def create_initial_users():
+    """Crear usuarios quemados con 3 roles: admin, manager, client"""
+    initial_users = [
+        {
+            "username": "admin",
+            "password": generate_password_hash("admin123"),
+            "age": 30,
+            "role": "admin",
+            "created_at": datetime.now()
+        },
+        {
+            "username": "manager",
+            "password": generate_password_hash("manager123"),
+            "age": 28,
+            "role": "manager",
+            "created_at": datetime.now()
+        },
+        {
+            "username": "cliente",
+            "password": generate_password_hash("cliente123"),
+            "age": 25,
+            "role": "client",
+            "created_at": datetime.now()
+        }
+    ]
+    
+    for user in initial_users:
+        if not users_collection.find_one({"username": user["username"]}):
+            users_collection.insert_one(user)
+            print(f"✅ Usuario inicial creado: {user['username']} ({user['role']})")
+        else:
+            print(f"ℹ️ Usuario ya existe: {user['username']}")
+
+
+def load_initial_games():
+    """Cargar los videojuegos quemados a MongoDB"""
+    initial_games = [
+        {"title": "Portal","genre": "First-person puzzle","score": 90,"main_platform": "PC","coop": False},
+        {"title": "Portal 2","genre": "First-person puzzle","score": 95,"main_platform": "PC","coop": True},
+        {"title": "Super Mario Bros 3","genre": "Platformer","score": 97,"main_platform": "Nintendo","coop": False},
+        {"title": "Red Dead Redemption","genre": "Action / Open world","score": 95,"main_platform": "Consoles","coop": False},
+        {"title": "Superliminal","genre": "Puzzle","score": 75,"main_platform": "PC","coop": False},
+        {"title": "Cult of the Lamb","genre": "Action / Management","score": 85,"main_platform": "PC / Switch","coop": True},
+        {"title": "Baldur's Gate 3","genre": "Tactical RPG","score": 98,"main_platform": "PC","coop": True},
+        {"title": "Titanfall 2","genre": "Shooter","score": 90,"main_platform": "PC / Consoles","coop": False},
+        {"title": "The Stanley Parable","genre": "Narrative exploration","score": 89,"main_platform": "PC","coop": False},
+        {"title": "Killer Frequency","genre": "Narrative horror","score": 80,"main_platform": "PC","coop": False},
+        {"title": "Metal: Hellsinger","genre": "Rhythm shooter","score": 90,"main_platform": "PC","coop": False},
+        {"title": "Cuphead","genre": "Platformer / Boss rush","score": 88,"main_platform": "PC / Xbox / Switch","coop": True},
+        {"title": "Sonic Mania","genre": "Platformer","score": 90,"main_platform": "Switch / PC / PS4","coop": True},
+        {"title": "Detroit: Become Human","genre": "Narrative adventure","score": 95,"main_platform": "PlayStation / PC","coop": False},
+        {"title": "Coffee Talk","genre": "Visual novel","score": 80,"main_platform": "PC / Switch","coop": False},
+        {"title": "Dispatch","genre": "Horror / Thriller","score": 80,"main_platform": "PC","coop": False}
+    ]
+    
+    # Si no hay juegos en la BD, cargarlos
+    if games_collection.count_documents({}) == 0:
+        games_collection.insert_many(initial_games)
+        print(f"✅ {len(initial_games)} videojuegos cargados en MongoDB")
+    else:
+        print(f"ℹ️ La colección ya contiene {games_collection.count_documents({})} juegos")
 
 
 games = [
@@ -99,6 +169,21 @@ next_id = 17
 def home():
     return "<h1 style='color:cyan;'> Bienvenido! </h1>" \
            "<h2> Buscador de Videojuegos </h2>"
+
+# --- ENDPOINT CON RENDERIZADO DEL LADO DEL SERVIDOR ---
+
+@app.route('/juegos')
+@jwt_required()
+def juegos_page():
+    """Renderiza una página HTML con los videojuegos desde MongoDB"""
+    # Obtener todos los juegos
+    games_from_db = list(games_collection.find().limit(20))
+    
+    # Convertir ObjectId a string para el template
+    for game in games_from_db:
+        game['_id'] = str(game['_id'])
+    
+    return render_template('juegos.html', games=games_from_db)
 
 # --- ENDPOINTS REST ---
 
@@ -310,11 +395,14 @@ def delete_game(game_id):
 # ______________________________________________________________________________________________________________________________________
 # Parte del usuario y autenticacion JWT con MONGODB
 
-@app.route('/api/register/', methods=['POST'])
-def register_user():
+@app.route('/api/users/', methods=['POST'])
+@jwt_required() #Protege la ruta con JWT, requiere token valido
+@role_required("admin") #Solo administrador puede crear usuarios
+def create_user():
+    """Endpoint para que solo administradores puedan crear usuarios"""
     user_data = request.get_json()
 
-    required = ["username", "password", "age"]
+    required = ["username", "password", "age", "role"]
 
     # Validar campos
     if not user_data or not all(field in user_data for field in required):
@@ -324,8 +412,17 @@ def register_user():
         }), 400
 
     username = user_data["username"]
+    role = user_data["role"]
+    
+    # Validar que el rol sea válido
+    valid_roles = ["admin", "manager", "client"]
+    if role not in valid_roles:
+        return jsonify({
+            "status": "error",
+            "message": f"Rol inválido. Roles válidos: {', '.join(valid_roles)}"
+        }), 400
 
-    # --- CAMBIO 1: Validar usuario duplicado en MongoDB ---
+    # Validar usuario duplicado en MongoDB
     if users_collection.find_one({"username": username}):
         return jsonify({
             "status": "error",
@@ -334,25 +431,23 @@ def register_user():
 
     # Crear usuario nuevo
     new_user = {
-        # MongoDB generará automáticamente el _id. Ya no necesitamos uuid.uuid4()
         "username": username,
         "password": generate_password_hash(user_data["password"]),
         "age": user_data["age"],
-        "role": "user",
+        "role": role,
         "created_at": datetime.now()
     }
 
-    # --- CAMBIO 2: Insertar en MongoDB ---
+    # Insertar en MongoDB
     result = users_collection.insert_one(new_user)
-    
-    # El ID insertado es result.inserted_id (es un ObjectId, lo convertimos a str)
 
     return jsonify({
         "status": "success",
-        "message": "Usuario registrado exitosamente",
+        "message": "Usuario creado exitosamente",
         "user": {
             "id": str(result.inserted_id),
-            "username": new_user["username"]
+            "username": new_user["username"],
+            "role": new_user["role"]
         }
     }), 201
 
