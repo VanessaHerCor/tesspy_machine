@@ -17,11 +17,11 @@ def videogames_list(request):
     videogames = Videogame.objects.all().order_by('-score')
     
     # El contexto son los datos que se pasan al template
-    contexto = {
+    context = {
         'videogames': videogames,
         'page_title': 'Catálogo de Videojuegos'
     }
-    
+
     # render() combina el template con el contexto
     return render(request, 'dynamicpages/videogames_list.html', context)
 

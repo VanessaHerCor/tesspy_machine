@@ -22,4 +22,5 @@ urlpatterns = [
     path('static-pages/', include('staticpages.urls')),
     path('dynamic/', include('dynamicpages.urls')),
     path('api/videogames/', include('forn_api.urls')),
+    path('api/auth/', include('auth_api.urls')),  # 🔐 Autenticación JWT
 ]
