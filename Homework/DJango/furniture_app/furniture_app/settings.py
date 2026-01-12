@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'staticpages',  # Páginas estáticas del Ejercicio 1
     'dynamicpages',  # Páginas dinámicas y API REST del Ejercicio 2
     'forn_api',
+    'auth_api',  # Autenticación JWT
 ]
 
 MIDDLEWARE = [
