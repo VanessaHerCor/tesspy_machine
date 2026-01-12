@@ -1,0 +1,85 @@
+{% extends 'dynamicpages/base.html' %}
+
+{% block title %}{{ page_title }}{% endblock %}
+
+{% block content %}
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 30px;">
+    <h2 style="margin: 0;">🎮 Catálogo de Videojuegos</h2>
+    <a href="{% url 'create_videogame' %}" style="background: #00d4ff; color: #1a1a2e; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold;">➕ Agregar Videojuego</a>
+</div>
+
+<p style="color: #90ee90; margin-bottom: 20px;">
+    ✨ Estos datos se obtienen en tiempo real de la base de datos MongoDB
+</p>
+
+{% if messages %}
+    {% for message in messages %}
+        <div style="background: #1e7e34; color: #90ee90; padding: 15px; border-radius: 5px; margin-bottom: 20px; border-left: 4px solid #90ee90;">
+            {{ message }}
+        </div>
+    {% endfor %}
+{% endif %}
+
+{% for videogame in videogames %}
+    <div class="videogame-item">
+        <h3><a href="{% url 'videogame_detail' videogame.id %}">{{ videogame.title }}</a></h3>
+        
+        <div style="margin: 15px 0;">
+            <strong style="color: #00d4ff;">Género:</strong> 
+            <span style="color: #ff006e;">{{ videogame.genre }}</span>
+        </div>
+        
+        <div style="margin: 10px 0;">
+            <strong style="color: #00d4ff;">Puntuación:</strong> 
+            <span style="color: #ffd700;">{{ videogame.score }}/100</span>
+            {% if videogame.score >= 90 %}
+                <span style="color: #90ee90;">⭐⭐⭐⭐⭐</span>
+            {% elif videogame.score >= 80 %}
+                <span style="color: #90ee90;">⭐⭐⭐⭐</span>
+            {% elif videogame.score >= 70 %}
+                <span style="color: #90ee90;">⭐⭐⭐</span>
+            {% else %}
+                <span style="color: #90ee90;">⭐⭐</span>
+            {% endif %}
+        </div>
+        
+        <div style="margin: 10px 0;">
+            <strong style="color: #00d4ff;">Plataforma:</strong> 
+            <span style="color: #87ceeb;">{{ videogame.main_platform }}</span>
+        </div>
+        
+        <div style="margin: 10px 0;">
+            <strong style="color: #00d4ff;">Co-op:</strong>
+            {% if videogame.coop %}
+                <span class="badge badge-coop">✅ Sí</span>
+            {% else %}
+                <span style="color: #ff6b6b;">❌ No</span>
+            {% endif %}
+        </div>
+        
+        <div class="meta">
+            📅 {{ videogame.created_at|date:"d/m/Y H:i" }} | 🆔 {{ videogame.id }}
+        </div>
+    </div>
+{% empty %}
+    <div class="videogame-item">
+        <h3>No hay videojuegos aún</h3>
+        <p>¡Pronto habrá contenido!</p>
+    </div>
+{% endfor %}
+
+<div class="stats">
+    <strong>Total de videojuegos en la BD:</strong> {{ videogames|length }}
+</div>
+
+{% comment %}
+Filters and tags used in this template:
+- |truncatewords:N: Cuts text to N words
+- |date:"format": Formats dates (d/m/Y H:i = day/month/year hour:minutes)
+- {% for item in list %}: Iterates over a list
+- {% empty %}: Show if the list is empty
+- {{ variable }}: Shows a variable
+- {% if condition %}...{% endif %}: Conditional
+{% endcomment %}
+
+{% endblock %}
