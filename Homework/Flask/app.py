@@ -4,15 +4,22 @@ from flask import Flask, request, jsonify
 # jsonify: una función que convierte listas/diccionarios de Python en una respuesta JSON válida para enviar al navegador
 from datetime import datetime, timedelta
 from werkzeug.security import generate_password_hash, check_password_hash
-import uuid
+#import uuid ya no necesito esto
 from flask_jwt_extended import create_access_token, JWTManager, jwt_required,get_jwt
 import os
-
+from pymongo import MongoClient
 # Crear un decorador para proteger rutas segun el rol
 from functools import wraps
-from flask_jwt_extended import get_jwt
 
-def role_required(required_role):
+from bson import ObjectId
+from bson.errors import InvalidId
+
+# Convierte documentos Mongo en JSON amigable
+def serialize(doc):
+    doc["_id"] = str(doc["_id"])
+    return doc
+
+def role_required(required_role): 
     def decorator(fn):
         @wraps(fn)
         def wrapper(*args, **kwargs):
@@ -35,6 +42,36 @@ app = Flask(__name__)
 app.config["JWT_SECRET_KEY"] = os.getenv("JWT_SECRET_KEY", "dev-secret") #Deberia ser una clave secreta mas segura en produccion
 app.config["JWT_ACCESS_TOKEN_EXPIRES"] = timedelta(minutes=15)  #Deberia ser una clave secreta mas segura en produccion
 jwt = JWTManager(app)
+
+# MongoDB config
+host = "mongodb://localhost"
+port = 27017
+db_name = "games_database"
+
+games_collection = None
+users_collection = None
+
+def connect_db():
+    global games_collection, users_collection
+
+    try:
+        client = MongoClient(f"{host}:{port}/")
+        db = client[db_name]
+
+        games_collection = db.games
+        users_collection = db.users
+
+        # Probar conexión real
+        client.admin.command("ping")
+
+        print("✅ Conexión a MongoDB exitosa")
+        print(f"✅ Games collection OK: {games_collection is not None}")
+        print(f"✅ Users collection OK: {users_collection is not None}")
+
+    except Exception as e:
+        print(f"❌ Error conectando a MongoDB: {e}")
+        print("⚠️ La aplicación requiere MongoDB para funcionar correctamente.")
+
 
 games = [
     {"id": 1,"title": "Portal","genre": "First-person puzzle","score": 90,"main_platform": "PC","coop": False},
@@ -67,105 +104,112 @@ def home():
 
 # Obtenert Uno GET ONE (Por ID)
 #Ruta de ejemplo: /api/games/3/
-@app.route('/api/games/<int:game_id>/', methods=['GET'])
+@app.route('/api/games/<string:game_id>/', methods=['GET'])
 @jwt_required() #Protege la ruta con JWT, requiere token valido
 def get_game(game_id):
 
-    #Otra forma °° Revisa cada g dentro de la lista games y se queda solo con los que tengan g["id"] == game_id
-    game = next((g for g in games if g["id"] == game_id), None)
+    try:
+        game = games_collection.find_one(
+            {"_id": ObjectId(game_id)}
+        )
+    except InvalidId:
+        return jsonify({
+            "status": "error",
+            "message": "ID invalido"
+        }), 400
     
-    if game:
-        return jsonify(game), 200
-    else:
-        return jsonify({"message": f"El Juego con el ID {game_id} no se encuentra"}), 404
+    if not game:
+        return jsonify({
+            "status": "error",
+            "message": f"Juego con ID {game_id} no encontrado"
+        }), 404
 
+    # Llama a serialize para devolver el documento con _id en formato string
+    return jsonify(serialize(game)), 200
 
 #Obtener todo con parametros Opcionales)
 #Mas o menos Ruta: /api/games/?genre=Puzzle&coop=true
 @app.route('/api/games/', methods=['GET'])
 @jwt_required() #Protege la ruta con JWT, requiere token valido
 def get_games():
-    global games
+
     
     #Obtener los Query Parameters (Los Opcionales)
-    genre_filter = request.args.get('genre') #Obtiene el valor de genre por ejemplo Puzzle
-    coop_filter = request.args.get('coop')   #Obtiene el valor del coop ejemplo true o false
-    
-    #variable pa ir filtrando
-    filtered_games = games
+    genre = request.args.get('genre') #Obtiene el valor de genre por ejemplo Puzzle
+    coop = request.args.get('coop')   #Obtiene el valor del coop ejemplo true o false
+    query = {}
 
-    #aplicar el filtro de genre
-    if genre_filter:
-        filtered_games = [
-            game for game in filtered_games #ELEMENTO_A_GUARDAR for VARIABLE in LISTA
-            if genre_filter.lower() in game["genre"].lower() #.lower(): convierte todo a minusculas
-        ]
+    # Filtro por género
+    if genre:
+        query["genre"] = {"$regex": genre, "$options": "i"}
 
-    # 3. Aplicar el filtro de COOP (booleano)
-    if coop_filter is not None:
-        # Convertir el string del query param ('true'/'false') a booleano
-        is_coop = coop_filter.lower() == 'true'
-        filtered_games = [
-            game for game in filtered_games
-            if game["coop"] == is_coop
-        ]
-        
-    if not filtered_games:
-        return jsonify({"message": "No se encontraron juegos con esos filtros"}), 404
-        
-    return jsonify(filtered_games), 200
+    # Filtro por coop
+    if coop is not None:
+        query["coop"] = coop.lower() == "true" #.lower(): convierte todo a minusculas
+
+    games = list(games_collection.find(query))
+
+    if not games:
+        return jsonify({
+            "status": "error",
+            "message": "No se encontraron juegos con ese filtro"
+        }), 404
+
+    return jsonify([serialize(g) for g in games]), 200
+
 
 # FILTRAR LOS JUEGOS POR TITULO
 @app.route('/api/games/title/<string:title>/')
 @jwt_required() #Protege la ruta con JWT, requiere token valido
 def get_title(title):
-    filtered = [
-        game for game in games #ELEMENTO_A_GUARDAR for VARIABLE in LISTA
-        if title.lower() in game["title"].lower() #.lower(): convierte todo a minusculas
-    ]
-
+    
+    games = list(games_collection.find({
+        "title": {"$regex": title, "$options": "i"}
+    }))
+    
     # Si la lista esta vacia - title invalido o sin juegos
-    if not filtered:
-        response = {
+    if not games:
+        return jsonify({
             "status": "error",
             "message": f"No se encontraron juegos con el nombre de: {title}"
-        },404
-    else:
-        response = jsonify(filtered),200
+        }), 404
     
-    return response
+    return jsonify([serialize(g) for g in games]), 200
 
 # FILTRAR LOS JUEGOS POR PLATFORMA
 @app.route('/api/games/platform/<string:main_platform>/')
 @jwt_required() #Protege la ruta con JWT, requiere token valido
 def get_platform(main_platform):
-    filtered = [
-        game for game in games
-        if main_platform.lower() in game["main_platform"].lower()
-    ]
+    
+    games = list(games_collection.find({
+        "main_platform": {"$regex": main_platform, "$options": "i"}
+    }))
 
     # Si la lista esta vacia - plataforma invalida o sin juegos
-    if not filtered:
-        response = {
+    if not games:
+        return jsonify({
             "status": "error",
-            "message": f"No se encontraron juegos para la plataforma: {main_platform}"
-        },404
-    else:
-        response = jsonify(filtered),200
+            "message": f"No se encontraron juegos con el nombre de: {main_platform}"
+        }), 404
     
-    return response
+    return jsonify([serialize(g) for g in games]), 200
 
 #POST agregar un Elemento
 @app.route('/api/games/', methods=['POST'])
 @jwt_required() #Protege la ruta con JWT, requiere token valido
 @role_required("admin") #Protege la ruta segun el rol
 def add_game():
-    global next_id
     
     #obtiene el JSON enviado en el cuerpo de la peticion
     new_game_data = request.get_json()
-    
-    required = ["title", "genre", "score", "main_platform", "coop"]
+
+    required = [
+                    "title", 
+                    "genre", 
+                    "score", 
+                    "main_platform", 
+                    "coop"
+                ]
 
     #Verifica que new_game_data no sea None y que CADA elemento de la lista 'required' exista como clave en new_game_data
     if not new_game_data or not all(field in new_game_data for field in required):
@@ -174,40 +218,39 @@ def add_game():
             "message": f"Datos de juego invalidos. Se requieren todos estos campos: {', '.join(required)}."
         }), 400
     
-    #crear el nuevo objeto juego
-    new_game = {
-        "id": next_id,
-        "title": new_game_data.get("title"),
-        "genre": new_game_data.get("genre"),
-        "score": new_game_data.get("score"),
-        "main_platform": new_game_data.get("main_platform"),
-        "coop": new_game_data.get("coop")
-    }
-    
-    #Agregar el juego a la lista
-    games.append(new_game)
-    # Incrementar el ID para el proximo
-    next_id += 1
-    
+    # Insertar en Mongo crear el nuevo objeto juego
+    new_game = games_collection.insert_one({
+        "title": new_game_data["title"],
+        "genre": new_game_data["genre"],
+        "score": new_game_data["score"],
+        "main_platform": new_game_data["main_platform"],
+        "coop": new_game_data["coop"],
+        "created_at": datetime.now()
+    })
+
     return jsonify({
+        "status": "created",# 201 Created
         "message": "Juego agregado exitosamente",
-        "game": new_game
-    }), 201 # 201 Created
+        "id": str(new_game.inserted_id)
+    }), 201
 
 #UPDATE (Modificar un elemento existente)
 #Metodo PUT en la misma ruta del GET individual, ejemplo /api/games/12/
-@app.route('/api/games/<int:game_id>/', methods=['PUT'])
+@app.route('/api/games/<string:game_id>/', methods=['PUT'])
 @jwt_required() #Protege la ruta con JWT, requiere token valido
 @role_required("admin") #Protege la ruta segun el rol
 def update_game(game_id):
-    global games
 
-    # Buscar el juego por ID
-    game = next((g for g in games if g["id"] == game_id), None)
-
-    if not game:
-        return jsonify({"message": f"Juego con ID {game_id} no encontrado"}), 404
-
+    try:
+        game = games_collection.find_one(
+            {"_id": ObjectId(game_id)}
+        )
+    except InvalidId:
+        return jsonify({
+            "status": "error",
+            "message": "ID invalido"
+        }), 400
+    
     # Obtener campos enviados en el body (JSON)
     update_data = request.get_json()
 
@@ -217,85 +260,55 @@ def update_game(game_id):
             "message": "Debes enviar al menos un campo para actualizar."
         }), 400
 
-    # Actualizar solo los campos enviados
-    for key, value in update_data.items():
-        if key in game:   # Solo si el campo existe en el juego
-            game[key] = value
+    #Actualizar solo los campos enviados
+    result = games_collection.update_one(
+        {"_id": ObjectId(game_id)},
+        {"$set": update_data}
+    )
+    
+    if result.matched_count == 0:
+        return jsonify({
+            "status": "error",
+            "message": f"Juego con ID {game_id} no encontrado"
+        }), 404
 
     return jsonify({
-        "message": f"Juego con ID {game_id} actualizado correctamente",
-        "updated_game": game
+                "status": "success",
+                "message": f"Juego con ID {game_id} actualizado correctamente",
     }), 200
 
 #DELETE (Eliminar un Elemento)
 # Ruta: /api/games/3/
-@app.route('/api/games/<int:game_id>/', methods=['DELETE'])
+@app.route('/api/games/<string:game_id>/', methods=['DELETE'])
 @jwt_required() #Protege la ruta con JWT, requiere token valido
 @role_required("admin") #Protege la ruta segun el rol
 def delete_game(game_id):
-    global games
-    global next_id
-    
-    # Encontrar el índice del juego
-    game_index = next((i for i, g in enumerate(games) if g["id"] == game_id), -1)
-
-    if game_index != -1:
-        # Eliminar el juego de la lista
-        deleted_game = games.pop(game_index)
-        
+  
+    try:
+        game = games_collection.find_one(
+            {"_id": ObjectId(game_id)}
+        )
+    except InvalidId:
         return jsonify({
-            "message": f"Juego con ID {game_id} eliminado exitosamente",
-            "deleted": deleted_game
-        }), 200
-    else:
-        return jsonify({"message": f"No se pudo eliminar. Juego con ID {game_id} no encontrado"}), 404
+            "status": "error",
+            "message": "ID invalido"
+        }), 400
+
+    result = games_collection.delete_one({"_id": ObjectId(game_id)})
+
+    if result.deleted_count == 0:
+        return jsonify({
+                "status": "error",
+                "message": f"Juego con ID {game_id} no encontrado"
+        }), 404
+
+    return jsonify({
+                "status": "success",
+                "message": "Juego con eliminado correctamente",
+    }), 200
 
 # ______________________________________________________________________________________________________________________________________
-# Parte del usuario y autenticacion JWT
-
-
-users = [
-    {
-        "id": "a4f0507c-1b93-4fa3-ba5d-67a1e4ae8f30",
-        "username": "admin",
-        "password": generate_password_hash("admin123"),
-        "age": 30,
-        "role": "admin",
-        "created_at": "2025-01-01T10:00:00"
-    },
-    {
-        "id": "d32ed2f9-1a89-4f32-9da7-5b13c8bcb85d",
-        "username": "vanessa",
-        "password": generate_password_hash("shadow_love"),
-        "age": 26,
-        "role": "admin",
-        "created_at": "2025-02-02T08:30:00"
-    },
-    {
-        "id": "19e3b9fe-4d3f-4cb7-9f13-874a8d66f743",
-        "username": "player1",
-        "password": generate_password_hash("gamerpass"),
-        "age": 20,
-        "role": "user",
-        "created_at": "2025-03-10T14:15:00"
-    },
-    {
-        "id": "8c125350-9e58-4d99-9cd4-6f03f29e9e71",
-        "username": "sofia",
-        "password": generate_password_hash("coffee123"),
-        "age": 22,
-        "role": "user",
-        "created_at": "2025-03-20T11:45:00"
-    },
-    {
-        "id": "312ca3f2-2955-4a66-a7cc-26be4d932a47",
-        "username": "marcos",
-        "password": generate_password_hash("qwerty007"),
-        "age": 28,
-        "role": "user",
-        "created_at": "2025-04-01T09:00:00"
-    }
-]
+# Parte del usuario y autenticacion JWT con MONGODB
 
 @app.route('/api/register/', methods=['POST'])
 def register_user():
@@ -312,8 +325,8 @@ def register_user():
 
     username = user_data["username"]
 
-    # Validar usuario duplicado
-    if any(u["username"] == username for u in users):
+    # --- CAMBIO 1: Validar usuario duplicado en MongoDB ---
+    if users_collection.find_one({"username": username}):
         return jsonify({
             "status": "error",
             "message": "El usuario ya existe. Elige otro nombre."
@@ -321,24 +334,28 @@ def register_user():
 
     # Crear usuario nuevo
     new_user = {
-        "id": str(uuid.uuid4()),
+        # MongoDB generará automáticamente el _id. Ya no necesitamos uuid.uuid4()
         "username": username,
         "password": generate_password_hash(user_data["password"]),
         "age": user_data["age"],
         "role": "user",
-        "created_at": datetime.now().isoformat()
+        "created_at": datetime.now()
     }
 
-    users.append(new_user)
+    # --- CAMBIO 2: Insertar en MongoDB ---
+    result = users_collection.insert_one(new_user)
+    
+    # El ID insertado es result.inserted_id (es un ObjectId, lo convertimos a str)
 
     return jsonify({
         "status": "success",
         "message": "Usuario registrado exitosamente",
         "user": {
-            "id": new_user["id"],
+            "id": str(result.inserted_id),
             "username": new_user["username"]
         }
     }), 201
+
 
 @app.route('/api/login/', methods=['POST'])
 def login():
@@ -353,8 +370,8 @@ def login():
     username = login_data["username"]
     password = login_data["password"]
 
-    # Buscar usuario
-    user = next((u for u in users if u["username"] == username), None)
+    #Buscar usuario en MongoDB
+    user = users_collection.find_one({"username": username})
 
     # Validar existencia y contraseña
     if not user or not check_password_hash(user["password"], password):
@@ -362,10 +379,11 @@ def login():
             "status": "error",
             "message": "Usuario y/o contraseña incorrectos."
         }), 401
-
-    # Crear token JWT
+    
+    #Usar el _id de MongoDB para el token
+    # Usamos str(user["_id"]) porque ObjectId no es JSON serializable
     token = create_access_token(
-        identity=user["id"], 
+        identity=str(user["_id"]), 
         additional_claims={"role": user["role"]}
     )
 
@@ -379,5 +397,5 @@ def login():
 # _______________________________________________________________________________________________________________________________________
 # Lo que levanta el servidor
 if __name__ == '__main__':
-    # Asegúrate de usar un puerto que no esté en uso, 8001 está bien
+    connect_db()
     app.run(debug=True, port=8001)
