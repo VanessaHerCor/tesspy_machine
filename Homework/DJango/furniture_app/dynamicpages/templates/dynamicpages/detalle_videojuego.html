@@ -1,0 +1,70 @@
+{% extends 'dynamicpages/base.html' %}
+
+{% block title %}{{ videogame.title }} - Detalles{% endblock %}
+
+{% block content %}
+<article>
+    <h2>{{ videogame.title }}</h2>
+    
+    <div class="meta">
+        📊 Agregado el <strong>{{ videogame.created_at|date:"d/m/Y H:i" }}</strong>
+        | 🆔 ID: <code>{{ videogame.id }}</code>
+    </div>
+    
+    <div style="margin-top: 30px; line-height: 1.8;">
+        <h3 style="color: #00d4ff; margin-top: 20px;">� Información del Videojuego</h3>
+        <ul style="color: #eee;">
+            <li>
+                <strong style="color: #00d4ff;">Título:</strong> 
+                <span>{{ videogame.title }}</span>
+            </li>
+            <li>
+                <strong style="color: #00d4ff;">Género:</strong> 
+                <span style="color: #ff006e;">{{ videogame.genre }}</span>
+            </li>
+            <li>
+                <strong style="color: #00d4ff;">Puntuación:</strong> 
+                <span style="color: #ffd700;">{{ videogame.score }}/100</span>
+                {% if videogame.score >= 90 %}
+                    <span style="color: #90ee90;">⭐⭐⭐⭐⭐</span>
+                {% elif videogame.score >= 80 %}
+                    <span style="color: #90ee90;">⭐⭐⭐⭐</span>
+                {% elif videogame.score >= 70 %}
+                    <span style="color: #90ee90;">⭐⭐⭐</span>
+                {% else %}
+                    <span style="color: #90ee90;">⭐⭐</span>
+                {% endif %}
+            </li>
+            <li>
+                <strong style="color: #00d4ff;">Plataforma Principal:</strong> 
+                <span style="color: #87ceeb;">{{ videogame.main_platform }}</span>
+            </li>
+            <li>
+                <strong style="color: #00d4ff;">Modo Co-op:</strong>
+                {% if videogame.coop %}
+                    <span class="badge badge-coop">✅ Sí</span>
+                {% else %}
+                    <span style="color: #ff6b6b;">❌ No</span>
+                {% endif %}
+            </li>
+        </ul>
+        
+        <h3 style="color: #00d4ff; margin-top: 20px;">📊 Información de Base de Datos</h3>
+        <ul style="color: #eee;">
+            <li><strong>_id MongoDB:</strong> <code style="color: #00d4ff;">{{ videogame.id }}</code></li>
+            <li><strong>Fecha de Creación:</strong> {{ videogame.created_at|date:"d/m/Y H:i:s" }}</li>
+            <li><strong>Colección:</strong> <code>videogames</code></li>
+        </ul>
+    </div>
+    
+    {% comment %}
+    Filtros utilizados:
+    - |linebreaks: Convierte saltos de línea en <br> y <p>
+    - |date:"formato": Formatea fechas
+    - |length: Cuenta elementos
+    - |truncatewords:N: Corta texto a N palabras
+    {% endcomment %}
+</article>
+
+<a href="{% url 'videogames_list' %}" class="back-link">← Volver al Catálogo</a>
+{% endblock %}
