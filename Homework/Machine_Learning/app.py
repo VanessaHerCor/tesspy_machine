@@ -110,17 +110,129 @@ except:
 
 
 # ====================================================================
-# 📝 RESUMEN DE LO QUE HICIMOS:
+# PASO 5: Renombrar columnas para mejor legibilidad
 # ====================================================================
-# ✅ Paso 1: Importamos pandas, numpy, seaborn y matplotlib
-# ✅ Paso 2: Cargamos el archivo CSV en un DataFrame
-# ✅ Paso 3: Revisamos qué tipo de datos tiene cada columna
-# ✅ Paso 4: Eliminamos columnas que no necesitamos
-#
-# 🎯 SIGUIENTE PASO: Continuar con la parte 2 de la tarea
+# Algunos nombres de columnas son largos o confusos
+# Los acortamos para que sean más fáciles de usar
 # ====================================================================
-print("Dataset: Music & Mental Health Survey")
-print("🎵 Analiza la relación entre música y salud mental")
-print("📊 Variables: Géneros musicales, Ansiedad, Depresión, Insomnio, OCD")
-print("🎉 ¡PRIMERA PARTE COMPLETADA!")
+
+print("\n" + "="*60)
+print("PASO 5: Renombrando columnas")
+print("="*60)
+
+try:
+    print("Columnas ANTES de renombrar:")
+    print(df.columns.tolist())
+    
+    # Renombrar columnas largas o confusas
+    df = df.rename(columns={
+        "Primary streaming service": "Streaming",      # Más corto
+        "Hours per day": "Hours",                      # Más corto
+        "While working": "Work",                       # Más corto
+        "Fav genre": "Fav_Genre",                      # Sin espacio
+        "Foreign languages": "Languages",              # Más corto
+        "Music effects": "Effects"                     # Más corto
+    })
+    
+    print("\n✅ Paso 5 completado: Columnas renombradas")
+    print("\nColumnas DESPUÉS de renombrar:")
+    print(df.columns.tolist())
+    
+except Exception as e:
+    print(f"⚠️ Error: {e}")
+
+
+# ====================================================================
+# PASO 6: Detectar y eliminar filas duplicadas
+# ====================================================================
+# A veces hay datos repetidos (duplicados) que pueden distorsionar
+# el análisis. Los detectamos y eliminamos
+# ====================================================================
+
+print("\n" + "="*60)
+print("PASO 6: Detectando y eliminando duplicados")
+print("="*60)
+
+try:
+    print(f"🔢 Número de filas ANTES de eliminar duplicados: {len(df)}")
+    
+    # Detectar filas duplicadas
+    duplicate_rows = df[df.duplicated()]
+    print(f"⚠️  Número de filas duplicadas encontradas: {len(duplicate_rows)}")
+    
+    if len(duplicate_rows) > 0:
+        print("\nEjemplo de filas duplicadas:")
+        print(duplicate_rows.head())
+    
+    # Eliminar duplicados
+    df = df.drop_duplicates()
+    
+    print(f"\n✅ Paso 6 completado: Duplicados eliminados")
+    print(f"🔢 Número de filas DESPUÉS de eliminar duplicados: {len(df)}")
+    print(f"📉 Filas eliminadas: {len(duplicate_rows)}")
+    
+except Exception as e:
+    print(f"⚠️ Error: {e}")
+
+
+# ====================================================================
+# PASO 7: Detectar y manejar valores faltantes (NaN/null)
+# ====================================================================
+# Algunos datos pueden estar vacíos (NaN = Not a Number)
+# Tenemos 2 opciones:
+# 1. Eliminar las filas con datos faltantes (si son pocos)
+# 2. Rellenar con promedio/moda (si son muchos)
+# ====================================================================
+
+print("\n" + "="*60)
+print("PASO 7: Detectando valores faltantes (NaN)")
+print("="*60)
+
+try:
+    print("🔍 Valores faltantes por columna:")
+    print(df.isnull().sum())
+    
+    # Calcular porcentaje de valores faltantes
+    print("\n📊 Porcentaje de valores faltantes:")
+    missing_percent = (df.isnull().sum() / len(df)) * 100
+    print(missing_percent[missing_percent > 0])
+    
+    # Opción 1: Eliminar filas con valores faltantes
+    # (Solo si son pocas filas, menos del 5-10%)
+    print(f"\n🔢 Filas ANTES de eliminar valores faltantes: {len(df)}")
+    
+    df_cleaned = df.dropna()  # Elimina todas las filas con algún NaN
+    
+    print(f"🔢 Filas DESPUÉS de eliminar valores faltantes: {len(df_cleaned)}")
+    print(f"📉 Filas eliminadas: {len(df) - len(df_cleaned)}")
+    
+    # Actualizar el dataframe
+    df = df_cleaned
+    
+    print("\n✅ Paso 7 completado: Valores faltantes eliminados")
+    print("\n🔍 Verificando que NO queden valores faltantes:")
+    print(df.isnull().sum())
+    
+except Exception as e:
+    print(f"⚠️ Error: {e}")
+
+
+# ====================================================================
+# 📝 RESUMEN DE LO QUE HICIMOS (PARTE 1 y 2):
+# ====================================================================
+print("\n" + "="*60)
+print("🎉 ¡PARTE 1 Y 2 COMPLETADAS!")
+print("="*60)
+print("✅ Paso 1: Importamos librerías (pandas, numpy, seaborn, matplotlib)")
+print("✅ Paso 2: Cargamos el dataset de música y salud mental")
+print("✅ Paso 3: Verificamos tipos de datos")
+print("✅ Paso 4: Eliminamos columnas innecesarias")
+print("✅ Paso 5: Renombramos columnas para mejor legibilidad")
+print("✅ Paso 6: Eliminamos filas duplicadas")
+print("✅ Paso 7: Eliminamos valores faltantes")
+print("\n📊 Dataset final:")
+print(f"   - Filas: {len(df)}")
+print(f"   - Columnas: {len(df.columns)}")
+print("\n🎵 Dataset: Music & Mental Health Survey")
+print("🧠 Variables: Géneros musicales, Ansiedad, Depresión, Insomnio, OCD")
 print("="*60)
