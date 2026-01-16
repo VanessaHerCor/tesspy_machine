@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Base de Datos de Videojuegos{% endblock %}</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: 'Arial', sans-serif; 
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); 
+            color: #eee;
+            min-height: 100vh;
+        }
+        .container { 
+            max-width: 1000px; 
+            margin: 0 auto; 
+            background: #0f1b2e; 
+            padding: 40px; 
+            border-radius: 10px;
+            box-shadow: 0 8px 32px rgba(0, 212, 255, 0.1);
+            margin-top: 20px;
+        }
+        header {
+            background: linear-gradient(90deg, #00d4ff 0%, #0f3460 100%);
+            padding: 30px 0;
+            box-shadow: 0 4px 15px rgba(0, 212, 255, 0.3);
+        }
+        header .container {
+            background: transparent;
+            box-shadow: none;
+            margin: 0;
+            padding: 0 20px;
+        }
+        h1 { color: white; margin-bottom: 20px; font-size: 2.5em; }
+        h1 a { color: white; text-decoration: none; }
+        h1 a:hover { opacity: 0.8; }
+        nav { margin-bottom: 0; }
+        nav a { 
+            color: white; 
+            text-decoration: none; 
+            margin-right: 20px; 
+            font-weight: bold;
+            padding: 8px 15px;
+            border-radius: 5px;
+            transition: all 0.3s;
+        }
+        nav a:hover { 
+            background: rgba(255,255,255,0.2);
+            transform: translateY(-2px);
+        }
+        h2 { color: #00d4ff; margin-bottom: 20px; font-size: 2em; }
+        h3 { color: #00d4ff; margin-top: 15px; }
+        .videogame-item { 
+            border: 2px solid #0f3460; 
+            padding: 20px; 
+            margin: 20px 0; 
+            border-radius: 8px;
+            background: #16213e;
+            transition: all 0.3s;
+        }
+        .videogame-item:hover {
+            border-color: #00d4ff;
+            box-shadow: 0 0 20px rgba(0, 212, 255, 0.3);
+            transform: translateY(-5px);
+        }
+        .videogame-item h3 a {
+            color: #00d4ff;
+            text-decoration: none;
+        }
+        .videogame-item h3 a:hover {
+            color: #ff006e;
+        }
+        .meta { 
+            color: #90ee90; 
+            font-size: 0.9em; 
+            margin-top: 15px; 
+            border-top: 1px solid #0f3460;
+            padding-top: 10px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 5px 10px;
+            border-radius: 3px;
+            font-size: 0.8em;
+            margin-right: 10px;
+        }
+        .badge-published {
+            background: #90ee90;
+            color: #1a1a2e;
+        }
+        .badge-draft {
+            background: #ff9800;
+            color: white;
+        }
+        .badge-coop {
+            background: #2196F3;
+            color: white;
+        }
+        main { margin: 40px 0; }
+        .stats {
+            text-align: center;
+            color: #00d4ff;
+            margin-top: 30px;
+            padding: 20px;
+            background: #16213e;
+            border-radius: 8px;
+        }
+        a { color: #00d4ff; }
+        a:hover { color: #ff006e; }
+        .back-link {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 10px 20px;
+            background: #0f3460;
+            border-radius: 5px;
+            text-decoration: none;
+            color: #00d4ff;
+            transition: all 0.3s;
+        }
+        .back-link:hover {
+            background: #00d4ff;
+            color: #1a1a2e;
+        }
+        article {
+            background: #16213e;
+            padding: 30px;
+            border-radius: 8px;
+            border: 2px solid #0f3460;
+        }
+        article p { margin-bottom: 15px; line-height: 1.8; }
+        ul { margin-left: 20px; margin-bottom: 15px; }
+        ul li { margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><a href="{% url 'videogames_list' %}">🎮 Base de Datos de Videojuegos</a></h1>
+            <nav>
+                <a href="/static-pages/">📄 Páginas Estáticas</a>
+                <a href="{% url 'videogames_list' %}">🎮 Catálogo</a>
+                <a href="{% url 'create_videogame' %}">➕ Agregar Videojuego</a>
+                <a href="/dynamic/api/videogames/">🔌 API JSON</a>
+            </nav>
+        </div>
+    </header>
+    
+    <main class="container">
+        {% block content %}
+        <!-- Content specific to each page will be inserted here -->
+        {% endblock %}
+    </main>
+</body>
+</html>

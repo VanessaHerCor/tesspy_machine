@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/6.0/ref/settings/
 """
 
 from pathlib import Path
+import mongoengine
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -37,7 +38,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'furniture_app',
+    'rest_framework',
+    'staticpages',  # Páginas estáticas del Ejercicio 1
+    'dynamicpages',  # Páginas dinámicas y API REST del Ejercicio 2
+    'forn_api',
+    'auth_api',  # Autenticación JWT
 ]
 
 MIDDLEWARE = [
@@ -73,10 +78,17 @@ WSGI_APPLICATION = 'furniture_app.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/6.0/ref/settings/#databases
 
+# Conexión a MongoDB
+mongoengine.connect(
+    db='games_database',
+    host='localhost',
+    port=27017
+)
+
+# Deshabilitar la base de datos de Django (usamos MongoDB)
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.dummy',
     }
 }
 
