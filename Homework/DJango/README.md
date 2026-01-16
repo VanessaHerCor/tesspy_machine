@@ -1,236 +1,343 @@
-# 🐍 Sesión Django - Los 3 Enfoques Web - 2 Horas
+# 🎮 Furniture App - Videogames Database Platform
 
-## 📋 Agenda de la Sesión
-
-**Duración Total:** 120 minutos  
-**Enfoque:** Entender los **3 enfoques diferentes** para servir contenido web con Django  
-**Objetivo:** Comparar **páginas estáticas**, **templates dinámicos** y **APIs JSON**
+**Plataforma completa de base de datos de videojuegos** construida con **Django 6.0**, **MongoDB**, y **Django REST Framework**. Sistema educativo que demuestra autenticación JWT, vistas dinámicas, API REST, y páginas estáticas en un proyecto Django integrado.
 
 ---
 
-## 🎯 Los 3 Enfoques que Aprenderás
+## 🎯 Visión General
 
-| **Enfoque** | **Cuándo usar** | **Tecnología** | **Ejemplo** |
-|-------------|-----------------|----------------|-------------|
-| **📄 Estático** | Landing pages, documentación | HTML fijo | Página "Acerca de" |
-| **🎨 Dinámico** | Apps web tradicionales | Django Templates + BD | Blog, dashboard |
-| **🔌 API** | Apps móviles, SPAs, microservicios | JSON + REST | React app, app móvil |
-
----
-
-## 🗓️ Cronograma
-
-### ⏰ **Ejercicio 1: Django Básico** (30 minutos)
-- **🏗️ Estructura de Django** (10 min) - Proyectos, apps, configuración
-- **📄 Páginas Estáticas** (15 min) - HTML fijo, URLs, vistas simples  
-- **📊 Migraciones** (5 min) - Base de datos, showmigrations, migrate
-
-### ☕ **Descanso** (10 minutos)
-
-### ⏰ **Ejercicio 2: Templates Dinámicos + API** (45 minutos)
-- **🗄️ Modelos y BD** (15 min) - BlogEntry, migraciones, datos de prueba
-- **🎨 Templates Dinámicos** (20 min) - Sintaxis {% %}, herencia, filtros
-- **🔌 API REST** (10 min) - Serializers (modelo ↔ JSON), endpoints manuales
-
-### ☕ **Descanso** (5 minutos)
-
-### ⏰ **Ejercicio 3: Formularios y Autenticación** (30 minutos)
-- **📝 Formularios** (15 min) - ModelForm, validación, POST
-- **🔐 Autenticación** (15 min) - Login, logout, usuarios
-
----
-
-## 📚 Estructura Final del Proyecto
+Este proyecto está organizado en **4 módulos independientes pero interconectados**, cada uno con una responsabilidad específica:
 
 ```
-mi_blog/
-├── README.md                # Este archivo - Guía de la sesión  
-├── ejercicios/              # Ejercicios paso a paso
-│   ├── ejercicio_1.md       # 📄 Django básico + páginas estáticas
-│   ├── ejercicio_2.md       # 🎨 Templates dinámicos + API JSON
-│   └── ejercicio_3.md       # 📝 Formularios + autenticación
-└── solucion/mi_blog/        # Proyecto Django completo
-    ├── staticpages/         # 📄 App para contenido estático
-    ├── dynamicpages/        # 🎨 App para templates dinámicos  
-    ├── api/                 # 🔌 App para API REST
-    └── mi_blog/             # Configuración principal
+┌────────────────────────────────────────────────────┐
+│         FURNITURE APP - Video Games Platform       │
+├────────────────────────────────────────────────────┤
+│                                                    │
+│  1️⃣ STATICPAGES          2️⃣ DYNAMICPAGES         │
+│     (Páginas HTML)       (Catálogo Dinámico)     │
+│     Landing Pages        + Templates             │
+│     + Info Estática      + MongoDB Integration   │
+│                                                    │
+│  3️⃣ FORN_API            4️⃣ AUTH_API             │
+│     (REST API Pura)      (Autenticación)         │
+│     CRUD + Estadísticas  JWT Tokens              │
+│                                                    │
+└────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## 🎯 Objetivos de Aprendizaje
+## 📁 Estructura del Proyecto
 
-Al finalizar esta sesión, los estudiantes **dominarán los 3 enfoques de Django**:
-
-### 📄 Páginas Estáticas
-- ✅ **HTML fijo** definido en views.py
-- ✅ **Sin base de datos** - contenido que no cambia
-- ✅ **Respuesta rápida** - ideal para landing pages
-- ✅ **URLs y vistas** básicas
-
-### 🎨 Templates Dinámicos  
-- ✅ **Sintaxis Django**: `{{ variable }}`, `{% tag %}`, `|filtros`
-- ✅ **Herencia de templates**: `{% extends %}`, `{% block %}`
-- ✅ **Contexto**: Pasar datos de vista a template
-- ✅ **Consultas de BD**: Modelos → Template
-
-### 🔌 API REST
-- ✅ **Serializers**: Conversión automática modelo Django ↔ JSON
-- ✅ **@api_view**: Decoradores para endpoints manuales
-- ✅ **REST endpoints**: GET, POST, PUT, DELETE explícitos
-- ✅ **Validación**: Datos JSON → modelo Django con validación
-- ✅ **Django REST Framework**
-
-### 🔄 Reutilización
-- ✅ **Mismo modelo** (`BlogEntry`) usado de 3 formas diferentes
-- ✅ **Comparar enfoques** en tiempo real
-- ✅ **Elegir el enfoque correcto** según necesidades
+```
+DJango/
+├── README.md                           # 📄 Este archivo - Guía general
+│
+├── img_sesions/                        # 🖼️ Imágenes de ejemplos
+│   ├── sesion_staticpages/             # Imágenes de STATICPAGES
+│   ├── sesion_dynamicpages/            # Imágenes de DYNAMICPAGES
+│   ├── sesion_forn_api/                # Imágenes de FORN_API
+│   └── sesion_auth_login/              # Imágenes de AUTH_API
+│
+└── furniture_app/                      # 🏠 Proyecto Django principal
+    ├── README.md                       # Guía detallada de módulos
+    ├── manage.py                       # 🛠️ Script de gestión de Django
+    ├── create_games.py                 # 📝 Script para inicializar datos
+    ├── db.sqlite3                      # 🗄️ BD SQLite
+    │
+    ├── furniture_app/                  # 🏠 Configuración principal
+    │   ├── settings.py                 # ⚙️ Configuración
+    │   ├── urls.py                     # 🔗 URLs routing principal
+    │   ├── wsgi.py                     # 🌐 WSGI
+    │   ├── asgi.py                     # ⚡ ASGI
+    │   └── __init__.py
+    │
+    ├── staticpages/                    # 📄 MÓDULO 1: Páginas Estáticas
+    │   ├── README.md                   # 📖 Documentación
+    │   ├── views.py                    # home, about, contact
+    │   ├── urls.py                     # Rutas: /static-pages/*
+    │   ├── models.py
+    │   ├── admin.py
+    │   ├── apps.py
+    │   └── __init__.py
+    │
+    ├── dynamicpages/                   # 🎮 MÓDULO 2: Catálogo Dinámico
+    │   ├── README.md                   # 📖 Documentación
+    │   ├── views.py                    # HTML + API REST
+    │   ├── urls.py                     # Rutas: /dynamic/*
+    │   ├── models.py                   # Videogame (MongoDB)
+    │   ├── serializers.py              # VideogameSerializer
+    │   ├── templates/dynamicpages/
+    │   ├── admin.py
+    │   ├── apps.py
+    │   └── __init__.py
+    │
+    ├── forn_api/                       # 📝 MÓDULO 3: REST API Avanzada
+    │   ├── README.md                   # 📖 Documentación
+    │   ├── views.py                    # 5 endpoints + estadísticas
+    │   ├── urls.py                     # Rutas: /api/videogames/*
+    │   ├── models.py
+    │   ├── admin.py
+    │   ├── apps.py
+    │   └── __init__.py
+    │
+    └── auth_api/                       # 🔐 MÓDULO 4: Autenticación JWT
+        ├── README.md                   # 📖 Documentación
+        ├── views.py                    # login, register, refresh, verify
+        ├── urls.py                     # Rutas: /api/auth/*
+        ├── models.py                   # User (MongoDB)
+        ├── serializers.py              # UserSerializer
+        ├── jwt_utils.py                # Funciones JWT
+        ├── management/
+        ├── admin.py
+        ├── apps.py
+        └── __init__.py
+```
 
 ---
 
-## 🛠️ Requisitos Previos
+## 🚀 Módulos en Detalle
 
-- Python 3.8+ instalado
-- Conocimientos básicos de Python
-- Editor de código (VS Code, PyCharm, etc.)
-- Terminal/Línea de comandos
+### 📄 **STATICPAGES** - Páginas Estáticas (Módulo 1)
 
-## 📦 Instalación
+**Propósito:** Proporcionar landing pages e información general sin lógica compleja.
+
+| Característica | Detalles |
+|---|---|
+| **Rutas** | `/static-pages/`, `/static-pages/about/`, `/static-pages/contact/` |
+| **Vistas** | `home()`, `about()`, `contact()` |
+| **Base de Datos** | ❌ No usa |
+| **Salida** | HTML estático |
+| **Templates** | ❌ HTML en vistas |
+
+[📖 Documentación Completa](furniture_app/staticpages/README.md)
+
+---
+
+### 🎮 **DYNAMICPAGES** - Catálogo Dinámico (Módulo 2)
+
+**Propósito:** Mostrar catálogo de videojuegos con datos en tiempo real de MongoDB + API JSON.
+
+| Característica | Detalles |
+|---|---|
+| **Rutas** | `/dynamic/*` |
+| **Vistas** | 3 HTML + 2 API |
+| **Base de Datos** | ✅ MongoDB (Videogame) |
+| **Salida** | HTML + JSON |
+| **Templates** | ✅ Django Templates |
+
+[📖 Documentación Completa](furniture_app/dynamicpages/README.md)
+
+---
+
+### 📝 **FORN_API** - API REST Avanzada (Módulo 3)
+
+**Propósito:** Proporcionar API REST pura para aplicaciones móviles y SPAs + estadísticas.
+
+| Característica | Detalles |
+|---|---|
+| **Rutas** | `/api/videogames/*` |
+| **Endpoints** | 5 CRUD + estadísticas |
+| **Base de Datos** | ✅ MongoDB (Videogame) |
+| **Salida** | JSON únicamente |
+| **Templates** | ❌ No usa |
+
+[📖 Documentación Completa](furniture_app/forn_api/README.md)
+
+---
+
+### 🔐 **AUTH_API** - Autenticación JWT (Módulo 4)
+
+**Propósito:** Gestionar autenticación con JWT tokens y roles de usuario.
+
+| Característica | Detalles |
+|---|---|
+| **Rutas** | `/api/auth/*` |
+| **Endpoints** | 4 (login, register, refresh, verify) |
+| **Base de Datos** | ✅ MongoDB (User) |
+| **Salida** | JSON |
+| **Seguridad** | ✅ JWT + SHA256 Hash |
+
+[📖 Documentación Completa](furniture_app/auth_api/README.md)
+
+---
+
+## 🔗 Flujo de Datos y Navegación
+
+```
+USUARIO ACCEDE A LA APP
+│
+├─→ /static-pages/                    [STATICPAGES]
+│   └─→ Landing page con navegación
+│
+├─→ /dynamic/                          [DYNAMICPAGES]
+│   └─→ Catálogo de videojuegos
+│
+├─→ /api/videogames/*                  [FORN_API]
+│   └─→ API REST con estadísticas
+│
+└─→ /api/auth/*                        [AUTH_API]
+    └─→ Autenticación JWT
+```
+
+---
+
+## 🏗️ Arquitectura Técnica
+
+### Stack Tecnológico
+
+```
+Frontend
+├── HTML5 + CSS3
+└── JavaScript
+
+Backend
+├── Django 6.0
+├── Django REST Framework
+├── MongoEngine (ODM)
+└── PyJWT
+
+Base de Datos
+├── MongoDB (Videogame, User)
+└── SQLite (Django interno)
+```
+
+---
+
+## 📊 Comparativa de Módulos
+
+| Aspecto | STATIC | DYNAMIC | FORN_API | AUTH_API |
+|--------|--------|---------|----------|----------|
+| **BD** | ❌ | ✅ MongoDB | ✅ MongoDB | ✅ MongoDB |
+| **HTML** | ✅ | ✅ Templates | ❌ | ❌ |
+| **JSON** | ❌ | ✅ API | ✅ Pura | ✅ Pura |
+| **CRUD** | ❌ | ✅ Parcial | ✅ Completo | ✅ User |
+| **Casos de Uso** | Landing | Web | Apps/SPA | Seguridad |
+
+---
+
+## 🛠️ Instalación y Configuración
+
+### 1. Entorno Virtual
 
 ```bash
 # Crear entorno virtual
 python -m venv django_env
 
-# Activar entorno virtual
-# En Windows:
-django_env\Scripts\activate
-# En Mac/Linux:
-source django_env/bin/activate
-
-# Instalar dependencias
-pip install django djangorestframework
-
-# Verificar instalación
-django-admin --version
+# Activar
+django_env\Scripts\activate  # Windows
+source django_env/bin/activate  # Linux/Mac
 ```
 
----
-
-## 🚀 Comenzar la Sesión
-
-### 📋 Orden de los Ejercicios:
-
-#### 1. **Ejercicio 1** (`ejercicios/ejercicio_1.md`) - 30 min
-   - ✅ Crear proyecto Django desde cero
-   - ✅ Entender estructura: proyecto vs app
-   - ✅ Páginas estáticas con HTML fijo
-   - ✅ Sistema de URLs y vistas básicas
-   - ✅ Migraciones y base de datos
-   - **Resultado:** Páginas estáticas funcionando
-
-#### 2. **Ejercicio 2** (`ejercicios/ejercicio_2.md`) - 45 min  
-   - ✅ Crear modelos y base de datos
-   - ✅ Templates dinámicos con sintaxis Django
-   - ✅ Herencia de templates (base.html)
-   - ✅ API REST con Django REST Framework
-   - ✅ Comparar los 3 enfoques funcionando
-   - **Resultado:** Sistema completo con 3 enfoques
-
-#### 3. **Ejercicio 3** (`ejercicios/ejercicio_3.md`) - 30 min
-   - ✅ Formularios para crear contenido
-   - ✅ Autenticación de usuarios
-   - ✅ Templates con Bootstrap
-   - ✅ Rutas protegidas
-   - **Resultado:** Blog completo e interactivo
-
----
-
-## 🎯 URLs Finales del Proyecto
-
-### 📄 **Contenido Estático**
-- `http://127.0.0.1:8000/static-pages/` → Home estática
-- `http://127.0.0.1:8000/static-pages/about/` → About estática
-- `http://127.0.0.1:8000/static-pages/contact/` → Formulario estático
-
-### 🎨 **Templates Dinámicos**  
-- `http://127.0.0.1:8000/dynamic-pages/` → Lista de blog desde BD
-- `http://127.0.0.1:8000/dynamic-pages/blogentry/1/` → Detalle desde BD
-
-### 🔌 **API JSON**
-- `http://127.0.0.1:8000/api/v1/blogentries/` → Lista en JSON
-- `http://127.0.0.1:8000/api/v1/blogentries/1/` → Detalle en JSON
-
----
-
-## 🎓 Valor Pedagógico
-
-### **¿Por qué 3 enfoques?**
-
-Los estudiantes verán **el mismo dato** (`BlogEntry`) servido de **3 formas diferentes**:
-
-1. **📄 Estático**: Para contenido que no cambia
-2. **🎨 Dinámico**: Para apps web tradicionales  
-3. **🔌 API**: Para apps móviles y SPAs
-
-### **Conceptos Clave**
-- **URLs**: Enrutamiento y organización
-- **Vistas**: Lógica de negocio
-- **Templates**: Presentación de datos
-- **Modelos**: Estructura de datos
-- **Migraciones**: Evolución de BD
-- **REST**: Arquitectura moderna
-
----
-
-## 🏆 Al Final Tendrás
-
-Un proyecto Django **completo y pedagógico** que demuestra:
-
-- ✅ **3 enfoques web** funcionando simultáneamente
-- ✅ **Estructura profesional** con múltiples apps
-- ✅ **Reutilización de código** (mismo modelo, 3 usos)
-- ✅ **Comparación práctica** entre enfoques
-- ✅ **Base sólida** para proyectos reales
-
-**¡Una sesión que cubre desde lo básico hasta conceptos avanzados!** 🚀
-
----
-
-## 🔧 Comandos Útiles de Django
+### 2. Dependencias
 
 ```bash
-# Gestión de migraciones
-python manage.py showmigrations       # Ver estado
-python manage.py makemigrations       # Crear migraciones
-python manage.py migrate              # Aplicar migraciones
-
-# Servidor de desarrollo
-python manage.py runserver            # Solo localhost (127.0.0.1:8000)
-python manage.py runserver 8080       # Puerto personalizado
-python manage.py runserver 0.0.0.0:8000  # Accesible desde otros dispositivos
-
-# Crear datos de prueba
-python manage.py crear_posts          # Comando personalizado
-
-# Shell interactivo
-python manage.py shell                # Django shell
+pip install django djangorestframework mongoengine pyjwt
 ```
 
-### 📱 **Acceso desde Otros Dispositivos**
+### 3. MongoDB
 
-Para que **móviles u otros dispositivos** en la misma red accedan al servidor:
+Asegurate que MongoDB esté ejecutándose en `localhost:27017`
+
+### 4. Inicializar Usuarios (Auth_api)
 
 ```bash
-# 1. Ejecutar servidor en todas las interfaces
-python manage.py runserver 0.0.0.0:8000
-
-# 2. Configurar ALLOWED_HOSTS en settings.py
-ALLOWED_HOSTS = ['*']  # Permite todas las IPs (solo desarrollo)
-
-# 3. Acceder desde otro dispositivo usando IP del servidor
-# Ejemplo: http://192.168.1.100:8000/static-pages/
+cd furniture_app
+python manage.py shell
+>>> from auth_api.models import User
+>>> User.initialize_users()
 ```
 
-**⚠️ Nota de Seguridad:** `ALLOWED_HOSTS = ['*']` **solo para desarrollo**. En producción, especifica IPs/dominios específicos.
+### 5. Ejecutar Servidor
 
-**¡Sin admin panel! Solo Django core y conceptos fundamentales!** 🎯
+```bash
+cd furniture_app
+python manage.py runserver
+# Servidor en http://localhost:8000
+```
+
+---
+
+## 🎯 Ejemplos de Uso
+
+### Via Navegador
+
+```
+http://localhost:8000/static-pages/
+http://localhost:8000/dynamic/
+http://localhost:8000/api/videogames/
+http://localhost:8000/api/auth/login/
+```
+
+### Via cURL
+
+```bash
+# Login
+curl -X POST http://localhost:8000/api/auth/login/ \
+  -H "Content-Type: application/json" \
+  -d '{"username": "admin1", "password": "admin123"}'
+
+# Listar videojuegos
+curl -X GET http://localhost:8000/api/videogames/
+```
+
+### Via Python
+
+```python
+import requests
+
+response = requests.get('http://localhost:8000/api/videogames/')
+games = response.json()
+```
+
+---
+
+## 📚 Documentación Detallada
+
+| Módulo | README |
+|--------|--------|
+| **STATICPAGES** | [staticpages/README.md](furniture_app/staticpages/README.md) |
+| **DYNAMICPAGES** | [dynamicpages/README.md](furniture_app/dynamicpages/README.md) |
+| **FORN_API** | [forn_api/README.md](furniture_app/forn_api/README.md) |
+| **AUTH_API** | [auth_api/README.md](furniture_app/auth_api/README.md) |
+
+---
+
+## 🖼️ Imágenes y Ejemplos
+
+La carpeta `img_sesions/` contiene imágenes de ejemplos para cada módulo:
+
+- `sesion_staticpages/` - Ejemplos visuales de STATICPAGES
+- `sesion_dynamicpages/` - Ejemplos visuales de DYNAMICPAGES
+- `sesion_forn_api/` - Ejemplos visuales de FORN_API
+- `sesion_auth_login/` - Ejemplos visuales de AUTH_API
+
+---
+
+## 🔐 Seguridad
+
+✅ Hashing SHA256 + Salt
+✅ JWT Firmado
+✅ Validación de Datos
+✅ Expiración de Tokens
+✅ Roles de Usuario
+
+---
+
+## 🚀 Mejoras Futuras
+
+- [ ] Búsqueda y filtros avanzados
+- [ ] Paginación
+- [ ] Caché con Redis
+- [ ] Sistema de comentarios
+- [ ] Wishlist de usuarios
+- [ ] OAuth social
+- [ ] Tests automatizados
+- [ ] Documentación Swagger/OpenAPI
+- [ ] Despliegue en Heroku/AWS
+
+---
+
+**Última actualización:** 12 enero 2026
+**Versión:** 1.0
+**Estado:** Producción-ready
