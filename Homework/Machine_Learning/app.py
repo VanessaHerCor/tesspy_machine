@@ -54,8 +54,8 @@ except FileNotFoundError:
 # ====================================================================
 # PASO 3: Verificar los tipos de datos de cada columna
 # ====================================================================
-# Esto es importante porque a veces los precios vienen como texto (string)
-# y necesitamos que sean números (int o float) para hacer cálculos
+# Esto es importante porque a veces los numeros vienen como texto (string)
+# y necesitamos que sean numericos (int o float) para hacer calculos
 # ====================================================================
 
 print("\n" + "="*60)
@@ -236,3 +236,99 @@ print(f"   - Columnas: {len(df.columns)}")
 print("\n🎵 Dataset: Music & Mental Health Survey")
 print("🧠 Variables: Géneros musicales, Ansiedad, Depresión, Insomnio, OCD")
 print("="*60)
+
+
+# ====================================================================
+# PASO 8: Detección y eliminación de outliers (valores atípicos)
+# ====================================================================
+# Usamos el método IQR (rango intercuartílico) para detectar outliers
+# en variables numéricas importantes
+# ====================================================================
+
+print("\n" + "="*60)
+print("PASO 8: Detección y eliminación de outliers (IQR)")
+print("="*60)
+
+try:
+    # Seleccionamos columnas numéricas relevantes
+    columnas_outliers = ["Hours", "BPM", "Anxiety", "Depression", "Insomnia", "OCD"]
+    print(f"Columnas analizadas para outliers: {columnas_outliers}")
+
+    # Boxplots para visualizar outliers
+    for col in columnas_outliers:
+        plt.figure(figsize=(7,1.5))
+        sns.boxplot(x=df[col], color='skyblue')
+        plt.title(f"Boxplot de {col}")
+        plt.show()
+
+    # Cálculo de IQR y eliminación de outliers
+    Q1 = df[columnas_outliers].quantile(0.25)
+    Q3 = df[columnas_outliers].quantile(0.75)
+    IQR = Q3 - Q1
+    print("\nIQR por columna:")
+    print(IQR)
+
+    # Filtrar filas que NO son outliers en ninguna de las columnas seleccionadas
+    condicion = ~((df[columnas_outliers] < (Q1 - 1.5 * IQR)) | (df[columnas_outliers] > (Q3 + 1.5 * IQR))).any(axis=1)
+    outliers_eliminados = len(df) - condicion.sum()
+    print(f"\nFilas antes de eliminar outliers: {len(df)}")
+    print(f"Filas eliminadas por outliers: {outliers_eliminados}")
+
+    df = df[condicion]
+    print(f"Filas después de eliminar outliers: {len(df)}")
+    print("✅ Paso 8 completado: Outliers eliminados")
+except Exception as e:
+    print(f"⚠️ Error en outliers: {e}")
+
+
+# ====================================================================
+# PASO 9: Visualizaciones - Histogramas, Heatmap, Scatterplot
+# ====================================================================
+
+print("\n" + "="*60)
+print("PASO 9: Visualizaciones")
+print("="*60)
+
+try:
+    # Histograma: distribución de horas de música al día
+    plt.figure(figsize=(8,4))
+    sns.histplot(df["Hours"], bins=15, kde=True, color='orchid')
+    plt.title("Distribución de horas de música al día")
+    plt.xlabel("Horas de música al día")
+    plt.ylabel("Cantidad de personas")
+    plt.show()
+
+    # Histograma: distribución de BPM
+    plt.figure(figsize=(8,4))
+    sns.histplot(df["BPM"], bins=15, kde=True, color='teal')
+    plt.title("Distribución de BPM preferido")
+    plt.xlabel("BPM")
+    plt.ylabel("Cantidad de personas")
+    plt.show()
+
+    # Heatmap: correlación entre variables numéricas
+    plt.figure(figsize=(8,5))
+    corr = df[columnas_outliers].corr()
+    sns.heatmap(corr, annot=True, cmap="BrBG")
+    plt.title("Mapa de calor de correlaciones")
+    plt.show()
+
+    # Scatterplot: ¿Más horas de música = menos ansiedad?
+    plt.figure(figsize=(8,5))
+    sns.scatterplot(x=df["Hours"], y=df["Anxiety"], color='crimson')
+    plt.title("Relación entre horas de música y ansiedad")
+    plt.xlabel("Horas de música al día")
+    plt.ylabel("Nivel de ansiedad")
+    plt.show()
+
+    # Scatterplot: BPM vs Insomnio
+    plt.figure(figsize=(8,5))
+    sns.scatterplot(x=df["BPM"], y=df["Insomnia"], color='navy')
+    plt.title("Relación entre BPM y nivel de insomnio")
+    plt.xlabel("BPM preferido")
+    plt.ylabel("Nivel de insomnio")
+    plt.show()
+
+    print("✅ Paso 9 completado: Visualizaciones generadas")
+except Exception as e:
+    print(f"⚠️ Error en visualizaciones: {e}")
