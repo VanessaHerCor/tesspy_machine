@@ -156,5 +156,9 @@ async def on_message(message):
         await procesar_animo_y_chistes(message, contenido)
 
 # 5. Ejecución
-TOKEN_DISCORD = 'REMOVED_TOKEN'
+# Usa una variable de entorno para el token de Discord
+import os
+TOKEN_DISCORD = os.getenv('DISCORD_BOT_TOKEN')
+if not TOKEN_DISCORD:
+    raise ValueError('No se encontró el token de Discord. Por favor, configura la variable de entorno DISCORD_BOT_TOKEN.')
 bot.run(TOKEN_DISCORD.strip())
