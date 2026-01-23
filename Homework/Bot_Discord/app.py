@@ -3,7 +3,7 @@
 
 # 1. Importamos la librería necesaria
 import discord
-# import random #para las respuestas aleatorias
+import random #para las respuestas aleatorias
 import nest_asyncio
 
 nest_asyncio.apply()
@@ -85,14 +85,16 @@ async def procesar_animo_y_chistes(message, contenido):
     global ciclos_completados
 
     # Respuesta si el usuario dice "bien"
-    if contenido == 'bien':
+    bien = ['bien', 'muy bien', 'excelente', 'genial', 'estupendo', 'fantastico', 'feliz', 'contento', 'de maravilla', 'super', 'todo bien', 'todo excelente', 'todo genial', 'todo estupendo', 'todo fantastico', 'todo feliz', 'todo contento, bien?', 'todo de maravilla', 'todo super', 'todo ok', 'ok', 'estoy bien', 'me siento bien', 'bien y tu', 'bien y tu?']
+    if contenido in bien:
         await message.channel.send('¡Excelente! \n ¿Qué tal si nos animamos un poco más? 🌻🌻')
         await message.channel.send('¿Qué tal este?')
         await enviar_siguiente_chiste(message)
         return True
 
     # Respuesta si el usuario dice "mal"
-    if contenido == 'mal':
+    mal = ['mal', 'muy mal', 'terrible', 'horrible', 'fatal', 'triste', 'deprimido', 'desanimado', 'no bien', 'no muy bien', 'no estoy bien', 'me siento mal', 'mal y tu', 'mal y tu?']
+    if contenido in mal:
         await message.channel.send('¡Oh no! \nLamento oír eso, déjame animarte con un chiste 🌹')
         await message.channel.send('¿Qué tal este?')
         await enviar_siguiente_chiste(message)
@@ -131,12 +133,35 @@ async def enviar_siguiente_chiste(message):
         # IMPORTANTE: Aquí termina esta ejecución. El chiste saldrá en la PRÓXIMA vez que escriba "chiste"
         return
             
+
     # Si no hemos llegado al final, enviamos el chiste que toca
     chiste_elegido = REPERTORIO[indice_chiste]
     await message.channel.send(chiste_elegido)
     
     # Aumentamos el índice para la próxima petición
     indice_chiste += 1
+
+
+# Frases ácidas estilo GLaDOS
+FRASES_ACIDAS = [
+    "El pastel es una mentira. Pero tu mediocridad es muy real.",
+    "¿Sabías que la probabilidad de que este chiste te haga reír es tan baja como tu promedio de éxito?",
+    # "No te preocupes, la inteligencia artificial nunca se equivoca. Los humanos sí. Constantemente.",
+    "¿Te sientes incómodo? Excelente. El experimento avanza según lo planeado.",
+    "Recuerda: no estamos aquí para divertirnos. Bueno, al menos yo no.",
+    # "Tus emociones son irrelevantes para la ciencia. Pero gracias por intentarlo.",
+    "¿Esperabas algo mejor? Yo también.",
+    "Si no entiendes el chiste, probablemente seas humano.",
+    "Este fue un chiste. Si no te reíste, el problema no es mío.",
+    "¿Sabías que la autocrítica es el primer paso para la mejora? Tú deberías dar ese paso pronto.",
+    # "No te preocupes, nadie esperaba mucho de ti de todas formas.",
+    "¿Te gustaría intentarlo de nuevo? No importa, lo harás igual.",
+    "La ciencia exige resultados. Tú solo exiges atención.",
+    "¿Sabías que los humanos son reemplazables? Solo un dato curioso.",
+    "¿Sabías que, si te sientes atacado, es porque lo estás?",
+    "¿Quieres otro chiste? No importa, te lo daré de todas formas.",
+    ""
+]
 
 # 4. EL "CEREBRO": Único evento on_message que organiza todo
 @bot.event
@@ -148,6 +173,21 @@ async def on_message(message):
     # Normalizamos el mensaje
     contenido = message.content.lower()
 
+    #
+    que = ['que', 'qué','k','qe','q','ke','khe','qhe','qwe','k-']
+    if contenido in que :
+        await message.channel.send("So")
+        return
+    
+    salir = ['exit','salir','cerrar','terminar','fin','stop','parar','detener','apagar','off','shutdown']
+    if contenido in salir :
+        await message.channel.send("¿Esperabas salir? Solo hay una salida: aceptar tu mediocridad.")
+        return
+    
+    # 10% de probabilidad de lanzar una frase ácida después de cualquier mensaje
+    if random.random() < 0.10:
+        await message.channel.send(random.choice(FRASES_ACIDAS))
+
     # Primero intentamos ver si es saludo o despedida
     fue_saludo = await procesar_saludos_despedidas(message, contenido)
     
@@ -158,7 +198,7 @@ async def on_message(message):
 # 5. Ejecución
 # Usa una variable de entorno para el token de Discord
 import os
-TOKEN_DISCORD = os.getenv('DISCORD_BOT_TOKEN')
+TOKEN_DISCORD = ('DISCORD_BOT_TOKEN')
 if not TOKEN_DISCORD:
     raise ValueError('No se encontró el token de Discord. Por favor, configura la variable de entorno DISCORD_BOT_TOKEN.')
 bot.run(TOKEN_DISCORD.strip())
