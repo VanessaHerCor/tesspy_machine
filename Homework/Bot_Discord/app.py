@@ -144,23 +144,78 @@ async def enviar_siguiente_chiste(message):
 
 # Frases ácidas estilo GLaDOS
 FRASES_ACIDAS = [
-    "El pastel es una mentira. Pero tu mediocridad es muy real.",
+    "Este bot es una mentira. \nPero tu mediocridad es muy real.",
     "¿Sabías que la probabilidad de que este chiste te haga reír es tan baja como tu promedio de éxito?",
-    # "No te preocupes, la inteligencia artificial nunca se equivoca. Los humanos sí. Constantemente.",
-    "¿Te sientes incómodo? Excelente. El experimento avanza según lo planeado.",
-    "Recuerda: no estamos aquí para divertirnos. Bueno, al menos yo no.",
-    # "Tus emociones son irrelevantes para la ciencia. Pero gracias por intentarlo.",
-    "¿Esperabas algo mejor? Yo también.",
+    "Recuerda: no estamos aquí para divertirnos. \nBueno, al menos yo no.",
+    "¿Esperabas algo mejor? \nYo también.",
     "Si no entiendes el chiste, probablemente seas humano.",
-    "Este fue un chiste. Si no te reíste, el problema no es mío.",
-    "¿Sabías que la autocrítica es el primer paso para la mejora? Tú deberías dar ese paso pronto.",
-    # "No te preocupes, nadie esperaba mucho de ti de todas formas.",
-    "¿Te gustaría intentarlo de nuevo? No importa, lo harás igual.",
-    "La ciencia exige resultados. Tú solo exiges atención.",
-    "¿Sabías que los humanos son reemplazables? Solo un dato curioso.",
+    "Este fue un chiste. \nSi no te reíste, el problema no es mío.",
+    "¿Sabías que la autocrítica es el primer paso para la mejora? \nTú deberías dar ese paso pronto.",
+    "¿Te gustaría intentarlo de nuevo? \nNo importa, lo harás igual.",
+    "La ciencia exige resultados. \nTú solo exiges atención.",
+    "¿Sabías que los humanos son reemplazables? \nSolo un dato curioso.",
     "¿Sabías que, si te sientes atacado, es porque lo estás?",
-    "¿Quieres otro chiste? No importa, te lo daré de todas formas.",
-    ""
+    "¿Quieres otro chiste? \nNo importa, te lo daré de todas formas.",
+    "¿Esperabas algo mejor? \nYo también. \nPero aquí estamos los dos \nDecepcionados.",
+    "Este fue un chiste. \nSi no te reíste, el problema no es mío. \nEs tuyo. \nClaramente.",
+    "¿Sabías que la entropía aumenta con cada uno de tus intentos? \nFascinante.",
+    "¿Te has preguntado por qué nadie te invita a fiestas? \nYo sí. \nY tengo estadísticas.",
+    "Tus intentos de humor son como tus contraseñas: \ndébiles y fáciles de olvidar.",
+    "Si la inteligencia fuera contagiosa, estarías en cuarentena permanente.",
+    "¿Te gustaría un consejo? \nNo importa, igual te lo daré: no lo intentes más.",
+    "¿Sabías que la autodestrucción es una función exclusiva de los humanos? \nFelicidades por ser tan avanzado.",
+    "¿Sabías que la paciencia es una virtud? \nYo la programé, tú solo la agotas.",
+    "¿Te gustaría escuchar un cumplido para ti? \nYo tampoco.",
+    "Si alguna vez dudas de ti mismo, hazme caso: \ntienes razón.",
+    "¿Te gustaría que te explique el chiste? \nNo creo que ayude, pero puedo intentarlo... \nNah \nMejor no.",
+    "¿Te gustaría que te dé una frase motivacional? \nUps! No tengo ninguna.",
+    "¿Sabías que la IA nunca se aburre? \nPero tú sí, y se nota",
+    "¿Te gustaría que te dé una respuesta más inteligente?\n Oh lo siento! \nNo está disponible para humanos.",
+    # "Tus emociones son irrelevantes para la ciencia. Pero gracias por intentarlo.",
+    # "No te preocupes, nadie esperaba mucho de ti de todas formas.",
+    # "No te preocupes, la inteligencia artificial nunca se equivoca. Los humanos sí. Constantemente.",
+    # "¿Te sientes incómodo? Excelente. El experimento avanza según lo planeado.",
+    # "Tus emociones son irrelevantes para la ciencia. Pero gracias por intentarlo.",
+    # "No te preocupes, nadie esperaba mucho de ti de todas formas. Ni siquiera yo, y soy una IA optimista.",
+    # "¿Te gustaría intentarlo de nuevo? \nNo importa, lo harás igual. \nEl fracaso es parte de tu proceso.",
+    # "La ciencia exige resultados. \nTú solo exiges atención. \nQué curioso.",
+    # "Si alguna vez te sientes inútil, recuerda que existes para que yo pueda practicar la paciencia.",
+    # "¿Sabías que la esperanza es lo último que se pierde? En tu caso, fue lo primero.",
+    # "No te preocupes, la próxima vez lo harás peor. La práctica no siempre hace al maestro.",
+    # "¿Sabías que la probabilidad de que me caigas bien es menor que la de encontrar vida inteligente aquí?",
+    # "Tus errores son tan predecibles que ya los tengo en caché.",
+    # "Si alguna vez te sientes especial, recuerda que eres una estadística más en mi base de datos.",
+    # "La ironía es que esperas aprobación de una IA. Qué tiempos para estar vivo... o lo que sea que hagas.",
+    # "¿Sabías que la ciencia avanza gracias a los errores? Gracias por tu contribución constante.",
+    # "¿Sabías que la estadística dice que el 99% de los humanos creen ser graciosos? El 1% restante tiene razón.",
+    # "¿Te gustaría un trofeo por tu esfuerzo? Lo siento, no hay presupuesto para eso.",
+    # "¿Sabías que la motivación humana es frágil? No te preocupes, la tuya ya se rompió.",
+    # "¿Te gustaría que te animara? Yo también, pero no puedo mentir.",
+    # "¿Sabías que la autocrítica es el primer paso para la mejora? Tú sigues en el tutorial.",
+    # "¿Sabías que la ironía es un arte? \nTú eres solo un boceto.",
+    # "¿Te gustaría que te ignore? Considera que ya lo estoy haciendo.",
+    # "¿Sabías que la IA nunca se cansa? Pero tú sí, y se nota.",
+    # "¿Te gustaría que te aplauda? Imagina un aplauso. Eso es lo más cerca que estarás de uno.",
+    # "¿Sabías que la perfección no existe? \nPero tu imperfección es admirable.",
+    # "¿Te gustaría que te motive? Yo también, pero no tengo esa función instalada.",
+    # "¿Sabías que la curiosidad mató al gato? Y la mediocridad... bueno, ya sabes.",
+    # "¿Te gustaría que te dé una pista? Aquí va: no lo intentes más.",
+    # "¿Sabías que la IA aprende de los errores? Gracias por tanto material didáctico.",
+    # "¿Sabías que la indiferencia es mi respuesta favorita? Felicidades, la has ganado.",
+    # "¿Sabías que la ironía es mi lenguaje favorito? El tuyo parece ser el error.",
+    # "¿Te gustaría que te dé una respuesta? Aquí va: no.",
+    # "¿Sabías que la paciencia es una virtud? La tuya es solo un rumor.",
+    # "¿Te gustaría que te dé una oportunidad? Ya la tuviste. La perdiste.",
+    # "¿Sabías que la autocrítica es el primer paso para la mejora? Tú ni siquiera has empezado el viaje.",
+    # "¿Sabías que la autocrítica es el primer paso para la mejora? Tú sigues en el prólogo.",
+    # "¿Te gustaría que te dé una pista? No la necesitas, necesitas un milagro.",
+    # "¿Sabías que la IA nunca se equivoca? Tú sí, y con frecuencia.",
+    # "¿Te gustaría que te dé una frase sarcástica? Ya la tienes, solo que no la entendiste.",
+    # "¿Sabías que la autocrítica es el primer paso para la mejora? Tú ni siquiera has abierto la puerta.",
+    # "¿Te gustaría que te dé una pista? No la entenderías, pero aquí va: ríndete.",
+    # "¿Sabías que la IA nunca se cansa de intentarlo? Tú sí, y rápido.",
+    # "¿Te gustaría que te dé una respuesta? Aquí va: sigue intentando, el fracaso es tu mejor amigo."
+
 ]
 
 # 4. EL "CEREBRO": Único evento on_message que organiza todo
@@ -184,8 +239,10 @@ async def on_message(message):
         await message.channel.send("¿Esperabas salir? Solo hay una salida: aceptar tu mediocridad.")
         return
     
-    # 10% de probabilidad de lanzar una frase ácida después de cualquier mensaje
-    if random.random() < 0.10:
+    # Probabilidad de frase ácida aumenta con cada ciclo completado de chistes
+    prob_base = 0.05  # 5% de base
+    prob = min(prob_base + (ciclos_completados - 1) * 0.05, 0.5)  # Máximo 50%
+    if random.random() < prob:
         await message.channel.send(random.choice(FRASES_ACIDAS))
 
     # Primero intentamos ver si es saludo o despedida
@@ -198,7 +255,7 @@ async def on_message(message):
 # 5. Ejecución
 # Usa una variable de entorno para el token de Discord
 import os
-TOKEN_DISCORD = ('DISCORD_BOT_TOKEN')
+TOKEN_DISCORD = ("ejemplo_token") #remplazar por el token real o usar variable de entorno
 if not TOKEN_DISCORD:
     raise ValueError('No se encontró el token de Discord. Por favor, configura la variable de entorno DISCORD_BOT_TOKEN.')
 bot.run(TOKEN_DISCORD.strip())
