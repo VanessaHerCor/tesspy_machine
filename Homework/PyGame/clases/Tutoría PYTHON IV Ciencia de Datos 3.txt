@@ -1,0 +1,252 @@
+Bien muchacho. Yo creo que ya podemos iniciar dándole a la última sesión. Nos falta por ahí. Angie que Angie la voy entrando, pero puedes ver.
+no pasa nada.
+Vamos dándole. Vale, Entonces todos esos muchachos. Entonces Entonces entonces volverá a compartir por acá
+vamos a dar un poquito por aquí.
+Bien, muchachos, entonces no hay dudas para nada, Cierto de lo que es el el mapa de
+de calor, el mapa de correlación, por así decirlo, pues las variables correlacionadas.
+Este otro gráfico es un skater plot que Bueno, la la correlación se puede ver entre variables. Sí, con un con un mapa de calor, cierto, pero pues también se puede ver, se Bruselas. Pueden ver entre 2 variables en los libros. Sí,
+de esta manera, sí,
+si le ponen un gráfico así por el estilo, no se asusten. Ustedes también pueden saber interpretarlo. Sí, eso es una correlación entre 2 variables. Vale, sea por lo menos aquí. Si se dan cuenta, voy a hacer la correlación entre el precio
+y el motor de un vehículo si se están dando cuenta, pues la correlación en el gráfico aquí está haciendo una curva como esta. Sí, está haciendo una curva como esta.
+Se está levantando. Y quiere hacer como esta tendencia tiene como esta tendencia, así como a como a esto sí así hacia arriba.
+Esto significa que la variable del precio y la variable de
+pues, del motor, si se está dando cuenta, pues, entre más tenga un motor caballos de fuerza, pues más caro es el precio de ese vehículo Vale.
+¿es eso la correlación? Eso es una correlación positiva. Si hubiera una correlación negativa, pues fíjense acá que se refleja de esta manera. Así, en vez de ese para arriba.
+en vez de irse para arriba, se va es para abajo, ¿sí? Y si no hay correlación que también esto, pues les puede pasar en una entrevista de trabajo que les pongan una
+un gráfico así rarísimo, todo explosivo que no tiene forma. No tiene, no tiene nada, mejor dicho muchacho. Eso simplemente es una correlación nula. Significa que no hay correlación
+entre esas variables. Es así de sencillo. Listo.
+muchachos tatúense. Lo correlación no implica causalidad. Vale, es eso?
+Bien. No es más
+de la edad si se están dando cuenta, vamos a volver acá a las fases de Led, vimos.
+entendemos un poco el problema. Cortamos la data en estos pasos de acá hicimos muchísimo más de lo que no aparece en el gráfico
+como por lo menos chequeo, el tipo de datos. Chequeamos los los datos duplicados, eliminamos datos duplicados. Vimos un poco de también del renombre de las columnas
+y acá pues hicimos tratamiento de datos nulos.
+exploramos un poco la data. Así transformamos ya la data haciendo todos estos pasos anteriores de una vez vimos. Estábamos explorando, Acá
+hicimos visualizaciones, ¿sí? Y sí, como la rela como como ver, esas relaciones en visualización, Por lo menos el hitmap, hicimos también por lo menos un análisis de datos. Bueno, vimos que teníamos en la gran mayoría el dataset
+modelos de carros de Chevrolet, sí,
+y de Toyota. Y esos, y manejamos los outliers. Dijimos un poco del outlier natural o taller antinatural. Por último, comunicamos los resultados
+Bueno, resultado muchachos de esto del Dea
+se tiene. Sí, supongamos que se ustedes, después de que hagan el el análisis exploratorio de datos, y ustedes vean la correlación. Aquí ustedes pueden decirle a su jefe que se tiene la sospecha. Dada la correlación
+de que se puede entrenar un modelo de machine learning. Teniendo en cuenta.
+pues, algunas variables, como por lo menos el los caballos de fuerza, el cilindraje y la autonomía. El año del vehículo se está dando cuenta, No tiene correlación alta.
+sí ni negativa ni positiva. Por ende, este se puede ir, Sí, se puede ir y podríamos trabajar con las otras variables con, por lo menos esto lo que les digo: caballos de fuerza, cilindraje y autonomía para el precio. En caso, tal
+vale.
+entonces se le puede comunicar así al jefe que se tiene la sospecha de que se pueda hacer el modelo de machine learning y darle a eso.
+¿vale?
+¿es eso la comunicación? Y obviamente, si tienen análisis de datos, pues le dan análisis de datos. Bien, pues muchachos, si no tienen correlación aquí, pues le tienen que decir al jefe que
+lastimosamente, pues
+por el primer descarte, digamos, el primer filtro, que es la correlación, pues no existe esa correlación entre las variables, lo que significa que, pues.
+hacer un modelo de Machine de machine learning es
+posiblemente una pérdida de tiempo o si quiere el modelo de imagen learning, sí o sí, no pasa nada. Ustedes lo hacen, pero les dejan en consideración de que es posible que el modelo de imagen learning tenga una precisión baja.
+Vale, Eso es bien, muchachos bien, y eso se le da a muchachos.
+Eso se le da.
+Eso es el Ed.
+Para terminar, pues se supone que esto va más que todo como para la otra sesión. Igualmente.
+ya vamos a empezar a ver algoritmos de machine learning listo.
+Yo les puse la introducción si les dicté en introducción, pues hace varios meses no sé si ustedes lo recuerdan.
+le dicte acerca de la regresión.
+sobre todo, bueno, no tanto la regresión, sino de los modelos de machine learning en cuanto a aprendizaje supervisado y aprendizaje no supervisado y aprendizaje Por refuerzo por refuerzo, dijimos que no.
+Pero la saber la diferencia entre el aprendizaje supervisado y el aprendizaje no supervisado es primordial, ¿vale? Es primordial.
+entonces muchachos regresión.
+¿de qué parte es de el aprendizaje
+del aprendizaje supervisado listo porque es aprendizaje supervisado porque tiene.
+porque en este caso debe contener un Target, ¿sí? Y pues una o más filtros.
+pero sobre todo si tiene el Target es aprendizaje supervisado. Si ustedes pueden detectar el Target en sus Datasets.
+significa que por ahí va la cosa de que tienen un modelo de aprendizaje supervisado. Si no lo saben, si no lo reconocen, si no entienden.
+no lo ven en el dataceto directamente, digámoslo. Así pues no tienen la tasa de un Target. Si se empiezan con modelos de aprendizaje no no supervisado, como por ejemplo, Clustering, que es el más famoso vale. ¿es eso?
+Entonces la regresión?
+Un poquito de la regresión, la regresión
+técnica de machine learning que vamos a usar para predecir
+un valor numérico continuo, muchachos continuo, numérico continuo. Sí,
+yo les había comentado a ustedes cuando vimos las variables cuantitativas, que por lo menos el precio cuando ustedes van a sacar plata de un banco cuando ustedes tienen una transferencia, si en su un equis
+es más vamos a verlo por acá sí.
+Muchos de ellos no son enteros. Son decimales. Sí,
+comprobante en equis falso. No sé,
+sí.
+Veamos quédense acá.
+722 pesos, pero hay hay 1. Creo que es por el P. C. E
+vamos a ver por acá.
+Este Sí, este comprobante.
+Fíjense por acá un movimiento hecho por Neky. Si están dando cuenta a usted en Making.
+no tiene como tal una columna tipo in Tiene una columna tipo numérica, continua, listo, cuantitativa, continua.
+aunque ustedes hayan hecho una transferencia y se está dando cuenta aquí, aunque ustedes hayan hecho una transferencia con valores numéricos con valores cuantitativos discretos. Sí, enteros.
+el Neki aún sigue reconociendo esa transferencia como si fuera un valor numérico, continuo. Listo. Entonces, cuando ustedes vean de pronto un precio cuando ustedes quieran predecir de pronto un precio o algo por el estilo
+o un valor cuantitativo continuo, Sí,
+siempre sospechen que una buena opción podría ser una técnica, una técnica de machine learning que es regresión. ¿vale?
+¿es esto un algoritmo de regresión?
+Bueno, entonces por aquí, fíjense por lo menos que yo tengo aquí un ejemplo. Supongamos. En la En la teoría listo, tenemos 2 diferentes algoritmos de regresión lineal, 1 que es simple y otro que es múltiple. El simple. Nosotros lo podemos visualizar el múltiple, no
+el simple, porque lo podemos visualizar, porque, pues es la regresión entre un eje entre el eje, digámoslo así, entre variable del eje X y el variable del eje Y
+en la regresión múltiple, tenemos muchas más dimensiones listo.
+hasta 3. Ustedes pueden graficar este tema de la regresión, porque, pues nosotros vemos en 3 dimensiones, sí, pero a partir de la cuarta dimensión, pues ya no. Bien, no se puede graficar este esta regresión. Entonces después la múltiple normalmente se hace con combinaciones listo
+diferencia entre la lineal entre la dirección lineal, siempre y la múltiple
+que si ustedes tienen un solo Target y un solo, una sola, una sola fitur Sí, Sí, se está dando cuenta por acá, Yo lo coloco
+una sola fito. Sí,
+ustedes utilizan la relación lineal simple, pero si tienen varias piturs, varias características y pues, obviamente, un solo target.
+pues utilizan la regresión lineal multiple obviamente. En la realidad se utiliza mucho, más la múltiple
+Bien, muchísimo más la múltiple. ¿por qué no es normal que una una variable tenga como causa otra variable, normalmente son muchas más combinaciones de variables. ¿vale?
+Entonces, por lo menos yo les coloco aquí un ejemplo.
+¿cuál será el precio de una casa según su tamaño? Sí o qué notas sacará un estudiante según las horas que estudio? Cuántas veces Cuántas veces, cuántas ventas perdón
+tendremos el próximo mes según el gasto en publicidad? Todas esas preguntas se está dando cuenta, ¿son de predecir
+de pronto las ventas notas? Así es de predecir un valor numérico continuo.
+Vale un valor numérico continuo, obviamente muchachos. Si ustedes en la realidad tienen un valor numérico, discreto, sí,
+pues haciendo el respectivo análisis. Ustedes pueden usar algoritmos de regresión, pero hay que tener mucho cuidado si con esos con esos valores numéricos discretos por pues yo ya les expliqué un poco. Hay veces en que nosotros tenemos variables
+cualitativos que se pueden expresar, que perdón, podemos tener variables cuantitativos discretos que se expresan como variables cualitativas.
+Y eso se ve en los algoritmos de clasificación.
+pero no pasa nada muchachos si si ustedes tienen un al un un valor numérico expresado con enteros
+usen. Pueden usar. Pueden sospechar que pueden usar regresión. Vale, ¿Es eso también.
+Entonces muchachos un poco. El colegio, sí, un poco el colegio. Supongamos.
+yo quiero predecir el valor de una casa. Si el valor de una casa.
+entonces la regresión, Si la regresión lineal, lo que hace es trazar una recta. Si supongamos que yo tengo todos estos puntos puntos rojos.
+¿qué significan datos por lo menos los datos del precio de una casa en el eje X que sea el precio de una casa, sí. Perdón. En el eje y
+el precio de una casa y los metros cuadrados de la casa en el eje X, Entonces, supongamos, no sé, 2 m. Dos metros de Digo, algo exagerado, obviamente, Pero para que entiendan aquí el gráfico, también. Dos metros cuadrados de casa me valen un peso
+listo, un peso. Me vale.
+Entonces lo que nosotros queremos hacer para predecir
+el precio de la casa con base en los metros cuadrados que tiene es coger una línea. Sí, esta línea. Esta recta sí es coger una recta y colocarlo lo más cercano a los puntos
+posible si lo más cercano que ustedes puedan colocar la recta a los puntos.
+Bien, obviamente para eso, pues obviamente ustedes no van a usar gráficas para eso. Existen métricas, como por lo menos R cuadrado, como por lo menos L. R. M. S, E, El M. S: E: Sí, cosas como esas que lo vamos a ver en su debido tiempo.
+Pero pues, para que lo vean desde una forma matemática, porque al fin y al cabo, todo el tema de los modelos de machine learning es matemática por detrás. ¿es eso lo que se hace listo. Colocar la recta en donde mejor estén, en donde estén, más cercanos los puntos.
+Vale, ¿Es eso la fórmula para que lo entiendan un poco. Sí,
+supongamos que yo quiero predecir el precio. Entonces el precio va a ser igual sí a el valor de cada metro cuadrado por el tamaño que tiene la casa. Supongamos que tiene 20 m²,
+más un precio base si lo quieren ver de una forma más matemática, pues no tan bueno, no tan matemática para no estallarlo. Son las 9
+más que todo es como la multiplicación de un coeficiente, sí de un coeficiente.
+sí de de un coeficiente X. Si más una constante, que es el precio base. Supongamos que el precio hace.
+Ustedes saben que una casa de 100 m²
+no vale lo mismo en cali
+que una casa de 100 m² en Medellín.
+Eso estamos de acuerdo, ¿cierto? Entonces, para eso existe el precio base, y esa es la constante listo, más o menos en cuánto está la casa es ¿Cuánto están las casas? Perdón
+¿Es eso sí. Y pues la los coeficientes. Son las cosas que se pueden, digámoslo así, alterar para que me dé. Al fin y al cabo, ese precio. La constante es eso una constante no va a cambiar.
+pero los coeficientes Yo sí los puedo alterar para encontrar el precio. Vale, es eso es la fórmula conceptual matemática del asunto. ¿vale?
+Y es eso.
+Entonces lo mismo pasa con la regresión múltiple. La regresión múltiple. Ya estamos hablando de más que todo combinaciones lineales, se le llama. Así
+Pero pues, si pudiéramos hacerlo, es la misma fórmula conceptual. Si te estás dando cuenta que solamente el precio de la casa. Nosotros la tomamos como solamente por metros cuadrados. ¿qué es algo bueno? O sea, si ustedes le dicen.
+tengo una casa. Si yo usted les digo, tengo una casa, no sé exagerado de 100 m²
+por 10 000 pesos, ¿sí? Entonces, dicen, Uy, me interesa. Me interesa porque está barata, pero obviamente ustedes en la realidad
+no me van a comprar esa sola casa por el simple hecho de esa oferta. Ustedes van a entender de pronto la ubicación. Por ejemplo, si yo vivo en cali yo, no es que lo mande por allá. Pa Pereyra: Sí. Cosas como esas. Entonces, para eso está la regresión lineal múltiple, sí
+que coge muchas muchas fiturs que ustedes tienen muchas características y va haciendo las combinaciones para, pues encontrar la mejor recta. Los puntos que tiene. Obviamente, ustedes no lo ven porque, pues son varias dimensiones, Pero
+pues existe ahí, y es un método muy bueno para predicción de de valores numéricos continuos.
+Vale, es eso.
+Y bueno, para terminar un poquito, ¿sí? Miren acá lo que yo les dije sobre los
+sobre este este algoritmo de de machine learning si se están dando cuenta por acá
+Yo tengo unos ejemplos, ¿sí? Primero, pues librerías para esto ya va a aparecer una nueva que se llama Cycdlear. Sí. Cyclearn es básicamente 1 de los de las de las de las librerías más fuertes que tiene Python en ese momento para machine learning, cyc Etler.
+sí, en el que, pues prácticamente hay de todo, hay modelos de clasificación de regresión. Hay modelos de clustering para para aprendizaje no supervisado, todo tipo de algoritmos de Machine Leding a que ustedes lo pueden encontrar. Hay métricas de esos algoritmos, que también es algo sumamente importante, Sí,
+pero esto prácticamente hay redes neuronales también, sí, pero pues prácticamente esto es una librería, pues de las más usadas en estos momentos. Vale entonces
+muchachos.
+Ustedes tienen unos tipos aquí, por lo menos que vamos a hacer? ¿vamos a importar. ¿sí? La regresión lineal. Listo, lineart, regression
+del módulo linear model. Esto es pura sintaxis, pero aquí estamos importando la regresión lineal. ¿es eso
+ojo? También va a aparecer un concepto nuevo que creo que les dije en introducción, que es el training, el Train, que es split. Sí que es como la partición de datos para entrenamiento y la partición de datos para validación ¿Alguno Recuerda.
+alguno me puede decir de forma resumida qué son los datos de validación y qué son los datos de entrenamiento en un modelo.
+Y ahora ¿Sí? ¿correcto?
+¿no?
+Okay. Perfecto.
+Bien, muchachos a ver
+los datos de validación y los datos de entrenamiento. Sí, nosotros tenemos los da Nosotros tenemos un dataced ¿cierto? ¿qué pasa nosotros?
+Supongamos que nuestro modelo de machine learning Yo les dije.
+todo el tema de la inteligencia artificial es esa imitación de la inteligencia humana, de la inteligencia humana, ¿cierto? Entonces
+imagínense que yo a ustedes los pongo a estudiar en un examen para un examen? Perdón, ¿sí? Entonces les doy un libro y les digo, miren, háganme esos ejercicios de cálculo del ejercicio, 1 al ejercicio a 10. Sí,
+entonces ustedes
+lo que hacen es listo. Se ponen a hacer ejercicio, se ponen a hacer y les sale todo bien les sale todo súper bien, están bien. Le salió bien. La fórmula en el en el
+en el
+en la parte final del libro dice que es también lo que ustedes hicieron súper mega bien listo bacano.
+Pero a la hora del examen ya a ustedes les doy el examen y resulta que sacaron un 2
+o un nuno qué fue lo que pasó en realidad Ahí en ese momento, sí
+que ustedes se memorizaron si se memorizaron las los ejercicios del libro.
+y cuando yo les coloque son los que usamos para mover el entrenador del modelo al momento de hacer predicciones Exacto.
+siguiendo con el ejemplo, Cuando yo les cuando ustedes están haciendo las los ejercicios del libro. Los hicieron 3 4, 5 veces increíble. Les fue bien, pero en el momento del examen, yo no sé, les puse
+algo muy similar, pero tal vez con otros datos, y tienen que usar la fórmula un poco diferente.
+Y claro, el resultado tienen un 1, tienen un 2.
+¿qué fue lo que ustedes hicieron Ahí fue memorizar si fue memorizar los ejercicios del libro, y cuando yo les pongo algo diferente en el examen Claro, como ustedes memorizaron esas respuestas que hicieron en el examen, les fue mal porque es diferente a las del libro.
+Claramente.
+ustedes qué es lo que tienen que hacer ustedes. Lo que tienen es que aprender a usar la fórmula. Si Supongamos que no sé,
+a mí me fue a mí. Me fue bien o regular usando las fórmulas, si
+pero en el examen me fue extremadamente bien, porque lo que hice fue
+con base en los talleres que había hecho aprender a cómo usar la fórmula. Me puse curioso a revisar. ¿en qué punto se usa la fórmula? ¿en qué ejercicios se tiene que usar la fórmula, etcétera? Entonces aprendí, no memoricé.
+Por eso es que cuando yo a ustedes les doy el examen y sacan 5, pues yo sé que ustedes aprendieron lo mismo. Pasa con el modelo. Yo a él le doy
+un porcentaje de datos para que se entrene Tómenlo como el taller y otro porcentaje de datos para que se valide tomenlo como el examen. Lo que más me interesa es que el modelo tenga una muy, buen, un muy buena métrica en la validación. Ustedes pueden
+pueden hacer lo todos los ejercicios del mundo, pero si en el examen no pasan
+pilas, repitan materia, listo, Lo mismo pasa con los modelos de machine learning
+Entonces el trainter split lo que hace es
+usar sí, usar datos, usar cierto porcentaje de datos de entrenamiento y cierto porcentaje de datos de de validación. Normalmente yo aquí lo coloco. Sí, normalmente. Son 80 por 100 de datos para entrenar y 20 por 100 de datos para probar listo.
+¿es eso o 30 o 70 por 100 de datos para entrenar y 30 por 100 de datos para probar siempre en esos rangos listo. No es normal que un modelo se entrene más allá de esos rangos o menos de esos rangos listo. Ahí
+puede quedar con el famoso under feeling que es los que le expliqué. Bueno lo del Feeling Sí,
+sobre pues que el modelo memoriza sí
+y el underning, si se si se recuerdan, es lo contrario, ustedes no hacen, no repasaron nada y obvio en el examen les va mal porque pues no repasaron nada. Sí, es raro que les vaya bien. Ese es el un definir también listo, entonces siempre como 80, 20 o 70, 30, ¿vale?
+Entonces, bueno, tengo ya para terminar. Entonces
+lo que les digo, tengo unos datos de casas en los que tengo metros cuadrados. Cuánto tiene de metros cuadrados, las habitaciones que tiene la casa y cuánto vale en miles, sí en miles de dólares. Supongamos
+entonces, claro, mi columna Target sí va a ser el precio. Miles y las columnas de las fiturs van a ser los metros cuadrados y las habitaciones.
+Entonces acá muchachos acá
+para los datos de entrenamiento y los datos de validación vamos a tener 4 variables nuevas. No se preocupen, esto es normal, o sea, no se vayan a memorizar toda la sintaxis, porque no les va a hacer falta. Tampoco. Sí, simplemente vamos a tener
+datos de entrenamiento de las Fitur, Si se está dando cuenta aquí. Este X estaba hablando datos de testeo también para
+para colocarlos en como en el examen, como en la validación y un jet de entrenamiento sí para que se entrene, pues la respuesta del taller y un jet de testeo, pues la respuesta del examen sí,
+eso lo hacemos con la función 30 split. Le damos pues, primero las fiturs. Sí, la la la variable X, que en este caso es una matriz.
+pero pues, bueno, es un dato curioso. No es más, simplemente háganla como una variable, y la columna y mi Target, la columna de precio en miles.
+el test size Sí, es
+aquí, yo le pongo 0 2, pero eso significa que es el 20 por 100 para probar sí. Y el 80 por 100 para entrenar Vale, por eso es el tes Ice
+y el random State es para que para que ustedes, en su Atasset, elijan datos aleatorios, listo y elijan datos al azar para entrenamiento y para testeo no que sea todo lineal, sí, sino al azar, que el modelo se enfrente al azar a las cosas vale que es mucho mejor
+y vamos a dejar hasta aquí?
+Vale, vamos a dejar hasta aquí
+preguntas, inquietudes rápido, Todo claro. Voy bien.
+María J. Carvajal
+María J. Carvajal
+29:16
+Pasas unos pasos. El enlace de las reglas de las dotaciones.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+29:23
+Sí, claro.
+María J. Carvajal
+María J. Carvajal
+29:24
+De la regresión. Ya ya te lo paso.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+29:27
+Está en el está en el lector comentador.
+Está en el creo que está en el en la
+en las presentaciones y si no, pues aquí está vale Leact, Bien, muchachos dudas, inquietudes, preguntas, todo claro.
+María J. Carvajal
+María J. Carvajal
+29:57
+La fecha del proyecto, más o menos. Cuándo sería la fecha entrega.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+30:02
+La fecha del proyecto. Ah, bueno, muy buena pregunta, muchachos. Yo el proyecto, ustedes saben cómo es más la metodología conmigo. Yo
+integrador 1, el proyecto integrador. Dos: ustedes van a coger su data, se y van a estar haciendo proyectos los.
+María J. Carvajal
+María J. Carvajal
+30:32
+No te estamos oliendo. Continuo.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+30:36
+Hola B muchacho. Me escuchan. Bien, ahí.
+María J. Carvajal
+María J. Carvajal
+30:39
+Ahora, Sí.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+30:40
+Perfecto. Muchachos les comentaba.
+En cuanto al proyecto, nosotros vamos a tener 2 sesiones de proyecto integrador, ¿cierto? Mi metodología es que ustedes no se lleven trabajo para la casa? Sí, o sea, porque pues trabajan y todo eso, y yo sé que no me van a rendir
+su data sed. Y en esa hora y media van a hacer conmigo o van a intentar terminar su proyecto listo
+obviamente, pues una semana después ya es mucho.
+pero mi recomendación, muchachos siempre se dejan coger el tiempo o se olvidan, y me mandan excusas, que la verdad son repailas.
+y esa no es la intención. Si yo les doy el espacio, se supone que es ustedes para que lo hagan.
+no para que pongan a hacer chácharo. Sí, entonces.
+máximo una semana después del proyecto integrador, 1 y 2, si no lo quieren hacer en clase. Si lo quieren hacer en clase, pues ya lo tienen listo. No hay problema.
+Pero pues yo le estoy dando el espacio para que no se lleve el trabajo para la casa
+bien claro. Hasta ahí alguna duda, inquietud, petición cada reclamo perfecto.
+Perfecto. Muchacho. Bien, hasta ahí.
+Bueno, bueno, alguna otra duda, inquietud, recomendación, algo todo, claro.
+Ohh: Todo claro, todo claro, todo claro.
+Bueno, todo, claro, muchachos, bien muchachos, entonces no es más que pasen buena noche, ¿sí?
+Y cualquier pregunta, pues ahí estoy pendiente del correo.
+Nos vemos si Dios quiere, y mañana, si mañana viernes nos vemos si Dios quiere, mañana, vale.
+yiceth mata lozano
+yiceth mata lozano
+33:03
+Buenas noches, profesor.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+Buenas noches, nos vemos muchachos que les vaya bien. Chao.

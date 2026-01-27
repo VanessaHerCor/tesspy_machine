@@ -1,0 +1,559 @@
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+Bien muchachos tenemos la falta. ¿alguien?
+Bueno, vayan respondiendo igual. El preguntar: ¿qué es un dato?
+Doy 2 minutitos, más vale
+bien muchachos. Yo creo que ya podemos continuar.
+Super Ah, otra cosa también me lo puede mandar por aquí por chat. Vale si se les complica la subida ya en el
+en el mentir metal.
+Bien, yo creo que podemos continuar de una vez. Ya.
+M. J. Me colocaron en K, P en el comentario. Me colocan por acá. Bueno, voy a darle ¿vale? Bien, súper súper la respuesta. Vamos a ver el primero con jeep
+es el registro tomado en algún punto del tiempo que determina el comportamiento de alguna variable que se pueda cuantificar ventas, temperaturas, cantidad de pacientes, etcétera.
+A ver superbién. Me encanta como el el es el significado estadístico del asunto.
+Bien, acá hay una parte muy importante, sí
+del que habla del que habla guido
+y es el registro. Sí, el registro tomaron algún tiempo que determina el comportamiento de alguna variable. Aquí hay una cosa que hace mucho sentido, y es que sabemos que un dato parte de una información, cierto de un registro que tenemos de algo.
+Sabemos que, como tal, el dato puede terminar, por ejemplo, ciertas cosas. Lo que decía guio, comportamiento alguna variable, como ventas, temperatura, cantidad de pacientes. Sí,
+digámoslo así.
+Le podemos entender que tiene algo de un sentido, ¿cierto? Tiene un sentido. La información, entonces.
+dice María, un acontecimiento del resultado de un proceso derivado de la interacción de 1 o varios elementos mediante el empleo de una escala que permite crear un criterio. Uff, Dios mío.
+muy técnico, pero bueno, súper un acontecimiento es resultado de un proceso
+Según datos del acontecimiento, el resultado de un proceso derivado de la intervención de un ovario.
+María J. Carvajal
+María J. Carvajal
+06:37
+En casa.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+06:38
+Sí.
+María J. Carvajal
+María J. Carvajal
+06:39
+Acortamiento de acotar.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+06:43
+Hay acotamiento, un acotamiento. ¡ay, perdón.
+yo, es que yo también puedo aplicar
+si no, pues no pasa nada, un acotamiento y resultado de un proceso sería otra perfecto. Aquí
+esta parte hay una parte importante con la que me quedo esa de de de lo que de la anotación que hiciste, y es el acotamiento del resultado de un proceso.
+empleo, una escala que permite crear un criterio también. ¿qué pasa?
+Un dato para nosotros? Lo que había dicho es, tiene un sentido. Es una información. Sí,
+y esa ese sentido puede ser el acotamiento. Sí, de ese resultado de un proceso permite crear cierto criterio, Sí, por lo menos con datos se toman decisiones, sí, las personas toman decisiones informadas a partir de los datos.
+¿sí? Y esto es importante aquí. Lo que tú dices María sobre el la escala que permite crear un criterio. Es verdad.
+ustedes por lo menos
+creería yo. Algunas decisiones son espontáneas, cierto, pero creería yo que una buena mayoría de las decisiones fuertes en nuestras vidas
+vienen tomadas a partir de un pensamiento a partir de unos datos cierto. Por ejemplo, un dato de qué pasará en el futuro. ¿qué podría ser ese dato? ¿qué puede ser
+un dato de cómo puede ser mi vida en 5 años, un dato de cómo está siendo ahora, sí replantearme eso. Y eso permite crear ese criterio.
+Y es importante. Eso dice dato, es la base de la información antes de ser interpretada.
+Aquí hay una cosa muy importante, que es el tema de la información
+y dice antes de ser interpretada. Y aquí voy a dar el tema de la definición del dato. Porque lo que hice dice es algo por el estilo. Y es que ¿qué pasa nosotros? Poseemos mucha información en el mundo, sí, muchísima.
+pero hay una gran diferencia entre una información y un dato.
+la información, por lo menos yo les puedo dar. No sé
+la información aquí. En ese momento les puedo dar la información del clima, por ejemplo, en Cali está lloviendo, sí, o por lo menos en en el sur de Cali está
+chispeando está nublado, etcétera, ¿cierto?
+Para ustedes, eso es una información Sí, para ustedes. Eso en ese momento es una información. Cuando se convierte realmente en un dato, por ejemplo, cuando ustedes quieren ir, por ejemplo, de un lugar a otro. Se necesitan movilizar y necesitan saber el clima para tomar la decisión.
+Por ejemplo, viene siendo ejemplo, si yo les doy a ustedes, yo les digo a ustedes un dato de.
+por ejemplo, de la da la Segunda Guerra Mundial fue entre el los países aliados y los países del eje. Sí, eso es una información.
+pero se convierte en un dato cuando para ustedes, por ejemplo, están haciendo un análisis de datos de lo que fue la Segunda Guerra Mundial, cosas como esa. Sí,
+entonces
+un dato, al fin y al cabo, cogiendo todo lo que me han dicho: un dato viene siendo una información con sentido, digámoslo. Así que un dato a ustedes les
+es una información que le sirve. Sí, no. Una información que está ahí, que está rodando. Hoy es el día 13 de enero de 2 026 No
+tiene que ser con un sentido. Sí, tiene que ser algo que les dé un sentido, esa información, sino esa es la fina línea entre lo que es la información y el dato. Ustedes no toman decisiones con información. Ustedes toman decisiones con datos.
+y eso es la importancia, y eso es lo importante de saber diferenciarlos entre muchas cosas.
+porque ustedes van a tener
+una un gran dilema aquí. Con todo el análisis de datos y con todo el análisis futuro. Y es qué dato, digámoslo así.
+¿qué dato me sirve para mi análisis y qué información tengo que no me sirve que está ahí, pero no la voy a usar. ¿sí? Y todo eso depende de lo que quieran. Hacer. Cada información es diferente. Una información puede volverse dato si ustedes se lo proponen, si ustedes así lo requieren.
+Si todo depende del contexto en el que ustedes se encuentren parados. Pero es importante tener esa diferencia muchachos para cuando el día que yo desee les diga, seleccionen las columnas que les son relevantes. Sí, porque ustedes van a tener muchísima información aquí, van a procesar a
+casi que 100 más de 100 000 filas, muchísimos columnas más de 15, hasta 20, 30. Yo he hecho proyectos de hasta proyectos de hasta que tienen
+70 80 columnas. Si ustedes deben saber diferenciar qué es un dato y qué es información que realmente les aporta a su análisis y que realmente los está,
+Digámoslo así, incomodando en ese caso.
+Sí, eso es importante para que lo tengan presente ahora en adelante. ¿vale? Y eso es un dato.
+preguntas. Hasta ahí, antes de entrar al a los roles, Todo claro.
+todo bonito.
+Todo va a canó
+súper bien muchachos.
+Entonces, ya pasando un poco con el tema de los datos. Sí,
+Bueno, esta es una imagen de lo que es un rol del machine learning Enginier, Sí, pero
+se bueno antes del pero
+yo, con mi metodología que ahorita, los estoy orientando. Es prácticamente que puedan ustedes entrar en todas las fases de lo que es el tema de lo que hace un macho, un learning engener.
+¿y qué es lo que hace un mes, Learning Jennier prácticamente todo
+sí va desde la definición del problema. Los requerimientos desde el cliente, ahí es la parte en decir, bueno, que necesita realmente el cliente
+hasta toda la parte de despliegue de monitoreo, de de empaquetamiento del modelo de Machine Lenin en caso de que se requiera, o por lo menos la parte de desarrollo, que es por lo menos
+Dash Boards, un poco de lo que somos: entrenamiento de modelos. Bueno, prácticamente yo. Lo que quiero aquí lograr con ustedes es que ustedes sean muy mixtos, que ustedes se puedan dedicar a lo que ustedes quieran lograr bien
+ya la primera parte. Si se dieron cuenta la exploratoria de análisis. Hicimos algo muy chiquito
+en introducción. Hicimos un pequeño proceso de Tl en introducción, Sí,
+y eso tiene que ver un poco con el Esp, con el análisis exploratorio de datos. Sin embargo, aquí lo vamos a orientar más que todo a los modelos de machine learning y, pues es muy diferente. Al fin y al cabo, sí, porque es muchísimo más profundo.
+pero ya tienen algo de experiencia y van a pasar por todo esto. Sí se los aseguro, menos monitoreo que el monitoreo. Sí, pues es dependiendo del estilo de cada quien como lo monitoree. Pero pues yo les voy a mostrar en caso tal de que tenga un ejemplo de cómo se monitorean estos estos modelos, vale.
+pero van hasta aquí hasta el despliegue del modelo.
+Bien.
+vamos a ver algunos formatos de datos. Un formato de datos es, digámoslo así, algo en lo que yo puedo representar una información.
+de manera en que un humano pueda leerlo. Sí, Por ejemplo, famosos formatos de datos, Está Jason ya ha trabajado con Jason.
+Ya trabajamos con un C. S B en el anterior. En las anteriores prácticas vimos un poco de lo que era ese análisis de datos con C. S. B. Al fin y al cabo.
+todos estos formatos de datos los queremos pasar a un formato muy general que se llama Data Frame Data Frame Es un formato de datos, como digámoslo así, el Excel. Pero de Python, y eso se usa con pandas listo en un formato que, digámoslo así, yo lo pueda leer, lo pueda transformar.
+lo pueda estudiar y que sea una forma amena para eso existe el Data Frame
+Bueno, por aquí también puse un parque que, aunque no es legible por humanos, porque es contenido binario, hace parte de los formatos de datos y, de hecho, se deforma. De hecho, es
+un formato de dato poderoso para velocidad y para almacenamiento, pues ya lo dice La palabra es contenido binario. Adicionalmente, está hecho en un formato columnar en el que bueno, yo les explicaré en su momento. Qué formato columnar? ¿qué es
+formato por codo por por fila? Sí, todo este tema. Bien.
+pero eso es prácticamente lo que queremos con los formatos de datos. Queremos volver los data frames para así transformarlos, visualizarlos, etcétera, etcétera, etcétera.
+Vale.
+Bueno, ya les expliqué un poquito de lo que era el data frame. Sí que hace parte de todo el ecosistema de pandas, pero pues
+yo creo que ustedes lo saben. Si no mini repaso bibliotecas para ciencia, datos, las más famosas pandas para todo el tema de manipulación, Análisis de datos.
+como yo lo pongo así. Si fuera un excel para Python, Sí, son muy sencillos de ver las columnas, perdón, las estructuras de datos, sí, gracias a que tiene, pues el data frame. Es muy sencillo de transformar los datos a través de pandas usando también combinado con lumbi? Bueno.
+pero esto es para manipulación, para visualización y análisis de datos. Es muy bueno pandas.
+Maplolip para visualización es muy bueno, ahorita, pues por lo menos tenemos la profundización de Matplolip que se llama Sea World, que también en su momento lo vamos a ver, pero pues prácticamente utiliza Matplolip por debajo.
+Sí, tenemos otras partes, como por lo menos Dash que Dash. También se usa mucho para el tema de Dashboards, pues de hecho de ahí viene la la librería, el nombre de la librería Ash.
+Y tenemos, pues, bueno, muchísimas más bibliotecas
+para ciencia de datos, pero estas son universales. Si ustedes quieren iniciar con cualquier cosa, deben iniciar con estas 3 bien, si por lo menos a que es que mi correlación no es tan fuerte en las variables, Pues, bueno, tienen el análisis de datos. Pueden hacer un Dashboard.
+pero por esos 3 son como el eje de todo lo que tienen que hacer en transformación en extracción.
+pues esos 3 son son como ese. ¿vale? Bueno, no comenté en un país, no un país más que todo para
+para cálculo o lo que es cálculo vectorial, sobre todo, es usado en un país, pero pues vienen básicamente la hace para la computación numérica. En Python se usa para las transformaciones algebraicas fuertes. Ustedes, por lo menos un modelo de Blending.
+un modelo de machine learning. Yo les expliqué que todo eso por detrás eran números, ¿cierto? Pero no les expliqué que todo eso por detrás es álgebra lineal y que, al fin y al cabo, necesita de ciertas transformaciones, por lo menos
+eso. Ustedes obviamente no lo ven conmigo porque, pues
+existen librerías que simplifican enormemente el proceso. Tienen por detrás esas transformaciones vectoriales y son las que al fin y al cabo se usan en las empresas. Sí, pero pues en la Academia, nosotros usamos un Pi para todo el tema de hacer los modelos de learning desde 0 con
+todo manual.
+pues obviamente no vamos a multiplicar matrices a lo loco a mano para colocarlas en Python. No, para eso Están en Python, que es como la calculadora, Vale.
+Es superbueno. De hecho, si ustedes descargan pandas, pues va a venir integrado con Lumbi y bueno, esa parte es es tener un país súper crítico para todo el tema del machine learning. Bien.
+Bien, preguntas. Hasta ahí
+ya vamos a ver un poco de lo que vamos a ver con los datos. Preguntas. Hasta ahí, todo claro
+manito arriba. Si hay preguntas o si quieren ahorrar el micrófono súper todo, claro, entonces bien, muchachos. Entonces
+vamos a la parte baja bacana, y es de donde vamos a sacar los datos. Yo les comenté, me me responden porfa si yo les hable algo de cable, les hablé de cable. Cuando hicimos el miniproyecto de Tele
+Perfecto. María dice que sí.
+Bueno, si les hablé que igual. Super bueno, el caso de modo resumido que gol es una plataforma donde pueden encontrar datos abiertos.
+pueden encontrar datos abiertos también, por lo menos de de lo que es el gobierno en datos abiertos, punto go punto com si también quieren datos. Aquí lo tienen.
+Pero bueno, ¿qué es lo que pasa con estos muchachos? Necesito que ustedes, desde ese momento, vayan averiguando un poco de lo que van a hacer sus datasets listo con los datos que van a trabajar, pues lo que es por lo menos este primer módulo que va a estar proyecto integrado. Necesito que tengan decidido eso.
+Les voy a dar unos minutos para que lo decidan y me lo manden aquí por comentario por el chat
+y pues yo poder verlo. Y todo eso tiene que cumplir ciertos requisitos. Ya les digo cuáles son. Pero pues si en estas páginas tienen cable, que es una muy buena sí. Pero pues los datarssets, muchos de los datarets de aquí son reales. O sea, no crean que eso, por ser
+queiball o americano, o algo por el estilo, Hay tantas, hay muchísimo datas de ficticio. No hay
+Tataset que si son reales, por lo menos fíjense acá y a models ver más de ir assets, Este es buenísimo. Es nuevo.
+No me lo vayan a robar esto. Voy a hacer para un análisis de datos listo, pero
+me parece re interesante eso.
+pero pues tienen una larga lista. También pueden hacer datos abiertos. El Gobierno no tiene tan buena madurez en el tema de datos abiertos, entonces va a ser un poco más costoso la limpieza, pero es posible con ayuda de la I A con la ayuda, pues, de mis asesorías
+es muy posible. Yo no sé. Yo creo que les conté la investigación que hice, que incluso fui a exponerlas a a la javeriana a un evento de de semilleros de investigación sobre vehículos eléctricos híbridos en el país. Y fue gracias a datos abiertos.
+Si quieren que les digamos de eso, pues es y eso vale. Entonces en ese momento, muchachos
+Váyanse a cable a datos abiertos. ¿y qué pasa?
+Tienen Tienen que cumplir ciertos requerimientos. Vale.
+primero, vamos a meter una taza, cualquiera
+tiene que ser más de 10 columnas y menos de 20 columnas. Listo en la ¿Dónde ven eso aquí? No se vayan a concentrar en el numerito de al lado. Concéntrese en este número de acá en el que está después del off listo. Ese es el total de columnas que tiene
+que tenga 10 columnas mínimo, 20 columnas máximo perfecto.
+Y
+sí, Y bueno, otra cosa. Ustedes también lo deben de saber si tiene por lo menos un I D, lo que sea Bueno, por lo menos acá sí,
+una una parte que se completó y todo el tema.
+Ustedes se van a ir acá. Bueno, no, eso. No. Yo lo veo en el chat que tengan de 10 a 20 columnas. Perfecto.
+La ata hackeada a Spotify, pero no tengo computador Python.
+Eso es eso. Hay datos. Acá.
+Yo yo hice Yo hice un estudio de de Ay Hágalo.
+Hágalo, María.
+María J. Carvajal
+María J. Carvajal
+24:01
+Comparto.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+24:02
+Voy a comparar mi idea sin mentirle.
+Vamos a ver si lo tengo. Por. Acá Hágalo para a ahí ahí le mando mi repositorio. Vamos a ver.
+Este
+es el 1 o el 3. Creo que es el 3. No, no es el 3 perdón es el de los el de los
+Este.
+María J. Carvajal
+María J. Carvajal
+24:28
+Es que hace unas semanas me entraron al servidor a
+a Spotify y toda la data, Toda la todos los.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+24:37
+Con el.
+María J. Carvajal
+María J. Carvajal
+24:37
+1 000 000 de canciones las liberaron eran como cienteras.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+24:42
+Uy carísimo de de Spotify
+Spotify Dataced. Aquí.
+Si quieres hacerle un un estudio. Es rebacanísimo, rebacanísimo, rebacanísimo, rebacanísimo
+Hacemos todo un análisis de datos con eso, un proceso de tele con esto? Bueno.
+que ahorre vaca, no que ahorré vaca. No rebacano real.
+pero había visto algo del hackeo hackeo Spotify.
+Dios mío, 86 000 000 de canciones, y en
+será que ahí está.
+María J. Carvajal
+María J. Carvajal
+25:39
+300 teras les bajaron.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+25:42
+Uy.
+María J. Carvajal
+María J. Carvajal
+25:45
+Aplausos.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+25:46
+Ahí debe estar para el Cali panchanguero.
+Dios! ¡santo 300 TB!
+Tres de enero. Sí, había escuchado algo.
+aunque bueno, he estado ocupado con el trabajo, pero he estado cu escuchando algo
+metadatos de más de 250 000 000 de pistas. Dios santo deben de estar cagados, cagaos cagados.
+Les cuento, vean. Les cuento que esta parte de la del de la ciberseguridad cada día está más terrible con con las nuevas.
+Con, entre más se vuelva una guía más inteligente, pues más se vuelven inteligentes las acciones en contra del hackeo sí en contra de la de pues, la de la ciberdelincuencia.
+pero se están volviendo aún más fuertes. Los Los hackeos
+horribles horribles no se alcanzan a imaginar enunciar el catálogo.
+Sí, no se alcanzan a imaginar, porque ustedes saben que para un hackeo
+no solo se necesita, O sea, ustedes, el código se los da Changpity se los da jemine, pero la creatividad es diferente
+y para creatividad Hay muchísimo para rato.
+Ustedes. Simplemente.
+Bueno, esto es con fines académicos, pero ustedes simplemente díganle la forma en la que quiere hackear a otra plataforma que nunca se le haya ocurrido a otra persona y que creen que no con las Con las técnicas normales. No se puede hacer que, créanme que se les puede ocurrir, pues pa para ejemplos tal spotify
+y usen la I A, Y verán
+y verán, porque pues, la ciberseguridad. Existen, sí, muchísimos casos, pero los humanos aprenden con base en el error.
+Es muy difícil que un humano con creatividad se pueda adelantar frente a un hackeo con creatividad?
+Bueno, fines educativos no dije nada.
+pero sí es súper súper bacano, ese tema, por cierto, si a alguien les interesa eso de la ciberseguridad. Hay un dato de superbacano que una compañera hizo en la investigación también Ciberatack.
+Hay P sí.
+Cyber Attack Cyber cyber y no hack
+Survis Packerwn: Ay, no. ¿dónde está? Será que lo quitaron.
+Machine hack Housing aquí.
+Bueno, X, ¡Ay! Eso es de Road Booz, justo. Tengo un viaje. Pronto
+me interesa, pero no, Eso no es nada, te parece.
+Sí, el caso es que sé que hay datasets bien bacarísimos de ataques ataques globales, pero de hacking global
+gloards Cybor.
+Este va carísimo si a alguien les interesa.
+Tiene el año el tipo de ataque donde fue la In, el tipo de industriales que fue afectada, número de afectados. El sur de ataque es reba carísimo. Si nadie lo agarra, yo lo agarro. Bueno, son tantas cosas, muchachos, les cuento que yo
+ando emocionadísimo, porque cada curso que hago es un dataset diferente. Y me encanta
+global, Sí, para para yo contarles historias.
+Bueno, ahí lo tengo caso, muchachos
+que tenemos para hoy. ¿no? Ya hicimos todo y mañana empezamos muchachos. Entonces, ¿qué vamos a hacer en estos en estos minutitos que nos quedan.
+vamos a explorar? Sí. ¿cuál va a ser su data set con el que van a hacer el proyecto del primer módulo si se dan cuenta los contenidos, el primer módulo va hasta aquí hasta el proyecto de ciencia, Datos listo
+hasta acá. Vale, entonces vas al módulo hasta ahí. Vale. Entonces decían
+cuál va a ser su data, sed. Y me lo envían por acá por chat. Vale, tienen Uy tienen harto tiempo. Tienen 15 min. Recuerden de 10 a 20 columnas.
+Vale, todo, claro.
+O sea, sabes, lo que tienen que hacer?
+Bueno.
+Mhm.
+Bueno, bueno.
+somos 4 personas.
+¿qué pasó con los demás?
+Yo me acuerdo que había más.
+Va a pausar para ver la lista a ver cuántos son ustedes
+actualizar resultados de asignaturas. Veamos procesamiento y ciencia de datos.
+Corte. Python. C: Cuatro.
+Vamos a ver ahí 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11.
+Y ustedes son 4, un tercio.
+un tercio en salud. Bueno, siempre a lo último desear tanto
+después de vacaciones. Se ol mejor dicho, se olvidan de de todo.
+Bueno, entonces pero lo tratas de vale, yo. Mientras.
+Ah, bueno y una vez aprovechen. Y si alguien quiere que haga un datación interesante que hayan visto, me lo pueden mandar.
+y yo lo tengo presente vale si no, Pues Yoli para hacer el proyecto integrador hundidos.
+Bueno.
+por cierto, mi correo ya no es Juan Ruiz. Parques orteí ya me dieron un correo corporativo. Señores, estamos avanzando en parques off
+Ya tenemos correo corporativo y ustedes
+me van a mandar mensajes por el corporativo lo va a cambiar de una vez eso a ver.
+Bueno, no puedo copiar el el usernate ya disqueríos en la dirección.
+decepcionado por Jorge son visto para volver a compartir.
+Bien.
+Juan Ruiz Parques Ortega súper y esto es más de 2 años, muchachos. Les cuento que si os permite.
+en enero, febrero, marzo, abril, junio.
+mayo, junio. Les cuento que en junio ellos permite, ya cumplen los 3 años de experiencia.
+Les cuento la historia ahí.
+Bueno, no, sí. Sí, sí, porque tengo año y medio, 2 años y medio. No, no, no, ni eso, porque entre entre parques off y lo que es la empresa
+me suman en marzo, abril, cumplo los 3 años de experiencia. Señores, ¿cómo pasa rápido el tiempo? No
+conectar el cargador Uy
+son
+qué ocurrió?
+Bien, Tiquini Bio M.
+Cha Gizet colocó su ataje. Vamos a ver el de Iset, abrir el navegador.
+Bueno, y esto no lo puedo abrir, o qué copiar Entonces.
+esto que vaya, vaya aquí. Lo tengo listo en pantalla, ¿Cierto? Listo.
+Paiti tiene 13 columnas perfecto. De qué es Uy, pero tiene un poco de petatiti. Ah, no solamente tiene un
+de qué es producción.
+Bacano, vaca. ¿no?
+Bacano. Acá no va canoa canoa cano adoption fistures por Pet.
+1 1 debe pagar por por adoptar.
+No te creo.
+Y 140 dólares Tío santo.
+Pero me imagino que eso es una tipo nación.
+Bueno, qué interesante! La historia que puede salir de aquí dice cuántos tiene filas.
+Dos 1 000, unas por 10 o 20 000 perfecto, Más o menos 20 000.
+Sí, Gise trabaja con ese. ¿vale?
+Estaba súper Vamos con Angie, con Angie, paola, Conozco a Andy, paola
+natural. Desastors Events.
+Buenísimo buenísimo ángel. Le diste gusto a mi a mi corazonada. Fíjate lo que dice mi
+en mi red en mi en mi Girl Juan Andrés Ruiz.
+y por qué no sigue?
+Vaya ingenier en training pasional rebacano.
+Me encanta Me encanta el tema. Vamos a revisarlo
+Bien, de 10 a 13 columnas perfecto. Vamos a ver cuántas muchos datos tienes
+más o menos unos 200 000 filas de informa. 200 000 chiatos, por así decirlo. Con esto elevel super
+supe. Uh, Este buenísimo, este buenísimo superbién.
+¿dónde está que me escribió súper súper año. Entonces trabaja con ese. Vale.
+¡Ah, por cierto, por cierto, por cierto, por cierto, se me olvidó si ustedes quieren trabajar con un dataset de su empresa. Si ustedes quieren trabajar con un Ip aquí, si ustedes quieren trabajar con un dataset, si de su empresa y que no haya problema, que no haya problema con la confidencialidad. Cualquier este tema de cosas
+puede hacerlo. No hay problema.
+El libre perfecto.
+Sigamos
+el que vaya a hacer con el con el natación, me avisa y nos lo muestra. Nos lo muestra un poco
+abrir con el navegador.
+Vamos a ver a ver a ver a ver a ver a ver a ver
+Brasil real Estate Day Resets uberaba Proprise Hood Okay
+Okay. ¿y por qué te pareció este este esta tarea interesante, María, inmobiliario y comportamientos inmobiliarios.
+María J. Carvajal
+María J. Carvajal
+39:10
+The Royal State.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+39:11
+Súper.
+María J. Carvajal
+María J. Carvajal
+39:13
+Sabes.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+39:15
+Me encantan.
+Hice. Yo hice un proyecto súper bacanísimo de la Airbnb. A
+no nos hicimos un momento T. I, c orshop testmaicos services
+con javascript que lo hice con Php y.
+María J. Carvajal
+María J. Carvajal
+39:40
+Que las muestras son 577 edad. 576.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+39:47
+No, Pero está bien. Está bien.
+Está bien porque. Bueno, mentira.
+porque, bueno, yo les pedí 10 columnas, y el aire se borra aquí. Y hay 9, un
+y sí a ver a ver a ver a ver.
+María J. Carvajal
+María J. Carvajal
+40:12
+Ya lo abrís. Son 576.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+40:16
+Pero es que mira que aquí hay otro.
+María J. Carvajal
+María J. Carvajal
+40:19
+Y hoy. Ot Bueno, sí, sí, también.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+40:22
+Que hay otros. Sí, ¿A qué otros? C, D, S. B.
+María J. Carvajal
+María J. Carvajal
+40:25
+Un poquito más grande.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+40:26
+Mhm.
+¿puedes hacerles un Enjoy.
+María J. Carvajal
+María J. Carvajal
+40:33
+Ya.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+40:34
+Juntarnos en 1 solo. Y ahí te dan las nuevas con la y ahí te dan las 10 columnas
+que De hecho, este tiene 9 porque elimina la I D. No práctica. Spoiler, práctica, se ya lo saben, pero bueno, no pasa nada. Vuélvalo a repasar, se elimina la columna del aire. Y posiblemente, o sea.
+lo más probable es que se se elimine la primera columna que salga es el aire. Entonces, si ven una columna del aire.
+descártenla y vean cuántas columnas tienen, vale.
+María J. Carvajal
+María J. Carvajal
+41:04
+Creyendo que es el mismo.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+41:08
+Es lo mismo.
+María J. Carvajal
+María J. Carvajal
+41:09
+Sí, No sé si ese tamaño de nuestra se adapte.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+41:15
+Mhm Joder, 536 más 536.
+No es lo mismo. Creo a ver aquí el más común de tipo es House.
+Aquí también Santa: María también.
+Bueno, se supone que a este aquí es donde se tiene que ver esto.
+El percentil, 50 265 percentil 50 del lote. 265, está repetido.
+Es el mismo atases del de arriba que el de abajo. Creo 405, sí. Desde que la haría en el percentil 25, 50, 35 en el máximo en el mismo sea igual, porque está repetido.
+pero a ti te gustaría solo inmobiliario o, pero bueno, no, Bueno, esa era la pregunta. Si.
+María J. Carvajal
+María J. Carvajal
+42:10
+Chismear. ¿qué más me encuentro.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+42:13
+Podría ser también lo que te digo de los Airbnbs. Si te interesa, de pronto
+te interesa más solo inmobiliario, solo solo casa, venta de casa.
+María J. Carvajal
+María J. Carvajal
+42:27
+Me interesa es como hacer algo
+algo nuevo, ya no más carros.
+Mhm.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+42:34
+¡ah, Okay, no para nada, pues ese el Airbnb es interesante. Yo encontré
+insights ahí que eran bastante bastante bastante interesantes este de Seattle.
+Creo que no mentira. No sé eso.
+Puse este o C, S.
+María J. Carvajal
+María J. Carvajal
+42:57
+Pues a ver si hay 1 global como para.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+43:00
+Este.
+pero este es solo en América.
+No no hay común. Es que para juntar 1 global, es bravo, el bravo.
+María J. Carvajal
+María J. Carvajal
+43:16
+Lo que haría revisar si por lo menos hay una forma de acortar Brasil.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+43:21
+Sí, igual. Ese está Ese está interesante. Si quieres sector inmobiliario de Brasil, es más carísimo, vemos.
+Estoy seguro de que ese no es el único Sao Paulo.
+Ese está bonito.
+El I D, El cóndor a ver, sí, 13 000 uy. Este está bonito mira el de Sao Paulo
+Uy, pero el 2 019 un poquito viejito, pues podría ser, pero algo algo más reciente.
+Hace 4 años de Brasil, 3 años, un año, los géneros.
+5 meses Financial Market, con ese financial Market
+s. I P. A es un más de acciones.
+Stocks, Brasil, Siris.
+Eso no les
+pues este Sao Paulo es interesante, a pesar de que sea el 2 019, Pero bueno, te lo dejo otro a tu criterio.
+Vale, te lo dejo a tu criterio.
+Ahí se ve cuentas.
+Y bueno, yo yo estaba por aquí y no me dijo nada.
+Entonces, bueno, ya Giselle y Angie tienen lo suyo falta entonces el de el de María.
+que vea un trico
+María te te doy 2 minuticos. Si en 2 minutitos no alcanzas a ver el datase, me lo envías por correo y yo ahí te.
+María J. Carvajal
+María J. Carvajal
+45:21
+Mira que la estoy buscando y no me
+con las palabras clave. No me salió.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+45:29
+Sí, No, no pasa nada. Tómate el tiempo, pues obviamente me lo mandas antes de que empecemos el el proyecto, cierto, pero
+recuerde mi correo a ruiz fárques oftey.
+Sí.
+Ja Ja Ruiz.
+Bueno.
+ahí se lo ahí se los dejo listo. Si tienen alguna duda. Alguna petición? Bueno, los datasets me lo pueden mandar ahí. ¿vale?
+Pero vale, María, Ta: Ta: Bien, todavía me lo mandas por ahí. Yo lo veo y te doy la respuesta por correo. ¿te parece o.
+María J. Carvajal
+María J. Carvajal
+46:13
+Sí, señor.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+46:15
+Vale. Perfecto. Está bien.
+Bueno, muchachos no es más.
+Yo creo que ya yo creo que ya nos ya es Bueno, no hay Catorce
+9 y Catorce ya no, no hay tanto por ese lado.
+Yo por aquí, Ando que María, por ahí activado la Cámara le copio a María.
+María J. Carvajal
+María J. Carvajal
+46:41
+Y me había dado cuenta.
+Se me prendió y ni me di cuenta.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+46:46
+Sí, Sí.
+María J. Carvajal
+María J. Carvajal
+46:47
+Crowson. Stone hacker.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+46:49
+El Spotify Spotify a jaqueo, hackeo y cámara el de los metadatos.
+Bueno, muchachos no es más, me alegra bastante que estén aquí la verdad después de las vacaciones, esas merecidas.
+pues ese mereció diciembre. Sí, no tuvieron vacaciones. De pronto se mereció diciembre
+y que estén de vuelta aquí aprendiendo. Me alegra mucho. La vamos a pasar súper bacano
+mañana. Yo no sé, mañana, ustedes le dijeron algo de mañana.
+yiceth mata lozano
+yiceth mata lozano
+47:27
+Mañana? ¿por qué tenemos programado.
+María J. Carvajal
+María J. Carvajal
+47:32
+No la programación.
+Trato de divertirnos.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+47:35
+Miren la programación y me cuentan por qué yo mañana no puedo dar las últimas 2 sesiones. Yo le dije al a Rodolfo, al coordinador.
+y él ya me dijo que ya había coordinado.
+yiceth mata lozano
+yiceth mata lozano
+47:47
+A las 6, 7.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+47:50
+A las 7 de 7 a 7 y 45, y luego una a o.
+yiceth mata lozano
+yiceth mata lozano
+47:54
+Sí después tenemos con el otro profesor.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+47:57
+Todo todo continuo con el otro. Profe.
+yiceth mata lozano
+yiceth mata lozano
+48:01
+No primero contigo al a las 7, 6 y 55.
+Después con el otro profesor.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+48:08
+Eso es con el otro profe de 7 y 45 a 8 y media. Sí.
+yiceth mata lozano
+yiceth mata lozano
+48:12
+De 8 y 25 en adelante.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+48:17
+A súper perfecto. Muchachos no pasa nada. Entonces, bueno, me alegra mucho. Y mañana nos vemos para mañana, ah, bueno, ojalá tengan el Dataret para mañana. Listo, porque mañana vamos a empezar con análisis de exploratorio de datos.
+entonces esa es buen momento para aplicar todo lo que ven de código, aplicarlo a su proyecto. Vale.
+bueno.
+María J. Carvajal
+María J. Carvajal
+48:43
+Que tengan buenas noches.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+48:45
+Bueno que tengan buenas noches muchachos que les vaya muy bien saludando. Nos vemos chao.
+yiceth mata lozano
+yiceth mata lozano
+48:51
+Luego.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+Luego.
