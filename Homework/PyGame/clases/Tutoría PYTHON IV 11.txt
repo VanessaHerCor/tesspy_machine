@@ -1,0 +1,527 @@
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+Hola, muchacha, muchachos. ¿cómo están? Me va Todo estén súper.
+yiceth mata lozano
+yiceth mata lozano
+00:29
+Hola, bien. Bien. Sí, señor.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:32
+A a una menor.
+¿qué tal están Todo Muy bien?
+yiceth mata lozano
+yiceth mata lozano
+00:36
+Bien, vamos. Bien.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:38
+Perfecto. Muchachos, muchachos. Me alegra bastante
+bueno. Demo una esperita de 2 minutitos a ver si desconecta a alguien más y no, pues vamos dándole sobre la marcha.
+¿por qué a ver por aquí?
+Ah, bueno, les cuento en la programación. Sí, en la programación. Ustedes tenían originalmente el día miércoles. No veían clase conmigo y el día jueves. Creo que solamente veían una sesión, Sí, pero esas programaciones cambiaron.
+pues solamente estén atentas a
+a lo que es la programación, pues de de Parque Souffy, por lo menos mañana, mañana, no tenía planeado reunirme con ustedes. Me voy a reunir también y el jueves también voy a reunir una partecita más. Entonces el jueves les va a aparecer un poquito raro, porque, pues voy a estar en la primera sesión y luego en la última sesión, vale.
+pero es porque necesitamos, igual
+que ustedes acaben rapidito, sí, con seguros, obviamente con lo de las sesiones originales, pero necesitamos que igual, utilicemos más el tiempito. Vale ahora.
+María J. Carvajal
+María J. Carvajal
+02:00
+Cuatro secciones el jueves.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+02:05
+No el jueves.
+yiceth mata lozano
+yiceth mata lozano
+02:07
+Ay, Sí, sí, tenemos 4 sesiones, por Dios.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+02:10
+Serio.
+yiceth mata lozano
+yiceth mata lozano
+02:11
+Claro.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+02:12
+No el jueves.
+Ay serio, No creo.
+yiceth mata lozano
+yiceth mata lozano
+02:16
+Sí, señor.
+María J. Carvajal
+María J. Carvajal
+02:19
+Lo que aparecía.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+02:19
+Las transmisiones. Eso es imposible.
+María J. Carvajal
+María J. Carvajal
+02:21
+Contrario.
+yiceth mata lozano
+yiceth mata lozano
+02:22
+A ver.
+María J. Carvajal
+María J. Carvajal
+02:23
+Es el calendario.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+02:24
+No te creo. Es así.
+yiceth mata lozano
+yiceth mata lozano
+02:25
+Posible en este mundo cruel.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+02:28
+Sí, no a ver a ver a ver a.
+María J. Carvajal
+María J. Carvajal
+02:30
+Y bestia.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+02:31
+Yo veo, no no les creo, no les creo nada.
+yiceth mata lozano
+yiceth mata lozano
+02:36
+Luego.
+Seis, 10 de la noche nos vamos a poner con chistes.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+02:42
+Desde las 7 y 10 a ver. No te creo. Hoy es 27 Hoy tengo una sola sesión hasta la de 45
+y mañana dice que tengo una sesión a las 8.
+Me imagino que esto es de
+esto es no a las 8 a las a las a las que no. El horario está mal.
+María J. Carvajal
+María J. Carvajal
+03:10
+Después lo tenemos como en un sánduche raro.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+03:14
+Está raro.
+María J. Carvajal
+María J. Carvajal
+03:15
+Triple.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+03:15
+No, no, Pero no, no se preocupen, 4 sesiones No, no van a tener. No van a tener 4 decisiones. No me preocupes vale a
+normalmente. Siempre son A mí me aparecen un montón también, Pero Pero no, no es así.
+No se preocupen que igual mañana ya me colocaron la programación mía. Mañana empiezo a las 7 y 45 con ustedes, sí,
+o sea, ven conmigo mañana a 7 y 45, y el jueves ven conmigo 7 y 15, o sea, yo empiezo yo, empiezo primero.
+empiezo Primero, yo, 7 y 15, o empieza el otro profe, luego 8, 8 y 45 uy. El horario está raro. Bueno, no pasa nada
+el jueves
+mañana. Ya van a ver que el horario, el horario está súper, pero pues se los digo por si les parece un poquito raro explosivo de la nada. ¿sí?
+Pero si necesito ese tema del tiempito, ¿Vale?
+Necesito ese tema del tiempito. Necesito que se gradúen pronto.
+yiceth mata lozano
+yiceth mata lozano
+04:19
+Nos dañaste los planes.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+04:21
+Les dañé los planes. Les dañé los planes, no honestamente muchachos. La verdad. Les voy a ser muy sincero. Yo mañana tenía clase. Pero necesito en serio que ustedes
+adelante en ese esta esta partidita de las materias que queden listo, de ser posible, que ya gradúen la semana la próxima semana.
+Bueno, aquí llegó Angie. Yo creo que si Angie
+bien y yo creo que ya podemos iniciar.
+Vale muchachos, pero igual no se preocupen que no van a haber 4 sesiones, No, no, no, no, nada de eso.
+eso, Pero pues, bueno, los planes cambiaron un poquito y mañana me van a ver
+y pasado mañana también me van a ver más, Entonces no pasa nada
+ahí. Le tiraba soporte. Pero, bueno.
+bueno, muchachos. Entonces vamos a iniciar. Vale, porque le vamos a dar.
+Yo creo que le vamos a dar un poquito, vale.
+Ya están viendo mi pantalla, ¿cierto? Pues
+están viendo por aquí mi pantalla y en bancaria.
+El día de hoy vamos a tener una mini práctica así porque igual pienso dedicarle a otras sesiones, claro está,
+al tema de yolo vale al tema de yolo, yo lo integrations. Yo tengo aquí el
+Yo tengo aquí el el modelo. No tengo aquí, tengo que voy a probar que salir y colocarme el el punto en
+activen, puede ser un pisto.
+Entonces vamos a ver yo lo vale. Vamos a ver yo lo vamos a ver un poquito de lo que tenemos, y ya les voy a pasar la y lo voy a pasar de una vez la carpeta del proyecto vale que hicimos que vamos a hacer, perdón, añadir yo, lo borrar
+es un poquito pesadita, pero no se preocupen, no se preocupen, Harr Ruiz.
+código Pai Gang. Aquí Aquí me pusieron el código de de Pay Game
+al junto al cub el juego de la culebra, el nokio
+perfecto. Excelente gisellet, modelos, código, indicaciones de clase, está aquí. Tengo tus sus sus claves, ves sus claves sus direcciones de correo.
+sus direcciones de cloro de correo no es listo acá
+y voy a mandarles el yo lo integration. Yo lo integration donde está esto.
+Yo no, Dios mío, No le puedo enviar eso. Que listo.
+Los archivos están grandes. Bueno, tengo que compartirlo con un drive.
+Pero no pasa nada. Yo no clase material de hoy peor.
+Permitir que todos sean editores y listo. Ahí está el rap. Eso es lo que hacemos. Vamos a hacer hoy. Y bueno, un poquito de la arquitectura de lo que tenemos acá. Vale.
+lo que nosotros queremos es, por lo menos, hacer detección de objetos, lo que les comentaba Una de las aplicaciones más fuertes de de la parte de aplicación con visión computacional es precisamente la parte de detección y segmentación de objetos. Vale
+en este caso, pues vamos a hacer detección de objetos, segmentación, la verdad requiere mucho más poder de cómputo. Eso 1 y 2 es mucho más complejo.
+pero pues es posible
+el caso es que, fíjense por acá esto va a ser muy bacano, porque resulta que yo traje una solución a un problema.
+Ustedes saben que, por lo menos, si ustedes van a hacer una un, se van a dedicar a este tema de la aplicación con visión computacional. No es que me van a entregar solamente el modelo. Yo hablo con las imágenes que tiene el DataCD y ya no
+lo que yo quiero que ustedes logren por sí solos es que ustedes puedan dar un objeto y que el modelo se entrene de nuevo, así como, por así decirlo.
+se entrene de nuevo para que detecte ese nuevo objeto. Listo, un nuevo objeto, muy diferente al Datacel Entonces.
+a ver un poquito por acá. Les cuento.
+Tuve una solución. Sí al problema.
+¿qué pasa con estas aplicacion con la aplicación con visión computacional. Ustedes saben
+que tienen que clasificar. Tienen que clasificar de forma. Digámoslo así manual entre comillas las imágenes con las que ustedes quieran entrenar el modelo, entonces
+hubo una una compañera de ustedes que me dijo, bueno, no este curso, si no de del anterior me dijo Profe es que, pues yo quiero hacer este el el modelo sí, el tema del modelo, pero
+pues la verdad está el tema de que no. No están las imágenes o las imágenes están, Pero pues 1 tiene que colocar Queda imágenes de entrenamiento que validación. Cuántas imágenes haya adicionalmente, tiene que colocar 1, digámoslo así como el la etiqueta. Sí que es ese objeto. Vale ¿Qué es ese objeto?
+Entonces?
+Esta parte, digámoslo así. Yo dije, no pasa nada, Entonces, digámoslo así, que cree una solución. Si cree una solución
+para todo el tema de de precisamente este esta parte de de, digámoslo así, hacerle un un scrapping a las imágenes de Google
+vale a las imágenes de Google. Entonces no le vayan a prestar mucha atención. Si no le vayan a prestar mucha atención a lo que es
+Download Custon Image no le vayan a colocar mucha atención a Dowload Ascend. No le vayan a colocar mucha atención a detector. Ah, no, perdón, detector, sí, que pena detector. ¿sí? Y el auto le no le coloque tampoco tanta atención, si
+porque el auto leybel el Download qu son imagen y el Download Assets.
+Prácticamente lo hice con ayuda de la I A, y es precisamente para etiquetado de datos.
+No lo recomiendo si no lo recomiendo, porque normalmente ustedes, cuando les digan, ay, hay que crear un modelo o algo por el estilo, ustedes obviamente no se van a poner a crear el mejor código para descargar imágenes de Google.
+Simplemente necesitan las imágenes. Necesitan que de pronto se etiqueten, obviamente bien que sí refieran que tengan una alguna referencia así
+para poder escrapearlas, como, por así decirlo, de Google, para poder descargarlas.
+entonces digámoslo Así que esta parte de esta solución no le pongan mucho mucha atención. Simplemente úsenla. Simplemente usenla
+¿Cómo la usan, pues ustedes le colocan aquí, Sí, por lo menos. Primero tienen que sí. Cuéntame María antes de iniciar.
+María J. Carvajal
+María J. Carvajal
+11:44
+Pregunta es esta amiga con el Scrapping? Cuántas cuánto fue el tamaño de la muestra, cuántas imágenes perdió.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+11:55
+En cuanto a imágenes, hay una ventaja, y es que ustedes, gracias al código que puede crear con la ayuda del I A.
+Y
+ustedes deciden cuántas imágenes quieren tener listo. Deciden cuántas imágenes quieren tener ejemplo. Miren acá la muestra que a mí me salió. Yo les dije al Man, creo que le dije.
+necesito 50 imágenes a ver por acá Yo le dije que necesitaba 50 imágenes. Le dije al dame 50 imágenes de caja de fusibles.
+Entonces el man llegó y me mostró esto a veces descacha esto, pues no es tanto? Bueno, no sé si una caja de pusible se vea así por dentro, pero no creo
+eso, pues es algo raro, sí, pero por ejemplo, hay otras más comunes. Sí, por ejemplo, la caja de fusibles de acá si la caja de fusibles por este lado poquito de todo. Sí, todo esto. Entonces yo le dije al código porque ustedes van a ver ahorita que yo que yo haga, digámoslo así, este
+esta esta descarga de imágenes, si van a ver que él me va a decir listo. Primero, ¿qué es lo que va a buscar.
+Segundo, cuando me diga qué es lo que va a buscar. Me va a decir listo cuánto es la cantidad de imágenes que usted requiere para para entrenamiento. Y cuanto a la cantidad de imágenes que usted requiere para validación.
+Aunque, bueno, mentira mentira, mentira, mentira. Él detecta la validación de forma automática, listo. O sea, si ustedes le dicen a él.
+necesito 50 imágenes, Sí, necesito 50 imágenes
+él de por sí de configuración. Déjeme yo lo pillo a ver auto, le ver por acá
+no el etiquetado. No, Esto data Imas Coco Data Set. Esto es un ejemplo. Este es el que me interesa. ¿sí?
+Trainer asset conjunt. Pedimos un poco por si falla. Miren por predeterminado. El código es una pregunta también importante. Por predeterminado. El código coloca
+imágenes de 80 por 100 para entrenamiento y 20 por 100 de validación. Si ustedes ven que de pronto el modelo no está funcionando en el entrenamiento, no está dando tampoco en la validación, pues ustedes
+dejen así, sí, Pero si ustedes ven que va sobrado, inclusive, quieren hacer un poquito más de precisión en validación, pues simplemente cambian este 0 8 de aquí y le ponen 0, ¿Siete? Vale.
+Pero digamos lo que aquí está predeterminado
+con que si ustedes le dan, le dicen a él. Dame 50 imágenes. Él va a coger de esas 50 imágenes y va a poner el 80 por 100 en la carpeta de entrenamiento? ¿sí? Y el otro 20 por 100 en la carpeta de validación. Vale.
+qué es eso?
+Eso? También es muy importante entenderlo, pero muestras lo que ustedes quieran. Sí, lo que ustedes quieran.
+O sea, le pueden pedir 50 40, 60, 100 lo que ustedes quieran, normalmente normalmente por temas de tiempo, si en el curso yo les digo que usen 50. Bueno, yo uso 50, sí, porque si uso más de 50
+no van a alcanzar a ver los resultados de de de la red neuronal, si es verdad, si es mentira lo que sucedió. No lo van a alcanzar a ver.
+entonces yo uso 50,
+pero normalmente me gustaría, por lo menos en mi caso, si hay más tiempo usar, por ejemplo, más arriba de 70 imágenes por cada clase. En este caso solamente ustedes ven una caja de fusibles y ya.
+Pero si hay muchas más clases, por ejemplo, una caja de fusibles, por ejemplo, un enchufe, pues de cada una de esas. Yo pondría más de 70 listo
+más de 70. Obviamente, depende de la calidad. Digámoslo de las fotos. Si, por ejemplo, mi modelo, ustedes ven que por lo menos va a recibir fusibles de una buena calidad. Sí, entre comillas. Pues no todos. A veces algunos descachan, sí, pero siguen teniendo como la misma
+la misma. Digámoslo así, entre comillas, la misma estética. ¿cierto? No es que por aquí yo le pida una caja de fusibles y me mande un bus o algo por el estilo, Sí, cosas como esas.
+Entonces todo depende también de cómo se comporte también el modelo en validación. Todo este tema vale
+claro. Hasta ahí.
+María J. Carvajal
+María J. Carvajal
+16:24
+Gracias.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+16:26
+Vale, María, Claro. Claro, hasta ahí el tema.
+Bueno, creo que está claro.
+Okay. Perfecto. Este Este código ya casi el Download Assets.
+Más que todo es para hacer un demo de lo que hace el código de Download Custome Image.
+Fíjense, por Acá vamos A: Vamos a probar. Vamos a probarlo.
+Python, C, R, C, Cuando a assets exactamente. Sí.
+Entonces él dice, mira, está descargando, buses, está descargando eso sí. Y él me dice en dónde lo guardó. Él lo guardó en Crc Data aquí arriba. Sí, En vez de data, C dice, data imágenes y videos.
+Entonces yo le dije al Man: Sí, Yo le dije al man que en este repositorio usara, descargara el bus si una imagen de bus? Punto. P. J. P, De frutas de un gato de personas, ya que está Zidane.
+No sé por qué aquí está un oso. Yo le yo le dije al man que me que me que me colocara un oso.
+Fíjense esto tan bacano. Fíjense eso tan bacano.
+Yo le dije al mom que quería descargar la foto, una foto de un gato si de validación y el mom. Me detecta como que esto es un gato. Ah, bueno, no perdón, la de la sala, lo de la sala. Yo le digo al Man que quiero descargar la validación si la imagen de la sala, pero él me coloca la imagen de un
+oso. Sí, cosas como esas. Puede suceder cuando ustedes hagan el scrapping Por eso siempre fíjense en los datos que ustedes tienen, si en su batace, si de pronto va vayan viendo de 3 en 3. Y si y si van viendo como como esa misma estructura, sí,
+el modelo puede estar bien entrenado, vale, pero todo depende de cómo les digo la calidad de lo que tengan de de de imágenes.
+Pero pues eso es un demo. En realidad, el código mayor para descargar imágenes es este download custom Image.
+lo vamos a hacer Custom Image.
+Si ustedes ven por acá, yo voy a ejecutar esto. Ah, no lo llamaba Request. Bueno, cosas importantes
+las librerías en este caso, vamos a usar. En este caso estamos usando Piplist: Sí.
+Orly Orly for Leaf, No, En este caso no hay que descargar nada por este lado, sí
+con orleaf y ya está y toca que descargar Pipp Install West.
+Bueno, pero request Riquest no es una librería integrada.
+No debería de estar fallándome. Esto. Eso es una librería integrada
+en por request o no. Me o me falla la memoria
+okay que descargar rico esto.
+¡qué raro? En mis tiempos me acordaba que me me recordaba que era ricos. Pero bueno, entonces lo que vamos a hacer es descargar de primeras la librería, Request, listo, requerimiento, descargar y
+Y pues vale eso.
+Luego, ¿qué otra librería hay que descargar este deduCEO Search. Vamos a ver si es que descargarla también. No creo.
+Sí, hay que descargarla. Ya la busco en estos momentos. Cómo se llama, Vi 2 cosas.
+Okay se llama así También hay que descargar Esta librería de acá vale esta librería capital duco research.
+y cual más hay que descargar. Hay que descargar que descargar Fast Core.
+Primero, va a descargar tus cosas, luego. Voy a descargar.
+Pascuar Pascoor pasco hot school. Es este
+de segundo. Vamos a descargar este a capital, instant fastwor
+Sí, hay que Descargar fastword exacto.
+Listo. Una vez ya hemos descargado esos. Ya debería de agarrar entonces. Fíjense Acá lo Acá en el asunto.
+Una vez ustedes ya hayan descargado las 3 librerías. Piensen en la terminal lo que les dice. ¿qué objetos quieres buscar por recomendación muchachos, yo les recomiendo que ustedes busquen el objeto en inglés: listo, busquen el objeto en inglés.
+Entonces yo, por lo menos, ¿qué les puedo decir? ¿qué puedo buscar Así interesante?
+¿qué imágenes podemos buscar así interesantes muchachos para que haga el scrapping a imágenes de de qué.
+María J. Carvajal
+María J. Carvajal
+21:57
+Figuras geométricas.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+21:59
+De figuras geométricas puede ser.
+María J. Carvajal
+María J. Carvajal
+22:01
+Ser abstractas y como más fáciles de procesar.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+22:04
+Exactamente eso es bueno.
+Figuras justo. Se me olvidó justo. Se me olvidó en inglés, como eran figuras, figur, cierto figuras geométricas, pero tiene otro nombre.
+Esta vaina. El traductor me está traduciendo en francés. Muchachos se pueden creer eso. No entiendo por qué
+María J. Carvajal
+María J. Carvajal
+22:27
+la lá.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+22:28
+Fulana. No sé por qué me está traduciendo en francés Este verraco, Geomettri Shaves se llama exacto.
+Entonces vamos a buscar eso? Geometry shapes! Listo. Entonces yo le digo a él, Quiero buscar geometría shapes.
+2 ahorita, buscamos perros, geometric shaves
+y aquí me va me va a decir
+¿cuánto quiero yo descargar de imágenes. En este caso, yo les recomiendo ustedes. Yo, en mi caso, voy a descargar 50, pero es precisamente porque, pues no puedo, no puedo. ¿no? De hecho, voy a poner 40, sí para que ustedes alcancen a ver el entrenamiento del modelo. Vale.
+pero yo les recomiendo a ustedes con paciencia más de 60 70. Si van a hacer un proyecto, Bueno, vale.
+que dice educo. Dox. Me dio un error. Ah, se me olvidó otra librería. Piense, Acá tienen que descargar esta pipping sal de de yes.
+vamos a descargarlo
+de nuevo.
+Tengo la traducción. No quiere decir que una
+acuérdense, que que coloquen las comillas, simple.
+Colóquen en las comillas simples. Quieres cuántas imágenes quieres, coloquémosle 40, le habíamos dicho listo.
+fíjense que él me está diciendo: él me va a ir descargando las 50 imágenes. Listo. Entonces vamos a esperar a que me las 50 las 40. Vamos a esperar a que él me me dé las las 40 imágenes y vamos a ver cómo va cambiando
+como va cambiando el datacen
+ojo muchachos pilas por ahí, no, porque ustedes no lo ven. Pero si ustedes no borran las imágenes de la carpeta que tienen, por ejemplo, de de entrenamiento, y todo esto, pues al final le van a quedar una carpetita como pesada.
+La La cosa buena, sí, no mentira. La cosa no. Esto es malo, ¿sí? Porque tienen que adaptar el lavers. No, vamos a ver el el el.
+el el eibel, sí, Ah, no, el Eibel el Eibel no pasa nada. No pasa nada. Al fin y al cabo, ustedes son ustedes son los de los del peso. Vale, ustedes dicen qué peso quieren Quieren tener
+tu tu tu tu tu. Tu. Tu tu dijo que estaba listo. Pero
+si ven que no me descargo las las 40.
+No me descargo las 40 porque el problema ahí fue que hay algunas imágenes que no se pueden descargar a través de un Scratch, ya sea porque están corruptas por temas de licencia, etcétera.
+¿cómo era acá excelente. Fíjense acá.
+Figuras geométricas. Son muchos, yo creo que hay. Miren esto.
+Geométricas. Fijen esto. Sí, triángulo, paralelo. Gramo que esto que esto que lo otro. Sí. Todo eso son figuras geométricas es muy abstracto, pero siguen que el recolecta cosas muy general.
+Ahí está los labels, los labels, los labels, es muy importante, los labels. Bueno, acá
+lo de los labels, vamos a ver por acá.
+Bueno, ¿qué tal las imágenes re interesante, ¿cierto?
+Reinteresantes, como ven, son figuras geométricas.
+O sea, no le estoy recochando el man descargó figuras geométricas. Listo.
+Entonces, ¿qué profe ¿Qué es que a mí me da pereza. Buscar no hay excusa. Ah, Bueno, fíjense esta vaina.
+Piense esta vuelta aquí falló.
+Puede fallar el modelo si lo importante es, digamoslo. Revisar de 3 en 3. Sí, el fallo es normal. Si se puede, obviamente, ustedes lo revisan 1 por 1, pero esto no no se hace en la realidad se va revisando de a poquitos y todo el tema, y dice: bueno, en la gran mayoría de casos aplica.
+Listo, aplican las figuras y es verdad, la gran mayoría. Por eso las aplican. Entonces, si yo tengo casos como dónde están el 5 o en el 6. Yo tengo casos como este, pues no pasa nada.
+Reza un refrán que no es lo mismo una ola negra que una.
+María J. Carvajal
+María J. Carvajal
+27:11
+El no.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+27:11
+Lo voy a decir.
+María J. Carvajal
+María J. Carvajal
+27:12
+Salió, salió la imagen, y él cogió. Vector ima.
+Consecuente con.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+27:21
+Exactamente.
+María J. Carvajal
+María J. Carvajal
+27:22
+Estaba buscando con las formas.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+27:24
+Exactamente.
+María J. Carvajal
+María J. Carvajal
+27:25
+Perfecto, entonces, pues el orden de la frase, pues da sentido.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+27:33
+Exactamente exactamente puede pasar eso.
+Ya se dieron cuenta también del tema de de del de la de la limita de la limitación
+vale vale de la limitación.
+pero pues ahí les dejo una parte automatizada. No van a tener problemas con que Ay Profe que no se me quedó. La imagen no está automatizado También esta parte. Vale. Ahora.
+uy, no, ustedes se imaginan a los a los de antes. Eso eso hay un y muchachos. Yo que les tuve que dar conceptos éticos con el con todo el tema de las herramientas de ya
+yo me acuerdo que yo Mccuy, esta. Estas 2 son iguales.
+Mira, bueno, interesante.
+Yo me acuerdo que
+que antes de todo esto, de todo lo que fuera la la ciudad generativa. Los agentes había personas que le pagaban al miserables por etiquetar todo esto. Todo esto, todo esto y más.
+Y eso hubo un tema ético. Hay un documental de W de D. W. Se lo recomiendo mucho.
+Pero pues, bueno, ya toda esa parte ya la gente no lo hace manual.
+Es precisamente modelos y código que pueda hacerlo por ustedes. Pero bueno.
+Autoleybelly Autoleybell y borra las que nos sirven. Antes de etiquetar. Bueno, antes de etiquetar las imágenes antes de etiquetar las imágenes
+a
+antes de etiquetar las imágenes, tenemos que hacer un chequeo. ¿sí? Y digamos, bueno, si por suerte yo digo, uf! Por suerte aquí. Tas.
+Encontré una imagen que nada que ver, pues voy eliminando listo. Voy eliminando elimino aquí esta así porque antes de la etiquetada, sí antes de etiquetar los datos, de decirle ve al modelo. Venga es que esto es que esto es una figura geométrica. Es que Esto es una figura geométrica. Y así sí, ponerle nombre.
+porque aquel modelo simplemente ve imágenes.
+Y él no entiende que es lo que ve si entonces yo le tengo que a él dar un texto, sí a él, dar un texto diciéndole venga esto. Estos Estos píxeles tienen de nombre. Ta.
+En este caso, Estos píxeles tienen de nombre, figuras geométricas o geometric shake Vale.
+Entonces, ¿qué es lo que vamos a hacer con la otra parte del código con el auto leybel punto Pay. Si vamos a correr el auto leybel punto, pay
+C. R. S. Autoleybel Pay Bueno, aquí hay que descargar. Aquí hay que descargar ultralitics
+Pip, install Ultra Lytics. Si descarga en esta librería.
+Vamos a ir descargando las librerías por acá.
+Bueno, yo les dejé yo. Sí, soy mucha pelota. Yo les dejé un rico herments.
+no, Pero es que habitualmente está muy básico. Está muy, muy, muy básico. No así vamos dándole ahí. Vale, descarguen esa pi piensan ultra Alitics
+mientras se descarga. Entonces, este código que se llama auto Label, Lo que hace es precisamente decirle al modelo venga la imagen, tal si de vector es tal.
+tiene nombre. Geometry Save. Entonces, ¿qué es lo que hace él? Si se está dando cuenta de que todas las imágenes dicen, después de de lo que 1 como 1 la buscó, dice: Train Cero, tren, 2, Trenin, 3, tren. Cuatro.
+Lo que hace él es eliminar esta partecita aquí del tren, y se queda con la parte de la izquierda, como fuse Bosch, Y cuando él me coloque sí cuando yo le ponga el a predecir. Él me va a decir, ah, esto es una fiw box A
+Vale, es súper sencillo etiquetar datos así listo es súper súper sencillo, porque simplemente es si ustedes ya saben qué es lo que van a buscar sí. En este caso yo busqué geometry shaves pues precisamente lo que, como va a ser etiquetado mis datos, es eso geometry shaves figuras geométricas.
+No hay que darle mucha vuelta a la cosa.
+Eso es lo que hace Autoleybell.
+Vamos a ver por Acá por Acá Mhm autolivel de conducirlo etiqueta según objeto.
+Bueno, otra cosa importante.
+En la parte del dataced. Si en la parte del datase yo les dejé a ustedes un archivo que se llama Data Yaml. Ese tipo de archivo ya lo tuvieron que haber visto con dock listo.
+No les voy a explicar mucho la estructura. Simplemente vean si ustedes tienen un objeto que van a predecir solo un objeto. Sí, pues le colocan aquí en names 0 y le colocan el nombre de como cuando yo lo les predice ese objeto. Si en tiempo real, cómo quieren que les aparezca.
+Entonces, en mi caso, yo, el primer objeto. El primer objeto va a ser
+geometry Shapes, Listo, No, perdón. El primer objeto va a ser lo primero. Fill Box. Entonces
+quiero que cuando mi modelo predice, me diga que es fiu Box, el segundo objeto va a ser geometrio.
+Listo. Acá donde dice: número de clases, Pues ustedes, en vez de darle 1, porque es la el número de clases que van a detectar en vez de darle 1, pues
+van a detectar. ¿van a colocar 2 listo
+porque pues son 2 2 objetos que ustedes van a detectar aparte
+y el Pad muy importante, el Pad. Este es mi Pad. Ustedes tienen que cambiarlo ustedes simplemente donde haya la carpeta raro. Ustedes colocan aquí,
+se van a la parte de datase. Se van a la parte de Atasset, y lo que hacen es copiar el Pad Simplemente le dan aquí a ustedes. Están viendo 1.
+Si le dan aquí a Copypack, y lo pegan acá, y punto. Se acaba el problema del resto todo bien.
+Y bueno, ya terminamos de descargar ultralitics. Ahora vamos a colocarlo ahora. Este imán.
+Ojalá no tengamos que E Perfect perfecto. Piense que acá. El manjar comienza etiquetado. Datos. El manja comienza etiquetado de datos sí.
+Dice que ultralitiks no está, cosa que me parece extraña.
+Pero bueno, no pasa nada. El Man aquí ya etiquetó,
+me encontró geometriz Shapes en geometry shapes.
+¿qué pasó con esto?
+Okay Fius box? Se detectó en
+Ya entendí.
+Ya entendí.
+Recuerdan cuando yo les dije a ustedes que colocaran
+que colocaran cuando iban a buscar, que colocaran estas cositas de acá Bueno, no las coloquen, no las coloquen colóquenlas en ellas
+me sale más rentable. Honestamente, honestamente, me sale más rentable
+eliminar todas las de shave. Sí, honestamente, porque
+va a eliminar va a eliminar todas las imágenes de geométricas, vale
+porque me sale más rentable, porque, pues
+tendría que cambiar el código. Y el código no funcionaría con fill box, etcétera.
+Pero bueno, no hay problema.
+40 G, 86, la eliminamos esto.
+Él lo él coloca los espacios automáticamente con línea. Así que no hay problema. Y
+bueno, le coloque ahí doble s, pero no para nada. Vamos a colocarle 30 para que se descargue rapidito Aquí
+¿vale?
+Pero, bueno.
+bueno, el caso es que mientras se descarga esto, si el auto etiquetado me hace eso, simplemente coloca la cosa que hay a la izquierda del train y le dice a yolo venga estos pixeles y este archivo corresponden a un ficie a un fuse box vale
+a un fiure box y listo. Muchachos
+con eso. Ya estarían. Primero para la próxima clase.
+Traigan por favor, imágenes con el archivo. Si jueguen jueguen con el archivo, ya saben cómo manejarlo
+en este caso. Fijense con el data Zet. Fíjense que por acá está colocando. ¡ay! No puede ser que me haya. Bueno, ustedes no le colocan esto. Vale, se me fue, Se me fue ahí eso. Pero, bueno.
+jueguen con el archivito. Traigan imágenes para la próxima clase, para hacer el sistema, para hacer el sistema de de aplicar con aplicación con visión computacional. Sí, con redes neuronales
+y listo, Es muy sencillo. Es muy sencillo, vale, es muy sencillo y le colocan el auto, label y él la etiqueta, y ya ya tienen todo listo para su modelo. Vale.
+¿Es eso alguna duda inquietud? Todo claro.
+Aún no hemos visto nada de redes neuronales. Vamos a ver la próxima clase.
+pero yo creo que eso estaría súper bien. No, no creo que hayan dudas. Todo es muy plano. Simplemente usen este código. Vean que esto se da esto y esto
+la próxima clase Sibere.
+yiceth mata lozano
+yiceth mata lozano
+37:28
+Cuántas imágenes descargaremos.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+37:31
+Col Descarguen unas Depende del proyecto si quieren notar resultados rápido. 30, si quieren algo más bacano que les tome unos tiempitos. Unas 70 80 Vale.
+María J. Carvajal
+María J. Carvajal
+37:51
+Gracias.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+37:53
+Bueno, muchachos. Muchas gracias. Pues ustedes sí, vanesa.
+Vanessa Hernandez
+Vanessa Hernandez
+37:57
+Disculpe. Profe, yo tengo una pregunta aparte.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+38:01
+Sí, Sí.
+Vanessa Hernandez
+Vanessa Hernandez
+38:01
+Pues yo necesitaba información de las clases de ayer
+y por alguna razón, la plataforma no tiene disponible las clases de ayer, pero no sé por qué. ¿sabes? De pronto que que pasó ahí.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+38:17
+Uy, no sé, vanesa. Yo te recomendaría que hables con lo que pasa es que sí sé que a adoptaron un plan piloto conmigo.
+Colocaron, hicieron unas automatizaciones con la programación.
+Entonces, como que están todo el tema de de la grabación y todo eso
+decirle si algo a soporte decirle que te dé acceso a las a la clase de ayer de las 7 o la clase de de las que vos consideres la de las 7 es la más larguita.
+Vanessa Hernandez
+Vanessa Hernandez
+38:49
+La.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+38:49
+De las 8 y media, pues es más, es más de de 7 y 45 a 8 y media. Esa clase es más cortica. Entonces.
+pues puedes pedir las 2. No pasa nada.
+Vanessa Hernandez
+Vanessa Hernandez
+38:58
+Pero, P: Pero perdón, entonces ya no se van a grabar más las clases.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+39:02
+No, sí.
+Vanessa Hernandez
+Vanessa Hernandez
+39:03
+Claro es que yo, pues yo entro un poquito tarde y otro perdía yo. Bueno, mañana me adelanto.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+39:07
+No, no.
+Vanessa Hernandez
+Vanessa Hernandez
+39:08
+Pero estoy en el trabajo, pero si no me aparece la clase disponible, nunca me voy a adelantar, y si nunca me lato, no me grado. Y si no me gradúo, me quedo pobre, entonces así no se puede.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+39:16
+No, No, no nada de eso, muchachos, No, no, Eso no. Eso es una falla, pero en realidad no no es que se vaya a dejar de grabar o o siquiera si se dejó de grabar, no la grabación está
+la grabación. Está. No pasa nada. Vos. Simplemente escribí a soporte decirle qué es eso que no encontrabas de pronto, ¿Sí
+que no encontraste pronto la grabación de tal horas a tal hora, Así, de 7 de 7, de a 7 a 7 y 45, y la de la otra de 7 y 45 a 8 y media que si profa de pronto la pueden buscar, Si todo este tema, porque dice que están haciendo ese piloto dice que están haciendo de piloto.
+pero no esas grabaciones no se perdieron y no significa que vayamos a dejar degrada.
+No pagan.
+Vanessa Hernandez
+Vanessa Hernandez
+40:00
+Gracias.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+40:02
+Bueno, bien, muchachos. Entonces ya le damos paso al otro profe
+y que les vaya súper que les vaya súper bien.
+gracias a todos por la atención. Nos vemos mañana. Si Dios permite.
+María J. Carvajal
+María J. Carvajal
+40:14
+Feliz noche.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+Bueno, gracias. Chao.

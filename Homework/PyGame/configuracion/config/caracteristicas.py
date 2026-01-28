@@ -17,16 +17,16 @@ import pygame
 # CONFIGURACIÓN DE VENTANA
 # ════════════════════════════════════════════════════════════════════════════
 
-# Resoluciones disponibles para el jugador
-RESOLUCIONES = [
-    (800, 600),      # HD pequeño
-    (1024, 768),     # HD medio
-    (1280, 720),     # HD 720p
-    (1920, 1080),    # Full HD 1080p
+
+# Lista ordenada para menús
+RESOLUCIONES_LISTA = [
+    ('grande', (800, 600)),
+    ('mediano', (600, 400)),
+    # ('pequeño', (400, 200))
 ]
 
 # Resolución por defecto al iniciar el juego
-RESOLUCION_DEFAULT = (400, 400)
+RESOLUCION_DEFAULT = (800, 600)
 ANCHO_DEFAULT, ALTO_DEFAULT = RESOLUCION_DEFAULT
 
 # FPS (Fotogramas por segundo)
@@ -34,8 +34,8 @@ ANCHO_DEFAULT, ALTO_DEFAULT = RESOLUCION_DEFAULT
 # 30 FPS = más ligero pero menos suave
 FPS = 60
 
-# Modos de ventana
-MODO_VENTANA = pygame.RESIZABLE      # Ventana redimensionable
+# Modos de ventana (SIN redimensionado)
+MODO_VENTANA = 0                     # Ventana fija (no redimensionable)
 MODO_PANTALLA_COMPLETA = pygame.FULLSCREEN  # Pantalla completa
 
 # ════════════════════════════════════════════════════════════════════════════
@@ -43,9 +43,9 @@ MODO_PANTALLA_COMPLETA = pygame.FULLSCREEN  # Pantalla completa
 # ════════════════════════════════════════════════════════════════════════════
 
 # Tamaños base (en píxeles) - Se ajustan según la resolución
-TAMAÑO_JUGADOR_BASE = 50        # Tamaño del cuadrado del jugador
-TAMAÑO_MONEDA_BASE = 25         # Tamaño de la moneda
-TAMAÑO_ENEMIGO_BASE = 35        # Tamaño del enemigo
+TAMAÑO_JUGADOR_BASE = 80        # Tamaño del cuadrado del jugador
+TAMAÑO_MONEDA_BASE = 50         # Tamaño de la moneda
+TAMAÑO_ENEMIGO_BASE = 90        # Tamaño del enemigo
 
 # Tamaños mínimos (para que no desaparezcan en pantallas pequeñas)
 TAMAÑO_JUGADOR_MIN = 20
@@ -57,10 +57,10 @@ TAMAÑO_ENEMIGO_MIN = 15
 # ════════════════════════════════════════════════════════════════════════════
 
 # Velocidad base del jugador (píxeles por fotograma)
-VELOCIDAD_JUGADOR_BASE = 5
+VELOCIDAD_JUGADOR_BASE = 8
 
 # Velocidad base del enemigo
-VELOCIDAD_ENEMIGO_BASE = 4
+VELOCIDAD_ENEMIGO_BASE = 6
 
 # Velocidades mínimas (para pantallas pequeñas)
 VELOCIDAD_JUGADOR_MIN = 2
@@ -78,7 +78,7 @@ TAMAÑO_FUENTE_TITULO = 72       # Título del juego en el menú
 TAMAÑO_FUENTE_SUBTITULO = 48    # Subtítulos e instrucciones
 TAMAÑO_FUENTE_NORMAL = 36       # Texto normal (score, etc.)
 TAMAÑO_FUENTE_BOTONES = 32      # Texto en botones
-TAMAÑO_FUENTE_PEQUEÑA = 24      # Texto pequeño (ayuda, créditos)
+# TAMAÑO_FUENTE_PEQUEÑA = 24      # Texto pequeño (ayuda, créditos)
 
 # ════════════════════════════════════════════════════════════════════════════
 # CONFIGURACIÓN DE BOTONES
@@ -91,8 +91,8 @@ ALTO_BOTON_GRANDE = 60
 ANCHO_BOTON_MEDIANO = 300       # Botones medianos
 ALTO_BOTON_MEDIANO = 50
 
-ANCHO_BOTON_PEQUEÑO = 150       # Botones pequeños (resoluciones)
-ALTO_BOTON_PEQUEÑO = 40
+# ANCHO_BOTON_PEQUEÑO = 150       # Botones pequeños (resoluciones)
+# ALTO_BOTON_PEQUEÑO = 40
 
 # Espaciado entre botones
 ESPACIADO_BOTONES = 20          # Píxeles entre botones
@@ -119,7 +119,8 @@ RUTA_MUSICA_FONDO = "configuracion/sounds/musica_fondo.mp3"
 
 def crear_ventana(resolucion=RESOLUCION_DEFAULT, pantalla_completa=False):
     """
-    Crea la ventana del juego con la configuración especificada
+    Crea la ventana del juego FIJA con la resolución especificada
+    (NO redimensionable por el usuario)
     
     Args:
         resolucion (tuple): (ancho, alto) de la ventana
@@ -253,22 +254,16 @@ def crear_objetos_adaptativos(pantalla):
     }
 
 # ════════════════════════════════════════════════════════════════════════════
-# FUNCIONES PARA ACTUALIZACIÓN DINÁMICA DE VENTANA
+# FUNCIONES PARA ACTUALIZACIÓN DINÁMICA (YA NO NECESARIAS CON VENTANAS FIJAS)  
 # ════════════════════════════════════════════════════════════════════════════
+
+# NOTA: Las siguientes funciones ya no son necesarias porque eliminamos
+# el redimensionado manual de ventanas. Ahora usamos 3 resoluciones fijas.
 
 def actualizar_fuentes_dinamicas(escala_actual, tamaño_titulo, tamaño_subtitulo, tamaño_normal):
     """
     Actualiza los tamaños de fuente según la escala actual
-    Esto hace que el texto también se adapte al tamaño de ventana
-    
-    Args:
-        escala_actual: Factor de escala basado en ancho de ventana
-        tamaño_titulo: Tamaño base de fuente para títulos
-        tamaño_subtitulo: Tamaño base de fuente para subtítulos  
-        tamaño_normal: Tamaño base de fuente normal
-    
-    Returns:
-        dict con las tres fuentes recreadas
+    (OBSOLETA: Solo para compatibilidad - ya no se usa redimensionado)
     """
     # Calcular nuevos tamaños basados en la escala
     tamaño_grande = max(int(tamaño_titulo * escala_actual), 24)
@@ -279,102 +274,23 @@ def actualizar_fuentes_dinamicas(escala_actual, tamaño_titulo, tamaño_subtitul
     return {
         'fuente_grande': pygame.font.Font(None, tamaño_grande),
         'fuente_mediana': pygame.font.Font(None, tamaño_mediana),
-        'fuente_pequeña': pygame.font.Font(None, tamaño_pequeña)
+        # 'fuente_pequeña': pygame.font.Font(None, tamaño_pequeña)
     }
 
 def actualizar_objetos_dinamicos(pantalla, ancho_anterior, alto_anterior, 
                                   objetos_actuales, velocidades_actuales):
     """
-    Actualiza objetos del juego manteniendo sus posiciones EXACTAS escaladas.
-    Si el enemigo estaba en la esquina superior derecha, seguirá ahí.
+    FUNCIÓN OBSOLETA: Ya no es necesaria con ventanas fijas
     
-    Args:
-        pantalla: Surface de pygame con el nuevo tamaño
-        ancho_anterior: Ancho de ventana antes del resize
-        alto_anterior: Alto de ventana antes del resize
-        objetos_actuales: dict con 'jugador', 'moneda', 'enemigo' actuales
-        velocidades_actuales: dict con 'velocidad_enemigo_x' y 'velocidad_enemigo_y'
+    Antes actualizaba objetos del juego manteniendo sus posiciones escaladas
+    cuando el usuario redimensionaba la ventana manualmente.
     
-    Returns:
-        dict con objetos actualizados y nuevas velocidades
+    Ahora usamos 3 resoluciones fijas, así que esta funcionalidad ya no se usa.
+    Se mantiene solo para compatibilidad.
     """
-    rect = pantalla.get_rect()
-    ancho_nuevo = rect.width
-    alto_nuevo = rect.height
-    
-    # Calcular factor de escala entre ventana anterior y nueva
-    escala_x = ancho_nuevo / max(ancho_anterior, 1)
-    escala_y = alto_nuevo / max(alto_anterior, 1)
-    
-    # Calcular nueva escala para tamaños
-    escala_actual = calcular_escala(ancho_nuevo)
-    
-    # Crear nuevos objetos con tamaños escalados
-    objetos_nuevos = crear_objetos_adaptativos(pantalla)
-    
-    jugador = objetos_actuales['jugador']
-    enemigo = objetos_actuales['enemigo']
-    moneda = objetos_actuales['moneda']
-    
-    # ═══════════════════════════════════════════════════════════════════
-    # MANTENER POSICIONES EXACTAS ESCALADAS (no mover a random)
-    # ═══════════════════════════════════════════════════════════════════
-    
-    # Calcular el centro de cada objeto (más preciso que esquinas)
-    jugador_centro_x = jugador.x + jugador.width / 2
-    jugador_centro_y = jugador.y + jugador.height / 2
-    
-    enemigo_centro_x = enemigo.x + enemigo.width / 2
-    enemigo_centro_y = enemigo.y + enemigo.height / 2
-    
-    moneda_centro_x = moneda.x + moneda.width / 2
-    moneda_centro_y = moneda.y + moneda.height / 2
-    
-    # Escalar las posiciones de los centros
-    jugador_nuevo_centro_x = jugador_centro_x * escala_x
-    jugador_nuevo_centro_y = jugador_centro_y * escala_y
-    
-    enemigo_nuevo_centro_x = enemigo_centro_x * escala_x
-    enemigo_nuevo_centro_y = enemigo_centro_y * escala_y
-    
-    moneda_nuevo_centro_x = moneda_centro_x * escala_x
-    moneda_nuevo_centro_y = moneda_centro_y * escala_y
-    
-    # Aplicar centros escalados a los nuevos objetos
-    objetos_nuevos['jugador'].centerx = int(jugador_nuevo_centro_x)
-    objetos_nuevos['jugador'].centery = int(jugador_nuevo_centro_y)
-    
-    objetos_nuevos['enemigo'].centerx = int(enemigo_nuevo_centro_x)
-    objetos_nuevos['enemigo'].centery = int(enemigo_nuevo_centro_y)
-    
-    objetos_nuevos['moneda'].centerx = int(moneda_nuevo_centro_x)
-    objetos_nuevos['moneda'].centery = int(moneda_nuevo_centro_y)
-    
-    # Asegurar que los objetos estén dentro de la pantalla
-    objetos_nuevos['jugador'].clamp_ip(rect)
-    objetos_nuevos['enemigo'].clamp_ip(rect)
-    objetos_nuevos['moneda'].clamp_ip(rect)
-    
-    # Escalar velocidades del enemigo también (para mantener su trayectoria)
-    vel_enemigo_x = velocidades_actuales['velocidad_enemigo_x']
-    vel_enemigo_y = velocidades_actuales['velocidad_enemigo_y']
-    
-    # Mantener la dirección pero escalar la magnitud
-    signo_x = 1 if vel_enemigo_x >= 0 else -1
-    signo_y = 1 if vel_enemigo_y >= 0 else -1
-    
-    velocidad_enemigo_nueva = objetos_nuevos['velocidad_enemigo']
-    
-    return {
-        'jugador': objetos_nuevos['jugador'],
-        'moneda': objetos_nuevos['moneda'],
-        'enemigo': objetos_nuevos['enemigo'],
-        'velocidad_jugador': objetos_nuevos['velocidad_jugador'],
-        'velocidad_enemigo': velocidad_enemigo_nueva,
-        'velocidad_enemigo_x': signo_x * velocidad_enemigo_nueva,
-        'velocidad_enemigo_y': signo_y * velocidad_enemigo_nueva,
-        'escala_actual': escala_actual
-    }
+    # Esta función ya no se usa con el nuevo sistema de resoluciones fijas
+    print("⚠️ Advertencia: actualizar_objetos_dinamicos es obsoleta con ventanas fijas")
+    return None
 
 # ════════════════════════════════════════════════════════════════════════════
 # CONFIGURACIÓN DE POSICIONES EN MENÚ
@@ -392,9 +308,9 @@ POS_TERCER_BOTON_Y = 0.70     # 70% desde arriba
 
 if __name__ == "__main__":
     print("🎮 Configuración del juego cargada:")
-    print(f"\n📐 Resoluciones disponibles:")
-    for res in RESOLUCIONES:
-        print(f"  - {res[0]}x{res[1]}")
+    print(f"\n📐 Resoluciones fijas disponibles:")
+    for nombre, resolucion in RESOLUCIONES_LISTA:
+        print(f"  - {nombre.capitalize()}: {resolucion[0]}x{resolucion[1]}")
     
     print(f"\n🎯 Tamaños base:")
     print(f"  Jugador: {TAMAÑO_JUGADOR_BASE}px")
