@@ -1,0 +1,20 @@
+# ============================================================
+# CONFIGURACIÓN DEL DATASET PARA YOLO
+# ============================================================
+# Este archivo le dice a YOLO dónde están tus datos
+# y qué objetos va a detectar
+
+# Ruta del dataset (usa ./ para ruta relativa)
+path: dataset
+
+# Número de imágenes de entrenamiento
+train: train/images
+# Número de imágenes de validación
+val: valid/images
+
+# CLASES: Qué objetos va a detectar el modelo
+# El número (0) es el ID de la clase
+# El nombre es cómo se llamará cuando prediga
+nc: 1  # Número de clases (en nuestro caso, solo 1: guitar)
+names:
+  0: guitar  # Clase 0 = guitar (cambiar si usas otro objeto)
