@@ -1,0 +1,882 @@
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+Hola, buenas noches, muchachos. ¿cómo están?
+¿qué tal están? Como va todo.
+Vanessa Hernandez
+Vanessa Hernandez
+00:25
+Buenas noches.
+María J. Carvajal
+María J. Carvajal
+00:27
+Hola.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:29
+Hola. Buenas noches.
+¿cómo va todo todo bien?
+María J. Carvajal
+María J. Carvajal
+00:33
+Te cuento que no pude ejecutar un plan macabro. Me quedé con mis ganas
+descargar gif de ranitas. D. N.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:43
+De cuál de ranitas.
+María J. Carvajal
+María J. Carvajal
+00:46
+René.
+Sí a las muchachas, sabe que yo molesto mucho con ellas en en el.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:51
+Mhm.
+María J. Carvajal
+María J. Carvajal
+00:52
+En el grupo.
+Técnicamente, no me funcionó. El piringulo.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:59
+Cuál el.
+María J. Carvajal
+María J. Carvajal
+01:00
+Lo.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+01:03
+El de Jolo, el de el que descarga imágenes o cuál.
+María J. Carvajal
+María J. Carvajal
+01:07
+Que ultralitiks. No sé por qué no lo quiere leer y no sé qué más. Luego, de pronto te lo espacio, te muestro, listo.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+01:18
+Sí, podemos saberlo una vez, antes de que conecten todos, veamos el problema.
+María J. Carvajal
+María J. Carvajal
+01:24
+Yo creo que ya estamos todas.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+01:26
+Mhm Mhm Mhm Vale, no para nada.
+Nos llama el problema y yo le damos solución.
+María J. Carvajal
+María J. Carvajal
+01:35
+De hecho, te pasó a vos también en en clase.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+01:42
+Te permito que listo en clase, que sea.
+María J. Carvajal
+María J. Carvajal
+01:46
+Que no lo lee.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+01:47
+Se llama ultralitics.
+María J. Carvajal
+María J. Carvajal
+01:48
+Islance No lo leía.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+01:51
+Mhm
+Mhm.
+María J. Carvajal
+María J. Carvajal
+02:02
+Mira, está esto.
+Y entonces lo que hice no me no me lee el
+a ver ahora. Falta que sí lo haga.
+No me lee el ultralitics, y entonces luego intenté también instalarlo fuera de entornos virtuales.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+02:27
+Y me salió este pipa.
+María J. Carvajal
+María J. Carvajal
+02:29
+Me lío Él de Pep.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+02:33
+Seis 68.
+María J. Carvajal
+María J. Carvajal
+02:34
+No sé que tenga líos en con Linux.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+02:39
+Me enteré.
+María J. Carvajal
+María J. Carvajal
+02:41
+Esto también te salió a voz cuando lo estabas publicando.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+02:45
+Sí, pero me te o sea, correrlo, porque a veces
+lo que pasa es que el Kernel, el
+sí, el el motor No, no se actualiza.
+María J. Carvajal
+María J. Carvajal
+02:57
+Entonces.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+02:58
+Puede ser cosas de otras librerías.
+Vamos a ver cómo lo llamamos no old traditics okay
+okay okay okay el lápiz. List: La vi arriba no estaba.
+María J. Carvajal
+María J. Carvajal
+03:16
+Sí, sí está.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+03:17
+Si esa.
+María J. Carvajal
+María J. Carvajal
+03:19
+A ver.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+03:19
+Ahí está el.
+María J. Carvajal
+María J. Carvajal
+03:20
+Tic tiene por acá. Estas 3.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+03:22
+Mhm: Entonces haz una cosa y estás en So yo. Lo Integration Dale Dale Python desde la terminal
+como si fuera a ejecutarlo desde la terminal Python.
+esos la carpeta C, R, S, o sea, pon, C, R. S. Y Dale a tabulador.
+María J. Carvajal
+María J. Carvajal
+03:45
+Ahí no me gusta nada.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+03:47
+La voladora, el que queda arriba del del del majus o qué
+y darle el tabulador para que te autocomplete él solo.
+no al de pone auto, y ya le das al tabulador.
+María J. Carvajal
+María J. Carvajal
+04:11
+Ahora está todo en urbana igual, pero ese auto la bay a ver. A
+Hola, rey.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+04:25
+No haré.
+No, no le falta el el.
+María J. Carvajal
+María J. Carvajal
+04:29
+Guión.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+04:31
+Mhm.
+María J. Carvajal
+María J. Carvajal
+04:35
+Perdón.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+04:38
+Te recomiendo que le coloques auto y le coloques. El tabulador.
+María J. Carvajal
+María J. Carvajal
+05:00
+Le paso tal lágrimas para eso es así.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+05:03
+No colocarle a U, T, O. Y ahí cuando ya tengas auto, le coloca el tabulador.
+María J. Carvajal
+María J. Carvajal
+05:09
+Mhm.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+05:11
+Pero ahí no tienes auto. María.
+María J. Carvajal
+María J. Carvajal
+05:14
+Ya está.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+05:16
+Claro.
+Colocación.
+María J. Carvajal
+María J. Carvajal
+05:22
+C, D.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+05:24
+C, R, S.
+María J. Carvajal
+María J. Carvajal
+05:26
+Un a.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+05:27
+Eso ahí coloca auto. Y ahí le da hasta volador.
+María J. Carvajal
+María J. Carvajal
+05:31
+Ahí va.
+Ya.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+05:35
+Correrlo a ver si es eso.
+María J. Carvajal
+María J. Carvajal
+05:42
+Okay, ya.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+05:44
+O qué.
+María J. Carvajal
+María J. Carvajal
+05:45
+Acuérdense que.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+05:47
+Hay un un tema por ahí, Sí.
+María J. Carvajal
+María J. Carvajal
+05:52
+Clic.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+05:53
+Mhm.
+María J. Carvajal
+María J. Carvajal
+05:55
+Me está diciendo que él requiere, como hacer trabajar.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+06:00
+Si no, no pasa nada, porque él
+sí que que él requiere actualizar ultralitics. Creo que te va a aparecer ahí, Pero pues no pasa nada.
+María J. Carvajal
+María J. Carvajal
+06:15
+Pues entendí ahorita. Era como que me pedía clonarlo.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+06:19
+Ultralitics T P. A clonarlo.
+María J. Carvajal
+María J. Carvajal
+06:21
+Ahorita. Vi, pues como un jeep. No sé qué,
+pero bueno, listo, no ya corrió. Bien.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+06:28
+Listo. Perfecto. Acuérdense una. Acuérdense algo muy importante que para que no les pase en el futuro, porque me pasó también
+muchas veces no le vayan a dar Play al código. Ahí es donde está el visual. Aparece, pues el cosito de Play, porque hay veces en que ese play, si dependiendo de la ruta en la que ustedes estén dependiendo, Si el carnet donde esté, hay.
+les va a ejecutar otro, digámoslo así, otro otra carpeta. Así, otro otro Kernel se le llama así como otro So Python, por así decirlo.
+y posiblemente ese código de Python no tenga la librería que ustedes. Pero en ese sí ese ese Kernel de Python no tiene de pronto la librería que ustedes recién instalaron. No es su culpa. No es culpa de Python simplemente por recomendación.
+Ejecuten Python no es del play, sino el de la terminal. Vale.
+acostúmbrense a eso. Y eso es súper fácil. Simplemente colocan las iniciales de de todo lo que quieren correr. Sí, Por ejemplo, Main punto. Pay está dentro de la carpeta Crs dentro de otra carpeta que yo lo que yo no sé qué simplemente colocan yolo tabulador. Crs tabulador, Main, tabulador y listo.
+pero acostúmbrense. Es un es un buen tip
+Bueno.
+Perfecto.
+Bien, a todos les funcionó. También tuvieron algunos problemas.
+yiceth mata lozano
+yiceth mata lozano
+08:16
+Sí, Pero las imágenes que trajo no me parecen buenas.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+08:22
+Mhm. ¿existe esa limitación? Sí, yo les había comentado.
+Obviamente, el Código no es infalible dependiendo de lo que ustedes requieran, pues, así mismo.
+pues, en la I, en la la en ese scrapping puede serlo o no serlo.
+en caso de que la Cia de que la haya les haya dado algo que nada que ver. Eliminen esas imágenes. ¿sí? Y prueben con otras, Vale, prueben con otras si es algo de sus proyectos. Yo ya terminé el juego
+uy pero vanesa e el por el correo porque ahorita, tenemos que avanzar con el con el
+con con visión con estas redes neuronales. Vale, bueno, siguiendo.
+sí, ese es el problema. El Código no es infalible. Obviamente.
+pues existe esa limitación de que ustedes lo vieron algunas imágenes o muchas les pueden salir mal. Entonces plantense por ahí. Uno: recolectar la información manual. ¿sí? O 2
+o 2, recolecten, si hagan, hagan, utilicen el código para hacer con otro objeto. Vale, Pueden buscar otro objeto.
+Unas son las 2 soluciones. Porque en realidad, pues el el etiquetado ahí se utiliza con con con scrapping les dejo de tarea a ver cómo se utiliza.
+porque te doy un spoiler, se utiliza con algo del título de la imagen. Tiene que ver mucho, entre otras cosas.
+Mhm.
+Pero pues todo depende de eso. Sí, todo depende de eso.
+Entonces, no se preocupen. Si les salió mal, la imagen. Tienen esas 2 opciones. O ponen imágenes manuales. Sí,
+pueden ser 30, 40. Lo que ustedes requieran copia y pegan en la carpeta o hacen otro objeto. Vale.
+Vale, Giselle.
+yiceth mata lozano
+yiceth mata lozano
+10:27
+Sí voy a ver si cambio más bien de
+de objeto. Y lo vuelvo a ejecutar.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+10:35
+Perfecto, lo perfeccionaré para buscar Memes Jajaja. Lo pueden perfeccionar.
+¿qué?
+Mhm.
+yiceth mata lozano
+yiceth mata lozano
+10:45
+Interesante.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+10:47
+Interesante que el el para buscarme.
+yiceth mata lozano
+yiceth mata lozano
+10:49
+No sé claro.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+10:51
+A sistema de clasificación, si el meme chistoso o no. Ahí les tengo el reto. Háganme un sistema de clasificación para ver si es chistoso, no el meme.
+Bueno, vamos a ver por acá.
+Bueno, bueno, bueno, muchachos.
+Entonces no voy a colocar eso en un segundito. Antes de presentar Uy tenían
+Dios mío, Tenía en toda la cara las credenciales del otro trabajo porque estaba configurando algo de de. M, C, P: S:
+Pero bueno, para nada listo Ahora, Sí, ahora. Sí, Ahora, Sí, Ahora, sí. Ahora, sí.
+Bueno, ahora sí, volvimos. Acá.
+Vamos a ir a lleva integrado shorts. Y vamos a ir a Train
+Customce model. Ok, Yo creo que bien y test, esto no es perfecto.
+Bien, muchachos a ver el código como tal. Si el main, el código como tal, ya el tema de.
+digámoslo por acá del tema de Esto es una tarea perdón del tema de de la red neuronal. Sí, el tema de la red neuronal. Es algo muy sencillo. Si los códigos ya de la red neuronal van a hacer este del train custom modern sí,
+este va a ser este el test Custom model y el main punto. Pay: sí,
+el train curso models, tal como lo dice el nombre, va a entrenar el modelo. ¿va a entrenar el modelo? Va a entrenarlo tanto con los archivos de
+va a entrenarlo tanto los con los archivos de de validación como de entrenamiento. ¿sí? Y el test Custom Model es simplemente como una parte en la que ustedes van a colocar su Cámara, ¿Van a colocar su cámara y van a detectar los objetos personalizados
+que ustedes le colocaron a la red neuronal listo. Todo esto al final de forma interactiva. Yo lo puse en el Main Pike listo en el mail Buy.
+Entonces, a modo el Dt detecta cámara en vivo. Bueno, ahí lo vamos a ir viendo listo, pero pues en realidad ustedes lo pueden colocar desde aquí desde tex Custom Model para que vean más o menos
+cómo funciona esto. Si entonces, pues todos estos de todos estos, lo más importante es el train y el test Vale.
+el training y el test
+ojo. Van a ver 1 que se llama Security, que era un taller que les iba a colocar a ustedes si quieren, pues pueden hacerlo comparar sus resultados, que es. Por ejemplo, yo tengo mi sistema de clasificación, cierto de clasificación de imágenes, Pues entonces.
+¿qué pasa si yo coloco, por ejemplo, un sistema sin requerimiento? Ustedes, por ejemplo, están en una empresa con un sistema de vigilancia, y ustedes, a través de las cámaras, No sé un empleado. Lo que les dije, no puede pasar de cierta área o no puede pasar de cierta área con un celular, por ejemplo. Si
+entonces, si está en ese cuadrado y tiene el objeto. El sistema lo marca y automáticamente le hace una captura y adicional de que lo marca y le hace una captura. Pone un conteo, pues de las veces que estuvo en el cuadro Vale, es súper bacano. Es
+es súper súper súperbacano. Se lo recomiendo que lo vean.
+Pero pues en realidad esto es más como de aplicación. Vale.
+este tema ya de interés. Empieza aquí. ¿vale? Empieza acá que es en el entrenamiento.
+Primero, el tema del entrenamiento de esta parte es mera sintaxis, Sí, si se están dando cuenta. Lo único que estamos haciendo aquí en toda esta parte es diciéndole
+al archivo que va a tener un dataset si obviamente ustedes tienen que colocar la ruta de su dataced. Creo que esta ruta le sirve por ser relativa, sí,
+pero pues todo depende si no les sirve, simplemente ustedes le colocan aquí su ruta absoluta y se acaba el problema. ¿vale?
+Y todas estas funciones, todas estas funciones, digámoslo así: el Wichi el Try. Todo esto.
+pues, lo que se quiere hacer, si lo que quieren hacer esto, al fin y al cabo, es extraer, sí, extraer todo el tema de imágenes y de label vale las etiquetas que yo les comenté a ustedes. Sí que las etiquetas se forman en un archivo Txt para
+entonces, Pues eso es lo que quiere. Queremos extraer la ruta de las imágenes y las etiquetas
+para ahora, sí que viene. Lo bueno vale, ahora sí que viene lo bueno para hacer una técnica de fin, un si de el modelo
+qué es fin. Tuning para que me entiendan Ahora, sí que esto lo vamos a ver después, cuál, con cuál es que etiquetamos las imágenes con el auto Label con el Autoleybell Punto Pay. Si ustedes ya tienen las imágenes descargadas del Download Cruz Sonymage, que su atasella, esté aquí,
+pero se fijan que es que ya tengan aquí las imágenes cuando ya tengan aquí las imágenes que quieren. Sí,
+en el training, el Balid simplemente le da. Le corren Autoleyve, el punto Pay, y él se encarga.
+Él se encarga de todo. Vale, es eso. Gisellet: Bueno.
+perfecto. Sigo entonces entonces van. Vamos a tener una técnica que se llama finking. El fin, entre otras cosas, es coger un modelo que ya previamente. Alguien ha hecho sí, que en este caso, por ejemplo, vamos a coger el modelo de Yolo que, si se dieron cuenta, fue entrenado con, no sé cuántas imágenes de cuantos objetos hay.
+Sí,
+hay muchos objetos en las imágenes que ellos pueden clasificar, y eso lo hacen? Bueno, es eso. Es increíble ese modelo.
+Por supuesto, si ustedes antes se tenía la desventaja de que si ustedes querían tener algo personalizado, pues debían de contar con un poder de cómputo para hacer su propio modelo.
+Pero ahora las técnicas de Fine tuning son tan bacanas. Sí que lo único que tienen que hacer es cargar el modelo y entrenarlo sobre ese modelo, o sea, hacer un nuevo entrenamiento de ese modelo. Sí, sólo con los datos que ustedes tengan
+listo. Eso, por supuesto, le va a ahorrar muchísimo los costos. Spoiler, muchas empresas, no por por decirlo casi todas las empresas
+y
+utilizan técnicas de fintuning, porque es que a ellos no les interesa tener un solo un L. L, M Por todo o les interesa hacer todo desde 0, No, no porque no van a tener la capacidad del cómputo y la si la tienen es carísimo.
+Lo mejor es coger ya modelos pre entrenados de las infraestructuras de open ai de jeminales de todo lo que tiene que ver con Google sin coger esas estructuras y esos modelos y entrenarlos con nuestros datos. Por supuesto, eso es baratísimo.
+Tiene la misma precisión. Y lo bueno es que el modelo es muy mixto. Si yo lo entreno, si yo entreno al modelo con las nuevas imágenes no significa que el modelo me va a alterar en algo La predicción de las imágenes con los que viene entrenado por default. No.
+lo único que va a hacer es predecirme otra nueva variable de resto. Todo normal. El modelo, como ha venido usando el resto. Entonces, por lo menos yo al modelo lo voy a entrenar. Sí, como creo que con caja de fusibles y con otra cosa no me acuerdo. Qué era
+caja de fusibles y los figuras geométricas
+sí, pero las figuras. Creo que la voy a eliminar, porque.
+pues sí la voy a eliminar, porque no quiero que se me demore tanto el entrenamiento.
+Pero, pues, va a entrenar con las cajas de fusibles va a entrenar con las cajas de fusibles.
+Entonces el modelo solo se va a entrenar con la caja de fusibles. Pero van a ver que cuando yo corra el modelo, si tengo un celular, el modelo va a reconocer que eso es un celular.
+o sea súper bacano, es súper bacano. Entonces, fíjense cómo se hace el tema del entrenamiento. Sí, si se dan cuenta acá yo lo si yolo, la librería, que es de la el módulo que es de ultralitik, sí de la librería in
+lo que pasa aquí con yology es que Jollo tiene por default también un método que se llama Train, que es el que precisamente nosotros utilizamos para hacer todo el tema del fin tuning vale
+para hacer todo el tema del entrenamiento. Entonces, si se dan cuenta, es muy, sencillo, muy, muy, muy sencillo. Piense por acá lo bacanísimo que es el fin.
+mientras ustedes hacían: ¿Qué tantas redes neuronales, qué tantas cosas neuronales que todo esto que neuronas que eso por aquí, que la capa, 1 que la capa, 2 aquí, simplemente ustedes le tienen que decir a Yolo: sí, ¿Dónde están sus datos.
+Sí, ¿Dónde están sus datos que eso? Pues ya lo tienen en la ruta relativa. Si aquí donde están sus datos. Están en datasas. Listo. Después, yo él va a extraer de ahí sí las imágenes y las etiquetas.
+Luego las épocas, yo les comenté cuando hacíamos entrenamiento de eve learning, que las épocas eran como esa clase de iteración. Sí en la que el modelo como que iba tomando más confianza, iba entrenando de nuevo. Iba validando de nuevo, sí.
+Y entre más épocas, el modelo iba iba a tener una tendencia mejor vale. Y a me a poner una. Iba a tener una tendencia mejor.
+Este imán de Img Sz, que es las resolución de las imágenes.
+Si yo quiero que mis todas mis imágenes tengan una resolución de 640. Sí, pues yo lo que va a hacer es esa parte, Digámoslo así como esta parte sucia sí. Y pues si hay una parte más arribita de 640, pues él la va a reducir la dimensión. Vale.
+está el Batch. Sí que el Batch lo que hace más que todo es, en caso de que tengamos poco poder de cómputo que vaya entregando los daticos de a poquito. Vale de a poquito para el modelo de a poco de a poco.
+O sea, por ejemplo, ustedes están de acuerdo? Si ustedes están de acuerdo, por ejemplo, para explicar el Batch, ustedes están de acuerdo de que nosotros, los humanos, imagínense que vamos a ir a un trasteo
+si yo a ustedes les doy
+si a usted les doy del tirón una lavadora, una nevera y un horno.
+estoy seguro de que ustedes, obviamente se van a caer, obviamente sí, pero existe la posibilidad de que si yo le doy primero, tal vez si no se si yo les doy primero, tal vez una lavadora. Luego van a la lavadora, vuelven a subir
+bajen otra vez, pero esta vez con la nevera. Si existe más posibilidades de que ustedes para ustedes sea menos traumático. Y obviamente posible hacer el entrenamiento.
+Vale, eso es un Badge, ir pasando primero estos 1 000 estas 10 imágenes, luego estas otras 10 y así sucesivamente para no sobresaturar. La memoria
+vale
+cuanto al proyecto, a cómo se va a llamar. ¿cómo se va a llamar donde vamos a alojar nuestro proyecto? Sí,
+porque pues esto, al final también tiene tiene una partecita bien bacana, que es que si ustedes no está dónde está esta parte, bueno, ahorita. Lo van a ver
+si ustedes guardan su modelo, Sí, tienen la posibilidad en esta parte de colocar proyectos y guardar el modelo ya hecho para hacer un despliegue para hacer un cualquier cosa que se les ocurra hacer. Vale.
+pues aquí se pone la la variable Project nombre, pues le ponen cualquier cosa. En realidad esto no importa casi
+el Device. Si ustedes tienen tarjeta gráfica mejor que, por ejemplo, su Ram y su disco sí, su disco sí. Su perdón, su disco duro, no su Rami y su procesador colocan G, p. U Si, o auto
+si ustedes tienen una mejor Cpu y una mejor. Ram: coloca Cpu en mi caso, pues yo no tengo tan buena tarjeta gráfica. Entonces coloco nomás Cpu: porque pues tengo muchísimo mejor procesador vale y muchísima mejor R A. M, Y le digo, si existe, si si existe
+el modelo para que en caso tal no se me vaya a ahorrar por error, etcétera. Simplemente saltec. Ese entrenamiento. Obviamente esto en producción. Sí, cuando ustedes hagan en producción un modelo, el modelo C, de reentrenar en la medida de lo posible cierto A,
+pues eso lo elimina. Pero pues en este caso, como estamos viendo aquí, pues no hace falta, vale.
+Y si se dan cuenta, no se tienen que preocupar de redes neuronales de esto, y lo otro es súper sencillo.
+Es súper sencillo.
+Es súper súper súper intuitivo y sencillo.
+Entonces vamos a probarlo.
+posiblemente posiblemente posiblemente con las figuras geométricas si por el tema de nombre, porque tengo esa verraca tildeai, Si, y se me generó el label con esas tildes, también vale existe la posibilidad de que el sistema, digámoslo así, no me reconozca
+estas figuras geométricas. Listo. No me reconozcan estas figuras geométricas.
+Entonces la voy a ahorrar listo. La voy a ahorrar
+para que tampoco es que interfiera mucho con el entrenamiento, porque el entrenamiento de por sí es algo pesadito. Vale.
+vuélvalo a generar.
+Lo vuelvo a generar.
+Bueno, lo va a volver a generar, pero pues
+tampoco es que me quede muy preciso porque la verdad
+Acá no lo van a hacer, ¿no? Primero lo tengo que borrar, sí o sí, listo. Primero, lo tengo que borrar, sí o sí, porque Pues aquí me quedan las imágenes revueltas, las sucias con las limpias. Entonces no.
+si lo va a volver a generar, pero va a volver, ¿Va a volver a generar poquitas, va a volver a generar poquitas, va a volver a generar si no es 30, 20. Y creo que me voy a ir por 20
+C. D. Yo la integración por acá me tengo que colocarme el el Paint.
+Vamos a colocarme el ven aquí.
+Scripts Active, Psegun C. D. Ahora, sí,
+vamos a colocar por Acá vamos a colocar por acá 0, ese uy no. Eso ya es de trabajo
+a mano. Entonces, Byton.
+Pero ese A, bueno, me toca aquí también eliminar esta esta vuelta.
+Entonces hay que también eliminar los las los tx test con los labels.
+Ahora, sí.
+Ahora sí, leído el también me tengo que eliminar las de la de validación.
+Y en
+visto las delegación ya son eliminadas y le sacan.
+Tengo que eliminar aquí también.
+Cristo: geometrías.
+Bueno, ahora sí. Entonces voy a colocar
+el sord download assets no sino custom dimash Quiero geometric shapes
+geometry Save se llama Geometry Shapes. Creo que le llamaba listo. 20 esas dice Duke Doc no está
+red Limit.
+Como que Ricky Limit no S: No me digan que esto malo y le metieron. Le metieron.
+¿no será, No lo creo.
+Esto amanecerá que le metieron.
+Le metieron 30.
+Mhm. Qué raro, Pero bueno, se encontraron 40 enlaces iniciando descargas de 30.
+Entonces, mientras se me descarga muchachos.
+alguna duda, pregunta inquietud, todo claro
+de la parte de entrenamiento no es nada traumático. No es nada traumático, supersencillísimo.
+yiceth mata lozano
+yiceth mata lozano
+28:32
+Sí, señor, es que me perdí un poquito qué pena contigo? Profe.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+28:37
+Sí.
+yiceth mata lozano
+yiceth mata lozano
+28:38
+Qué es lo que nosotros? ¿cuál es el objeto final de de de esto? Entrenarlo para.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+28:45
+Para clasificación de objetos.
+yiceth mata lozano
+yiceth mata lozano
+28:48
+O sea, le subimos varias imágenes y que me fue la identifique que esos efectos, digamos en otras imágenes, cierto.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+28:57
+Qué es ese efecto.
+yiceth mata lozano
+yiceth mata lozano
+28:59
+Siempre a.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+29:01
+Ah, el objeto. ¿qué es eso? ¿qué es ese objeto? Sí, Sí, sí, exacto. O sea que yo le coloque, por ejemplo, ahí no sé un
+una caja de fusibles y que él me reconozca que eso es una caja de fusibles. Y si yo le coloco a él una billetera, pues él no está entrenado con billeteras, ¿sí? Entonces que no me diga que eso es una caja de fusibles o que es un celular, pues ¿por qué no lo es?
+yiceth mata lozano
+yiceth mata lozano
+29:24
+Mhm.
+Entonces en eso funcionarían mis imágenes, pero es que utilicé fue banderas, pero me salen muchas banderas de Estados Unidos.
+Yo quería que clasificara de pronto, ¿de qué ciudades perdón, qué país.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+29:41
+Esa esa buena esa buena por el problema. Ahí sería el tema de las imágenes.
+yiceth mata lozano
+yiceth mata lozano
+29:47
+Mhm.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+29:47
+Pero se podría hacer, por ejemplo, un poquito más local, por ejemplo, las las banderas de los países de Latinoamérica.
+por ejemplo.
+yiceth mata lozano
+yiceth mata lozano
+29:55
+Y eso se puede colocar con 3 flags.
+no l flats latino, no Latinoamérica, Como se dice en inglés.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+30:03
+Así. Creo que es Latinoamérica.
+yiceth mata lozano
+yiceth mata lozano
+30:06
+Tal cual. Pues.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+30:08
+Yo creo.
+yiceth mata lozano
+yiceth mata lozano
+30:09
+Yo creo que ya podemos seguir ¿cierto? Ya se descargó.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+30:12
+Listo. Sí, ya podemos ir listo, entonces no, Yo creo que es muy bueno. Yo creo que es muy bueno. Yo creo que le que le
+que si le pones buen empeño a eso, nomás con las de Latinoamérica, que a un proyecto bien Bacano.
+Pero, bueno, vamos a ver, bueno, ya tengo las imágenes. Vamos a ver, vamos a verificar rapidito.
+¿sí? Y sí, visto ahora el Auto Leybel.
+el auto leíbel le me toca darle por ahí al Autoley bell sistema. ¿será que me sobrescribe?
+Bueno, no me sobrescribe no me sobreescribe. No me sobreescribe. Eso es lo bueno. Eso es lo bueno.
+Excelente, no me sobrescribe, dice fatal, fatal. No se encontró, imagínese Yo metí Shaves Train
+este verraco no hace listo, se quedaron 15 etiquetas para validación a este verraco. El autoleyvel no
+el autoleibel. No, el auto leybel no me reconoce eso.
+¿no? Pero es que esto no.
+No. Aquí no convertir eléctrica. Outlet o eléctrica Al Outlet? No, no, Esto no.
+Esto no. Esto no debería de estar. Acá
+No me debería estar aquí. Paz
+a nuestro asociado con un valor.
+No me no me jodas que que que está limitado también a a que yo le coloque ahí. Eso
+lo tengo que buscar con, bueno, no me importa.
+lo va a buscar de nuevo con geometric shapes.
+Háganlo, Háganlo pegadito con con la navaja, 30
+que lo demás no está ahí.
+Pero bueno.
+yo creo que es entrenamiento. Ustedes tienen ahorita una sesión o no.
+María J. Carvajal
+María J. Carvajal
+32:46
+No.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+32:48
+Okay. Me las voy a robar un unos minutos más para entrenamiento y para validación, rapidito.
+María J. Carvajal
+María J. Carvajal
+32:53
+Entonces.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+32:55
+Qué cosa?
+María J. Carvajal
+María J. Carvajal
+32:57
+Entonces, ¿para qué preguntas.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+32:59
+No es que pregunté por si de pronto me paga lo mismo que el profesor Julián, que de la que es de anda ahí inspirado. Y el harapo.
+María J. Carvajal
+María J. Carvajal
+33:06
+Me ali.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+33:07
+Sí.
+yiceth mata lozano
+yiceth mata lozano
+33:08
+Siempre y cuando Vanessa muestre el juego.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+33:11
+No Si el juego, si el juego.
+María J. Carvajal
+María J. Carvajal
+33:14
+Lo muestre y sea feliz.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+33:17
+Vamos a ver, vamos a ver listo, rotación. Es Alemania manualmente y vota las que no sirven. Vamos a ver
+validación.
+Sí, esta humanidad? Sí, le voy a dar ahorita la autoleibel. Yo creo que al Autoleibel ya
+ya no me sirve. Ahí viene
+Fiure, Box, o qué o qué o K Fiure Box?
+Mhm.
+este verraco, este verraco Guay, estar listo rápido con coppilot
+Voy a editar eso rápido con Copilot.
+Voy a editar esto rápido con coppilot, porque este verraco sí.
+Si Joder, con este tema del
+Ay, Sí, Sí.
+Is Smash.
+Al equipo Replays
+le quitó el replay. Ok. Vamos a ver
+a ver si le quito el replays que pasa.
+ahora la cosa cambió.
+Me faltaba era la el replay.
+Pero sigue sin aparecer este verraco. Hombre: Peel Box Confis Box.
+Este ra costar, raro.
+yo lo similar. Modelo Círculo. Círculo. No bodas.
+Ya entendí esta vuelta.
+Ya entendí esta vuelta. Ya entendí esta vuelta. Ya entendí esta vuelta.
+Sí.
+Mhm Uy, No muchachos.
+¿quién fue el que me propuso, quién fue el que me propuso el el las figuras geométricas.
+María J. Carvajal
+María J. Carvajal
+36:21
+Yo.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+36:22
+Menos un punto.
+María J. Carvajal
+María J. Carvajal
+36:24
+Sí antes de.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+36:26
+Es que tengo que.
+María J. Carvajal
+María J. Carvajal
+36:27
+Pensando.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+36:28
+El Cholo, el el auto, ley bel lo que hace es utilizar por debajo. Yo lo cierto, claro: yo no me acordaba
+y las figuras geométricas como que yo los estallan.
+Y yo no entiende figuras geométricas, si es que 1 no le dice, no venga es que esto es un triángulo. Es que esto es un cuadrado. Es que esto es un círculo.
+Es.
+María J. Carvajal
+María J. Carvajal
+36:50
+Que hacer una adicción.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+36:52
+Sí.
+María J. Carvajal
+María J. Carvajal
+36:53
+Para entrenar y decirle: no sé que los triángulos son
+es con 3 líneas, y es de no sé qué así.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+37:03
+Tocar exacto.
+Exacto. Bueno, ya sabemos, la limitación de de del Autoleyver Okay.
+María J. Carvajal
+María J. Carvajal
+37:11
+Sin defenderme, porque tal vez me quedé callada yo cuando pensé en figuras.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+37:16
+Sí.
+María J. Carvajal
+María J. Carvajal
+37:17
+Era o un cuadrado o un triángulo que son, pues, como para tronos más regulares.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+37:23
+Sí.
+María J. Carvajal
+María J. Carvajal
+37:24
+No es que tampoco hable.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+37:26
+Ja, Ja, Ok, Ok, Tienen que hablar. Tienen que hablar.
+María J. Carvajal
+María J. Carvajal
+37:30
+Estaba pensando también para trabajarlo. Era con fichas.
+Esa era.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+37:38
+Es que la es que el abstracto es el problema, y el tema es: ¿es eso con lo conseguir los datos, ordenarlos bien bacano.
+Y ahí ya está bien, pero es que figura geométrica. Sí, es sí, es duro, sí,
+pero bueno, ya sabemos la limitación de volver a con modelo.
+María J. Carvajal
+María J. Carvajal
+37:57
+Un círculo de 2, y es un círculo.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+37:59
+Si a un círculo será que coloco círculo.
+María J. Carvajal
+María J. Carvajal
+38:03
+Bueno, yo.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+38:06
+Tenga que volver a descargar.
+María J. Carvajal
+María J. Carvajal
+38:07
+La composición debería quedarme callada.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+38:11
+No me tenga que volver a descargar mano de círculos. No
+solo vamos a hacerlo. La el entrenamiento, porque necesito, igual que lo vean bien, experimenten. Pero lo vamos a ver con las cajas de fusibles listo
+con las cajitas de fusible. Entonces vamos a hacer el entrenamiento. Vamos a hacer el entrenamiento. Vale.
+el entrenamiento. Es muy poquito, si es muy, muy, muy poquitico. Vale.
+son 10 épocas. Así que ustedes utilicen más y así también utilicen más más más foticos. Vale más foticos.
+Yo creo que tengo que yo Yo creo que tengo que acabar estos 10 min
+porque hicieron una nueva, una nueva programación en parquesón
+que le colocaron una automatización para kingsighting.
+¿qué habrán hecho con M. Ocho. N ahí?
+Pero ya no me puedo pasar del tiempo más de 10 min. Creo que no me puedo pasar
+después del tiempo final. Vuélvalo a generar
+esa esa moto, esa moto de María
+Mhm.
+Piense que muy y esta vuelta porque está demorando demasiado
+menos tallado. ¿qué
+Uy está demorando mucho allá.
+Está como raro, piense que hay que una cosa bien bacala de tarea.
+dice: Vox, los clc, los Dfl, los
+lost, es de pérdida. ¿cierto? Le suena algo la función de pérdida.
+Hay ustedes evalúan muchas cosas. Se los dejo de tarea.
+Mhm.
+No, de esa época, No acabar nunca. Veamos.
+El caso
+es que esos emisores se me ah, no se no se me reescribió.
+Vengan. Yo veo a ver
+casi 28 las 8, y 31 fecha de modificación, y me sobrescribo. Bueno, caso, muchachos
+se entrena el modelo. S. I. M.
+Se entrena el modelo. Bien, bacano.
+el modelo. Ya ustedes ven que se demora un poquito sí,
+y el modelo ya tiene la capacidad de clasificación. Entonces, ¿qué vamos a hacer?
+Es que esta vuelta Creo que se me esta vuelta, Creo que se me va a cerrar
+en 10 min, pero empieza, me me fijo. Bien.
+nuestra vuelta me va a hacer ahora en en 5 min.
+Esta vuelta se me va a cerrar en 5 min. Debe haber la programación, entonces
+nada que hacer nada que hacer. Hágame una cosa. Va
+cancelar hasta aquí el entrenamiento. Sí, y
+vamos a hacer. Vamos a a intentar hacer la predicción
+con el lo que se ha cargado el modelo hasta ahora, listo, que va a ser muy poco precisa, pero para que ustedes lo vean, va a ser bien Bacana. Entonces
+vamos a probarlo.
+Mail, punto país de forma real.
+de forma real, de forma real, de forma real. No fácil.
+Vamos a ver.
+Pero en ese me río, por acá si me carga, si es que me llega carga porque
+exactamente tecla para siguiente tecle para siguiente.
+No están viendo nada. ¿cierto? No pasa nada. Yo me estoy yo, estoy enterado.
+Vale, yo soy enterado.
+Es perfecto. Ahora sí, ahora se va a compartir pantalla.
+Fíjense entonces la caja de fusibles en la que hoy viviendo, Sí,
+pero ya están viendo mi pantalla, ¿cierto? Completamente. Entonces, fíjense por acá. Estos son ejemplos de unas predicciones que el modelo hace. Sí, por ejemplo, si está aquí eso, si está aquí, lo otro vale.
+El que más me interesa es que fíjense por acá otra predicción.
+Fíjese por acá otra predicción. Fíjense por acá otra predicción de de Zidane. Lo que les di inclusive tiene para hacer predicciones de de de fogata de de de corbata. Dice que fogata
+de corbatas.
+Entonces, fíjense por acá si vamos a hacer un experimento
+después de esto, del oso del bus.
+se me va a abrir la cámara y listo.
+Y me ven aquí, Vale, Vale, piense primero
+que la persona la clasifica bien. Curiosamente, el televisor que está ahí, si me la clasifica es que como una laptop, pero no en 1, no pasa nada listo.
+Lo más interesante del asunto es que esto está haciendo en tiempo real. Listo. No es una imagen, no es algo por el estilo. Esto está haciendo en forma real. Y fíjense mi celular.
+Él lo clasifica bien, ¿sí? Y vamos a ver si de pronto la caja de fusibles, pero no se terminó de entrenar. Pero tal vez la caja de fusibles la reconozca.
+no, no reconoce bien la caja de fusibles. La caja de fusibles se las veo, pero es normal, O sea, hagan el entrenamiento. Sí, hagan el entrenamiento
+y verás que él le va a reconocer fresco, fresco, fresco, una caja de fusibles
+por aquí. ¿quién clasifica esto? No clarifica solamente si es celular o no.
+Pero bueno, hagan el entrenamiento. Bien, Bacano con sus imágenes. No les debería dar problemas.
+Pero para que vean lo a carísimo del tema y otra cosa por ahí. Fíjense por lo menos el security, que es muchísimo mejor. Security punto, pay
+cargar nuestro sistema de vida está cargando en el sistema. Ya sí piensa acá.
+Si ven que tengo una zona restringida.
+se supone que no pasa nada. Si yo me pongo en la zona restringida. Él no pasa nada listo. Pero fíjense acá, lo de acá no el asunto. La zona restringida se hace alerta. Cuando yo tengo un celular listo. Cuando yo tengo un celular, no pasa nada. Si yo tengo una billetera, ¿sí? Piense por acá.
+Uy, la marca como intruso.
+Bueno.
+para el salar main. Si yo tengo un vaso de agua, si un una botella no pasa nada, tampoco. Sí, pero sobre todo el celular, el celular. Si lo marca como un impulso. Entonces si yo estoy, por ejemplo, por acá y hago una llamada.
+Él me marca como un intruso.
+Cosas como estas res zonas restringidas. Y lo más bacano del asunto es que si ustedes
+van aquí, se salen de ese Curity, van a tener por acá una carpeta que se va a llamar adens
+en el que el sistema les colocó una captura del sospechoso.
+Fíjense el sospechoso, bellísimo
+Dios mío! Bueno, qué boleta el caso
+es muy bacanal las aplicaciones. Con esto, si fíjense bien bacano.
+hace el conteo de los objetos, aunque no aparecían 2 celulares. Bueno, todo esto
+y lo hace en tiempo real.
+Entonces, muchachos
+los invito a que experimenten con eso ¿Vale? Son las 8 y 40. Qué pena demorarme De pronto lo de vanesa lo reviso mañana. Si no puedo, pues, bueno, por el correo para, pero bueno, las dudas las vamos a resolver mañana, Vale, les parece. Vamos
+mientras experimenten y hagan esto.
+yiceth mata lozano
+yiceth mata lozano
+47:36
+Listo es que es que se me entrecortó el vídeo primero. Le hiciste el tren Custom Model: ¿cierto? Y.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+47:43
+Sí, claro.
+yiceth mata lozano
+yiceth mata lozano
+47:44
+Main. Piz, ¿Cierto?
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+47:46
+Después ejecute el mail. Piz. Sí.
+yiceth mata lozano
+yiceth mata lozano
+47:49
+Ya es que.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+47:50
+Y luego el Security el security punto Pay.
+yiceth mata lozano
+yiceth mata lozano
+47:53
+No, Ese sí lo vi.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+47:55
+Ah. Perfecto. Perfecto.
+yiceth mata lozano
+yiceth mata lozano
+47:56
+Sí es que se me se me cortó un poquito ahí cuando descolocar.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+48:03
+No pasa nada, muchachos. Pero bueno, muchachos les cuento que tengo que dar la adhesión hasta aquí, porque la adhesión está programada ya hasta ahora. Entonces.
+Bueno, los dejo por aquí Vale, muchachos. Si hay dudas, no se preocupen mañana, damos el espaciocito. Vale muchachos.
+yiceth mata lozano
+yiceth mata lozano
+48:19
+Listo. Muchas.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+48:20
+Bueno, muchas gracias a ustedes. Nos vemos chao.
+yiceth mata lozano
+yiceth mata lozano
+Chao, chao.

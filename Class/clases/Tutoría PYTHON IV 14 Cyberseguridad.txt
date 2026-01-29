@@ -1,0 +1,490 @@
+Nestor Cardona
+Nestor Cardona
+Buenas noches.
+María J. Carvajal
+María J. Carvajal
+02:21
+Hola.
+Vanessa Hernandez
+Vanessa Hernandez
+02:22
+Buenas noches.
+Nestor Cardona
+Nestor Cardona
+02:25
+Están escuchando.
+Vanessa Hernandez
+Vanessa Hernandez
+02:28
+Sí, señor.
+Nestor Cardona
+Nestor Cardona
+02:31
+Muy bien, una espirita ahí un momentico mientras llegan los demás.
+Vamos a retomar donde lo dejamos el día de ayer.
+Bueno, seguimos trabajando sobre el contenido de la sesión. Dos Nos falta una parte.
+y, pues estamos viendo los diferentes tipos de láser, oserciones y
+sistemas llamados los Fisher, que simplemente son instancias que se pueden reutilizar a lo largo de de todas las pruebas.
+pueden devolver conjuntos de datos para poderlos en emplear o instancias de urgencias, capacitación, sí, y también de países
+están.
+Creo que ayer había más gente. Pero bueno, y esto.
+pues, voy a empezar.
+Bueno, hemos quedado en esta parte. Alguna pregunta está hasta aquí sobre el
+temas. Visto. Es el día de ayer en la última sesión, pues
+o qué.
+María J. Carvajal
+María J. Carvajal
+05:05
+Nada más.
+Nestor Cardona
+Nestor Cardona
+05:05
+De las.
+María J. Carvajal
+María J. Carvajal
+05:05
+Muchas cosas que no me cuadran, pero pues ya es por la falsa experiencia y
+por lo menos si estas cosas se van escribiendo, por lo menos lo que vimos a en el
+en el primer código. Si estas cosas se van escribiendo en el código que 1 manda a producción, y
+esto se integra o se hacen pruebas antes de colocar en el en el repositorio. Se va con esa misma función final, porque, pues yo he visto a veces que también 1 coge y controla la información que va integrando al sistema
+también con otras cosas, Pero no sé si es poner también estas cosas cuando de pronto, 1 en los formularios de Python le dice
+tal objeto. Tiene que llevar números o tal objeto. Tiene que poner las cosas en mayúscula. Tal objeto de pronto
+debe tener correo cuando hay otras librerías que también, como que van van condicionando eso.
+Nestor Cardona
+Nestor Cardona
+06:10
+Desde el punto de vista de 1 como desarrollador, pues no debe tener esas validaciones ya.
+pero desde el punto de vista del de la calidad del producto
+es que se hacen las pruebas.
+las pruebas unitarias las escriben y las hacen los desarrolladores. Hay otras pruebas que ya se busca
+revisar, digamos, evaluar otro tipo de de de condiciones.
+normalmente. Lo que se hace es que se desarrollan todos los casos de uso, los casos de pruebas
+y lo que se busca es
+poder automatizar y garantizar de que lo que se vaya y la producción cumpla acabaría con los estándares, porque se nos puede olvidar si nos puede
+puede haber un error, entonces si esto se sube todo el proyecto Mhm
+Te pueden automatizar para que se ejecuten incluso en instancias en
+en la nube. Lo que se conocen como pipelines que pueden crear pylelines que
+ejecuten esas pruebas de manera automática, levanten un entorno entorno controlado, un entorno de pruebas
+ejecuta las pruebas y con los resultados, las respuestas que nos entrega.
+Ese tipo de herramientas se puede determinar si pasa las pruebas, digamos que
+ya se vayan los cambios a producción y solamente se iría lo del South, solamente se se iría la parte del código del proyecto. No.
+Esto es como para, más bien en el en en entornos de pruebas únicamente, y ya lo que se desplegaría son los cambios que estarían en
+que no en el shows. Pero eso se puede automatizar.
+Intento automatizar que desde que yo le se le le haga un cambio a la rama principal. No sé a la rama May
+en mi repositorio o que cuando hago un pool request y se se acepten
+en la rama principal o en la rama de producción, lo que sea, se disparen. Eso es pailanes.
+Lo primero que hagan es ejecutar las pruebas.
+Se detecta un nuevo cambio en en la en en la rama que va producción, te sale el pibeline de las pruebas, ejecuta las pruebas.
+corre todas las pruebas, y esto al final dice: qué porcentaje de pruebas pasó?
+Si el pasó las pruebas.
+ese puede, ese país le puede lanzar otro que era lo que se va a encargar. Es de esos cambios llevarlos al servidor a producción
+para que se copien para que se compilen lo que sea que se que se necesite
+y de ma y de manera, de esa manera, automatizar todo el flujo garantizando la calidad y que las funciones, y que los cambios que se están haciendo no afecten otras cosas, porque imagínese
+muchas veces 1 hace un cambio en un lado, pero eso está afectando otras partes. Es por eso se corren las pruebas por cada 1 de los componentes de ver que si es que y garantizar que siguen funcionando ya
+desde ese punto de vista, desde la calidad del producto, pues no sería redundante porque también se se utilizan en en automatizaciones de 6 C, D, que es continua Integration.
+integración continua y desarrollo continuo donde se automatizan esta serie de
+de tareas, sobre todo cuando son varios desarrolladores, aportando a un mismo proyecto.
+ver que los cambios que hizo 1 no afecten
+el el lo que ya está hecho listo.
+María J. Carvajal
+María J. Carvajal
+09:37
+Como decir, yo estoy trabajando acá en mi entorno virtual y puse una dependencia diferente al que la puso mi compañero el Paper le va a decir Bea. Esto está en la versión punto tal y usted no cogió las otras
+o incluso.
+Nestor Cardona
+Nestor Cardona
+09:55
+O incluso en la lógica. Estoy haciendo un cambio, una funcionalidad y por equis. Y un motivo se me olvidó y cambié otras cosas en otra funcionalidad. Y
+y
+un comentario para hacer una prueba. No necesito comentar esta función de acá porque necesito hacer una prueba únicamente de esto local.
+Tuvo esos cambios, pero se me olvidó, es comentarlo.
+es al correr las pruebas, va a detectar eso y no se iría con ese error a producción Más Más bien, entonces hay muchos casos que 1 puede. Uno podría revisar, pero lo que buscan últimas es también la calidad del aplicativo. Él iría notificando, pues cuando se hacen estas cosas de escalamiento
+claro, ahorita, lo lo ejecutamos y quedamos. Quedamos aquí solamente en la teoría ahorita. Miramos y ejecutamos esas pruebas que están asociadas al proyecto. Analizamos el proyecto y analizamos los las pruebas que se implementaron. Y ahí yo creo que ya se comprende un poco, o sea, mucho mucho más el el sentido de utilizar este
+pruebas, en este caso en entornos de Python
+o cualquier lenguaje de programación. Lo que te espera estamos viendo Python, pues sería como serían las implementaciones para Python. Vale.
+En También existen pruebas parametrizadas, evita duplicación de código cuando se necesita probar una misma lógica con diferentes datos.
+Entonces se se se se va definiendo. Entonces se establece la parametrización y esto simplemente implica que
+para el conjunto de datos. El primero, la entrada y el segundo es el resultado esperado. Ya
+es el láser. Va a recibir la instancia
+de la calculadora. La entrada del resultado esperado para cada 1 de estos valores se llama una Parametrización, por ejemplo, esto es un
+una función que eleva al cuadrado.
+Entonces, si la instancia es 2, pues 2 al cuadrado, 2, 4, la distancia es 3, pues es 9, si es 4 y 16,
+y en
+eso es lo que se espera. Y de esta manera se pueden correr muchas pruebas diferentes sobre una misma función con dif distintos valores.
+Esto también no solo me sirve para para
+para validar y revisar la entrada de los de los
+de los valores que me ingres que vienen me ingresan el usuario, sino
+para revisar si la lógica de la función
+es correcta y aplica para diferentes casos de pruebas o o o diferentes entradas.
+y ver que en todas y cada una de ellas me responda de la manera que debería ser. Para eso también sirven estas pruebas listo
+entonces de esta manera, poniendo esto antes de la definición. Cuando se ejecute. Esto va a correr una instancia de esto por cada 1 de estos valores, y él simplemente no
+ejecuta
+la función de la calculadora dándole la entrada y el resultado lo va a comparar con el valor esperado que sería el segundo balón.
+Entonces corre una para esta y le espera que sea 4. Si esto le dio 4, pues sale que true, que pasó la prueba. Él espera que esto le dé 9 cuando la entrada es 3 esperas que 16 cuando la entrada es 4. Y así te pueden cobrar muchas pruebas sobre una misma funcionalidad parametrizando las pruebas
+y existen también marcas o, bueno, marcas markers, estos markers.
+Cuando se definen las pruebas, tenemos las estructuras de todas las pruebas. Entonces, en estos archivos van a estar todas las diferentes pruebas.
+Uno le puedes poner cierta marcación.
+Por ejemplo, haces una prueba de integración. O eso es una prueba unitaria. Ya luego veremos qué es prueba de integración.
+Eso es una prueba unitaria, o eso es una prueba lenta. Ya eso depende Si Si si yo sé que esta prueba se me demora mucho de unos varios segundos en darme
+una respuesta. Yo la pongo como prueba lenta.
+¿para qué? Para que cuando se corran las pruebas, 1 a veces como que necesito probar las funcionalidades, pero pues las funcionalidades que son más rápidas para tener una respuesta inmediata, entonces yo podría
+y miramos acá en a la hora de ejecutar
+con pay test, decirles que corra únicamente las unitarias
+o que corre a todas, a excepción de las que tengan esa etiqueta, excluir las pruebas lentas
+o que sean solamente las de integración.
+Para eso son los marcadores para que en el momento en que yo voy a ejecutar las pruebas. Yo puedo decir, ejecute unas u otras, y esto se puede automatizar. Esto lo ejecutaría todas por completo.
+Esto ejecutaría unas específicas dentro de en el directorio de pruebas
+o con los marcadores. Solo ejecutar las que tengan las etiquetas que se le den
+que se le reportan. Y esto es para para ejecución paralela. Simplemente se corren todas las pruebas, solo que se se detecta la cantidad de C, P, U Si. Y en paralelo, pues cada núcleo va va va
+y
+va a ser, va a ejecutar a una instancia en paralelo es cuando son muchas pruebas y se quiere optimizar el tiempo que tarda ya
+listo. Entonces, para eso sí existen. O bueno, sirven esos esos esos marcadores que sería se para
+para eso existen esos marcadores. Entonces simplemente py test tomar, y pues, la definición, el nombre que se le quiera poner
+de de esta manera cada una.
+el de los métodos de las pruebas va a estar etiquetado. Y cuando se ejecutan, yo puedo ejecutar todo o ejecutar ciertas etiquetas o excluir algunas etiquetas dentro de la ejecución. Vale
+por ejemplo, solo pruebas rápidas.
+Yo sé que es una prueba que me demora algunos minutos, algunos segundos, y quiero que me muestre todo lo demás y después correr esa solita
+como para saber el estado del
+de la aplicación, entonces que, por ejemplo, excluir que no es node.
+no se estarían incluyendo las probablemente o únicamente pruebas unitarias o unitarias, y ignore las que son lentas.
+Bueno, y pues esos son los comandos para ejecutar, entonces ahí te se ejecutaría todas las pruebas.
+Es como la parte de los de los blogs a la hora de la de las pruebas en
+los Prints, en las pruebas, mostrar los Prints y existen print dentro de las definiciones Okay.
+por ejemplo, el plan menos X se tendría. Y pararía en esa prueba que falló. Pero yo puedo seguir ejecutando las demás y mostrar cuales fallaron, y cuales no. Y si no le pongo esto, ya él va a seguir y simplemente me dijo: este fallo, no esta no fallo.
+Y esto ahora en las buenas prácticas, en la nomenclatura de los archivos.
+Deben empezar con test raya el piso.
+y eso que está después debe ser
+basado en la función. Entonces, si son funciones, es en minúscula, o sea, ya sea el comienzo, o ya sea el final del de cómo voy a nombrar las mismas funciones
+o, bueno, los archivos. Más bien.
+si ven acá estos archivos, se llaman test avanzadas, test calculadora, listo
+ahora dentro de los archivos para nombrar las funciones De la misma forma, debe empezar con palabra texto y las clases
+para las pruebas en mayúsculas, listo y que los nombres sean descriptivos, por ejemplo, Test Suman, números positivos
+a la hora de de de sirios y, pues, de la parte de la organización.
+Bueno, un definir un archivo de prueba por módulo. Si tenemos un proyecto grande con varios módulos, pues definimos un archivo de prueba. Por cada módulo.
+agrupar pruebas relacionadas en clases para ver las definiciones de las pruebas, puedo crear clases y agrupar las pruebas que se relacionan y usar esto de un archivo contest
+para los fisios es toda la parte de los pitures van aquí en este archivo con texto. Todo suma la configuración
+que normalmente va aquí en la raíz
+y mantener las pruebas independientes entre sí,
+ya que no depender 1 de ellos.
+Si miramos aquí un test, acá es donde se definen los fiches pai test, lo que se requiera
+en este caso, diccionarios o instancias de la clase calculadora.
+y comenzamos a definir los bichos
+y sus últimas son funciones que al final van a retornar a su distancia. En este caso.
+este fisura limpia o cuando se llame, pues devuelve una instancia a la calculadora.
+Este pixho calculadora con historial, pues crea una instancia de la calculadora directamente llamas calculadora limpia.
+realiza algunas operaciones y del retorno a la instancia
+este Pitcher, pues un conjunto de números entre los positivos de retorno.
+ese diccionario, con ese conjunto de datos, números decimales, números negativos.
+división por 0. De esta manera está
+validar su visión por 0 positivo, divido, 0, 0, negativo, divido 0, decimal, dividido 0, 2 diferentes, pruebas que se podrían llegar a hacer
+para datos complejos.
+Por ejemplo, yo puedo crear Piture. De esta forma son estructuras de datos complejas para pruebas avanzadas
+de las operaciones básicas sería como que los datos de entrada A y B
+el tipo de operación en este caso, suma o Rest, o si es resta.
+O sea, como quien dice.
+Si tomamos la entrada A y B, y Aplico una suma, y el resultado esperado es este.
+se aplica una Resta. El resultado esperados es, se aplica una multiplicación, El resultado esperados. Esto es una división
+y de esta manera se le puede mandar este conjunto de operaciones para que cuando una entrada se prueben
+varias cosas.
+Hicimos una calculadora suma resta, multiplicación y división. También podemos organizar de esta manera al conjunto de datos que se le pasa. Y esto se desarrolla una vez.
+Pero todo esto me va a servir para hacer diferentes pruebas y cálculos y funcionalidades.
+En el caso de potencia la base del exponente y el resultado esperado
+pastorales, pues para cada 1 de los diferentes valores.
+Bueno, de esa manera podemos organizar
+múltiples instancias que se pueden reutilizar.
+listo. Y eso va aquí de los Pitchers. Iría en ese archivo llamado con peso.
+Bueno, miremos el código y empecemos y ejecutemoslo en
+otra cosa, es que la cobertura, pues tampoco hacer por por todo y cada 1, sino como
+el objetivo es, por lo menos el 80 por 100 de la de las funcionalidades.
+priorizar el código que sea crítico, no obsesionarse con
+probar todos y cada una de las funcionalidades, y
+más que la cantidad de lo que se busca es que
+te improvisa el código crítico y Ge, y tener bastante calidad.
+Y pues son cosas bueno, errores comunes, pruebas que dependen del orden de ejecución
+en el caso de las pruebas unitarias. Ninguna de debe depender una de las otras
+pichos que modifican Estados globales.
+tratar de que sean independientes y de pronto no vayan a hacer cambios sobre sobre la misma expectativa
+y excepciones múltiples en relación a la prueba, o sea, dentro de una misma prueba
+tener múltiples excepciones que no tengan nada que ver con con lo que se quiera evaluar
+y pruebas que duran más de unos segundos se debería marcar como flow.
+precisamente para para para el momento de ejecutar y correr las pruebas sea rápido.
+Cada prueba es un solo concepto. Yo sigo en una prueba. No, No voy a probar varias cosas por cada concepto. Yo desarrollo una prueba: los nombres sean descriptivos y específicos y el alcance de los bichos, pues sea la propiedad.
+Eso en Mhm Okay. Y aquí también hay un archivo por fuera.
+Vemos que a nivel de la raíz llamado el pay despunta ine el pai test in
+sería como un archivo de configuración que establece el directorio, donde se buscan las pruebas.
+Entonces, seria el nombre del Directorio Test.
+los patrones de los archivos de pruebas
+empieza con terra ya el piso, cualquier cosa, punto. Pay punto, Pay, o cualquier nombre, y
+esta serie que implica que es cualquier cosa, o sea, puede tener espíritu.
+María J. Carvajal
+María J. Carvajal
+22:51
+Vale.
+Nestor Cardona
+Nestor Cardona
+22:52
+El archivo escrito, lo que sea. Pero va a empezar de esta manera.
+que busque busque algo que empiece así, seguido tenga cualquier cosa
+y que finalice en punto Pay. Ya
+simplemente es como el patrón de a la hora de para saber cuáles son los archivos de de prueba para que Pai te sepa cuales va a ejecutar.
+Entonces. Por eso también importante.
+María J. Carvajal
+María J. Carvajal
+23:12
+Se cuele.
+Nestor Cardona
+Nestor Cardona
+23:14
+Sí o o como.
+María J. Carvajal
+María J. Carvajal
+23:17
+En el.
+Nestor Cardona
+Nestor Cardona
+23:18
+Bash en en Bach, cuando 1 hace una una una una consulta, por ejemplo, de, Y
+yo le digo, E. L. S: Ahí. Pero bueno, aquí hay varios chivos. Pero si yo le digo l S: Cualquier cosa que termine con esta extensión.
+pues solo me lista. No importa cómo se llame, solo me lista lo que los que tengan. La extensión, ese disco es como que
+en esa parte puede llamarse como sea listo.
+Es como el.
+Vanessa Hernandez
+Vanessa Hernandez
+23:52
+Perdón. Esa es solo sintaxis de de Python, ¿cierto? O sea, es cuestión de eso, del.
+Nestor Cardona
+Nestor Cardona
+23:59
+No, no, Eso se usan. Bach se usa en en en Terminal en Powershield para representar una un formato de algo simplemente cierta estructura. Si se pone así en texto, ese texto debe ir, debe contenerlo.
+Si se pone el asterisco, implica que puede ir cualquier otro texto. Después de eso, por ejemplo, acá tengo test avanzadas, test, calculadoras asterisco, sería avanzadas o calculadora. No importa cómo se llame. Va a comenzar por Tes
+y después de lo que sea, va a finalizar con punto paelle punto fallo
+simplemente implica el el el forma, el formato en como el del nombre de los archivos
+y el y el y el nombre de las funciones. O sea, que esto implica que las funciones todas empiezan de esa manera. Y se pueden llamar como sea
+que las clases todas empiezan de esta manera y se pueden llamar como siempre listo.
+Vanessa Hernandez
+Vanessa Hernandez
+24:49
+Vale, Vale, Gracias.
+Nestor Cardona
+Nestor Cardona
+24:52
+Se definen los martes de Acá yo puedo definir los martes que yo quiera es
+Slow Unid Integration Moc, pero yo también puedo proponer mis propios. No sé pruebas críticas. Pongo aquí
+y después de que esté definido, acá yo puedo poner las marcas en en las pruebas
+y cuando yo corra, pues simplemente le pongo el marcador que yo quiero. Él va a buscar esos marcadores y solo va a ejecutar las que contengan esos marcadores. En ese caso también me va, me deja construir la manera en que la que yo quiera ejecutar las pruebas listo.
+Bueno, para eso parece este archivo Pyths. Punto in, pero digamos como lo más relevante es establecer los nombres de los marcadores
+en algunos de los Flags.
+opciones adicionales y los los patrones de del del no del nombre de los archivos. El directorio, donde se encuentran las pruebas y ese tipo de cosas. Pero eso se encuentra acá
+listo. Y ya dentro de test donde están las pruebas, pues ya tenemos el pun test, que es donde van los pitcheos
+y tenemos las pruebas. Pero antes de mirar las pruebas. Miremos el código. Ya tiene un montón de cosas, pero miremos, acá vamos al shows
+y miremos el código de calculado
+desde el Código a probar está bien documentado. Importa más tiping Least Union Bueno.
+define una clase llamada calculadora calculadora con operaciones matemáticas básicas y avanzadas incluye historial de para ocasiones y validaciones. De entrada. Eso es lo que hace el el programa.
+Si bueno, tu mail se inicialista y lo que se crea es una instancia con el historial, con la lista vacía, historial vacío
+y se establece la precisión
+que va a tener en las operaciones, No, Cuántos decimales vamos a utilizar para el hospital
+y se definen cada una de las funciones, esta la función, sumar que sumar los números y registro de la operación
+y retorna a la suma, y puede lanzar
+algunos errores gráficamente, pues ya se
+que reciben dinero en las diferentes instancias y ya a veces que se actualiza la
+la suma y retorna al el resultado, pero también agrega. Agrega al historial
+el resultado. O sea, pues, como en String.
+de lo que acaba de hacer ya
+lo mismo para restar, multiplicar y vivir. Bueno, eso es lo mismo. La lógica es lo único que cambia, que es el operador.
+Y bueno, la lógica para calcular la potencia y en
+factorial, pues es una implementación de factorial.
+Lo mismo para cada una de ellas. Yo utilizaría la de la función factoría animar pasándole el parámetro.
+pero cada cosa que se haga sí agrega el historial
+calcular nuestro medio. Bueno, la lógica que requiere
+promedio funciones auxiliares, limpiar historial. Yo pudiera, por ejemplo, probar esto que después de que que traigo una una calculadora con historial y después de ejecutar el
+la función, limpiar historial cuando vea el historial debe ser nulo. No debe tener ya
+obtener el historial decir sucesivamente.
+Bueno, esas son como todas las funciones.
+Entonces cada una de éstas se deberían
+de ser que funcionen, que la lolita esté bien implementada, no allí dónde es.
+Venimos? Acá test y vemos. Este es calculadora.
+Así se definen las cosas.
+Es completa de pruebas para la clase calculadora. Demuestra diferentes tipos de pruebas y técnicas.
+Sí, lo importante es que en las pruebas se requiere una instancia de lo que va a probar mira que es importar calculadora para poder tener la instancia
+incluso más de otras cosas.
+Te define una clase, pero es una clase de pruebas y recuerden que las clases empiezan con Tes con T mayúscula.
+Ustedes operaciones básicas, clase para agrupar las depuraciones básicas
+y comienzo a definir métodos. Por ejemplo, ¿qué ¿qué me gustaría probar, pues, sumas con números positivos? Pues vuelvo a hacer muchas pruebas de operaciones con números positivos
+lo mismo, la definición. Los métodos empiezan con test
+raya, el piso, se vive cualquier cosa, ya. Bueno, en
+que requiere una calculadora limpia. Pero esta calculadora limpia aquí estaría utilizando la distancia del del del picho listo
+exacto.
+Entonces, bueno, lo mismo, la estructura de la prueba de la range, pues defino variable. Si la requiera en este caso, voy a sumar números positivos. Defino 2 variables con números positivos.
+Ya luego lo seguiría como las instancias, pues tomo la y
+la la ejecución. La calculadora limpia. Llevamos la función sumar pasándole los valores.
+acumuló el resultado, pues en esta variable y ya vienen los diferentes asers.
+por ejemplo. El primero de hacer es que el resultado sea igual al valor esperado 5 más 3 debería dar 8.
+El otro va a ser
+es que luego de ejecutarse al ser una calculadora limpia. Yo sé que el historial les va a ser 0, pero cuando tengo el historial y calculo, la cantidad de registros que hay debe ser igual a 1 que apenas ha hecho una operación
+ya, pero no puede ser 0. No puede ser ninguna otra cosa. Podría ser 1 el historial porque solo es 1
+una sola operación.
+Y aquí sale, por ejemplo, el láser es si
+se esperaría que el historial tenga ese formato
+porque el historiador se copia como un string de lo que se hizo, o sea, 5, más 3 a 8. Entonces por eso se hace este aser que si esto se encuentra en el historial en la posición 0,
+entonces son pruebas relacionadas, y acá nos haces, Yo puedo hacer varios listo, pero debe ser asociadas a la funcionalidad. El mismo concepto. Ya, si yo quiero mezclar ahí multiplicaciones, divisiones u otras cosas, no porque simplemente es para el número enteros positivos. Incluso
+yo no tampoco debería validar aquí. Si yo que quiero especificar que son, entre los positivos tipos de valores.
+A menos que la prueba que yo quiera hacer, pues sea con
+de manera generalizada. Pero mira ejemplo
+de esa manera. Ya garantizamos que la
+nuestro programa, si pasa todas estas pruebas, va a poder sumar cualquier intero positivo.
+Bueno, en este caso, pues funcionó. Funciona, pero también se le pueden pasar luego más datos más completos
+enteros negativos.
+De lo mismo no lo puede hacer así el más ordenado.
+pero te puedes ir directamente al hacer en lugar del resultado, pues
+haces ya el llamado a la instancia y le pasas los parámetros directamente. Lo mismo
+Lo mismo es. Tengo 2 valores. Hago una llamada a una instancia, pasando de esos valores, y el resultado no
+lo revisó. En una cita
+la instancia de la calculadora. Hago la ejecución del llamado pasando los parámetros. Esto me va a devolver un valor que ese valor lo comparo con el valor esperado.
+No hago varias pruebas pruebas con diferentes números negativo, positivo o negativo, negativo.
+Mhm.
+En los resultados esperados también se pueden hacer. Pero que esto es como más ordenado, acá. Con menos lineas
+y bueno para cada 1 de ellos es sumar restar. Es lo mismo. Multiplicar división en Mhm.
+bien se hace, se apoya también en librerías, valor absoluto y aproximaciones para poder.
+sobre todo cuando son resultados periódicos. Hay que tener en cuenta ese tipo de cosas
+y en la división por 0. En este caso, lo que espera es que retornen, o sea.
+lance una excepción de este tipo
+y coincida con el mensaje que puede vivir de terceros.
+la que si yo llamo a dividir 10 dividido 0, debería
+miramos la lógica de de del Ajá
+es dividir, es dividir lo que hace es que valida.
+Y qué válida que ve si ves igual a 0, lanza esta excepción con este mensaje.
+Lo que espera es que el mandarle y
+ves siendo 0, no hagas cálculos y vale.
+no haga el cálculo no haga la operación.
+sino que lance la excepción. Entonces, esta prueba, por ejemplo, válida Sí,
+obtengo la excepción y que coincida con el mensaje esperado
+cuando L, ya hago el llamado pasándole estos valores.
+Y acá son pruebas pues parametrizadas
+se le pasa el conjunto de datos.
+Entonces A, B y el resultado esperado, yo le puedo hacer un test de suma
+basando en la instancia de la calculadora los valores A y B para cada 1 de estos conjuntos de datos
+y el valor esperado. Entonces lo que va a hacer es que el láser va a llamar a sumar pasándole A y B y coincide con el valor de esperar que eso se va a ejecutar para todos estos conjuntos de datos de A B, y esperadas.
+1, 2, 3, 4, 5, para este niño.
+Les hago la misma prueba, pero con conjuntos de datos diferentes.
+y esa sería como la sintaxis de cómo establecería listo, ya que otra clase.
+aparte que son programas más avanzadas y.
+por ejemplo, potencias Parametrización, pues con esperando que se lancen y en
+ahora simplemente calculo la pa calcular la raíz cuadrada y esperar que
+que coincida con los valores esperados. Simplemente, pues, para pero pasándole parametrizaciones.
+raíz cuadrada de número negativo, si es una inconsistencias o no?
+Bueno, ya se vuelve un número imaginario, entonces pues no debería por lo menos te lo regalen. No.
+no se debe permitir, por ende.
+es una raíz parada de un valor negativo.
+No, No, no se permite. Tuvo un número imaginario en
+deben lanzar una excepción. Este este tipo de validaciones, por ejemplo, acá se lanzan excepciones o, por ejemplo.
+Esta prueba que calcula el factoría.
+Eso tiene un ciclo y un montón de cosas. Para poder hacer estos cálculos se va a demorar mucho. Entonces hay
+le pongo un marcador. Slow: Hago la prueba con los asers
+láser. Utilizo una calculadora limpia. Llamo factorial. Le paso lo que quiero calcular y el valor esperado
+y listo Entonces, como que se la etiqueta para que cuando yo la ejecute y quiera excluir, por ejemplo, las pruebas ventas, pues no se no se incluyan.
+Bueno, así sucesivamente.
+Acá Hay otros ejemplos. Todas y cada una de esas se van a ejecutar. Lo que quiero es que se lleven acá es los todos los tipos de validaciones que se pueden hacer
+con los asers, cómo se cómo se utilizan los marcadores, cómo se utilizan la parametrización, para poder testear la función para un conjunto
+de diferentes valores.
+Por cada conjunto de datos se ejecuta una prueba validando cada 1 de ellos. Listo.
+Ese sería un ejemplo de la prueba.
+Y aquí tenemos otras pruebas ya más avanzadas de lo que ya utiliza datos Mob, por ejemplo, para
+para simular muchas otras cosas. Listo.
+Por ejemplo, ya puedo. Nuestras pruebas pueden ser
+de una sería una prueba de integración. Lo que eso estaba no le gusta, No, todavía no lo hemos visto entonces. No, No quiero profundizar.
+Bueno, pues yo puedo marcar, que es una prueba lenta, pero también es una prueba de integración, una prueba integración, Ya lo que hace es que, por ejemplo, mide cómo se integran 2 clases, una clase que está utilizando otra. Por ejemplo.
+la prueba unitaria, como su nombre lo indica, pues va a la unidad a la función a clase y no más. Pero ya cuando 2 módulos se están comunicando 2 clases. En ese caso, pues 1 las debería llamar como pruebas de integración
+y son mucho menos
+pruebas de las que se de las que o de la cantidad que se tendrían, por ejemplo, de
+de pruebas unitarias, perdón unitarias que son muchísimos.
+pero las pruebas de integración son una menor cantidad, porque justamente lo que se busca es validar. ¿qué es que la integración entre componentes esté acorde listo.
+Mhm: Bueno, ejecutémoslo y aquí tengo.
+porque depende eso. Tiene Pay test.
+Bueno, para ejecutar esto, lo que habría que hacer sería
+en aquella ejecución. Se se ejecutan, se instalan los requerimientos.
+Quiero ver si tengo acá. Un
+cuando yo ya lo tenemos instalado, pero si no, pues con este comando los instalan en
+no puedes correr solo con países
+acá en el nivel del del país de cine.
+Es bien Pay Test desde el terminal, y y ya listo, está en la sesión. Dos
+listo Ya estoy aquí en donde está el el punto Ini.
+Aquí está
+Mhm. Tendría que entrar al al al al proyecto.
+No sé, no es el proyecto.
+Entonces entra el proyecto y allí corre y ejecutar.
+No sé qué es.
+Es como un resumen de todo lo de arriba.
+Entonces entró al proyecto y simplemente países
+ahí comienzan a ejecutarse las pruebas y y que
+dice que necesita una dependencia de Android.
+Bueno, realmente sí. Las terminó. Solo que, como que en la trazabilidad
+así las ejecuto, todas si ven, acá.
+Comienza a ejecutar todas. Y cada una te dice que fue y buscó test. Te ves avanzadas desde integración.
+el flujo completo, calculadora y pasó,
+o sea, si el láser la paso así para cada una de ellas.
+Luego, estas 3 operaciones básicas sumas con números positivos.
+ya ya, por ejemplo, si si hacemos un cambio, si aquí el
+por ejemplo en E, en el en el en el láser.
+Vale.
+en este de acá
+de 5 y 3, espera que es 8, Entonces 10 va a fallar, Pues porque 5 y 3, 3, 8. Y eso va a decirte. Diez
+de aquí va a fallar. Simplemente es para que vean cómo sale la prueba con detalle
+aquí, por ejemplo, de la verdad, las pruebas a casa español.
+los positivos, que es el resultado de 8, Y yo le estoy diciendo que debe ser 10.
+Entonces él hace 1.
+Y me dice que falló,
+que falló. Y al final, pues esto me va generando como como el deporte. No me sé cuántas pruebas fallaron, cuantos pasaron
+ya plus, incluso medicinas.
+El hacer el resultado fue 8 y se esperaba que fuera 10. Y me dice, pues, ¿cuál fue la que no pasó? Vale
+alguna pregunta.
+María J. Carvajal
+María J. Carvajal
+42:43
+Profe. En su experiencia.
+este Paytense me ha generado cacharros de pronto, A veces conflictúa con la otro tipo de extensiones o
+o algo.
+Nestor Cardona
+Nestor Cardona
+42:56
+No, claro.
+María J. Carvajal
+María J. Carvajal
+42:56
+No, no, no.
+Nestor Cardona
+Nestor Cardona
+42:58
+Es muy, aparte, muy aparte. Si ustedes ven eso, está muy bien.
+Si yo quiero correr mi aplicación, lo puedo correr y ya no va a haber ningún problema para poder ejecutarlo. Yo, pues yo debo tener instalado pai test en las dependencias y correr países es únicamente para para testear las funcionalidades.
+Pero mi aplicativo no, no depende. Mire, están en eso. Están en una carpeta llamada socios en otra tarjeta llamada test.
+Entonces yo puedo tener lo que sea afectarlo de acá y solo que al ejecutarlo, él va a venir acá y va a comenzar a a a usar bien la aplicación, porque Mira, que está a instancias de la calculadora
+para poderla utilizar con diferentes valores y revisar los resultados esperados, los parámetros. Bueno, todo eso que son las cosas que estamos haciendo.
+pues igual, profundicé porque
+apenas estamos viendo países. Estamos viendo muchos conceptos ya cuando veamos las demás pruebas. Digamos, una clase, va a ser luego más rápido, un poco, porque ya todos
+vamos a a entender y a comprender más o menos cómo funciona país. Y ya si nos enfocamos más bien es en las diferentes pruebas y las características de cada una de de los otros tipos de pruebas que hay.
+pero no no van a haber problemas. Yo puedo tener pay test, o puedo tener otras otras otras herramientas de testing
+y otras herramientas de Utrecht no había problema. No eran conflictos, No dependencia, ni mucho menos.
+Por ejemplo, Inditex es otra
+otra herramienta para hacer pruebas unitarias, pero y las puedes utilizar en Paypal en cualquier otra.
+Eso se llama países, y no, no hay problemas. No hay problemas en ese sentido. Vale.
+hizo alguna otra pregunta.
+Dejemos hasta allí ya Ma: más bien mañana vemos lo el contenido de la sesión 3, pero, como les digo, como ya ya entendemos
+varios conceptos, lo que es faites, que son datos Mob.
+que que son los market, los marcadores.
+los diferentes tipos de pruebas que se pueden correr los picheres entonces
+teniendo en cuenta ya, pues, cuando veamos las siguientes pruebas que se hacen utilizando paypas, pues vamos a ir un poco más rápido. Vale.
+María J. Carvajal
+María J. Carvajal
+45:32
+Una feliz noche.
+Nestor Cardona
+Nestor Cardona
+45:34
+Una feliz noche que esté muy bien y a hasta luego.
+Vanessa Hernandez
+Vanessa Hernandez
+45:38
+Hasta luego.
+yiceth mata lozano
+yiceth mata lozano
+Hasta.
