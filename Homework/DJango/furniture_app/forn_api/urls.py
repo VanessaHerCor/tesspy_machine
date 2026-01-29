@@ -17,6 +17,22 @@ Including another URLconf
 
 from django.urls import path
 from . import views
+<<<<<<< HEAD
 urlpatterns = [
     path('videogame/<str:id>/', views.get_videogame, name='get_videogame'),
+=======
+
+urlpatterns = [
+    # 📊 Endpoint de estadísticas
+    path('stats/', views.estadisticas_videojuegos, name='api_estadisticas'),  # GET /api/videogames/stats/
+    
+    # 🎮 Crear nuevo
+    path('create/', views.crear_videojuego, name='api_crear_videojuego'),  # POST /api/videogames/create/
+    
+    # 🎮 Operaciones sobre lista de videojuegos
+    path('', views.lista_videojuegos, name='api_lista_videojuegos'),  # GET /api/videogames/
+    
+    # 🎮 Operaciones sobre un videojuego específico
+    path('<str:pk>/', views.detalle_videojuego, name='api_detalle_videojuego'),  # GET/PUT/DELETE
+>>>>>>> e2c17bf652615bb793ab9a1469d744ec789020a8
 ]

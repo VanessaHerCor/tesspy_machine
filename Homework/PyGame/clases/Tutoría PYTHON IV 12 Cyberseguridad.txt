@@ -1,0 +1,471 @@
+Nestor Cardona
+Nestor Cardona
+Hola. Buenas noches.
+María J. Carvajal
+María J. Carvajal
+00:38
+Buenas noches.
+yiceth mata lozano
+yiceth mata lozano
+00:39
+Esa voz. La conozco.
+Nestor Cardona
+Nestor Cardona
+00:42
+Con con de manera grata.
+yiceth mata lozano
+yiceth mata lozano
+00:46
+Tiempo sin verlo. Profe bienvenido.
+María J. Carvajal
+María J. Carvajal
+00:50
+Sea feliz. Año.
+Nestor Cardona
+Nestor Cardona
+00:52
+Feliz año para todos.
+Yo ando por acá en cafetería. Entonces usando con
+con eso para ayudar, el ruido vale.
+yiceth mata lozano
+yiceth mata lozano
+01:00
+Desde Felix Halloween hasta feliz año.
+Nestor Cardona
+Nestor Cardona
+01:05
+Compras.
+Prácticamente nosotros vemos seguridad.
+Creo que ya con esta es la última.
+Normalmente vemos 3 fundamentos. Vemos luego seguridad y pruebas
+y scripts y aplicaciones de escritorios. Creo que no están
+en esta materia. Solo en esas conmigo.
+normalmente yo he visto más. Es el desarrollo de software.
+Un gusto feliz, feliz, año. Felices Reyes. Bueno, todo lo que
+les debía Vale, Me escuchan Bien, sí, con los datos me confirma porfa.
+Bueno, súper Segundo, ya les comparto pantalla.
+Yo, como que
+Ok, bueno, vamos a estar viendo
+ciertos temas. Yo les voy a ir subiendo las materias, esos corte, 4, ¿cierto? Les voy subiendo como el contenido.
+Esto es Portec, 4, The Python
+Ok, seguridad y pruebas, y estamos en la sesión número 1.
+Muy bien
+compartiendo pantalla, nos confirman si o pueden ver.
+se puede ver pantalla.
+yiceth mata lozano
+yiceth mata lozano
+03:05
+Sí, señor Carpeta.
+Nestor Cardona
+Nestor Cardona
+03:07
+Okay seguridad. Y creo a ver, vamos a ver un toque
+para Python, todo el tema de de de pruebas, los diferentes tipos de pruebas que se pueden hacer específicamente en lenguaje de programación, lo que están viendo, pero también
+conceptos de seguridad y seguridad en las aplicaciones. Yo también.
+Bueno, entre tantas cosas que yo hago, también doy primero la palabra. Son.
+No puedo.
+Es como una asesoría, pero una asesoría consultoría.
+Yo hago consultoría Agencia de Seguridad.
+Entonces, por eso es por ese por esa razón. También me hago mucho énfasis acá en el tema de
+que tener en cuenta en la seguridad de las aplicaciones, o sea, no solo es el código y que funcione, sino que sea sea seguro. Y es más, la ciberseguridad es algo que siempre va a estar
+Siempre va a estar. Fue fue la guía reemplazar lo que sea, puede ir evolucionando. Siempre va a haber las necesidades
+de la ciberseguridad. La ciberseguridad es 1 de los pilares de
+de la industria actual de la industria. Cuatro 0 vale.
+Pero vamos a ver, pues, seguridad, y todo el tema de librerías y cómo se implementarían pruebas unitarias y ese tipo de de de de revisión y depuración del del código para contar con código de calidad y para garantizar
+que efectivamente se está cumpliendo lo suyo, lo que se está haciendo en tu mente
+en la durante el desarrollo, pues de de software
+teniendo, pues tenemos sólo 8 sesiones. Yo les tengo ya preparados un
+a ver. Yo les tengo preparados aquí unos.
+Tengo aquí preparados ya un código es prácticamente ejecutar y seguir los ejemplos.
+Ella va a ser mucho de luego la demostración, la explicación y a
+les voy subiendo, Por ejemplo, hasta la sesión, 1,
+el contenido del código te lo descargan y lo prueban. Vale.
+Además, es eso. Sería como la la dinámica.
+Voy a agregar Acá en la sesión 1
+el contenido puede subirlo como un un punto. Si vamos a ver 3
+o mandar eso, que canciones todo, bueno, descargan lo descomprimen
+según el contenido. Les debería salir ahí en la clase
+en la sesión. Uno como un contenido vale contenido. Uno muy bien.
+me confirma que ya les aparece
+ya les aparece el contenido.
+Vanessa Hernandez
+Vanessa Hernandez
+06:53
+Sí, Sí.
+Nestor Cardona
+Nestor Cardona
+06:56
+Perfecto. Lo descargan. Lo descomprimen
+y bueno desde allí también es por repasar, o sea, los 45 min no vamos a alcanzar mientras mucho el detalle igual, si tienen dudas, si tienen preguntas que lo hacen saber. Y eso está aquí, está bien detallado y explicado para que ya les cueste un tiempo, ya que también le dediquen un tiempo, además del de la clase.
+a revisarlo, a profundizar e interiorizar, digamos, los conceptos y la información, hacer pruebas
+con el código. Háganle cambios. Lo que hayan aprendido a lo largo del curso atrévanse como a a entenderlo, a interpretarlo, a hacerle modificación. Listo.
+Vamos a hablar específicamente sobre la seguridad y en aplicaciones web.
+porque si no, sería un tema demasiado amplio.
+Vamos a mirar seguridad en aplicaciones web
+¿Y por qué la web? Pues normalmente través de la web es donde se vienen los los diferentes
+pocos, por así decirlo, vectores, viajar Mhm.
+En, Vamos a identificar las principales vulnerabilidades en la aplicación web desarrolladas con Python
+y simplemente implementar algo llamado validaciones de de entradas seguras. Esto es importantísimo de la parte de la interfaz
+de usuario y configuración del mapa y del manejo de sesiones, configuración, manejo seguro de sesiones y autenticación.
+Imagino que ya habrán visto usted ya vieron desarrollo web con Python, ¿cierto?
+María J. Carvajal
+María J. Carvajal
+08:31
+Sí, señor.
+Nestor Cardona
+Nestor Cardona
+08:32
+Okay ya ya vieron, pues, token
+este tipo de de seguridad en en las aplicaciones cierto.
+Vanessa Hernandez
+Vanessa Hernandez
+08:46
+Más o menos.
+María J. Carvajal
+María J. Carvajal
+08:47
+A un.
+Nestor Cardona
+Nestor Cardona
+08:48
+Más o menos.
+María J. Carvajal
+María J. Carvajal
+08:49
+Canción. W, T.
+Nestor Cardona
+Nestor Cardona
+08:52
+Okay, listo, bueno y principios de seguridad en el desarrollo V
+y conocer y prevenir lo que son ataques comunes.
+Luego explicamos qué es qué es esto. Es tecnología de ciberseguridad.
+inyección de S. Q. L, No se debe evitar o o o por lo menos prever y corregir de que.
+por ejemplo, un formulario, la manera en la que se escriben y se hacen las cosas
+no vaya directamente desde el formulario a la consulta a la base de datos, sino aplicarlo ciertas técnicas, porque a veces puede haber ese tipo de inyección, que es.
+si no se hacen validaciones y se hacen
+modificaciones sobre lo que se obtiene, pues de las entradas, ya sean formularios que se esté llenando
+un formulario de inicio sesión, por ejemplo usuario contraseña.
+Se pueden agregar
+ciertos caracteres que forman parte de la sintaxis de Sql, que es el que haría las consultas a las bases de datos. Entonces se podrían hacer cosas como que en enero, nombre dentro del mismo nombre. No sé, le pongo un comentario para comentar bien adelante todo lo demás
+y luego haga otra variación adicional sobre la consulta original.
+Entonces, ¿qué pasa cuando se toma? Se captura lo que tiene allí y se manda directamente sin procesar
+una consulta base de datos, estás comentando la consulta y, por ejemplo.
+agregándole lo que quieras agregándole como que instruot una cosa así,
+o sea, que ni siquiera valide la contraseña, sino que te devuelva que todo salió bien.
+Se puede, Se puede 1 saltar así en un login. Es lo que se llama Ese fue el inyección o inyección Sql.
+Y
+aquí tenemos muy, muy en cuenta que vimos esto. O Xs, que son ataques de Javascript Ya para la parte de Token son inicios de sesión. Listo.
+Bueno, primero, porque es crítica la seguridad
+en las aplicaciones web. Digamos que son es la entrada más común de los ataques, por lo que le digo que ya están.
+Son accesibles desde Internet están en red.
+Entonces, pues, como le digo, fue una
+vector de ataque, una superficie de ataque, pues ampliamente diferente ya a un equipo en física, una aplicación de escritorio, pues tendrás que tener acceso al equipo, cambió a través de la red. Es posible
+y, sobre todo si es una aplicación que está desplegada, pero es una aplicación que está pegadas sirviendo
+o disponible a través de Internet para que se registren o consulten
+información, sobre todo en los casos
+y desde el punto de vista del desarrollo de webs. Ya han visto que con Python. Pueden trabajar
+flash, tango o pase a P I
+para construir lo que son entornos de desarrollo web. Eso ya lo han visto correcto
+en alguna materia.
+María J. Carvajal
+María J. Carvajal
+11:55
+Profe una pregunta pendeja, sí, porque igual Ahí ya estoy viendo. Y es para Python
+seguridad desde la parte Front también, pues, además del diseño y no dar para payasos, también se se aplica.
+Nestor Cardona
+Nestor Cardona
+12:10
+Todos los amigos.
+María J. Carvajal
+María J. Carvajal
+12:11
+Es perdón. Como Python es puro Back.
+Nestor Cardona
+Nestor Cardona
+12:15
+Exacto, aunque con el back, pero se complementa también con
+en interfaces gráficas. Tú puedes tener
+el back en Python y y una interfaz en H. T. M. L. No necesita ni quiero hacer 2 películas de programación, una interfaz gráfica en en H. T, M. L, conectada con C, P, A, I o Stoplash.
+María J. Carvajal
+María J. Carvajal
+12:35
+Sí desde la parte prono también, pues
+obviamente a no dar papayasos. Pero desde la parte de Front también 1 aplica técnicas de seguridad, pues, además de no dar, pues los papayazos de dejar pues no sé links abiertos o cosas así.
+Nestor Cardona
+Nestor Cardona
+12:52
+En todas las en todo, en todas las capas. Digamos que hay hay ataques que
+solo van en el C o M, Por ejemplo.
+estos ataques X, s. S. Que es es Scripts.
+escribes que pueden ser de javascript que se ejecutan directamente, dan cabida. Si hay una interfaz gráfica mal construida, se puede correr o ejecutar ataques de de código en Javascript que se va a ejecutar directamente, digamos, como reemplazando algún otro comando que no, no debería. Entonces, eso es un
+Son Son bastante peligrosos y principalmente se
+van van desde la interfaz gráfica. Entonces, en todos los ámbitos, en todos los aspectos, se deben tener
+por lo menos lograr, identificar Okay vale, pero nos vamos a ir profundizando Y por aquí tengo algunos ejemplos de cómo podría ser un desviste desde el backing, ya Ya para en el Front igual. La seguridad tiene que ir en todas las capas en todos los niveles.
+Aquí tenemos una analogía que.
+yiceth mata lozano
+yiceth mata lozano
+13:53
+Y le iba a responder. Flash: Y Django, Sí, lo vimos, pero Fast Api: Sí, lo vimos, No me acuerdo.
+Nestor Cardona
+Nestor Cardona
+14:03
+Que puede que no hayan visto igual. El igual es muy fácil realmente por aquí. Yo les voy a tener aplicaciones, incluso en fácil.
+Bueno, aquí tengo una aplicación en en flax con.
+H. T, M. L, Creo directamente.
+pero Face y P I es de de más facilidad Ahí fue desarrollada por un colombiano que hoy en día es 1 de los estándares para desarrollar a p is interfaces de aplicación.
+en este caso de pass web.
+Servicios es muy sencillo. Tú puedes levantar un servicio con Python en 15 o 20 líneas.
+Entonces, pues si algo que si no lo han visto todavía, pues sí les recomiendo, pues vean. Profundizan, Hay mucha documentación. Eso pensó y fue desarrollado por un por un colombiano, vale
+en la más que todo va para servicios o apps interfaces de aplicación comunicación entre entre 2 aplicaciones.
+Bueno, en eso ya es propio de seguridad en ciberseguridad o en seguridad hay Hay, digamos.
+hay unas normas que es el Wash.
+y nos brinda los diferentes riesgos en seguridad, dependiendo, o sea, de de su nivel de friticidad, desde el más crítico hasta el menos crítico.
+Y hay un owatch top, 10
+para aplicaciones del lado del servidor para servidores, y hay una whattop 10 para Apis o servicios interfaces de aplicaciones son diferentes, listo
+y son en años distintos la diferentes normas Vamos a ver el que es para para aplicaciones listo.
+Entonces, en este caso sería Low Was, el lo Wass Top, 10 del 2 021,
+y simplemente categorizan, o hacen un ranking de lo que es mal
+mayor nivel de complicidad en cuanto si se logra
+detectar una vulnerabilidad de ese tipo, da su nivel de fricticidad a un menor nivel, dependiendo
+cada 1. Cuando 1 hace un análisis de ciberseguridad.
+unos los hallazgos los va clasificando y los va categorizando dependiendo de esta jerarquía. Y eso le va a dar una puntuación. Un sport
+para determinar qué tan seguro o inseguro es tu aplicación dependiendo, pues.
+de la técnica que se utiliza. Por ejemplo.
+nivel 1 sería el broken access control, que sería un control de acceso roto, una vulnerabilidad, por ejemplo, que dejen
+que un usuario de contraseña admira o algo así que que fácilmente se puedan ingresar al sistema y acceder
+y hacer modificaciones y tener control total sobre la aplicación. Eso sería, pues, algo así como ese nivel.
+Hay otros ejemplos dentro de estos ámbitos
+o fallos en en la criptografía que las contraseñas no vayan centradas, cosas así o de pronto, que
+que la la información que se transporta
+no no no va cifrada o no tiene algún método en el momento de compartir y se puede acceder a la información
+muy bien muy delicada, o la parte de ese tú de la inyección que no tenga, digamos, sistemas de
+de validación, por ejemplo, de validación de un de I P de que tantos intentos a mi servicio a mi aplicación, un mismo dispositivo Ip puede hacer una petición?
+¿sí? Porque podían hacerse. Digamos luego que llaman ataque de p. C, que son como muchos reintentos
+clases, anti hackeo visualizando la leí Mushing Phine sería como correr.
+por ejemplo, un formulario de de de ingreso y probarle usuarios y y muchas contraseñas así de manera automatizada.
+esperando respuestas y entrógeno, y no pasó para ver con cuál coincide.
+Si la aplicación lo permite. La aplicación debería de permitir cierto número de de peticiones por minuto o por usuario.
+evitando ese tipo de de análisis, pues
+ya sea de de inyección, o decía de la inyección que no tenga las validaciones y, digamos, en el uso normal de la aplicación, pues permita inyectar código o consultas Sql para hacer modificaciones. Por ejemplo, una consulta que
+se te trae las los productos de la base de datos de una página de eventos.
+Pero ahí hay una brecha que no se hacen ciertas validaciones. Y puedes
+y hacer las peticiones, pero que adicional te mande un un botazón con todos los usuarios y con sus contraseñas. Por ejemplo.
+entonces se utiliza la misma consulta de que trae los productos
+y se le hace una inyección para modificarla y traer otra información de la base de datos. Si eso se logra permitir, pues, de este tipo o un diseño inseguro o mis configuration es, por ejemplo, que el servidor de venir de servidores o de las cabeceras
+que devuelven las peticiones de en en red.
+No se establecen ciertos criterios de seguridad, ciertas cabeceras que eviten justamente este tipo de vulnerabilidades o configuraciones del servidor o, por ejemplo, que no tiene.
+no tiene cifrados, pues de seguridad de.
+o sea, no, no, no, no me exige que navegue por aquí. T, T, P. S, con su con sus respectivos
+certificados y cifrados, pero no hay un canal de comunicación seguro Entonces, como en en este punto.
+vulnerabilidad, vulnerabilidad sobre ciertos componentes, problemas en la autenticación
+general o, por ejemplo, este es que no es un error, pero
+cuando falla o cuando se hace una petición, la aplicación brinda más información de la necesaria. Esa información que se brinda puede dar. Yo no deja por ahí un loco o algo escribiendo con la respuesta de algo. Es como muy explícito, muy específico.
+Eso puede generar cierta información de no sé cómo se llama una clase o cómo se llama alguna función o o cómo es espera recibir el formato de la información para para para que funcione Cosas así.
+Eso le da más información al atacante. Son cosas que se deben evitar.
+Entonces esa sería como la jerarquía.
+Esto de manera amplia, simplemente pues para tener conocimientos de manera general y saber cómo que en temas de seguridad. Hay diferentes niveles y hay un top, 10, que es el estándar que especifica la
+y
+todo ello, por ende, lo que más se le debe trabajar y garantizar. Son los que están acá los primeros que les mencioné.
+¿sí? O sí, una aplicación en lugar de que tú no tengas una falla de este tipo vale
+idealmente ninguna, pero pues pues tendría que tener una justamente el
+se hace el desarrollo. Y se hacen estos análisis de de de ciberseguridad o simplemente
+en testing, pues pruebas de seguridad para justamente retroalimentar el desarrollo y corregir las fallas que se encuentran entonces normalmente, pues no lo hace el desarrollador desde el comienzo, aunque como desarrolladores, sí deberíamos por lo menos tener una idea y noción.
+Y todo esto, pues, para evitar dejar allí vulnerabilidades en nuestras aplicaciones, que no
+son muy pocas las compañías y las empresas que hacen este tipo de contrataciones para retroalimentar sus sistemas y garantizar que estén seguros, entonces se les mandan las peticiones y los hallazgos
+al equipo de desarrollo para que haga las correcciones. Eso no se ve en todos lados.
+Importante desde la concepción desde el mismo criterio que tengo como desarrollador es tener en cuenta ciertos temas de seguridad, Vale.
+Okay, inyección o inyección de comandos, Y
+lo que nos dedication es el manejo de seguro de sesiones y passwords.
+y el F. C. C escrustacie
+contemplación de código pues código de scripts.
+Ese sería como lo primero a tener en cuenta y
+la validación de las entradas. Vimos que es la primera línea de defensa, entonces no nunca confía en los datos del usuario. Y esto sí va más de cara a lo que mencionaban de las interfaces gráficas.
+Entonces lo primero es la validación de las entradas, entonces
+establecer ciertas estrategias de validación antes de
+enviar una petición. Incluso de estos se puede hacer en el pro y además hacerlo en el backing. Y cuando ya recibe la entrada del usuario formulario, lo que sea antes de siquiera procesarlo. Hago la validación. Se debería mandar como un método que haga las validaciones respectivas, por ejemplo, que no contenga comandos para
+S Q. L en este caso, pues se rechaza y se manda la notificación y ni siquiera se hace.
+Se hace el la consulta a base de datos. No.
+eso es lo que a lo a lo que se lo ofrece, la referencia y
+o simplemente hacerle limpieza. Ah, bueno, Ok.
+que están bien los datos, pero pues son datos. No sé que
+que vienen con mayúsculas y minúsculas combinados, pues a veces para guardar los números en la base de datos, pues 1 lo que hace es una limpieza. Los estandariza, los
+los acomoda y, por ejemplo, los pasa todos a mayúscula o minúsculas. Ese tipo de cosas también ayudan
+temas de la seguridad en algunos casos. Y cuando viene, ve que todo está bien, Hicieron las validaciones. Y si se hace realidad el procesamiento, entonces en las consultas a las bases de datos, pero garantizando que no es que no vaya a haber una una inyección de ese Q, L, por ejemplo, o inyección de comando.
+Pero no es que yo, por recibirlo. El formulario lo mande directamente a la consulta de base de datos. Listo
+M Python: hay algunas librerías que ya se encargan de muchas de estas cosas.
+Sería Marchmallow y pairati listo.
+pero vamos a ver esta aplicación. Es Speak que tengo, acá Estamos utilizándola. Ahorita. La vamos a ver para qué sirve cada una y que se utiliza para.
+por ejemplo, todo el tema, el tema de validación de tipos de datos
+o escape de caracteres especiales, límites de longitud y formatos. Eso ayuda a evitar que hayan errores. Entonces estas librerías
+hacen ese tipo de evaluaciones de la información, aunque 1 también lo puede, lo podría hacer sus propias funciones. Vamos a ver que hagan este tipo de validaciones.
+Bueno, por lo pronto dejamos. Acá. Vamos a mirar entonces el script.
+este script 1 aquí tiene las dependencias. Es una aplicación en flash
+que necesitas instalar esas dependencias. Entonces lo primero que tiene que correr es este comando
+y cristal. Y pues está la flax, Las limitedr y estas librerías te son de seguridad, no
+que se instalan las dependencias? Bueno, si hay un rifpartments, creo que no les puse un recuaderman. No
+sería si tuviera un archivo diferente, pero en este caso se instalarían las con este comando una terminal, te pueden crear un ambiente de ejecución. Yo lo tengo aquí, un ambiente donde vino que ya les instale
+y después de ejecutar la aplicación de esta manera.
+sería el nombre de la aplicación. Aquí Le puse
+sesión 1 script nombre de la aplicación.
+Esto va a levantar un una aplicación sencilla en el navegador en el cuerpo. Y aquí se van a
+a ver varios conceptos, validaciones de entradas utilizando la librería masmalow
+hash seguro de passwords, tema de haching para que las contraseñas sean sean seguras y no se transmitan, digamos, tal cual
+contraseñas y protección a ese. C, S, R, F, En
+ahorita, profundizamos cuando llegamos ahí, es donde se está implementando.
+pero pues es sobre todo en en en las sesiones los token de sesiones, para garantizar de que la petición coincide con la sesión actual y no incul no permita, como que otras peticiones con
+otros tokens, por así decirlo, puedan ejecutar. No sé información de mi usuario cosas y el rey límite.
+Eso es delimitar
+qué tantas veces ejecuta, incluso un comando una función que puedo decir que la función de lobby solo nos permite delimitar 3 veces en un minuto o cosas así.
+Y esto es para evitar
+ataques de fuerza bruta también y evitar que la que la aplicación no se se comience a recibir muchas, muchas, muchas peticiones que después no pueda gestionar.
+ya tenía como más o menos lo que se estaría implementando. Bueno, aquí están las importaciones.
+Pregunto: ¿me van siguiendo alguna pregunta antes de avanzar?
+Bueno.
+En fin, Okay te importan las librerías de Haching. En este caso, mira que es para
+para generar Password y contraseña. Se utiliza esta librería Wuercels para temas de seguridad
+genera Passwords en formato con el hash y validar el hash de la contraseña
+y para marchuelo sería más bien de validación de tipos de campos, esquemas, validaciones de errores. Ese tipo de validaciones ya todo lo demás es
+propio de Flash y, por ejemplo, Flags tiene flax límites.
+¿qué es lo que yo les menciono a usted delimitar que tantas veces se ejecuta una clase o se ejecuta una función ya pasas por temas de de seguridad de o validaciones, y pues, todo el manejo de decisiones
+del mismo plazo y demás librerías chicles.
+Login: lo que tenemos acá configuración del login para eventos de seguridad simplemente es una base, una una función.
+y y esta función establece el formato del login de cómo se va a mostrar la información e incluso
+va a generar un archivo. Se tiene que punterlog.
+Si vemos acá, esto también forma parte de la seguridad.
+Son funciones que establecen cómo se va a escribir la información y de qué tipo de mensajes son
+ya y desde donde se realizó la la petición.
+Y una vez hecha la petición de generar un registro porque a veces falla la aplicación
+y queremos ir a revisar cual fue el error, Pero no tenemos unos blogs
+y mu. Muchas veces, los blogs que se tienen son en
+prints que están aquí simplemente mostrando más. No me genera un archivo
+con ellos para posteriormente, luego que falló poderlo. Revisar eso también es importante todo esto se maneja aquí.
+Aquí. Se establece los niveles, pues el formato
+cómo se van a mostrar que sería como la fecha. El nivel caso info por defecto es info.
+pero pues pueden ser warning, puede ser diferentes.
+Y por último, el mensaje. Este, el mensaje social, bueno.
+y aquí, bueno, se tiene la instancia del el Lonn.
+y siempre todo se va a manejar desde acá desde ese objeto.
+cada vez que yo quiera mostrar algo, pues ya simplemente lo mando. Ya bueno.
+Okay. Aquí se define la aplicación y la aplicación Requiere una clave, una clave secreta aleatoria, que es utiliza sigtres y genera un token aleatorio de estudio, 32 bits
+y en este caso, claro.
+cada petición que se haga la aplicación va a estar asociada a un a un token. Se llama token s. S. R. F, Que yo le dije: esos tokens permiten
+que
+sean una vez se se inicialice el llamado se genera ese token y toda la comunicación que conoces a través de la Web.
+debe coincidir con dicho token que se emitió,
+y eso es. Token. Tiene una vida útil en este caso. Tres 1 600 s, que sería una hora
+a la hora de venir a pedirlo. Entonces, por ejemplo, eso es como para que se cierre la sesión luego de determinado tiempo, lo que 1 puede hacer es que mientras esté en uso de la aplicación, pues se está actualizando.
+Está bien, porque esto también se puede manejar para manejo de tiempo de inactividad que se le pone. No sé, 300 s 5 min y está inactivo. Se cierre la la aplicación
+si tú no le das Clic a algo, pues no renuevas no actualizas. El token. Por ende, cuando se pasa el tiempo, se cierra la sesión. Este tipo de protecciones se pueden generar.
+Aquí se tiene con esta clase de Gpr Proteg, que sería acá directamente desde Flash y a mí
+con la instancia del es simplemente la protección global para para para todas las peticiones que se ha vivido
+y para prevenir ataques de fuerza bruta, un ataque de fuerza bruta, lo que yo les decía constantemente, se hacen miles y cientos de peticiones
+para intentar bloquear, para que la aplicación las las veces las detecten. Por ejemplo, acá se obtiene
+y la Ip
+y a la aplicación, pues la instancia de la aplicación. En este caso se definen los límites, por ejemplo.
+esa dirección I, P,
+en esa App o en esta aplicación. Por eso puede ser por aplicación o por o por metro por por clase.
+máximo. Permite 100 peticiones en una hora.
+ese parámetro, Pues, bueno, no juegas con él, simplemente es trauma
+de manera demostrativa, por lo menos, no no debería
+hacer más de 100 peticiones en una misma a un a un mismo una misma función en un período de una hora. ¿no sería un comportamiento normal
+si se llega a superar esto es esta librería. Va a estar contando las peticiones que se hacen. Y si se llega a superar, bloquea bloquea el usuario y no le permite que se sigan haciendo, porque si no, el servidor va a seguir recibiendo y recibiendo.
+Y eso es lo que se llama hasta ataque de fuerza bruta, simplemente pues se supera la capacidad del servidor con tantas peticiones que no va a responder y no va a trabajar de manera adecuada.
+Vale, alguna pregunta? ¿es allí
+de momento? Aquí son puras instancias aquí. Todas nuestras.
+hasta el momento son puras instancias, lo que se está haciendo y definición de funciones auxiliares para el login
+El límite ya y aquí se establecen lo que son los esquemas de validación utilizando ya la librería Magmallow.
+Y si miramos acá definimos una clase que sería
+esquema de registro de usuario que indica que ese esquema para validar datos de registro de un usuario en un formulario de registro.
+se va a crear una cuenta y se crea una instancia del esquema.
+Este esquema está Acá directamente de masmelo en
+aplica múltiples capas de validación de entradas, por ejemplo.
+por cada 1 de los campos. Yo le puedo poner criterios de validación.
+Newsernay se obtiene el campo.
+Voy a hacer un string que
+esto es, dice que es referido, es obligatorio ese campo
+si está en blanco o nul.
+va a decir, ese campo es obligatorio y la validación asociada, de hecho, campo. Entonces dice que
+el tamaño mínimo es de 3,
+y el máximo es de 20. Entonces puedes controlar la longitud de lo que se ingresa.
+Y haces esas cifras de validación. Entonces lo que llega, él se va a validar si cumple o no cumple con estos criterios que sea obligatorio que esté dentro del rango de caracteres y el tipo de caracteres, por ejemplo, son alfanoméricos.
+Esto ya casi implica.
+Utiliza Acá directamente en la ley de y todo ese tema de Marsella, el Baliday.
+Tú le das el formato o el patrón. Eso significa que desde la A minúscula a la Z a minúscula, desde la a mayúscula a la z mayúscula y el del 0 9.
+¿y qué idioma dice los caracteres, pero sí,
+entonces ese usuario no puede tener caracteres especiales. Por ejemplo, se evita también caracteres que se utilizan en lenguaje de programación en la escuela.
+Eso sería la validación y simplemente es.
+se establece para cada 1 de ellos.
+Entonces, por ejemplo, usuario, correo, el campo email se valida el formato que es obligatorio, que es requerido
+y en este caso, este ya viene por defecto por la librería, entonces no hay que darle
+formato de correo
+Aquí, Por ejemplo, la contraseña dice que es obligatoria y se debe validar que mínimo la tenga mínimos caracteres
+al menos una minúscula, una mayúscula y un número. Es este de acá
+aquí. La expresión que se obtiene debe tener al menos alguna de minúsculas también. Una mayúscula.
+y el el número profe sí.
+yiceth mata lozano
+yiceth mata lozano
+36:24
+Y aquí, ¿cómo determina que el el email es válido, pregunto por qué por ahí he visto correos
+que la han reportado como no válidas, pero es porque ya están utilizando unos dominios
+diferentes nombre de la empresa, como que es muy cortico.
+Nestor Cardona
+Nestor Cardona
+36:44
+Okay Okay. Bueno, yo, para mirar la documentación de marcelo.
+Punto e mail.
+Aquí ya está por la librería, no.
+pero pues normalmente se hace algo como esto. También se podría hacer la validación
+explicando el formato que contenga eso seguido de, no sé, un arroba y después del arroba halla algo con estos caracteres de seguido de un punto. Y después de ese punto de una extensión que tenga mínimo 2
+los caracteres, más o menos como se valían los
+los correos. Pero en este caso, esta línea es ya es por la librería ya tiene la validación de formato email.
+Habrá que mirar la librería como lo valida ya.
+bueno
+y se definen varios esquele esquemas para para cada 1. Entonces, por ejemplo, si el esquema era para un formulario, este esquema es para el login, El login tiene passwords y el campo debe ser un string que va a ser obligatorios y que
+mínimo va entre 1 y 50 caracteres y el otro entre 1 y 100,
+y así sucesivamente. Tú te puedes quedar en 3 esquemas de validación para cada caso
+y es inicialista, una base de datos, entonces se crea una base de datos global. Punto D. B
+Establece la conexión con la base de datos y lo que hace es lanza unas sentencias Q. L, Pues para crear la tabla user
+con ni B, N y ser name inmate el Hash del Possword, la contraseña
+y fecha de operación a todo lo que tiene la tabla visuales. Listo. Eso está aquí, localen a base de datos.
+Y, bueno, se establece la conexión. Bueno, utilizo secular para establecer la conexión. Se casó con la conexión de la base de datos de la espalda, punto B
+y se obtienen, digamos, acceso a los nombres de las de las de las columnas.
+¿qué más tenemos por aquí, 26 sí.
+Y en
+válidas que una U. R. L de redirección se asegura, viene a veces lo que se hace es que utilizan otros dominios para para hacer redireccionamiento.
+Y en ese caso se evitaría ese tipo de cosas. Entonces, redirecciones redireccional sería calabaza la alineación
+no se auto y no se salga. Fue desde el domingo
+y pues sería como los blog de los eventos de seguridad mantener una función a la cual
+hay un evento de seguridad, entonces yo le mando el tipo de evento, la data, y lo hay. Que.
+y esto me genera los logs y loggers
+mandando un evento, el usuario. Y lo que es como lo que se mostraría. Por eso. Esta función se llama.
+se invoca cada vez que se quiera mostrar un loco que se detecte un evento de seguridad para que utilice el blogger
+mandándole el tipo de evento y la sociedad.
+Okay. Esta parte de acá es otra de aquí.
+Son lo que garantizan.
+Por ejemplo, eso es una capa. Es un midebo para cabeceras de seguridad. Se ejecuta antes de cada de cada rictus. En este caso. Aquí está. La
+no tiene ninguna, pero los que ver son cabeceras en las peticiones Http
+simplemente implican, indican cómo espera recibir las respuestas en tu formato de parte de los clientes y aquí puedo, Podría poner cabeceras de seguridad.
+y eso sería parte, pues, de la de la
+el miss configuration que le mostré a esto exigiría que anti cierta petición exija que
+venga estructurada la información con unas cabeceras que van a evitar muchas cosas, pues en la misma en la misma petición de comunicación.
+o sea, que antes de y este ya y
+Ok. Este, por ejemplo, lo solicitó y este los valida.
+o la genial para las añade las respuestas, esto es, para para solicitarlas en las peticiones, y eso le genera las respuestas. Por ejemplo, aca
+estas son cabeceras
+de Htt: Si Si me hago entender cuando hablo de cabeceras de. H. P: P: Explico un poco más. Eso.
+Vanessa Hernandez
+Vanessa Hernandez
+41:16
+Estás hablando de Apis, de.
+Nestor Cardona
+Nestor Cardona
+41:20
+Pues sí, puede ser lápiz, pues, o sea, en en en un rico, es en una petición Http
+de esas cabeceras.
+Recuerden que las peticiones? H: P: son diferentes. Son diferentes verbos, pero en últimas ya tienen unos headers o cabeceras y tienen un Body, que es el cuerpo del mensaje, sino donde normalmente va la información, Ya
+me refiero a esas cabeceras
+como en las A, P. I S o como cualquier petición, a través de la web, utilizando el Protocolo Http, que es de transferencia de hipertensos.
+Vamos a jugar voy a explicar ampliar un poco más el tema. Entonces cierro acá para
+que se corte la grabación, volvemos a ingresar
+y profundice un poco más con esto dice.
+volvemos a entrar listo.
