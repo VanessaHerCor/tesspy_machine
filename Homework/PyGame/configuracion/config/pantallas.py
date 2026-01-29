@@ -269,19 +269,19 @@ def pantalla_instrucciones(pantalla, fuente_mediana, ruta_sprites):
         y_pos = max(int(200 * alto_pantalla / 600), 120)
         texto1 = fuentes['mediana'].render("Recolecta puntos de magia", True, VERDE_CLARO)
         pantalla_actual.blit(texto1, (ancho_pantalla // 4, y_pos))
-        if img_coin:
-            pantalla_actual.blit(img_coin, (ancho_pantalla // 2 + max(int(100 * ancho_pantalla / 800), 60), y_pos - 10))
+        # if img_coin:
+        #     pantalla_actual.blit(img_coin, (ancho_pantalla // 2 + max(int(100 * ancho_pantalla / 800), 60), y_pos - 10))
         
         # Instrucción 2: Evitar enemigos
         y_pos = max(int(280 * alto_pantalla / 600), 180)
         texto2 = fuentes['mediana'].render("Evita los monstruos", True, ROJO_CLARO)
         pantalla_actual.blit(texto2, (ancho_pantalla // 4, y_pos))
-        if img_enemy:
-            pantalla_actual.blit(img_enemy, (ancho_pantalla // 2 + max(int(100 * ancho_pantalla / 800), 60), y_pos - 15))
+        # if img_enemy:
+        #     pantalla_actual.blit(img_enemy, (ancho_pantalla // 2 + max(int(100 * ancho_pantalla / 800), 60), y_pos - 15))
         
         # Instrucción 3: Ganar
         y_pos = max(int(360 * alto_pantalla / 600), 240)
-        texto3 = fuentes['mediana'].render("¡Y gana!", True, AMARILLO_CLARO)
+        texto3 = fuentes['mediana'].render("Usa las flechas para moverte", True, AMARILLO_CLARO)
         pantalla_actual.blit(texto3, (ancho_pantalla // 4, y_pos))
         
         # Instrucción final escalada
