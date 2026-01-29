@@ -168,9 +168,21 @@ print("✅ Sprites configurados con sistema centralizado de resolución")
 # CONFIGURAR INTELIGENCIA ARTIFICIAL DEL ENEMIGO
 # ════════════════════════════════════════════════════════════════════════════
 
-# Crear IA para el enemigo (usa la IA híbrida que es la más impresionante)
-enemigo_ia = crear_enemigo_inteligente("hibrida", velocidad_enemigo)
-print("🧠 IA Híbrida cargada - El enemigo ahora es INTELIGENTE")
+# Opción 1: Red Neuronal
+# enemigo_ia = crear_enemigo_inteligente("neuronal", velocidad_enemigo)
+
+# Opción 2: Persecución Inteligente
+# enemigo_ia = crear_enemigo_inteligente("basica", velocidad_enemigo)
+
+# Opción 3: Patrones Aleatorios
+enemigo_ia = crear_enemigo_inteligente("patrones", velocidad_enemigo)
+
+# Opción 4: Híbrida
+# enemigo_ia = crear_enemigo_inteligente("hibrida", velocidad_enemigo)
+
+# Crear IA para el enemigo (Red Neuronal - Aprende durante el juego)
+# enemigo_ia = crear_enemigo_inteligente("neuronal", velocidad_enemigo)
+print("🧠 Red Neuronal cargada - El enemigo APRENDERÁ durante el juego")
 
 # Variables para tracking de posición del jugador
 posicion_anterior_jugador = (jugador.rect.x, jugador.rect.y)
@@ -265,12 +277,42 @@ while running:
     pos_jugador = (jugador.x, jugador.y)
     
     # IA calcula el movimiento óptimo
-    movimiento_ia = enemigo_ia.calcular_movimiento(
-        pos_enemigo, 
-        pos_jugador, 
-        tiempo_juego,
-        posicion_anterior_jugador
-    )
+    # ⚠️ IMPORTANTE: Cada IA tiene una firma diferente de calcular_movimiento()
+    
+    # Detectar qué tipo de IA se está usando y llamar con los argumentos correctos
+    tipo_ia = type(enemigo_ia).__name__
+    
+    if tipo_ia == "RedNeuronalSimple":
+        # Red Neuronal: solo necesita posiciones
+        movimiento_ia = enemigo_ia.calcular_movimiento(pos_enemigo, pos_jugador)
+        
+    elif tipo_ia == "PerseguirInteligente":
+        # Básica: necesita posición anterior para predicción
+        movimiento_ia = enemigo_ia.calcular_movimiento(
+            pos_enemigo, 
+            pos_jugador, 
+            posicion_anterior_jugador
+        )
+        
+    elif tipo_ia == "IAPatronesAleatorios":
+        # Patrones: necesita tiempo para cambiar estrategias
+        movimiento_ia = enemigo_ia.calcular_movimiento(
+            pos_enemigo, 
+            pos_jugador, 
+            tiempo_juego
+        )
+        
+    elif tipo_ia == "IAHibrida":
+        # Híbrida: necesita todo
+        movimiento_ia = enemigo_ia.calcular_movimiento(
+            pos_enemigo, 
+            pos_jugador, 
+            tiempo_juego,
+            posicion_anterior_jugador
+        )
+    else:
+        # Fallback por si acaso
+        movimiento_ia = enemigo_ia.calcular_movimiento(pos_enemigo, pos_jugador)
     
     # Aplicar movimiento calculado por la IA
     velocidad_enemigo_x = movimiento_ia[0]

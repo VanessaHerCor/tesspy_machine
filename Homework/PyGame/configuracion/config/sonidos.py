@@ -203,29 +203,4 @@ def detener_todos_sonidos(sonidos):
             sonido.stop()
 
 
-# ════════════════════════════════════════════════════════════════════════════════
-# FUNCIONES DE UTILIDAD
-# ════════════════════════════════════════════════════════════════════════════════
 
-def ajustar_volumen_musica(volumen):
-    """
-    Ajusta el volumen de la música de fondo
-    
-    Args:
-        volumen (float): Nivel de volumen (0.0 a 1.0)
-    """
-    pygame.mixer.music.set_volume(max(0.0, min(1.0, volumen)))
-
-
-def ajustar_volumen_efectos(sonidos, volumen):
-    """
-    Ajusta el volumen de todos los efectos de sonido
-    
-    Args:
-        sonidos (dict): Diccionario con los sonidos cargados
-        volumen (float): Nivel de volumen (0.0 a 1.0)
-    """
-    volumen = max(0.0, min(1.0, volumen))
-    for sonido in sonidos.values():
-        if sonido:
-            sonido.set_volume(volumen)

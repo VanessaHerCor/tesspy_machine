@@ -253,54 +253,7 @@ def crear_objetos_adaptativos(pantalla):
         }
     }
 
-# ════════════════════════════════════════════════════════════════════════════
-# FUNCIONES PARA ACTUALIZACIÓN DINÁMICA (YA NO NECESARIAS CON VENTANAS FIJAS)  
-# ════════════════════════════════════════════════════════════════════════════
 
-# NOTA: Las siguientes funciones ya no son necesarias porque eliminamos
-# el redimensionado manual de ventanas. Ahora usamos 3 resoluciones fijas.
-
-def actualizar_fuentes_dinamicas(escala_actual, tamaño_titulo, tamaño_subtitulo, tamaño_normal):
-    """
-    Actualiza los tamaños de fuente según la escala actual
-    (OBSOLETA: Solo para compatibilidad - ya no se usa redimensionado)
-    """
-    # Calcular nuevos tamaños basados en la escala
-    tamaño_grande = max(int(tamaño_titulo * escala_actual), 24)
-    tamaño_mediana = max(int(tamaño_subtitulo * escala_actual), 18)
-    tamaño_pequeña = max(int(tamaño_normal * escala_actual), 14)
-    
-    # Recrear las fuentes con los nuevos tamaños
-    return {
-        'fuente_grande': pygame.font.Font(None, tamaño_grande),
-        'fuente_mediana': pygame.font.Font(None, tamaño_mediana),
-        # 'fuente_pequeña': pygame.font.Font(None, tamaño_pequeña)
-    }
-
-def actualizar_objetos_dinamicos(pantalla, ancho_anterior, alto_anterior, 
-                                  objetos_actuales, velocidades_actuales):
-    """
-    FUNCIÓN OBSOLETA: Ya no es necesaria con ventanas fijas
-    
-    Antes actualizaba objetos del juego manteniendo sus posiciones escaladas
-    cuando el usuario redimensionaba la ventana manualmente.
-    
-    Ahora usamos 3 resoluciones fijas, así que esta funcionalidad ya no se usa.
-    Se mantiene solo para compatibilidad.
-    """
-    # Esta función ya no se usa con el nuevo sistema de resoluciones fijas
-    print("⚠️ Advertencia: actualizar_objetos_dinamicos es obsoleta con ventanas fijas")
-    return None
-
-# ════════════════════════════════════════════════════════════════════════════
-# CONFIGURACIÓN DE POSICIONES EN MENÚ
-# ════════════════════════════════════════════════════════════════════════════
-
-# Posiciones relativas para elementos del menú (en porcentaje)
-POS_TITULO_Y = 0.15           # 15% desde arriba
-POS_PRIMER_BOTON_Y = 0.40     # 40% desde arriba
-POS_SEGUNDO_BOTON_Y = 0.55    # 55% desde arriba
-POS_TERCER_BOTON_Y = 0.70     # 70% desde arriba
 
 # ════════════════════════════════════════════════════════════════════════════
 # EJEMPLOS DE USO

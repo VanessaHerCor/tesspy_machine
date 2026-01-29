@@ -86,6 +86,11 @@ class PerseguirInteligente:
         dy_normalizado = (dy / distancia) * self.velocidad_base
         
         return (dx_normalizado, dy_normalizado)
+    
+    def captura_exitosa(self):
+        """Registra una captura (esta IA no evoluciona, solo persigue)"""
+        # La IA básica no aprende, pero necesita este método para compatibilidad
+        pass  # No hace nada, solo para evitar errores
 
 # ════════════════════════════════════════════════════════════════════════════
 # OPCIÓN 2: IA CON PATRONES ALEATORIOS
@@ -193,6 +198,11 @@ class IAPatronesAleatorios:
             (dx / distancia) * self.velocidad_base,
             (dy / distancia) * self.velocidad_base
         )
+    
+    def captura_exitosa(self):
+        """Registra una captura (esta IA no evoluciona, usa patrones fijos)"""
+        # La IA de patrones no aprende, solo cambia de estrategia aleatoriamente
+        pass  # No hace nada, solo para evitar errores
 
 # ════════════════════════════════════════════════════════════════════════════
 # OPCIÓN 3: RED NEURONAL SIMPLE
@@ -262,9 +272,14 @@ class RedNeuronalSimple:
         z2 = np.dot(a1, self.pesos_oculta_salida) + self.sesgo_salida
         salida = self.activacion_tanh(z2)  # Valores entre -1 y 1
         
-        # Convertir salida a velocidad
-        nuevo_dx = salida[0] * self.velocidad_base
-        nuevo_dy = salida[1] * self.velocidad_base
+        # 🔧 BALANCE INTELIGENTE: Combinar salida de red con persecución base
+        # 50% persecución básica + 50% salida red neuronal
+        # Esto permite que la red neuronal tenga más influencia mientras garantiza persecución
+        persecucion_base_x = (dx_norm * 0.5)
+        persecucion_base_y = (dy_norm * 0.5)
+        
+        nuevo_dx = (persecucion_base_x + salida[0] * 0.5) * self.velocidad_base
+        nuevo_dy = (persecucion_base_y + salida[1] * 0.5) * self.velocidad_base
         
         # Guardar velocidad para próxima iteración
         self.velocidad_previa = [nuevo_dx, nuevo_dy]
@@ -286,6 +301,14 @@ class RedNeuronalSimple:
         self.pesos_oculta_salida += np.random.randn(*self.pesos_oculta_salida.shape) * mutacion
         self.sesgo_oculta += np.random.randn(*self.sesgo_oculta.shape) * mutacion * 0.5
         self.sesgo_salida += np.random.randn(*self.sesgo_salida.shape) * mutacion * 0.5
+    
+    def captura_exitosa(self):
+        """Registra una captura exitosa y evoluciona la red neuronal"""
+        # En la Red Neuronal simple, siempre ocurre una "captura"
+        # por lo que asumimos fitness medio (el juego es entretenido)
+        fitness = 0.6
+        self.evolucionar(fitness)
+        print(f"🧠 Red Neuronal evolucionó con fitness: {fitness:.2f}")
 
 # ════════════════════════════════════════════════════════════════════════════
 # OPCIÓN 4: IA HÍBRIDA (RECOMENDADA PARA EL PROFESOR)
