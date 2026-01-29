@@ -33,11 +33,8 @@ migrations/__pycache__/
 # Sistema
 .DS_Store
 Thumbs.db
-<<<<<<< HEAD
-=======
 
 #Esto se usa para remplazar textos en git-filter-repo (se uso como medida para eliminar informacion sensible que habia quedado en un commit anterior)
 replace.txt
 git-filter-repo
 git-filter-repo.py
->>>>>>> e2c17bf652615bb793ab9a1469d744ec789020a8

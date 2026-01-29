@@ -1,0 +1,84 @@
+"""
+
+# ============================================================================
+# COMANDOS DE EJECUCIÓN Y EJEMPLOS
+# ============================================================================
+
+"""
+COMANDOS BÁSICOS DE PYTEST:
+
+1. Ejecutar todas las pruebas:
+   pytest
+
+2. Ejecutar con verbosidad:
+   pytest -v
+
+3. Ejecutar pruebas específicas:
+   pytest tests/test_calculadora.py
+   pytest tests/test_calculadora.py::TestOperacionesBasicas
+   pytest tests/test_calculadora.py::TestOperacionesBasicas::test_suma_numeros_positivos
+
+4. Ejecutar con marcadores:
+   pytest -m unit                    # Solo pruebas unitarias
+   pytest -m "not slow"             # Excluir pruebas lentas
+   pytest -m "integration and mock" # Combinación de marcadores
+
+5. Ejecutar con cobertura:
+   pytest --cov=src
+   pytest --cov=src --cov-report=html
+   pytest --cov=src --cov-report=term-missing
+
+6. Ejecución paralela:
+   pytest -n auto                   # Detectar CPUs automáticamente
+   pytest -n 4                     # Usar 4 procesos
+
+7. Parar en primer fallo:
+   pytest -x
+
+8. Mostrar output de print():
+   pytest -s
+
+9. Recolectar pruebas sin ejecutar:
+   pytest --collect-only
+
+10. Ejecutar última prueba que falló:
+    pytest --lf
+
+EJEMPLOS DE SALIDA ESPERADA:
+
+$ pytest -v
+========================= test session starts =========================
+collected 25 items
+
+tests/test_calculadora.py::TestOperacionesBasicas::test_suma_numeros_positivos PASSED
+tests/test_calculadora.py::TestOperacionesBasicas::test_suma_con_negativos PASSED
+tests/test_calculadora.py::TestOperacionesBasicas::test_resta_basica PASSED
+...
+tests/test_avanzadas.py::TestIntegracion::test_flujo_completo_calculadora PASSED
+
+==================== 25 passed, 0 failed in 2.34s ====================
+
+$ pytest --cov=src --cov-report=term-missing
+========================= test session starts =========================
+collected 25 items
+
+tests/test_calculadora.py ......................... [ 96%]
+tests/test_avanzadas.py .                          [100%]
+
+---------- coverage: platform linux, python 3.9.7-final-0 -----------
+Name                    Stmts   Miss  Cover   Missing
+-----------------------------------------------------
+src/__init__.py             0      0   100%
+src/calculadora.py         89      2    98%   45, 67
+-----------------------------------------------------
+TOTAL                      89      2    98%
+
+==================== 25 passed, 0 failed in 2.89s ====================
+"""
+
+if __name__ == "__main__":
+    print("Este es un archivo de pruebas. Ejecutar con:")
+    print("pytest tests/")
+    print("pytest --cov=src --cov-report=html")
+    print("pytest -v -m 'not slow'")
+    print("\\nPara más información, ver los comentarios en el código.")

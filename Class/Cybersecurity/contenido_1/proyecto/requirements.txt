@@ -1,0 +1,17 @@
+# Framework de pruebas
+pytest>=7.0.0
+
+# Plugins esenciales de pytest
+pytest-cov>=4.0.0          # Cobertura de código
+pytest-mock>=3.10.0        # Mejores herramientas de mocking
+pytest-xdist>=3.0.0        # Ejecución paralela de pruebas
+pytest-html>=3.1.0         # Reportes HTML
+pytest-json-report>=1.5.0  # Reportes JSON
+
+# Dependencias del código principal
+# (En este ejemplo no tenemos dependencias externas)
+
+# Herramientas de desarrollo (opcional)
+black>=22.0.0               # Formateo de código
+flake8>=5.0.0              # Linting
+mypy>=0.991                # Type checking

@@ -1,0 +1,1118 @@
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+Hola. ¿cómo están? ¿cómo va todo? Demos unos 5 minutitos, 10 minutitos de que los demás se conecten vale.
+yiceth mata lozano
+yiceth mata lozano
+00:00:39
+Soy la profe.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:00:40
+Y hola, Giseph, ¿Cómo estás.
+yiceth mata lozano
+yiceth mata lozano
+00:00:43
+Con sueño.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:00:45
+Buen sueño. Aprovechen y descansen un ratico
+5 minutitos antes y están listas.
+yiceth mata lozano
+yiceth mata lozano
+00:00:53
+Okay.
+Okay.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:00:56
+Vale.
+Hola, muchachos. ¡qué pena con ustedes tenía aquí? Una cosita que resolver con algo del Internet, Pero bueno, ya estamos acá. Vale.
+bueno, muchachos a ver.
+Yo creo que ya estamos todos. Ya estamos todos un poquito.
+¡ay, Yo no admitió a yo, no he admitido ni a
+yo. No he metido ni Angie ni Annis. Ah, con eso ya tenemos listos
+bien muchachos por ahí, vi que algunos ya me enviaron la tarea. ¿vale? Vi que me enviaron la tariita.
+No la he podido revisar, claro está, porque
+yo les había comentado algo de que la íbamos a presentar. Cierto, Usted me la ha presentado en un ratico, me decían un poquito la solución
+y le damos un poquito por este lado.
+Y el
+si alguien no tiene de pronto. Ah, bueno, otra cosa importante, ¿cierto? Yo a ustedes. Les sumí. Le sumí. Le sumé 3 puntitos, cierto de la nota final
+con este trabajo, pues ya estaría, bueno. Algunos le sumé los 3 puntitos
+con este trabajo, pues obviamente esto hace parte. Ya sería parte de la nota final. No voy a exigir algo con redes neuronales, algo por el estilo, porque sé que tuvieron que hacer algo parecido con
+con este temita de del seguimiento. Sí,
+pero pues si no les voy a exigir otro, un trabajo final así. Fe o algo por el estilo, normalmente yo exigía una un proyecto final de esta de de aplicación con visión computacional con algo de detección de objetos.
+Pero lo voy a dejar para el proyecto final. Vale para el proyecto final para que visualicemos. Entonces.
+la intención mía es
+en esta partecita de sesión. Sí, digámoslo así, instaladas de pronto, hasta las hasta las 8
+podamos, pues, ver las soluciones. Y si de pronto ustedes no tienen las soluciones, pónganse a trabajar. En eso sí, pónganse a trabajar en eso
+para que me la muestren ahí mismo. Vale, para que me la muestren ahí mismo.
+No sé si les parece si quiero ver otra cosita, pero igual, Hoy empezamos a ver open se ve. Vale, o pensé, B, Vamos a ver un poquito de detección de objetos. Eso no pasa nada. Vamos bien de tiempito. Vale. Ay, Bueno, y otra cosa
+de una vez, van viendo un poquito. Vale, van viendo un poquito, ya saben, que estamos pronto a terminar temas de proyecto final. Sí, ya estamos a punto de entrar en temas de proyecto final.
+ven un poquito el tema de de cuál va a ser su enfoque en el proyecto final. Vale, si alguno se va a ir por el lado del machine learning si otros se van a ir por el lado de aplicación. Comisión Computacional si otros se van a ir. Un poquito.
+nos está hablando del modelo? M: L, ¿O está hablando del fire, el modelo de machine learning. Ustedes ya me lo tuvieron que entregar el domingo. ¿cierto?
+Ya. Bueno, algunos les califiqué el mismo domingo. Los demás que me hayan entregado. Creo que el domingo después de la tarde, no los he calificado. Esos. Los califico hoy a más tardar, no pasa nada.
+pero el modelo? M: L: No, no, Ya ya eso está hace rato. Vale, ya eso está Hace rato.
+Hablo de lo del parque. Recuerdan la taridita que les dejé de
+de que el cuadradito me persiguiera mi jugador.
+Yo les dije que que que vamos a tener por ese lado, ese ese puntico
+vale ese trabajito que no les iba a dejar más trabajitos, porque, pues
+en realidad ese me pareció muy, muy exigente, honestamente muy exigente. Me pareció y
+tapabocas de vanesa que no me digas que que estaba enferma.
+no entrego. No, Yo creo que vanesa. Yo yo vi y me había entregado.
+Giseff. Me entregó y María me entregó.
+No vi a nadie más, pues porque obviamente no lo que les digo. El domingo por la tarde no revisé
+y no he revisado ahorita. He estado mucho con temas de clase y trabajo. Pero pues, bueno.
+no se preocupen que es la nota. Ahí está, si ustedes me entregan, vale, no pasa nada.
+pero puedes al cuadradito, Sí.
+Anyi Lisbeth
+Anyi Lisbeth
+00:22:13
+Había que enviarte el el Paypal Game al correo Ohh.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:22:20
+Sí o no? Pues me lo habían que me lo tenían que mostrar. Ah, yo hice lo del país hasta el 29.
+Ah, ¿cierto? ¿cierto? ¿cierto? ¿cierto? ¿cierto? Yo dije lo del paiguén hasta el 29 bien, hagamos una cosa.
+Anyi Lisbeth
+Anyi Lisbeth
+00:22:35
+Yo sí puedo salir de eso y lo agradezco muchísimo.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:22:40
+Exactamente exactamente eso es lo que yo iba a comentar.
+Los que ya lo tengan hecho. Pueden salir de una vez de lo de piegame vale los que ya lo tengan hecho los que no. Pues pues, bueno, yo les califico después, pero los que ya tienen hecho lo de pay Game.
+Háganlo ojo. Los que no lo tienen hecho aprovechen esta partecita de la sesión, háganlo para que no les coja eso en pleno domingo, en pleno viernes, Jueves: No me acuerdo
+qué día es el 29. Creo que es jueves viernes, pero aprovecho
+lo único que les digo es: aproveche. Vale
+que igual el proyectático, sí es un poquito complejo, pero bueno, tampoco es imposible ni si
+que le tiré kamikaze no vale.
+Vanessa Hernandez
+Vanessa Hernandez
+00:23:29
+Sí, yo le agradezco el tiempo. Profe es que me me queda poco tiempo, pues del del trabajo y pues la verdad el fin de semana le di fue Full al al modelo.
+Y pues, porque en vez de pues, seguir una línea, me puse a dar un poco de vueltas con eso, porque estaba curioseando cosas con esos datos. Y
+Y luego, al final lo mandé a la hora que lo mandé.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:23:55
+Sí, no pasa nada. No pasa nada frescos que que si yo lo yo lo dije. El 29. Yo había dicho que habíamos quedado con eso. ¿vale?
+No pasa nada. El que lo quiera hacer ahorita, puede hacerlo el que lo quieras, poner ahora de una. Y el que me lo entregue. El 29 no pasa nada califico igual.
+Está bien.
+Bueno.
+bueno, muchachos, entonces cuéntenme, ¿quién quiere empezar por ahí. Angie. Me había dicho que quería salir de una vez de eso.
+No sé si quieres María Me envió algo.
+María, me envió algo pero bueno, no sé. Entonces, quién quiere empezar. María.
+Anyi Lisbeth
+Anyi Lisbeth
+00:24:34
+Pues voy a hacerle. Voy a hacerle a ver qué tal.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:24:37
+Vale, Angie.
+Vanessa Hernandez
+Vanessa Hernandez
+00:24:38
+¿y qué pasa en código.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:24:41
+Más o menos. Ah, bueno, más o menos digan de pronto la solución que de pronto hicieron que de pronto aprovech que apliqué redes neuronales y o aplique un modelo Ta Ta Ta Ta Ta Ta Ta o no aplique programación funcional o que sea sí,
+diga más o menos la aproximación que hicieron. ¿vale?
+Y bueno, muéstrenos.
+Anyi Lisbeth
+Anyi Lisbeth
+00:25:04
+Estamos hablando del juego, ¿cierto?
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:25:07
+Señora, estamos hablando de fuego.
+Anyi Lisbeth
+Anyi Lisbeth
+00:25:09
+Bueno, entonces pues no sé de pronto al final de la clase, porque solamente les iba a mostrar el juego sin sin mostrar el.
+Pero pero es así?
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:25:25
+Dale. Perfecto.
+Anyi Lisbeth
+Anyi Lisbeth
+00:25:27
+O quieren ver el juego.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:25:29
+No, no, no, o sea yo no necesito de pronto que ustedes muestren el código.
+sino más bien que que puedan, como darme una introducción, digámoslo así,
+a la solución. De pronto que hicieron. Sí, por lo menos apliqué una red neuronal Vale, o
+puse tal modelo, ¿sí? Cosas como como esas. No que me digan ah, que en el código, tal en la línea tal apliqué el tal modelo tal tal tal no. No pasa nada. Muy En general les parece.
+Anyi Lisbeth
+Anyi Lisbeth
+00:26:01
+Okay.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:26:02
+Perfecto.
+No pasa nada. No pasa nada. María no pasa nada
+eternamente. A veces compartimos nuestros avances súper súper.
+Me encanta la actitud. Tiene que compartirse los 11 y todo
+no hay problema por ese lado.
+No, si no, no, no, no se preocupen, No, no hay ningún problema si está desordenado o algo de eso, la verdad.
+Pues yo yo no miro el yo, yo no miro mucho el código sí. Más bien admiro la aproximación que hicieron, sí, y miro la solución, o sea que funcione, claro está, no
+nos creamos entre todos un hueco común de stail de verdad o es recochando.
+Creo que Recocha Uy no recocha. No me ilusionó.
+Me ilusionó Vanessa me ilusionó
+ahora, si no, si no, si no, si no recibo en undertait no califico sobre sobre 2.
+Mhm, Bueno, no pasa nada. No.
+Sí, no, no, no pasa nada. Muchachos. Vale, No me parece rebajano que ustedes se vayan haciendo la los avances, porque en el proyecto final. Les cuento que
+que igual avance. Bueno, no es que puedan compartir. Bueno, es que depende. Sí,
+depende en qué qué enfoque. Le Le quieren meter al al proyecto final. Yo, honestamente, soy muy libre con eso.
+muy, muy libre. Con eso, el proyectico.
+honestamente honestamente, honestamente, siento que hay mucha mucha posibilidad.
+con aplicación, con visión computacional. Si me lo preguntan.
+me parece más sencillo el tema del chat bot con L. L. Ms: y el tema del machine learning. Pero de ahí también pueden salir cosas buenas.
+Mire nomás. El modelo de detección de fraude fue montado todo con modelos de machine learning entonces
+puede salir algo muy interesante. Eso.
+Anyi Lisbeth
+Anyi Lisbeth
+00:28:27
+Profe me recuerdas. El objetivo de del del juego era perseguir cierto. Era.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:28:33
+Que por lo menos yo estuviera yo, ustedes tenían una monedita, ¿cierto? Y yo quiero agarrar la moneda, pues que el cuadrado, en vez de hacer como esos ataques como muy lineales. Y todo eso como que intente perseguirme. Intenté perseguirme.
+Anyi Lisbeth
+Anyi Lisbeth
+00:28:48
+Y.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:28:49
+Intente. Sí, intente eso. Intente como matarme. Sí.
+Anyi Lisbeth
+Anyi Lisbeth
+00:28:54
+Ah, bueno, pues puedo mostrártelo mostrártelo. Y luego explico.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:28:58
+Y claro.
+Anyi Lisbeth
+Anyi Lisbeth
+00:28:59
+Regálame para compartir.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:29:06
+Compartir pantalla.
+Vale, Yo les tengo que dar acceso huy.
+Tengo que dar acceso a deme un momentico, les doy acceso, compartir.
+Hay como algo para darle acceso a un enfriado
+configuración de la reunión, Mostrar participantes.
+mostrar mi tiempo conectado a mostrar siempre los controles de la reunión. Creo que esto es 1,
+y creo que en compartir herramientas de anfitrión vamos a decir una herramienta de afición.
+En general.
+pantalla
+no me está dejando. No me deja mucho. Es el tema de de compartir aquí a ver
+intención compartir ahí.
+Anyi Lisbeth
+Anyi Lisbeth
+00:30:20
+O uso compartido no está activado. El anfitrión no permite el uso compartido para estar también.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:30:27
+¡ay, ¡Dios mío! Santo Formación de la reunión, Transferencia Solar.
+Imagen de un archivo, compartir cámara.
+y la opción no me aparece acá
+no me aparece acá. No me aparece acá. Conmemoración de las reuniones a audio, subtítulos y traducciones
+deme un segundito a ver cómo hago para solucionar acá porque no me aparece.
+María J. Carvajal
+María J. Carvajal
+00:30:56
+Y si les ves compartir, le da ese botón, el no le hará la petición.
+Anyi Lisbeth
+Anyi Lisbeth
+00:31:03
+No me.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:31:03
+Mira, quién.
+Anyi Lisbeth
+Anyi Lisbeth
+00:31:04
+Hemos estado compartiendo.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:31:07
+Sí, como alguien puede intentar compartir para ver si a mí me sale mejor la petición, porque a mí me sale una petición. Cuando ustedes van a compartir, me dice.
+no sea Ang digital o María, tal quiere compartir
+de pronto ¿Alguien diferente a María Perdona a Angie de pronto María, o algo.
+María J. Carvajal
+María J. Carvajal
+00:31:23
+No.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:31:26
+No directamente le sale la la alerta.
+María J. Carvajal
+María J. Carvajal
+00:31:28
+Sí, sí me sale la alerta, pero puedes aceptar, y ya hay que dar.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:31:35
+Ah, aceptar. Y yo.
+María J. Carvajal
+María J. Carvajal
+00:31:36
+Sí.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:31:38
+Y ya puedes compartirlo.
+María J. Carvajal
+María J. Carvajal
+00:31:39
+No, no, no, no, No está el modal que me dice que el uso no está activado y darle.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:31:46
+Okay Okay Okay Okay.
+un segundito, porque es que mira que a mí siempre me aparece, pero no lo veo, no lo veo.
+imagen.
+Eso les aparece el uso compartido de la pantalla. No está activo
+a ver un segundito Yo por acá
+Fox
+ve tan raro, desconectar audio, herramientas de anfitrión
+justo. No me sale justo. No me sale esto
+bloquear reunión, sala de espera o cortar todas las imágenes de perfil, compartir pantalla será. Sí. Ahora, sí, Inténtelo.
+Anyi Lisbeth
+Anyi Lisbeth
+00:32:36
+Ahora sí ya a May.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:32:37
+Perfecto.
+Anyi Lisbeth
+Anyi Lisbeth
+00:32:39
+Me cambió la opción de lado pantalla todos los reinos.
+Listo. Entonces, este es mi juego. Le he llamado el defensor del rie del reino
+y le he agregado, me va a me hace más como en temas de experiencia de usuario, entonces no no le aplique casi como antes
+y.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:33:08
+Sí, Sí, se ve Perfecto.
+Anyi Lisbeth
+Anyi Lisbeth
+00:33:11
+Entonces comandos básicos, espacio pues para jugar y y escape para salir. Entonces lo que hace es perseguirte, No, este. Este realmente es muy difícil.
+Entre más monedas tiene, pues, más
+más te persigue de una manera más más veloz, ¿no? Pero así mismo, cuando completa las monedas. Entonces te da más vida.
+Le tuve que bajar la velocidad porque no podía ganar.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:33:43
+Y mira ya.
+Anyi Lisbeth
+Anyi Lisbeth
+00:33:44
+Eso está muy Try Hart.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:33:47
+El todo.
+Anyi Lisbeth
+Anyi Lisbeth
+00:33:49
+Uy.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:33:52
+Lo que.
+Anyi Lisbeth
+Anyi Lisbeth
+00:33:52
+Me dice, has caído no espacio para intentar de nuevo o escape para salir. Digamos que es un
+y el reto, pues principalmente sobrevivir los 60 s claramente, pues la experiencia del vestuario, pues yo diría: no, Pues mejor no como monedas, no tanto ahí hay que mejorar un poquito, pero pero mira que la función básica, pues es esa, no la que te persigue.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:34:19
+Sí, Perfecto. Perfecto de los.
+Anyi Lisbeth
+Anyi Lisbeth
+00:34:23
+No aplique nada como de inteligencia artificial. Más que todo, son los básicos, como que si si el jugador va a la derecha, entonces el el el enemigo, pues también nos iba hacia arriba, entonces el enemigo también.
+etcétera, como te digo porque porque definitivamente no podía ganarle en ningún momento. No podía llegar, como hasta el final.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:34:47
+Sí.
+Anyi Lisbeth
+Anyi Lisbeth
+00:34:48
+Pero a medida que coges monedas, pues va tomando una velocidad, y también, pues está en el Código, no a medida que la condición es que.
+pues mira, salvaste el reino porque pasó un minuto. Entonces, las condiciones que te pasa un minuto sin que te atrape el enemigo. Entonces te salga. Este Este mensajito salvaste el reino. Y entonces, para volver a jugar o el que el escape para salir.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:35:13
+En la.
+Anyi Lisbeth
+Anyi Lisbeth
+00:35:14
+Es.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:35:15
+Eva cano, aplausos.
+Anyi Lisbeth
+Anyi Lisbeth
+00:35:17
+Aquí está el básicamente es lo que les mencionaba. Es.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:35:22
+Y yo tengo una pregunta con eso, con lo de la programación. Si vos te quedas quieta en un lugar, cuando no sabes cuándo no has atrapado monedas, él él te intenta matar. O sea, cuando no has atrapado ninguna moneda.
+Anyi Lisbeth
+Anyi Lisbeth
+00:35:35
+Sí ajá. Va a decir que.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:35:37
+Te mata, te llega a matar.
+Anyi Lisbeth
+Anyi Lisbeth
+00:35:39
+Sí. Ajá mira que mira que hay.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:35:42
+A más rico.
+Anyi Lisbeth
+Anyi Lisbeth
+00:35:43
+Mhm.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:35:44
+Uy. Ese código, ese código está genial.
+a pesar de que no tiene idea. No pasa nada.
+Siento que el código es muy dinámico.
+porque yo, por lo menos vi y vi que de pronto dije, bueno.
+de pronto, cuando 1 tiene monedas, puede ser que cuando tú dijiste, cuando tenía las
+cuando iba cogiendo monedas, iba aumentando de pronto el tema de la velocidad de de
+de de traslado, como, por así decirlo, pues las coordenadas. Pero yo dije: pronto será que la llega a matar, pero está rebacando el código porque sí lo llega a matar, o sea.
+Anyi Lisbeth
+Anyi Lisbeth
+00:36:18
+Mhm.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:36:18
+El código como que se adapta muy bien al tema de de la eventualidad
+y es un código, o sea, es plano, o sea, es, digámoslo así, lineal, tipo
+yo tengo una entrada. Doy las reglas y el código que me dé la salida. Entonces, eso es lo que me parece más genial.
+O sea que no me cabe en la cabeza, como como es el.
+Anyi Lisbeth
+Anyi Lisbeth
+00:36:41
+Sí.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:36:42
+Súper bacano súper bacano, mostramos mostrame el código a ver por por mera curiosidad.
+Anyi Lisbeth
+Anyi Lisbeth
+00:36:49
+Es a ver dónde está.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:36:57
+Que.
+Anyi Lisbeth
+Anyi Lisbeth
+00:37:02
+Utilicen cosas, pues.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:37:04
+No, no.
+Anyi Lisbeth
+Anyi Lisbeth
+00:37:05
+Inteligencia artificial.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:37:06
+Y.
+Anyi Lisbeth
+Anyi Lisbeth
+00:37:07
+Etcétera. Bueno, sé de todo lo que encontré y y.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:37:12
+Me gusta bastante el tema, también del del de la parte bonita de la parte estética. Sí,
+o sea, yo por lo menos los proyectos. Ah, Bueno, hay otra cosa importante.
+Algo que me hiciste acordar muy bien.
+Algunas personas quieren irse por proyectos de pronto, más. De de pronto, así desarrollo de software, quieren irse. Yo tuve un un
+un estudiante, sí que él trabajaba con con claro.
+y él dijo que quería irse más con un tema de desarrollo de software para
+algo de contabilidad. No me acuerdo. Una cosa así.
+Y yo le dije, no, no hay problema. Lo importante era igual que
+intentara, digámoslo, así como que intentara como
+como encontrarte pronto una brecha o algo por el estilo en el que pudiera
+coger algo con la I A. Sí, eso también es muy bacano, pero en caso tal de que ustedes, bueno, de pronto no necesiten, no, o sea, no significa que sea
+la una mala solución. Una solución no válida, No.
+no. De hecho, esa aproximación me encanta, porque demuestra algo que, aunque ustedes
+no lo digámoslo así, no lo ven. Ahora fue muy importante en nuestro tiempo y bueno, nuestro tiempo, no en tiempos muy atrás.
+porque pues igual también soy jovencito, pero en tiempos que es la
+la programación se volvió justo el nombre.
+Creo que se llamaba la la programación inteligente. No me acuerdo que el código se adaptaba al al problema y era código.
+O sea, era código que funcionaba prácticamente como como si fuera un I A,
+y hace parte del ecosistema de la inteligencia artificial. De hecho, eso lo vimos en introducción.
+pero no recuerdo exactamente el nombre, pero sí está hace parte de la de la inteligencia artificial como tal, no, entonces es vacanísimo. Es vacadísimo. No pasa nada si Si de pronto dijeron, no no encontré ese tema de
+de de de colocarle laya. No pasa nada. Honestamente, siento que es una muy interesante solución
+muy, muy interesante solución. Vas a ser muy sincero. Antes, yo, la verdad. Pensaba que con código no se podía hacer.
+o sea, con código. Pensaba que no me podía hacer. O pensaba que por lo menos el cuadradito iba y lo perseguía 1, pero no lo llegaba a matar.
+sí, Pero ahora veo que Uf es re interesante. Es muy, muy, muy, interesante, muy, muy, muy interesante.
+Mándame el código al correo, porque porque lo quiero. Le quiero echar un vistazo a ver qué es lo que pasa con eso va carísimo.
+Anyi Lisbeth
+Anyi Lisbeth
+00:40:03
+Bueno, pues. Listo!
+Súper.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:40:06
+Súper.
+Anyi Lisbeth
+Anyi Lisbeth
+00:40:08
+Entonces, sí, sí expectativas.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:40:12
+Sí, Sí, señora, claro, sí. ¿qué tal te pareció? ¿qué tal te pareció lo del parque?
+Ustedes ustedes sienten que sí.
+Anyi Lisbeth
+Anyi Lisbeth
+00:40:22
+Ajá.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:40:23
+Bien.
+Muchas personas, sí. De anteriores cursos, estudiantes, compañeros
+me habían comentado que pig game, No, No, digámoslo así.
+Sacrificábamos Pikegame con aplicación, como como con aplicación sin comisión computacional, y vamos directamente a la parte de redes neuronales.
+Ahora que tengo la oportunidad, digámoslo así, de de darle con usted. Siento que la verdad se perdió mucho. Ahí.
+Uf tiene, tiene, es rebacano, muchachos, es rebacano, Es rebacano
+solamente di pie games y les soy sincero una sola vez, pero 2 con ustedes.
+y no gustó. No gustó.
+Pero ahora veo que Uf, la posibilidad con con temas de ida y todo es muy bacala.
+me haya. Me Me al Me alegrado que les haya gustado.
+A mí no me llama la atención. No soy gamer.
+no pasa nada. No pasa nada, pero a ver si no les llama la atención, por lo menos les parece interesante. Eso sí, estoy claro de que que si me dicen que ay que no, eso no es interesante. No, No creo que que alguien me diga eso.
+Bueno, no sé si alguien me quiere decir eso, pero
+creo que es muy interesante, la verdad. Encontré aquí soluciones que son muy, muy, muy interesantes.
+Bueno, angie felicitaciones, ya no hay de la nota de de aplicación como yo computacional. Vale.
+Anyi Lisbeth
+Anyi Lisbeth
+00:42:00
+Un peso menos.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:42:02
+Peso menos cada vez más a un paso de grabarse.
+Mhm: Bueno, listo. Angie: Bueno, muchas gracias por compartirnos.
+Bueno, ahora María me había enviado algo por el correíto.
+No sé si se quiere arriesgar, mostrarnos.
+María J. Carvajal
+María J. Carvajal
+00:42:24
+Lo mío. Fue co y pegué, como les digo, no es mi área de interés.
+Interpretó, tiene que hacer una culebrita. Y eso mismo, Pellet, el de la.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:42:37
+Claro, tu perro.
+María J. Carvajal
+María J. Carvajal
+00:42:39
+No tiene nada de.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:42:43
+No hay algoritmos así de más sin learning o de learning que que que les dio la la solución laya. No hay, no le dio esa.
+María J. Carvajal
+María J. Carvajal
+00:42:51
+Más me concentré más en machine learning que en juegos. La verdad.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:42:55
+Ja: Ja: Ja: No puede ser.
+Sí, Yo Yo honestamente, muchachos les voy a ser muy sincero. Yo no creía que se podía hacer con código Así, con programación clásica.
+¡qué equivocado.
+María J. Carvajal
+María J. Carvajal
+00:43:13
+Hecho de hecho, en programación. Precisamente por lo didáctico, muchas veces la fundamentación empieza con
+con juegos, con el desarrollo de juegos, triviar house todas estas cosas. Entonces, pues también en
+en red, supongo que ya hay mucho
+ya estandarizado, Pues porque un tetris es un tetris.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:43:38
+Los juegos ya.
+María J. Carvajal
+María J. Carvajal
+00:43:40
+Pues están sobrescritos y no, no, no reinventan la rueda.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:43:48
+Exacto.
+Sí, eso cierre interesante. Eso sí, ese enfoque me ha gustado
+a ver si de pronto lo aplico, aunque bueno es que igual lo mío. ¿cómo le meto? No hay hay Hay buenas oportunidades. Pa: que
+no hay excusas.
+María J. Carvajal
+María J. Carvajal
+00:44:06
+¡por Dios!
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:44:06
+A ver si me meto jueguitos.
+María J. Carvajal
+María J. Carvajal
+00:44:08
+Zika.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:44:10
+Sí, exacto.
+De pronto le meto juego al mochi learning o algo, quién sabe, pero pero hay harta posibilidad, Hay harta posibilidad. Lo sé.
+María J. Carvajal
+María J. Carvajal
+00:44:20
+Yo al match learning como con lo que las ganas es de meterle multimedia o como concentrarme en la forma de hacer usable o
+o.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:44:33
+como interpe como interpreta habilidad.
+María J. Carvajal
+María J. Carvajal
+00:44:37
+Eso eso me llama.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:44:38
+La, la.
+María J. Carvajal
+María J. Carvajal
+00:44:39
+Mhm.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:44:40
+Solo de.
+María J. Carvajal
+María J. Carvajal
+00:44:40
+Ahhh.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:44:41
+A los.
+María J. Carvajal
+María J. Carvajal
+00:44:42
+A ilustrar. Pero pues no soy ilustradora.
+Ok, La información.
+Jueguitos para mí.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:44:52
+Sí, Ese Ese es bueno. Ese es bueno, les cuento yo
+nosotros, por lo me ay, yo yo sí les dije, bueno, si yo les hablé mucho de la métrica, lo que pasa es que nosotros, por lo menos
+bueno, eso nos cargan con con el trauma, pero nosotros, por lo menos todo el tema de la silla. Nos decían. Bueno.
+haga esto. Haga esto. Sí, existen esos algoritmos. Esos algoritmos hacen tal. Pero en la parte de interpretabilidad era duro. Era duro. Yo, por lo menos la parte de de interpretabilidad
+la fui aprendiendo en el trabajo
+en el trabajo. Es Uff. Uno aprende. M: Miles de cosas, pero
+pero esa parte sí me parece muy importante para ustedes.
+Entonces.
+si nos queda tiempo de proyecto final, sí, porque a ustedes les gustaría hacer chatbot. Bueno, es que les voy a ser muy sincero, muchachos, el chatbot. Yo lo puedo acabar en unas
+3, 4 sesiones, honestamente con sistemas r a G, Bueno, con cosas muy complejas. Sí, Entonces, por ese lado.
+no hay, no hay mucha cosa de qué preocuparse. ¿sí? Por este lado, entonces me da muchas más cosas, por lo menos. He querido meter algo de despliegue, sí de los modelos, porque igual
+creo que para ustedes es muy importante. El tema del despliegue de los modelos. Sí que por lo menos ustedes digan: bueno, yo hice un modelo. ¿y qué
+mi jefe. ¿cómo va a poder usar esto? Sí,
+eso me parece también muy importante interpretabilidad
+que, bueno, que yo tengo un sistema, un cluster, ¿Y qué?
+Y yo tengo un sistema de Clav. Bueno, es que clasificación sí es un poquito más
+más fácil interpretar, pero regresión cluster, que es eso es muy bacano.
+Entonces, yo quiero charles bodas, pero ya desplegados en desarrollo: web Okay Okay, sí,
+sí, podemos el despliegue, el despliegue
+es que el despliegue, la verdad. Les voy a decir muy sincero, muchachos. Ustedes van a entender que en la
+en la práctica, digamos, en el trabajo. El despliegue cambia muchísimo, dependiendo del proyecto en el que ustedes estén dándole o o en el problema que ustedes estén. Sí,
+cambia mucho, mucho, mucho, mucho. O sea, cada despliegue es muy diferente a todos, ¿vale?
+Pero ¿qué es lo que podemos hacer.
+Podemos desplegar el chatbot. Sí, podemos desplegar el chatbot. Voy a ver si puedo, con un servidor. Ustedes que ya vieron docker porque por ahí me di el spoiler de que cuando sacaba el profesor Julián que no sabía que lo sacaba por ahí, vio que
+entonces por ahí se pueden crear unas buenas soluciones.
+me avisas cuando podemos dormir. Juego. Ay, sí, hice. No pasa nada, pero sí muchacho. Es el caso. Lo que dice María es muy cierto. Podemos intentar en el proyecto final el despliegue del chatbot en una en una, en un en algo de web. Vale, no pasa nada.
+Vanessa Hernandez
+Vanessa Hernandez
+00:48:06
+Disculpe. Chat Botes es que es como lo que hicimos en discord o que es que es específicamente eso.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:48:17
+Si el chat bot es una parte de lo que hicimos en discord, pero más inteligente, ustedes se acuerdan que yo en discord, les dije.
+bueno, yo les pongo chistes y el que si yo le pongo, no sé 15 20 chistes, y si el chiste me lo repite el bot, les pongo, no sé, les bajo puntos cosas como esas, Sí, en realidad los estaba afinando un poco para que entendieran la diferencia. Sí,
+el bot es algo muy lineal, listo, digámoslo así. El bot tiene ciertos comandos tiene ciertas cosas. Si tú le envías algo, él te responde algo. Sí, por lo menos ustedes se dieron cuenta que si yo le pongo la con doble A y él recibe. Hola con una sola A, pues no responde cierto. En cambio.
+el Chad bot empieza a ser una una dimensión mucho más compleja, porque el chatbot
+primero ya no. Simplemente si yo le colocó la con doble A, pues no pasa nada. Y si yo le coloco a mi información, no sé de la Segunda Guerra Mundial, pues tampoco va a pasar nada. Él no va a decir? Bueno, ¿qué es lo que me está diciendo usted mal? No, No, lo no lo conozco en el código. Si
+entonces digámoslo así, el chat. Voz es más inteligente, puede responder a múltiples peticiones, y ahí es donde se abre puertas a muchas oportunidades. Por ejemplo, hay un chat bot que
+por lo menos hay un chat bot que por lo menos ustedes colocan el de Neck.
+el D. N. X, el D. N. X es un claro ejemplo de un chatbot.
+Si ustedes colocan, no sé en equis cuál es cuál es la ley del 4 por 1 000.
+Se los aseguro que en el código se los aseguro, que en el código no está una ley del 4 por 1 000. No está ley del 4 por 1 000 igualar. Dame esa respuesta. No.
+Lo que hacen es conectarse a través de un L, L. M: Sí, como Chat, G. P. T, Como gemina, y hacen una técnica que se llama Fink Tuni, que lo que hace es entrenar ese mod, entrenar ese modelo de nuevo con los datos
+que ellos tienen propio Dneke. Y ahí ya tienen la información para responderles y responderles en lenguaje natural. Y ustedes preguntarles de cualquier forma, aunque el código no esté preparado para eso.
+entonces hay mucha posibilidad. En ese caso, el chat bot es muy profundo el bote. Simplemente hágase de cuenta, no sé. Ustedes llaman a la Eps y la Eps les dice marque 1 para seguir. Es muy lineal. El chat bot es diferente.
+muy.
+Vanessa Hernandez
+Vanessa Hernandez
+00:50:50
+De hecho, yo para, pues aquí. Resumiendo, antes de que, pues muestre el giselle, el juego se me hizo curioso y chistoso hacer el chat bot de de discord, porque lo que yo hice fue usted dijo, bueno, yo no quiero que repita el chiste. Yo usé una función llamada Random.
+Y la función llamada Random me me hizo repetir el chiste unas 3 veces, y yo cargaba cuando Vos Jugás parqués vos tenés la posibilidad de sacar parte de veces seguida y coger una ficha, O sea, es
+es esas cosas de suerte, ¿no? O sea, todo lo que yo hice en realidad fue hacer chistes, pero lo hice en una lista y dice que lo colocara de forma lineal. Pero entonces lo que hice fue también agregar varias listas con con con frases ácidas, porque me gu siempre me han gustado los robots sarcásticos con frases ácidas cuando colocaras cosas. Por ejemplo, si vos.
+Alguna frase negativa, como no me niego o algo así, el bote iba a responder como no intentes negar tu mediocridad. Bueno, cosas así por el estilo.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:51:56
+Es muy tonta.
+Vanessa Hernandez
+Vanessa Hernandez
+00:51:56
+A ese bot. Y la verdad me pareció bastante interesante. Entonces lo que vos decis no que.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:52:02
+Y no que.
+Vanessa Hernandez
+Vanessa Hernandez
+00:52:03
+Se puede poner mejor y que puede responder mejor. La verdad es que sí está interesante.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:52:08
+Exacto, si no. Y de hecho, muchachos, ustedes, por lo menos, no van a tener ese problema es que ¡ay, que el Profe que el Profe me hizo tanto tanto tanto y se me acabó la lista Ay, que se me acabaron las palabras hacia ¡ay, las posibles combinaciones, Eso puede pasar.
+Eso puede pasar. Es normal que pase en un bot
+en un chatbot. No pasa eso
+en un chatbol, yo le puedo decir 100 veces y 100 veces me va a contestar diferente, aunque me conteste.
+aunque sea de pronto el mismo chiste. Créanme que todo es diferente. Es muy raro que un chadboard le responda igual.
+Listo. Es muy raro. De hecho.
+pregúntenle a chagi Pity 2 veces lo mismo, ¿sí? Pero simplemente agréguenle un punto o una coma.
+Créanme que eso va a cambiar totalmente diferente. La respuesta les va a dar la misma respuesta, Tal vez. Pero la estructura de la respuesta y todo va a ser diferente. Entonces, hay, mu O sea, no
+eso. Uno se olvida prácticamente el problema que hay que me quedé sin chistes o que me quedé sin listas.
+No hay problema, no hay problema superinteresante, Eso.
+Y bueno, eso lo vamos a ver también en el proyecto final. Vale, Ahora, sí
+le pasó a Gised: Sí.
+yiceth mata lozano
+yiceth mata lozano
+00:53:25
+Ya no quiero.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:53:27
+A a.
+yiceth mata lozano
+yiceth mata lozano
+00:53:29
+Bueno, están viendo aquí el código.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:53:32
+Sí lo estamos viendo.
+yiceth mata lozano
+yiceth mata lozano
+00:53:34
+Listo. Entonces aquí se aplica una red neuronal cierto como para pre es más sencillita, no con un Pin
+para hacer una predicción de dónde es que el jugador va a a moverse.
+entonces se va arriba abajo. Y cada vez que, como voy perdiendo.
+Digamos que se va volviendo más predecible.
+listo. Entonces aquí, por ejemplo, arriba es que le he jugado tantas veces que ya me sabe los movimientos.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:54:11
+Y.
+yiceth mata lozano
+yiceth mata lozano
+00:54:13
+Ese puntico.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:54:15
+Ah.
+yiceth mata lozano
+yiceth mata lozano
+00:54:16
+Ese puntico que ve ahí es como.
+¡ay, qué indicación ahorita estaba teniendo muchos puntos hacia dónde va a ir el jugador.
+Entonces, claro, entre más lo juegue, más difícil se va a poner.
+Entonces, aquí da la sensación.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:54:34
+Es un.
+yiceth mata lozano
+yiceth mata lozano
+00:54:35
+De el enemigo te está persiguiendo, pues realmente está analizando tus movimientos para ver hacia dónde va a moverse
+y de.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:54:45
+Sí.
+yiceth mata lozano
+yiceth mata lozano
+00:54:46
+Tu próxima jugada.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:54:49
+Muy bien.
+yiceth mata lozano
+yiceth mata lozano
+00:54:50
+Cada vez se vuelve más.
+No es que aumente la velocidad, no.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:54:55
+Y ¡ay que va carísimo. ¡qué vacanismo Mira, No, Dios mío!
+yiceth mata lozano
+yiceth mata lozano
+00:55:05
+Y ataques.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:55:06
+Todo.
+yiceth mata lozano
+yiceth mata lozano
+00:55:07
+No, exactamente.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:55:10
+En el.
+yiceth mata lozano
+yiceth mata lozano
+00:55:11
+Es es una red neuronal sencillita.
+Aquí utiliza el deceso de gradiente.
+No me preguntes qué es eso que no me acuerdo Bien.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:55:24
+Y sí.
+yiceth mata lozano
+yiceth mata lozano
+00:55:25
+Pero sí. Bueno, y tenemos pues acá Manejamos un bucle
+para los movimientos. Y manejamos algo que
+me pareció súper interesante que es el clima. Este espere era, ya te digo, ¿cuál es que no sé cómo se pronuncia bien.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:55:43
+Es Techland. Inc.
+yiceth mata lozano
+yiceth mata lozano
+00:55:47
+Para mantenerlo en la pantalla, porque en los primeros juegos el enemigo salía y se iba sí.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:55:55
+Ay Tan Guay te perdía.
+yiceth mata lozano
+yiceth mata lozano
+00:55:59
+Sí.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:56:00
+Vaca nillísimo.
+yiceth mata lozano
+yiceth mata lozano
+00:56:02
+Entonces.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:56:03
+Mhm.
+yiceth mata lozano
+yiceth mata lozano
+00:56:04
+Aquí encontré este, y me pareció súper excelente, porque ahí sí ya me lo mantiene. No se pierde.
+Ohh.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:56:12
+De la.
+yiceth mata lozano
+yiceth mata lozano
+00:56:13
+También es. ¡ay, se iba y se mantenía como en una esquina, Estabas
+Entonces con eso se corrigen muchos errores. También.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:56:24
+Qué vacanismo?
+Ay, Mira como Uh, No.
+yiceth mata lozano
+yiceth mata lozano
+00:56:37
+Está difícil.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:56:38
+Lleva cano muchachos.
+Ay, No mira como si ataca y.
+Vanessa Hernandez
+Vanessa Hernandez
+00:56:46
+O sea, como lo pasean.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:56:48
+Muy bien.
+Vanessa Hernandez
+Vanessa Hernandez
+00:56:49
+Y yo.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:56:50
+En el tronco cuenta.
+Vanessa Hernandez
+Vanessa Hernandez
+00:56:52
+Ole Dale Ale Dale Ale está entretenido de mirarnos.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:56:56
+A la.
+yiceth mata lozano
+yiceth mata lozano
+00:56:57
+Bueno.
+María J. Carvajal
+María J. Carvajal
+00:57:01
+Te lo.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:57:02
+No en.
+María J. Carvajal
+María J. Carvajal
+00:57:02
+Te digo.
+yiceth mata lozano
+yiceth mata lozano
+00:57:03
+Cómo.
+María J. Carvajal
+María J. Carvajal
+00:57:04
+A tu hijo, se los mostrado.
+yiceth mata lozano
+yiceth mata lozano
+00:57:07
+No nos lo quito de acá. No voy a trabajar después.
+María J. Carvajal
+María J. Carvajal
+00:57:13
+Y además de que dura más que nosotras juntas.
+yiceth mata lozano
+yiceth mata lozano
+00:57:16
+Ah, Sí, Claro.
+María J. Carvajal
+María J. Carvajal
+00:57:18
+Que dura, más que nosotras.
+yiceth mata lozano
+yiceth mata lozano
+00:57:20
+No, no, no, no, Ya ahorita. Lo tengo que acostar a dormir, No, lo no lo acuestas nadie
+a a.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:57:27
+¡ay, no muchacha. Ahí tienen para para vender un buen juego.
+yiceth mata lozano
+yiceth mata lozano
+00:57:32
+Y la más salsa que el profesor. Le dije.
+Mhm.
+Vanessa Hernandez
+Vanessa Hernandez
+00:57:38
+Gracias a.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:57:39
+Esto era alto, era.
+yiceth mata lozano
+yiceth mata lozano
+00:57:42
+Listo profesor. ¿será el juego mío.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:57:46
+No, interesante, No, no, no, no. Qué interesante! Pues muy orgulloso, muy orgulloso.
+Esa me parece curioso. El tema de de la
+del aprendizaje de la red neuronal.
+No sé si de pronto os tengas la ya por ahí,
+pero le podés hacer una pregunta de pronto a la Ia y decirle si en alguna parte de ese sistema hay un aprendizaje llamado aprendizaje por refuerzo.
+yiceth mata lozano
+yiceth mata lozano
+00:58:22
+Aprendizaje.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:58:23
+Después de.
+yiceth mata lozano
+yiceth mata lozano
+00:58:24
+Eso.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:58:25
+Sí. Aprendizaje por refuerzo.
+yiceth mata lozano
+yiceth mata lozano
+00:58:27
+Qué? Esa? ¿cuál es?
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:58:30
+Esa es como la última fase más compleja de de de la Ida.
+Prácticamente cómo funcionan los los sistemas de
+los sistemas de de navegación por Ida, como funcionan los precisamente los Juegos por
+Es bastante compleja, muy, muy, muy, muy compleja, y se requiere una gran capacidad de cómputo, pero no sé si eso roce
+o alcance el aprendizaje, el aprendizaje por refuerzo.
+yiceth mata lozano
+yiceth mata lozano
+00:59:01
+No un modelo de aprendizaje supervisado.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:59:07
+Okay. Uy. Qué interesante! ¿qué modelo pregúntale ¿Qué modelo.
+yiceth mata lozano
+yiceth mata lozano
+00:59:13
+¿qué modelo es el que dice este sí.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:59:19
+Que no lo veo.
+yiceth mata lozano
+yiceth mata lozano
+00:59:21
+No los voy a copiar.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:59:25
+Te he supervisado.
+Pero hay un hay. Un algoritmo es que me parece re interesante un algoritmo tipo e, por ejemplo, las redes neuronales.
+dependiendo de la función de activación, siempre pueden ser de regresión de clasificación. Si las redes neuronales pueden hacer lo mismo del deep learning vale.
+yiceth mata lozano
+yiceth mata lozano
+00:59:42
+Mhm.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:59:43
+No se les había contado lo mismo: el machine learning, perdón.
+Y entonces me parece re interesante que será que algoritmo. Digo, Dios mío, será una regresión.
+yiceth mata lozano
+yiceth mata lozano
+00:59:57
+No estas.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:59:57
+No lo sé.
+yiceth mata lozano
+yiceth mata lozano
+00:59:58
+De predicción.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+01:00:00
+Predicción general.
+yiceth mata lozano
+yiceth mata lozano
+01:00:01
+Sí.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+01:00:02
+Ok Uy, No interesante, reinteresante, re re reinteresante.
+o sea, no me uy, No, la verdad.
+muy orgulloso, muy orgulloso, porque por lo menos ese tema, si es con ren neuronal. Sí, todo el tema. Pero
+siéntanse orgullosos, porque fíjense que aproximaciones hay. Muchas. Si se dan cuenta Programación clásica, Rehenes neuronales, Sí, pero las soluciones son muy, muy bacanas, muy, muy, muy, bacanas, muy, muy, muy bacanas.
+O sea.
+honestamente, estoy muy orgulloso y ojo El tiempo que tuvieron. Tampoco es que haya sido muy grande. Sí, porque también tuvieron un proyecto mío
+final de procesamiento, entonces
+sí, exacto. No hay una sola fórmula. Yo siempre les he tratado porque, pues 1 al fin y al cabo, si los educa y todo eso.
+Pero no me gusta, es que usted, el día de mañana no es que él me hizo aprender mucha sintaxis. No, yo los quiero preparar. Es para que
+para que para que sean curiosos y para que piensen sí para que tengan la creatividad.
+O sea, pueden salir muchos juegos de esos pueden salir muchas aproximaciones en una sola fórmula, y es lo que pasa en la vida real.
+Uno cree que va a ir a una empresa y van a tener la mejor solución mentira.
+Tienen la solución que les funciona
+y posiblemente sea la mejor sea la peor.
+Ustedes deciden si la vuelve la mejor, la peor o la que es.
+o sea, es muy baja. Es muy, muy, muy baja.
+Honestamente, muy orgulloso
+de que haya no solamente una sola fórmula, sí de que, digámoslo así, tengan todo solo el código plano, sino que
+no que para cosas por hacer. Sí, hay varios lugares próximas semanas.
+Me encanta eso. Me encanta, sino que no solamente hay jazz solamente una sola cosa para
+para para qué hablar. Me encanta, porque
+saber hay que hay muchas posibilidades de este trabajo.
+todo de todo, y para bien y para bien.
+Pero súper súper Giezet compartirme también ese código recurioso, la verdad lo va a poner más ojo
+honestamente, a ver también la arquitectura. Todo eso, porque va carísimo. Es vacanísimo.
+Ojalá mi universidad, por lo menos me hubieran colocado algo de Spikegame, pero
+pero no muchachos. Qué interesante que interesante, la verdad, La verdad aquí se encuentra de todo. Me encanta. Me encanta eso
+¿vale?
+Bueno, entonces Giselle, no hay de qué preocuparse por la nota
+ya entonces, a darle duro procesamiento de lenguaje natural
+y el proyecto final, darle duro.
+Y bueno, a ver no interesante. ¡qué orgullo, qué orgullo, muchacho.
+Uy: no. De verdad. ¡ay, qué pena que
+me están llamando deme un segundito, deme un segundito temer un segundito. Vale
+que me están marcando aquí de urgencia.
+Y y ya
+mientras cambiamos de sesión, vale, dejemos la grabación y ya seguimos con María, y me dejan contestar la llamadita. Vale.
+¿Les parece?
+Perfecto. Me vamos a entrar en problemas.

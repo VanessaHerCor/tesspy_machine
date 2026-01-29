@@ -17,10 +17,6 @@ Including another URLconf
 
 from django.urls import path
 from . import views
-<<<<<<< HEAD
-urlpatterns = [
-    path('videogame/<str:id>/', views.get_videogame, name='get_videogame'),
-=======
 
 urlpatterns = [
     # 📊 Endpoint de estadísticas
@@ -34,5 +30,4 @@ urlpatterns = [
     
     # 🎮 Operaciones sobre un videojuego específico
     path('<str:pk>/', views.detalle_videojuego, name='api_detalle_videojuego'),  # GET/PUT/DELETE
->>>>>>> e2c17bf652615bb793ab9a1469d744ec789020a8
 ]

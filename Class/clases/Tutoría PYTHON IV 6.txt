@@ -1,0 +1,1180 @@
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+Mhm.
+Bien, creo que estamos todos. ¡ay, no. Qué vergüenza del juego.
+El Play es que se nos acabó el tiempo. Yo.
+María J. Carvajal
+María J. Carvajal
+00:00:43
+Tranquilo, profesor, circunstancias.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:00:45
+Y no.
+Vanessa Hernandez
+Vanessa Hernandez
+00:00:47
+Igual. Y ya era la hora de todas formas, y nos pasamos un poquito.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:00:52
+No, no pasa nada. Muchachos. Yo soy relajado con el con el tema.
+pero bueno, sí, la verdad es que me me preocupó Un poquito dije, me preocupé. No me preocupo 5 min, porque pues, bueno, 5 min cualquiera, Pero cuando empezó el minuto, 8. Yo dije, está raro. El computador está fallando. Y no había que ir ahí el Profe.
+No tengo manera de yo, no sé cómo no sacarlo, o sea, simplemente llegar y y hablarle. Pero lo saco de una, o sea, son como que radican y lo saca la gente de una.
+Vanessa Hernandez
+Vanessa Hernandez
+00:01:24
+Le recortó la cabeza de.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:01:27
+Y no pobrecito.
+Un día me lo hicieron? No, no, no, no, no, No me me tocó, me tengo que escribir por correo.
+Pero, bueno, muchachos. ¿cómo están?
+Estamos animados?
+Estamos bien.
+María J. Carvajal
+María J. Carvajal
+00:01:44
+Vamos, Ahí vamos.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:01:46
+Ahí vamos. Ahí vamos muchachos. También hay una noticia de que
+también no, de verdad, ¡Qué vergüenza! Por 2 muchachos
+vi que me han enviado mensajes al institucional, al al al de parques y
+mi Gmail: Claro, como solamente lo lo coloqué ahí, dije, Bueno, Bueno, de verdad, si le soy sincero, no estoy muy pendiente porque no habilité las notificaciones de escritorio
+y veía que a veces ustedes me enviaban cosas por el otro. Y dije, bueno, de pronto están enviando por el otro, cuando veo hoy 3 mensajes.
+el último de 18 de enero de María.
+No muchachos que.
+María J. Carvajal
+María J. Carvajal
+00:02:35
+Ay, lío. Ay, lío.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:02:37
+Con el para.
+María J. Carvajal
+María J. Carvajal
+00:02:38
+No hay lío.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:02:39
+Perfecto perfecto y otro de Vanesa Vanesa rebién.
+Vanessa Hernandez
+Vanessa Hernandez
+00:02:44
+¡ay, no, ya no quiero nada. Ya no quiero nada, Ya no quiero nada, No, ya no quiero nada, ya no quiero nada.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:02:49
+A yo. Vi la miniatura del correo y vi 2 opciones, abrola al correo. Vi 4 opciones.
+Vanessa Hernandez
+Vanessa Hernandez
+00:02:58
+No igual. Ya me decidí a 1. Entonces.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:03:01
+De darle al.
+Vanessa Hernandez
+Vanessa Hernandez
+00:03:03
+Ni pues, a trabajar con eso.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:03:04
+Dale Dale trabaja con eso, trabaja con eso igual Yo Yo yo les di a ustedes el las pautas. Confío en ustedes buen día.
+María J. Carvajal
+María J. Carvajal
+00:03:13
+Claro, no es.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:03:15
+Prometido. Les contesto de verdad. Me encanta tener el institucional, pero no tenía activadas las notificaciones, muchachos discúlpenme.
+María J. Carvajal
+María J. Carvajal
+00:03:24
+Ven una cosita por cosas de comunicación. Cuando te preguntamos que para qué día era, por lo menos, a mí me
+me ha interrumpa.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:03:34
+Sí.
+María J. Carvajal
+María J. Carvajal
+00:03:35
+Supimos de entrega al final, como los ítems para entrega de fecha o.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:03:40
+Ah, pues yo les yo les había comentado algo en clase y les había dicho que la entrega, o sea, que yo no iba a dejar.
+Yo no iba a dejar
+o entregas, así como para otros días, sí, o sea que, por lo menos hoy en nuestros 2 últimas sesiones, de lo que es la de la asignatura de ¡Ay, muchas gracias. La asignatura de procesamiento de datos.
+Entonces hoy es la última de 2 sesiones. Vamos a hacer un proyecto
+en el que, pues yo les comenté a ustedes, algo de que me daban ustedes algunos datos y yo iba haciendo el proyecto aquí en vivo con ustedes. Íbamos viendo qué pasaba, qué podíamos darle que podíamos hacer todo esto.
+Se supone sí que yo tendría que revisar esto y que yo tendría que poner este plazo para hoy. Pero pues es sencillamente porque, pues.
+para que ustedes lo hagan hoy, pero no pasa nada si, qué es lo que pasa algunos estudiantes. Si se los voy a comentar de una vez
+algunos estudiantes que era lo que hacían. Yo les dije, bueno, de aquí hay plazo hasta el lunes, por ejemplo, porque yo sé que ustedes entre semana no no hacen mucho.
+Entonces yo les digo qué plazo hasta el lunes
+saldo el domingo. Me lo tienen que entregar hasta la medianoche. Y el lunes sí. El lunes, antes de la clase, me escribían diciendo
+qué profe que disculpe, que es que tenía el el el celular dañado, cosas como esas ¿sí? Y no le alcancé a entregar el.
+María J. Carvajal
+María J. Carvajal
+00:05:18
+Las notificaciones del institucional.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:05:22
+No, no, no, no.
+Vanessa Hernandez
+Vanessa Hernandez
+00:05:23
+A la.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:05:24
+No, no, no, no.
+María J. Carvajal
+María J. Carvajal
+00:05:25
+Ya sabes que.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:05:27
+Me defiendo.
+María J. Carvajal
+María J. Carvajal
+00:05:28
+En ese sentido.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:05:29
+En ese tiempo no hice institucional. Me defiendo si era mi correo normal. Ahí me llegaba, y yo respondía de una.
+No hay lío, no hay lío.
+pero entonces sí tenga mucho ojo con esas fechas. Muchachos. Yo doy mucha flexibilidad, Pero así mismo, como soy de flexible, soy de corchador con los que no me entregan también a tiempo.
+Sí,
+por eso le doy tanto tiempo si se dan cuenta, pues el fin de semana más las 2 sesiones de hoy que vamos a dedicarles al proyecto. Creo que es apto de tiempo. Para mí. Sí,
+los 2 días desde el fin de semana.
+porque, igual el este proyecto que ustedes van a hacer conmigo
+relativamente corto. Si se siguieron dando cuenta.
+lo pueden hacer con la ayuda de la I. A, me pueden preguntar, esta es a mí que ya tengo las notificaciones encendidas, entonces le puedo responder ahí mismo si
+habían cosas que entregar, No, pues hay, ustedes saben que yo nunca coloco Yo nunca coloco
+cómo se llaman, Como le dicen acá. Observaciones, asignaciones.
+proyecciones, No me acuerdo, Bueno, yo nunca les coloco talleres, yo.
+Vanessa Hernandez
+Vanessa Hernandez
+00:06:48
+A de.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:06:48
+Contrario.
+Vanessa Hernandez
+Vanessa Hernandez
+00:06:49
+No es.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:06:49
+Sí, exacto.
+pero aquí tiene otro nombre. Bueno, el caso no le coloco tareas, pero les colocó un proyecto final por cada materia, ¿cierto? Y el proyecto final siempre es algo dedicado, pero el proyecto final siempre tengo la costumbre de hacerlo. Evidencias programadas.
+sí, exacto, evidencias programadas. Muy bien, Josep.
+Exactamente. Yo tengo entonces como la costumbre de no dejar trabajo afuera, sino hacerlo aquí mismo en clase, si siempre hago que las clases sean para usar para que ustedes lo usen haciendo sus proyectos? Sí, porque, pues
+yo conozco que ustedes están trabajando, yo también trabajo y todo el tema, entonces no hay ningún lío por ese lado. Bien, entonces
+entonces
+definamos de una vez la fecha. Si se puede háganlo hoy, si definitivamente no pueden, me lo entregan el domingo, pero no se vayan a pasar el del domingo. Si si antes del domingo ustedes me envían una excusa con mucho gusto, yo ahí veo que hago.
+sí, pero no me vayan a enviar un mensaje el domingo al me a la medianoche, sí
+diciéndome, que es que Ay Profe me falló algo. No sé, se me estalló el computador por correr un
+yo escribiendo la excusa.
+Se me estalló el computador por por correr una red neuronal. Mi perro. Me comió la tarea.
+Sí, o sea, ustedes me pueden.
+discúlpeme la palabra, pero escribir excusas Chimba, siempre y cuando sea con tiempo. Sí,
+yo soy muy flexible en ese sentido, pero de verdad, créanme, pueden escribirme.
+pueden escribirme, mejor dicho, qué que mejor dicho, están en el hospital y que, bueno, no, o sea, no del todo. Obviamente me dan soporte, pero me escriben ese mismo día muchachos
+a la medianoche. Créanme, por seguro de que tienen un 90 por 100 de probabilidad de que yo no les acepte la tarea y les ponga 0 ni quieran. Les califico muchachos
+que el sistema los autocalifique, no mentira. Yo los tengo que calificar a todos, pero les coloco 1, Sí,
+hay un 90 por 100 de posibilidades de que suceda eso.
+Por eso voy a harto tiempo.
+Entonces, por favor, algún problema escríbanme antes del domingo. No quiero ver las personas escribiéndome el domingo después del domingo. Sí,
+existe una alta posibilidad de que si me escriben antes del domingo. Yo, o los tengo mucho en cuenta, prohibía la palabra hospital wizy, prohibía la palabra hospital
+no mentira. Todos nos podemos enfermar muchachos. Pero créanme, créanme, es muy raro que ustedes enfermen un domingo a la medianoche.
+Sí, obviamente, si es un accidente grave, y quién sabe Todo puede pasar? Sí,
+pues estaré pendiente. Sí, no sé
+algo. Haré, no sé, 59, mejor dicho después
+después de las después de las mire. Después
+va a poner de va a poner horarios después de las
+12 h, no 11, 59. Pm: El día sábado. No antes.
+Pongámosle 60 por 100, No, Sí. Sí. 65 para darles una buena petición. Sí,
+te sien, no 70, 70, pues para que la probabilidad esté me he incapacitado al primer día de vacaciones
+de descanso no tiene salón, no tiene descanso, No muchachos.
+No puede ser eso.
+Mhm: Antes de las 11 y 59, el día, sábado. 70 por 100, aceptación de excusas.
+Después te las voy. A Queda escrito. Queda escrito muchachos que ha escrito
+después de la 2 59 El día sábado Pongámosla aquí algo para de excusas. Pongámosle aquí listo.
+Perfecto.
+Queda excelente. Así
+quedó escrito.
+Mejor dicho, si ustedes el domingo, bueno, no mentira, la verdad, muchacho. Si usted el domingo por la noche, me escriben diciendo que el perro les comió la tarea que, mejor dicho, les dio. Les dio gripa y de un estornudo estallaron el computador
+10 por 100 muchachos, mejor dicho, tiene que venir el médico a mi casa
+para yo, aceptarle las excusas. No acepto cómo se dicen
+permisos médicos, incapacidades, firmada por médico, mejor dicho, el médico tiene que debatir conmigo porque ustedes están enfermos. Yo le saco a chagi Pity que me vaya diciendo si es verdad lo que dice o no.
+perfecto.
+pero no muchachos. Créanme, créanme, si esto lo podemos hacer hoy, Créanme que lo podemos hacer hoy y de hecho lo podemos hacer si si dan cuenta ya son las 8 y 10 lo podemos hacer
+en una hora.
+Sí,
+porque obviamente, ustedes no se van a fiar en la sintaxis se van a fiar en el análisis. Yo quiero que ustedes piensen en el análisis que me pueden dar, sí,
+entonces eso en una hora sale y no se complican la vida El sábado o el domingo sí
+vale muchachos.
+Pero si entonces fijamos la fecha. Una vez proyectático final
+hasta el domingo a la medianoche. Vale claro que he grabado
+de acuerdo en desacuerdo poquito tiempo, mucho tiempo, sugerencias, reclamos peticiones.
+Claro, como el río Cauca perfecto
+hasta marzo.
+No, ya estoy ya en marzo, estoy en vacaciones, me voy, me voy marzo.
+Bueno, perfecto.
+Entonces dejémosle muchachos. Les parece para compartir pantalla.
+No voy a habilitar las notificaciones de escritorio del computador.
+pero la del celular. Sí, créanme.
+los estoy. Estoy fijo en el correo institucional.
+Ahora, sí, Ahora sí. Ahora sí,
+muchachos tienen alguna algún datación que les gustaría que yo hiciera.
+No sé algo que les parezca interesante
+que no haya segunda Tasset con con 200 columnas y
+400 000 filas, de los cuales 90 por 100 nulos, no
+un dataset con M. I D. Is Midis, que es miss, No muchas.
+Vanessa Hernandez
+Vanessa Hernandez
+00:14:35
+Yo estu Yo estuve viendo Natansettes que la verdad, no sé, no sé cómo se maneje eso. No sé cómo funcione. Me pareció curioso porque traía columnas, cierto, pero también traía descargable en vez de un C, un Cs V, o sea, pues el el archivo de excel
+venía. Era como con una carpeta llena de mi disco. Midi son
+música pero corta. Chiquita. Tonos. Me entiendes como.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:15:01
+Así que.
+Vanessa Hernandez
+Vanessa Hernandez
+00:15:02
+Que.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:15:02
+Increíble.
+Vanessa Hernandez
+Vanessa Hernandez
+00:15:03
+El tonito, como suena, es el acuerdo yo con mensaje. Eso es prácticamente un mini. Entonces me me pareció curioso como como se podría trabajar con con sonidos en vez de una datación así. Pero pues.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:15:15
+Y luego.
+Vanessa Hernandez
+Vanessa Hernandez
+00:15:16
+Ajá.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:15:17
+Eso es muy bacano. Muchachos.
+¿será ¿Será que convierto esto en un proyecto interactivo.
+Miren, vamos a ver.
+vamos vamos a ver ustedes qué opinan de eso. ¿sí? Y le vamos a dar dando. Tal vez no lo terminemos hoy. Pero créanme que es algo muy interesante de hacer.
+Lo que propuso Vanessa es cómo se llama Esto
+Se me olvio justo el nombre, pero yo lo tengo como sensor.
+No, ¿Cómo se llama esta aplicación. Tiene un nombre. Tiene un nombre. Tiene un nombre
+péreme. Lo busco que lo hicimos en la universidad. Yo hice un un taller sobre esto.
+Acelerómetro. Edge impulse. Se llama Edge impulse. Piense este por Acá Entonces usted me dice.
+voy a iniciar con la institucional mía de del agua porque tengo unos datos.
+Entonces me dicen, si aplicamos ese proyecto.
+pero lo tienen que ver conmigo y es bien bacano.
+Resulta que esta plataforma se llama Edge Impulse si Y lo que hace es que si ustedes tienen, por ejemplo, un dispositivo electrónico, sí, como por lo es el celular.
+Ustedes pueden coleccionar sus propios datos si, por ejemplo, de los pulsos que está mandando el sistem del el el celular ejemplo. Yo aquí tengo por lo menos si la
+unos datos que yo grabé cuando estoy caminando. Entonces yo hice la ma la maniobra de caminar mientras tenía el celular otro cuando di puñetazos así al aire.
+Fíjense todo esto son ondas. Sí,
+todo esto, al fin y al cabo, son ondas que libera, pues, digámoslo así como el celular a través de
+no. S: No. S: No sé cómo decirlo, pero creo que es a través del cómo se llama esa cosa del física que que que da vueltas.
+Leí algo como que funciona como el Spinner, pero no.
+Vanessa Hernandez
+Vanessa Hernandez
+00:17:29
+Y se.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:17:31
+Algo como una hélice.
+Vanessa Hernandez
+Vanessa Hernandez
+00:17:33
+Una turbina y en.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:17:36
+No tampoco tampoco tampoco. Un ay, No me acuerdo. No me acuerdo que si 1 que si 1 giraba el celular
+que si 1 giraba el celular como que le encontraba la posición.
+María J. Carvajal
+María J. Carvajal
+00:17:49
+Odómetro.
+Vanessa Hernandez
+Vanessa Hernandez
+00:17:50
+Y los jóvenes.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:17:51
+Al giroscopio. Eso giroscopio exacto.
+Vanessa Hernandez
+Vanessa Hernandez
+00:17:54
+Epa.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:17:55
+Sí.
+Vanessa Hernandez
+Vanessa Hernandez
+00:17:56
+El giroscopio de mi celular.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:17:58
+Eso. Eso es el Giroscopio. El caso es que esta aplicación creo que usa el giroscopio del celular, Sí, para precisamente captar las señales. ¿sí? En el eje X, en el eje y en el eje Z.
+Entonces todas estas señales y ustedes ven aquí son diferentes, por lo menos cuando usted camina si eso es como una señal constante cuando usted da puñetazos, son señales más fuertes. Por ejemplo, yo hice un experimento. Yo me puse a bailar salsa. Y fíjense cómo se ve bailando salsas cuando, como me veo bailando, salsa las señales de mi celular.
+Así parece que fueran como las de caminar. ¿no? Bueno, la de caminar es un poquito diferente, pero Fíjense cómo hay los alsayos, muchachos
+que les dice qué les dice mi uy aquí como que bailé un poquito más agresivo si se dan cuenta.
+Aquí solo salsa choque.
+Toca medir agilando sonidos bestial exacto que es un mal bailador.
+Eso estuvo buena Gisellet está Estás ganando puntos para que el sábado, si llega la excusa, ese 70 por 100 se convierta en 10 por 100.
+Este cachondeo, que es un mal bailaor.
+Eso estuvo bueno, esa estuvo buena. El caso. Muchacho me parece reinteresante.
+Sí, por lo menos trotar todo ese tema. Y fíjense por acá.
+Yo tengo aquí mi actividad. Sí, final. Como el acelerómetro es larga de una vez, les digo larga porque incluye redes neuronales, incluye eid learning. ¿vamos a usar sí o sí, redes neuronales en la otra parte del curso. Entonces
+me gustaría enfocar esta parte del curso en modelos de machine learning, porque la la otra asignatura va va a ver todo lo que es
+deep learning, o sea, todo lo de redes neuronales, pero enfocado a la detección de imágenes, cosas como esas.
+Pero fíjense por acá
+necesito un notebook. Obviamente no se lo voy a compartir todo porque si es 100, puede hacerlo. Bueno, sí, Vam: Vamos a ir dándole. Vamos a irle haciendo. Vamos a irle dando un poquito, sí.
+Aunque es duro, es duro.
+inclusive para mí. Yo tendría que volverme al Notebook ver un poquito de lo que hice antes, Porque, pues igual es, no me memorizo. Obviamente, todo esto Sí, la estructura es difícil. La estructura es difícil.
+pero pues Obviamente, ustedes saben que el sonido es ondas. Cierto, lo que yo había, lo que yo había explicado en introducción.
+el sonido también hace parte de las ondas, pues precisamente estas ondas, si digámoslo así, pues, esta esto sí se le pueden decir como ondas, sí, como estos estímulos
+se pueden procesar en un
+algoritmo de learning. Y ese algoritmo de learning les puede clasificar a ustedes qué es exactamente lo que están haciendo. Por ejemplo, vamos a ver por acá,
+clases, clase o bailar 12 muestras. Aquí está un poquito. Fíjense por acá. Yo le di al algoritmo un 70 por 100 para entrenamiento y un 30 por 100 para validación. Entonces fíjense por acá
+que es curioso, ¿sí? Pero él dice que por lo menos la clase, 4, la clase, 4, Si me disculpan, yo las tengo por acá,
+Sí, la clase 4 es trotar la clase 0, bailar clase. Uno, caminar clase, 2, puño, clase, 3, quieto.
+Piense que la clase 0 salió perfecta, o sea el sistema dice que no reconoce nada aparte de que yo esté bailando salsa. Re Bien.
+eso eso eso eso lo que hace es
+a a cómo es que se dice cuando se refutar la teoría de Gised.
+El sistema de learning dice lo contrario.
+Piense entonces es como eso. Si se dan cuenta todo este tema hace parte de las ondas, ¿sí? Entonces
+de un análisis con ondas es muy interesante es el sonido, pero obviamente no lo terminaríamos hoy de una vez les digo, no las terminaríamos hoy. Terminaríamos una parte de pronto de lo que es la la limpieza.
+Y terminaríamos un poquito también de lo que es la parte de la visualización y sin mucho entrenamiento y validación, pero ya es listo.
+y eso que con ayuda de la I A, pero no sé qué opinen.
+No sé qué qué opinen? ¿quieren mejor que haga el proyecto con el
+con los datos que están aquí en Kylell, para que ustedes vean para qué les sirva de pronto el proyecto para que ustedes vean algo de real. Porque pues al fin y al cabo han visto puros colaps, sí
+que no está mal, pero pues obviamente de la práctica 1 aprende, ¿cierto? Entonces, elegir cualquier cosa al azar y verme es algo también que ustedes van a aprender mucho.
+No sé qué opinan, qué hacemos.
+qué opinan votación, votación.
+como hago votación.
+yiceth mata lozano
+yiceth mata lozano
+00:23:31
+Estaba pensando que hiciéramos. Digamos que la actividad juntos.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:23:37
+La actividad juntos, o sea en vivo. ¿cómo.
+yiceth mata lozano
+yiceth mata lozano
+00:23:42
+Sí, y nosotros ir haciéndolo acá también.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:23:46
+Okay, eso podría servir. Cuántos somos 4? ¿cierto? Creo que yo no está
+si coloco un servidor con livescreen. Creo que nos va bien.
+sí podemos hacerlo. Yo creo que con 3 no nos va tan mal con la con la latencia y con todo el tema en vivo ¿Les parece
+o no me parece bacana la idea.
+Vanessa Hernandez
+Vanessa Hernandez
+00:24:14
+Aló.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:24:15
+Sí. Cuéntame. Vanesa, No, Pues que sí, que que Halo
+Hala listo. María Sí. Hala también perfecto. Angie: Por ahí.
+Anyi Lisbeth
+Anyi Lisbeth
+00:24:29
+Profe. Yo yo no, porque estaba de vacaciones y estoy de vuelta. Entonces me toca ponerme al día.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:24:39
+Okay.
+Bueno, igual la mayoría igual gano listo, entonces
+va a com, va a ser el tema del
+igual año. No pasa nada. Ponte al día, No te preocupes igual. Voy a dejar el plazo para el proyecto. Sí, cualquier duda me escribes al correo.
+entonces voy a hacer la sesión. Les parece.
+Puedo hacer la sesión, voy a hacer la sesión. Lo damos, todos tenemos visual.
+Vanessa Hernandez
+Vanessa Hernandez
+00:25:08
+Sí.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:25:09
+Listo.
+¿alguna vez han trabajado en vivo con al con una extensión que se llama mediense. La voy a compartir pantalla.
+Pero antes de compartir pantalla, voy a cerrar aquí esto porque nadie me ha escrito Entonces.
+para compartir pantalla por acá con Liveshare, alguno lo ha utilizado.
+No.
+yiceth mata lozano
+yiceth mata lozano
+00:25:40
+No me suena.
+Vanessa Hernandez
+Vanessa Hernandez
+00:25:42
+Sí, no.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:25:43
+Es una extensión precisamente para colaborar en tiempo real. Es Bacana, pero sí es un equipo, chiquito listo, chiquito es
+menos de 5 ya a partir de 5 empieza a fallar. Listo porque, pues igual al fin y al cabo, esto es como si ustedes usaran como un servidor que el de Microsoft. Si.
+y él lo que hace es reflejar las cosas en vivo, entonces
+es una muy buena herramienta. Si ustedes por lo menos, tienen equipos chiquitos y quieren hacer todo el cambio envío. Si tienen algún problema que quisiera darle a un compañero es bueno, es bueno.
+Entonces vamos a instalar esa extensión en visual. Listo Liveshare, voy a instalarla con ustedes aquí ya la tengo.
+Y en Liveshart, si se dan cuenta? Acá Bueno, antes de irme, acá voy a irme primero
+a abrir mi carpeta de logotipos, Todo todo todo
+to to to to to muchachos
+antes de. Bueno, no primero configuremos esto y luego leamos universidad work.
+vamos a colocar en proyecto final, ¿no? Pero ese proyecto final no es este
+romingen yo los proyectos módulos. Tampoco vamos a colocar aquí.
+Proyecto final.
+Pros Datos.
+Listo! Esta va a ser la carpeta en la que vamos a trabajar lista?
+Sí, Pues listo ahora. Sí,
+voy a compartir. Listo ustedes ya creo que lo tienen. Yo mire, piénselo. Acá. No que es Liveshore.
+Yo le voy a dar, si ustedes quieren alojar un código. Entonces le van a dar a Shared Writer listo. Aqui les va a aparecer, Está colaborando esto. Y Bueno, aquí está listo.
+Entonces le va a aparecer participantes terminales abiertas. Creo que ustedes también pueden ver el código ahorita. Lo vamos a ver igualmente y va a invitar participantes. Ahí me va a aparecer, que tengo el link copiado en
+él, el portapapeles listo. Entonces que lo que van a hacer ustedes?
+Ahí es cuando están en el link. Sí,
+creo que le tienen que dar click. Y ya con eso les colocaría esta primera parte, listo, o sea, ya con esta deberían de aparecer aquí participantes. Creo que tienen que iniciar sesión en caso de que no tengan visual Concession, pero creo, y obviamente, si hay errores, lo podemos ir viendo. Vale ahora.
+Pero entrena al link.
+Y bueno, nos conocieron Arco.
+Vanessa Hernandez
+Vanessa Hernandez
+00:28:47
+Yo estoy un poquito atrasada, Igual puedo entrar al link o.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:28:53
+Sí, Sí, Sí, no has entrado participante ceros.
+Necesito que intenten darle al al link
+para saber si eso todavía sigue funcionando
+ahí. Sí. Mira María Rein Wrife.
+Ahí ya me aparece acá. María. Piense. Ay, Mira, María Haz un haz un prin de algo.
+Spinny: Yo Yo yo yo no. Te
+Hola ahí. Bien. Sí, Sí, bien, va canísimo.
+¿qué tal listo? Lisbeth se unió?
+Lisbeth: ¿Puede Lisbeth a su primo, algo para saber si puede escribir.
+Creo que el inglés no puede escribir espere un momentico. Yo veo.
+Libeth, sí.
+Si puedes escribir excelente, listo, faltaban ese y creo que ya
+o después, si si alguien nos quiere unir, no paga nada, espera.
+Bueno, creo que no hay problema, ¿cierto?
+Supersencillo.
+Anyi Lisbeth
+Anyi Lisbeth
+00:30:16
+La misma.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:30:18
+Dime.
+Anyi Lisbeth
+Anyi Lisbeth
+00:30:18
+Soy la misma.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:30:20
+En la.
+Anyi Lisbeth
+Anyi Lisbeth
+00:30:21
+Ilis ver.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:30:23
+Urbana no pasa nada. Espero listo. Aquí está Vanessa, ya. Bueno, muchachos a ver por aquí. Listo.
+Ahí está un Prink.
+Listo. ¿les gustaría. ¿les gustaría ser.
+¿les gustaría trabajar en un archivo, punto. Pay, plano o en un archivo tipo noteboard para más organización o algo por el estilo.
+o qué opinan.
+Vanessa Hernandez
+Vanessa Hernandez
+00:30:59
+Y cuál es.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:31:03
+Es que el.
+Vanessa Hernandez
+Vanessa Hernandez
+00:31:04
+Pues, supongo, tú.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:31:06
+Sí, pues igual. Los 2 usan Python, pero el colab es es, a mi parecer más organizado, pero
+pues yo en este caso prefiero hacerlo en un archivo plano, porque
+porque creo que con el notebook es un poquito complicado el tema de la sesión. Entonces
+me gustaría hacerlo como más en este punto. By: Entonces, bueno, creo que no hay problema con el punto Pay.
+Bien, Bien, excelente. Muchachos pregunta.
+¿con qué lo con qué datos lo vamos a hacer? Tomamos datos que ustedes quieran darme, Tomamos datos de unas canciones, o una cosa importante hay que decirlo. Una cosa importante que se me olvidó comentarles.
+Obviamente, hay que tomar datos de algún lado, sea de sonido sea de alguna parte, cierto.
+pero deben de tener algún tipo de sentido. Sí, por lo menos que sean sonidos. Por ejemplo, si estuviéramos haciendo un sistema de clasificación, sí que sean. No sé, sonidos, por ejemplo, de de ritmos de Reggaetón, otros sonidos que sean de rock, otros sonidos que sean de
+de no sé baladas, sí que tengan como un mismo género para que vean como como si el algoritmo puede identificar esos patrones, porque, pues en realidad coger un sonido el otro de este lado. El otro es un poco complejo.
+entonces, y no sé si quieren hacerlo con los datos que yo tomé de los
+de la del acelerómetro. Sí, del Ege impulse.
+quieren agarrar. ¿hacemos una carpetita? Sí en el que ustedes van a colocar de pronto canciones. Bueno, no sé cómo cómo sea esa parte de la extracción de del sonido.
+Sí, creo que se tiene que colocar en ese archivo que dijo que dijo vanesa el archivo punto meet sí,
+pues no sé muchachos que que que que prefieren.
+María J. Carvajal
+María J. Carvajal
+00:33:12
+Qué prefiere muchachos.
+Vanessa Hernandez
+Vanessa Hernandez
+00:33:14
+Lo que.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:33:16
+No, no.
+María J. Carvajal
+María J. Carvajal
+00:33:17
+Porque ya con tu experiencia previa, en caso de que no salgan cosas, pues habría mayor rango de maniobra. Pienso ya no.
+Vanessa Hernandez
+Vanessa Hernandez
+00:33:26
+Qué? Qué? Qué? Qué? Qué?
+María J. Carvajal
+María J. Carvajal
+00:33:29
+Que yo optaría por usar los datos de quan
+porque, como él ya ha hecho cosas con eso, ya hay un rango de maniobra mayor que de pronto.
+1 de 0.
+Vanessa Hernandez
+Vanessa Hernandez
+00:33:43
+Que ponerse a experimentar? Pues sí también.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:33:48
+Pero igual somos, ¿Somos qué? Somos 4 personas y una Ya ¿No podríamos experimentar que salga.
+Vanessa Hernandez
+Vanessa Hernandez
+00:33:59
+Somos 4 bebés y un profesor y una I a.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:34:06
+¿cierto? ¿cierto? No muchacho. Yo métame a mí, un bebé. También meet.
+María J. Carvajal
+María J. Carvajal
+00:34:14
+El bebé líder ya.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:34:16
+El brasileños.
+Bueno, a ver.
+sería muy baca, no experimentar porque pueden salir cosas raras. Pueden salir cosas extraordinariamente chistosas, raras extrañas y me gusta el reto, pero pues no sé
+votación popular, votación popular, votación popular.
+¿quién dice mis datos, quién dice quién dice mis datos. Pongan aquí mis datos. ¿van a colocar aquí una rayita así una rayita así y datos de canciones.
+Otra rayita. Así listo, votación, votación en Python
+o pongan un 1 o lo que sea, pon un punto o no sé listo.
+No, no vayan a borrar lo que el otro escribió.
+No sabemos.
+Mhm.
+Bueno, a ver a ver solo para saber solo para saber, solo para saber.
+Yo Todavía tengo la cuota de de esto.
+Hola.
+Y con con G, P: T, 4. Punto. Uno más 1 listo, mis datos.
+Y Gise dice Lisbeth, dice: los datos de las canciones Vanesa, dice
+¿qué es eso? Muchacho? Uno más. Uno, 11.
+Hay 11 votos por mis datos.
+Hay que ir D Okay Okay Okay.
+María J. Carvajal
+María J. Carvajal
+00:36:13
+Este concatela 1 y 1 no en programación.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:36:18
+Puede concatenar 1. Y 1 exactamente si es string eso no es string, son enteros.
+Entonces, a ver, creo que lo veo convencido más por mis datos. Sí,
+creo que lo veo convencido más por mis datos. Hagámoslo entonces con mis datos. Si vamos a hacerlo. Entonces, con mis datos, les parece
+bien?
+Vanessa Hernandez
+Vanessa Hernandez
+00:36:46
+No es la democracia.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:36:49
+Sí gana la democracia. Vamos a ver. Entonces
+a ver Datasset. Lo tengo por acá.
+En mi atace. Les parece Primero, primera decisión que vamos a tomar en conjunto.
+70 por 100, entrenamiento, 30 por 100, validación está bien.
+Vanessa Hernandez
+Vanessa Hernandez
+00:37:11
+Experimentar con otro dato.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:37:13
+Como. Así que, como así.
+Y pues, como así dices, ¿cómo Así.
+Vanessa Hernandez
+Vanessa Hernandez
+00:37:20
+Eso. ¿qué ¿Qué afecta el 70 por 100, entrenamiento y 30 por 100 de S.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:37:27
+Cómo así?
+Mhm.
+Bueno, eso es una buena pregunta. Nadie me lo había preguntado, y yo les había comentado que era 1 de los datos más comunes, ¿sí?
+Y pero nadie me había cuestionado el por qué? Eso es una buena pregunta. En realidad no lo había explicado
+y se debe a que es común sí, utilizar o sí, exactamente utilizar o de 30 30 o 80 20. ¿por qué pónganse a experimentar con, por ejemplo.
+como por ejemplo, 60 40. Sí,
+póngase a experimentar con eso. Va a tener posiblemente muy pocos datos para entrenarse. Y va a haber un un
+un, no, un sobre entrenamiento y no un bajo en un poco entrenamiento. Digámoslo así? Sí, si lo colocan antes. Por el contrario, 90 por 100,
+entrenamiento, 10 por 100, validación. El modelo va a tender a tener un over feeting, Sí, sobre entrenamiento. Va a memorizar todas las preguntas del examen y cuando sea el examen, va a fallar.
+porque pues tiene muy pocos datos de validación.
+entonces es normal si un dato, 70, 30, 80, 20 para que lo tengan presente sí como que se ha hecho que funciona en el 90 95 por 100 de los casos, pero no pasa nada si ustedes creen que puede ser 65, 35 cosas como ese por el estilo.
+Da casos. Se han visto casos. Se han visto, créame, casos se han visto Entonces, por este lado. Bien, sí.
+En mi caso me funcionó bien con 70 30, ¿sí? Con 70 30 me funcionó bien, Hagámoslo con 70, 30, listo.
+Entonces
+no me acuerdo de esto dice you can lovery, ah, pero eso es para subir data. No quiero descargarla. Es este botón exportar data
+original, files exacto
+perfecto, esto es el el archivo original que me quiere dar, que me quiere dar hecho listo. Esto es para colocar los la partición de si de 70 30 para conservarla. Entonces me va a hacer 2 carpeticas, una para entrenamiento y otra para validación.
+Entonces démosle a exportar.
+Fíjense que me hace el Código y todo el código de exportación. De esto es esto es rebacano esta plataforma. Me me me encantó. Cuando cuando hicimos la primera parte de de de una pequeña introducción a lo que son dispositivos embebidos
+con I A, se los recontra hiper recomiendo. Si alguien estudió algo de electrónica algo por el estilo es el futuro también en I a
+el hacer todo el tema de, por ejemplo, que tienen el sensor que mide su pulso ahí que ustedes compran un reloj de Tmo y dicen, ¡ay, el me midió. Tengo el pulso de 80, 20 cuando, uff, mejor dicho, está en 130,
+créanme que eso del futuro con ayuda del aire.
+Bueno, Perfecto.
+Tu tu tu tu tu tu listo.
+fíjense que acá me da mi carpetita. Listo mi carpeta del proyecto.
+Entonces voy a extraerlo. Y aquí por acá piense que me da
+el info leybors que son. Como miremos, nos vamos a meter.
+vamos a tener un bloc de notas que fíjense que en cada archivo es lo que me dice es el nombre. Sí, el nombre que yo le di, por ejemplo.
+en un archivo. Yo le dije a él trotar trotar. Uno. Sí. Fíjense que si se dan cuenta por acá si nosotros vamos por acá,
+yo siempre a él le pongo nombres fijos, Sí, le digo trotar, le digo, quieto, le digo caminar, sí, lo demás. Él me lo hace. Por ejemplo, después del punto, él me pone un un un número aleatorio. Si
+y esta metadata, lo que hace es que, pues, si nosotros vamos a consumir esos datos de allá sí de lo que es. Fíjense por acá. Es un Json: Sí, si se dan cuenta, es un Json, entonces vamos a abrirlo
+con vamos a abrirlo con code.
+Piense que eso es un Jason. Sí, a ustedes lo pueden ver también. De hecho.
+Entonces
+este Jason sí me dice cuál es el el nombre del teléfono. ¿cuál fue el sensor donde fue las unidades? Sí, un poquito de los valores, pero en ningún momento, si se dan cuenta, acá, me dice cuál es la etiqueta, si, o por lo menos si es de bailar, si es de caminar. Solo me lo hice en el archivo como tal, ¿sí? Pero en realidad para eso funciona el Infolivers
+listo. Entonces lo vamos a tener en cuenta.
+Entonces, en este caso, lo único que vamos a eliminar es el ritmo, el ritmo, ustedes saben más o menos. ¿qué es si hubiera un Git Es el archivo para, pues las especificaciones, introducciones.
+Eso es lo único que debemos eliminar el resto. Lo debemos conservar. Si se dan cuenta, tenemos carpeta de entrenamiento y carpeta de validación. Si
+obviamente particionado, vamos a tener una buena mayoría en entrenamiento y otra partecita Chiquita en validación. Pero pues va a funcionar. Vale, va a funcionar bien.
+Entonces vamos a ver, vamos a ver. Vamos a ver.
+Esto es lo primero que vamos a hacer. Listo. Esto es lo primero que vamos a darle por ahí. Entonces
+vamos a darle un nombrecito a la carpetita si no sé estímulos edge impulso.
+Y esto.
+Tengo abierto. Tengo abierto aquí. Esto Tengo abierto aquí. Esto listo Ahora, Sí. Perfecto.
+Y esto lo voy a pasar a
+la carpeta del proyecto final. Listo. Usted me dice si lo ven?
+Sí, Bueno, ustedes lo pueden ver.
+Pueden ver mi carpetita como yo la estoy viendo.
+yiceth mata lozano
+yiceth mata lozano
+00:44:02
+Sí, Sí.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:44:03
+Edge inputs. Sí.
+Anyi Lisbeth
+Anyi Lisbeth
+00:44:05
+Sí.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:44:06
+Perfecto.
+Bueno, una cosa importante.
+No me acordaba, no me acordaba. Él tiene un info ley belts en cada carpeta listo. Entonces no hay problema. Podemos eliminar el info Labels de acá. Listo.
+No hay problema.
+Bien, Bueno, a ver. Entonces, la primera parte. Sí, La primera parte, que es lo que vamos a hacer es la lectura de estos datos, de estos datos
+que están en sonido. Listo.
+Entonces vamos a hacer esto. Ya se va a renombrar y vamos a colocar no sé, entrenamiento y a
+etc.
+Listo, Eso es lo que vamos a hacer, el cambio ¿no? Mas.
+Entonces bueno, a ver, fíjense por acá
+yo hace mucho tiempo importé toda esta parte de librerías toda esta parte de valores y en realidad, pues
+esta primera partecita de la lectura la voy explicando un poquito paso a paso, ¿sí? Pero si se dan cuenta por acá, si se dan cuenta un poquito por aquí, estamos viendo que nos está dando un poquito un tema de un data frame. Sí, un tema de un data frame
+a ver. Entonces vamos a ver un poquito por acá. ¿qué fue lo que hice? No me acuerdo? La verdad ta ta tatum. En cada archivo, vamos a colocar los valores de 7 a 2 la misma longitud. A Listo. Perfecto. Vamos a ver la primera parte Si vamos dándole la primera parte, que es el data frame.
+Entonces vamos a usar un data frame que vamos a leer todos, esta parte de sujs listo.
+Entonces.
+P Data Frame. No, no vamos a hacer un P punto. Ata Frame. Vamos a ir leyendo poco a poco los valores de los data frame que tenemos listo. Esto es solamente para la primera parte. Sí,
+esto es solamente para visualización.
+Les gustaría que yo me saltara esta parte de visualización y continuara de pronto con los datos.
+No sé si les gustaría.
+Esto es como una parte de visualización. Si se dan cuenta, en realidad es eso.
+Vanessa Hernandez
+Vanessa Hernandez
+00:46:37
+O sea, es es el que pinta las rayitas, básicamente.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:46:41
+Exactamente exactamente. Ese es el que pinta las rayitas.
+verlo aquí con esto. Bueno, vamos a copiar este, y lo vamos a a a a pegar y vamos a solamente la visualización en este caso, porque me gustaría es que luego nos pasa el Colab.
+Sí, de hecho quieren, si quieren, les paso el colap?
+Listo.
+¿les va a pasar? El Colab: Sí, Sí, sí, sí, sí, sí, sí es guapa del cole.
+Es el cola.
+No me juzguen esto. Lo hice en menos de 24 h porque estaba ocupado en el trabajo.
+Si ven algo por ahí, no soy yo.
+Es coppilot metanle toda la culpa a coppilot no mentira, Efectivamente fui yo.
+Todo es manual.
+Bueno, entonces
+esa primera parte de visualización, la verdad, me gustaría saltarlas, ¿sí? Y irme un poquito con lo que es la parte, sobre todo del tema del directorio listo del directorio.
+Entonces, ¿qué es lo que vamos a hacer aquí? Primero, vamos a apuntarle a donde tenemos lo que es nuestra carpeta. Si nuestro directorio.
+entonces hay que importar primero la librería. Oso! Listo de segundo, hay que darle la variable del directorio.
+Sí,
+la variable del directorio. ¿cuál es la ruta en este caso? Yo voy a colocar la relativa, Sí, la ruta absoluta relativa. ¿de dónde está nuestro ata 0?
+Recuerden colocar bueno en este caso. Como es Oz, Creo que no importa el tema del
+de la barra de la barra a la izquierda Sí, no pasa nada por este lado.
+pero pues, bueno, vamos a intentarlo igualmente. Bueno. Igual. Aquí puse la ruta absoluta, no para nada.
+Bueno, entonces aquí es el primer el la primera parte. Si el primer directorio en donde va a encontrar lo que es la parte de testing. Y lo que es la parte de training listo. Directory.
+vamos a imp vamos a imprimir. ¿en dónde está ese el dire el directorio? Sí, Bueno, el directorio simplemente no me da nada a ver la verdad.
+Entonces contenido del directorio. Vamos a hacer el chancuco por acá. Lostlist Listo.
+No, no creo que haya problema con el doble con la doble línea, No creo
+igual. Vamos viendo así. Entonces vamos a ver
+si en efectivamente apunta donde es re bien, ha truncado oposición único desco
+pase, Creo que es. Tiene que ver con efectivamente nuestros nuestras, nuestro celular hacia la izquierda.
+Ahora, de nuevo, perfecto.
+Aquí ya tenemos el directorio raíz. Listo.
+Vamos. Bien, listo? Vamos a excelente.
+Ahora, ¿qué pasa? Obviamente, en la parte del entrenamiento en la parte de validación, sí vamos a tener que darle esta parte del entrenamiento, esa parte de validación al modelo.
+Esto es un poco más manual. Sí, esto es un poco más manual, y
+esto es un poco más manual. Creo que hay una forma de optimizarlo.
+Voy a arriesgar, me voy a arriesgar, y voy a optimi voy a Voy a ver si puedo optimizar la forma de de de lo que hice antes. Listo.
+Bueno, el el el Fire Short.
+De una vez vamos a hacerlo. Vamos a hacer el tema de del entrenamiento acá. Listo. Training uy perdón.
+Swing, la carpeta Traink: listo.
+Bueno, una cosa importante. Háganle print a esto para saber si solamente tienen un Json, porque resulta que yo a veces
+en colab, corría esto y me aparecía un archivo. Ip: y N B, que nada que ver si tenemos todo Jason
+reviendo listo. Entonces ya chequeamos acá.
+Qué es lo que vamos a hacer Ahora vamos a hacer una función. Sí que lo que va a hacer es coger cada nombre cada nombre del archivo en la que vamos a hacer. Y vamos a hacer por dentro, otro ciclo. Sí que se me quede con esos archivos. Recuerden.
+los archivos? Json: Sí que tienen el el estímulo. Si se dan cuenta, tienen valores. Esos valores corresponden a las coordenadas del movimiento que se hizo
+en cada segundo. Creo que yo creo que yo lo yo lo tomé por milisegundo o segundo. No recuerdo a 1 000 ms al cuadrado.
+ah milisegundos, perdón en milisegundos, no milisegundos al cuadrado por Dios no es físico
+en milisegundos. Listo. Entonces, esos son cada 1 de los valores en el milisegundo que paso con el
+eje listo, con el se me olvidó justo el nombre: giroscopio listo.
+Entonces, esos son puros puntitos. Sí, esos son puros puntitos.
+¿alguien se arriesga a hacer la función.
+Sí, alguien se arriesga a hacer la función así, optimizando lo que yo hice antes, porque segu de créame que se puede optimizar, eso seguro se puede optimizar. Sí, es muy manual lo que yo hice.
+Pueden usaría. Pueden usar mi proyecto, sí, pero lo importante es que lo optimice.
+o sea, que de pronto lo vuelvan un poquito o más corto o un poquito más entendible. Porque, créanme, ustedes serían capaces. Yo por lo menos sí lo entiendo, pero ustedes serían capaces
+de decirme qué exactamente lo que hice acá? Sí,
+pero pues obviamente se los voy a decir, no, No es que los va a mandar a ciegas así, pero me interesaría, es que intenten
+hacer una función sí que pueda optimizar.
+Perdón es que que pueda optimizar, que, o sea, que hagan una función más optimizada que la que yo hice que la hice muy manual.
+Sí, se arriesgan con esa.
+yiceth mata lozano
+yiceth mata lozano
+00:53:00
+Me muestras de nuevo, ¿cuál es la función?
+Estaba viendo. Era el.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:53:05
+Función es esta.
+yiceth mata lozano
+yiceth mata lozano
+00:53:10
+Mhm. Las funciones.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:53:10
+Esto Vale.
+yiceth mata lozano
+yiceth mata lozano
+00:53:12
+Pues miremos a ver qué nos dice la villa.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:53:14
+Miremos a ver qué nos dice el A, D I A,
+por cierto, para animarlos para animarlos y todo el tema.
+Si yo pido una función, si yo pido estos, obviamente ustedes lo pueden hacer con la Iah. Voy a dar 0 coma 5 décimas del proyecto final
+listo, si me demuestran que la función funciona bien y que es diferente sí a la mía.
+obviamente no es que me van a cambiar una variable y ya no, Pero sí oí eso.
+Si no pueden, pues me avisan y yo meto mano, Sí, no hay problema o si quieren. Podemos ir depurando
+mientras ustedes hacen esa función, yo voy a hacer la función de entrenamiento. Sí.
+yiceth mata lozano
+yiceth mata lozano
+00:55:05
+Te pongo acá. Lo que lo que lanzó la la I a.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:55:09
+Sí. Si quieres ponlo ahí en en el Código.
+yiceth mata lozano
+yiceth mata lozano
+00:55:14
+Eso se lo dejas colocar.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:55:16
+Sí.
+yiceth mata lozano
+yiceth mata lozano
+00:55:18
+Mhm.
+Ya.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:55:25
+Bueno, sí me suena que estaba algo optimizado.
+Veamos si funciona. Y luego vemos primero. Lo primero.
+Dice, encontró un interés de archivos Jasons que hay error.
+El 7.
+El 7 tiene un Kayak.
+Mhm Mhm: Bueno, te va a colaborar ahí y ya lo voy a explicar qué es lo que pasa.
+Creo que funcionaría así.
+Efectivamente. Dice que hay un key error.
+Ay, no puede ser. Es imposible
+de verdad por un espacio mejor.
+No, no es eso, no es eso.
+Ya sé por qué.
+¡ay, qué Bueno, yo soy perdona
+aquí. Me dice que hay error. Pero vamos a ver si es esto real. De pronto puede ser eso.
+No, no, no, no un Edlife.
+Vamos a ver si es con esto.
+Dice non coma 2 coma non.
+No, no es un atún, plan, no es una pata
+Okay. Raro, acceso directo se basado en la lógica original del 7 2.
+¿hay algo que puede cambiar en este sentido. Veamos, veamos. Veamos. Veamos.
+Veamos. Veamos. Veamos, veamos, son 7, 2, pero 7 2. Déjeme yo lo reviso y le digo ¿qué es lo que pasa con este tema.
+Son 23, 7, son 3 acá,
+pero acá, me interesa ver esto.
+Siete o se encontraron sus activos, 14 14. El 0 punto Uno
+sí no debería de funcionar. Debería de funcionar.
+Debería de funcionar, pero con la coma debería de funcionar también con el Ilove 7 2 Exactamente.
+Pero hay algo raro.
+Hay algo raro que me está impidiendo ese 7 2
+lista de tu plan, ¿no? Pero esto debería de estar bien. Será el info Leybel.
+No son 2 carpetas, las dimensiones, El último elemento de cada dimensión a mí 7.
+Sí, sí, pero esto no debería de fallar.
+¿7? Dos 0, Punto 1, si eso no debería estar fallando por los valores, creo
+7, 2, menos 0. Punto. Uno, de pronto se achico, loco el 0 1
+no. Sigues estando con el tema del 7 2,
+ese colocó
+se coloco acá el 7 y el 12, el coso acá
+no, si o si me pide valores faltantes.
+Bueno, pongamos el alaya a ver qué nos suelta este señor Sean muy responsables.
+Colóquen en los datos que requiere
+a los prominer el 7 2. Lo que hicimos.
+Lo que hicimos no debería de fallar exactamente.
+Ahora, Ahora, el error es el 7.
+Si se dan cuenta. Ahora, el error es el 7.
+¿por qué? ¿por qué? ¿por qué? ¿por qué?
+Pero no debería haber el error? Acá
+¿No debería de tener este error? Acá? El 7
+no debería? ¿no debería. ¿no debería. No debería
+pelope valuese matriz de valuese 7, 2
+no jodas que está escrito en
+no es que ya los valores están espérate a ver a ver. Veo Gised que pendeja. Bien.
+Resulta que al parecer hubo una actualización y
+esos valores que ustedes vean, acá si se dieron cuenta, ¿sí?
+Y se dieron cuenta.
+Ahora hacen parte de de una clave valor a la que yo accediendo a eso, puedo acceder a
+O sea, es solamente con la clave. Puedo acceder a los a la lista de valores que estoy yendo. Sí,
+antes era a través de de la localización del del índice. Sí, o sea, 1 tenía que colocar dónde estaba localizado el value exactamente.
+Pero con esta optimización de Gisech se puede colocar simplemente el nombre súper bien. Josep
+tiene 0 coma 5 décimas para el proyecto final.
+Entonces.
+¿qué hicimos acá. Muchachos? Muy sencillo. Si se dan cuenta muy, todo, muy manual, perdón, todo, muy automático, no tanto manual.
+Hicimos un poco de lata. Si la cargamos con Json, log eso lo tuvieron que ver por allá en manipulación de archivos.
+Acá Lo que estamos extrayendo son es un dataset. De hecho, lo vamos a ver por acá. Vamos a hacerle un print a esto. Vamos a hacerle un print
+valuese. Sí, y vamos a verlo.
+Es un dataset con 3, digámoslo así:
+columnas, sí, 3 columnas se le dice en 3 dimensiones al final
+que tiene todo eso, que es todo eso
+en una tiene. Bueno, se me va por acá. El luna tiene como la metadata diciendo más o menos dónde está el tema del si lo vemos por acá
+sí aquí el tema del Pay Love, que si se dan cuenta es como más que todos los datos.
+los datos, los metadatos, sí,
+como por lo menos el nombre como fue hecho en que fue hecho sí. Y a través de ese pelot también se accede en otra parte a los valores, entonces estamos extrayendo del dataced, la metadata. Y estamos extrayendo del dataced los valores del datacet. Sí que esto en total suman 3 dimensiones.
+Listo, El Pelot es una sola dimensión, sí como una sola columna, pero los value, si se dan cuenta dentro de la colum dentro de la lista tienen otras listas, entonces es un poco como eso. ¿vale?
+Eso es un poco de de de estos valores. Si se dan cuenta aquí, lo que estamos retornando es un Array. Simplemente estamos cambiando la lógica del dataced a
+un poco de lo que es una red, sí, un un arreglo
+con esos valores, nun con los valores nulos, con los valores crudos.
+Y ahí sí ya podemos hacer? Sí, ya podemos hacer
+un poquito de lo que es
+la función. La podemos extraer, pues ya utilizar la función. Ahí recolectamos todos los datos. Y acá podemos concatenar si esos datos, porque al fin y al cabo, están sueltos en el Array. Sí, con eso lo podemos concatenar un poco, o sea, como juntarlos todos los datos que vienen de
+del siglo visso.
+Eso es un poco de de de todo esto Vale, eso. Es un poco.
+De hecho, si se dan cuenta, bueno, yo puedo acceder al último elemento de la lista o al primero.
+pero no lo va a hacer. No lo va a hacer. Creo que la visualización creo que está aquí.
+Igual. Véanlo, digéranlo un poco, sí,
+y se van a dar cuenta de que está de que estaba cano por ese lado.
+Bien, al data carga rápida usando Json estándar en vez de Uy. ¿qué pasó?
+En vez de training con training? ¿se puede hacer la directoris
+files están con el Directorio Json: Bueno, acá. Esta vaina es bacana que que se optimizó porque
+si se dan cuenta, sí, lo la los datos como tal. Están solamente los de entrenamiento. ¿sí?
+Y están aquí, dice Oldeira, pero en realidad no es soldeita ojo. Es training bello. Listo.
+Hay que tener presente esto.
+y lo mismo va a pasar igual abajo. Si se dan cuenta, yo puedo colocar Acá Mhm.
+Pues aquí estoy utilizando con F sí con file Path que el file Pad es como este, pero
+voy a usarlo esta vez. Sí,
+voy a usarlo con si se dan cuenta, voy a usarlo por acá training directoris.
+Sí, entonces acá voy a editar training Directory acá Voy a hacer otra variable que va a ser validaid test
+bytes, sí que es lo mismo. Pero en vez de
+en vez de de colocarles el Training, director. Y pues le voy a colocar el test Directory. Sí que en vez de Training Test
+y acá simplemente le coloco en vez de training, le coloco test y punto, se acabó la vuelta. Ah, bueno.
+aquí tengo que colocar test de ira y colocarle el testfile listo.
+Luego, si quieren, hacemos un print.
+esta concatenación de datos. Bueno, esta concatenación de datos
+se puede hacer acá si se puede hacer acá. Si se dan cuenta un poco con esto, sí
+se puede hacer esta concatenación en
+training data, o sea, quién datos, ¿
+Swing y acá en te data otros datos, test visto
+y acá dimensión final, pues ustedes colocan lo que quieren colocar, sí,
+datos, training para entrenamiento y para listo. Entonces ahí ya tenemos procesados los datos concatenados, perdón, todos los datos de entrenamiento y los datos de validación, obviamente en variables diferentes. Listo, dice, no solamente un Array. Bueno, una cosa importante.
+eso tiene mucho sentido, como nosotros debemos concatenar lo de lo de
+Bueno, hay un problema aquí con los de test. Espere un momento
+ni en el momento concaten ade tailot valuese.
+Algo está pasando con el exacto con esto será el problema. Perdónenme.
+Ajá, este era el problema listo. Ya debería de solucionarse.
+¡ay, No se soluciona. ¿por qué no solucionas
+training test test de ira. In, Text, files Crossfile forefe ajá in axis One
+necesitas más de una rey, pero ya tengo más de una rey.
+Ya tengo más de una raíz para concatenar de Swin punto Shave a 2, 3 6.
+Veamos a ver qué es lo que nos suelta la I A, porque está raro. Me está diciendo que no hay ninguna red. Es como si estuviera devolviendo un dato vacío. Pero.
+pues estoy estoy dándole bien.
+Si la ruta de los archivos test es correcta, ya sí, ya sí,
+sí, no me fijé en esta variable de arriba
+todavía nada a ver Proyecto final estímulo set
+bueno es que igual esta este este directorio. Este directorio de arriba
+no me está funcionando con el directorio abajo.
+yiceth mata lozano
+yiceth mata lozano
+01:08:28
+El de abajo no se llama testing.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+01:08:32
+Ajá ahí.
+Chapelota. Muchas gracias. Muchachos por exactamente Se llama textil.
+Muchas gracias por hacerme caer en cuenta. Pensé que era tema de el directorio
+y no me acordaba, pero tengo 2 archivos en 2 directorios diferentes.
+Entonces vamos a hacer esto una vez para que no se confundan y digan ay porque está 1 en un lado y otro en el otro.
+porque a ver, porque, pues no, error mío, error mío.
+Ahora, sí, debería estar todo bien. Perfecto. Listo, Está todo súper. Vale, Muchas gracias, Giselle.
+Perfecto. Entonces aquí ya tenemos datos concatenados. Sí,
+y muchachos. ¡qué pena con ustedes cortarlos así de del tirón. Pero voy a voy a que
+voy a hacer esto rápido. Para que vean el modelo, lastimosamente, no me queda mucho tiempo. Hay que ir avanzando. Vamos a ver un poquito de lo que es también redes neuronales en su debido momento. Pero
+fíjense por acá voy a darle a Voy a darle a voy a darle a Pero no
+voy a darle a esto a darle a esto, a olvidar esto a tu Cn: Sí, datos. Paintlot.
+número de Chungs sí pueda darle a esto. Sí, rapidito
+obligar, pues datos datos en vez de ser datos. N: Pues son datos.
+datos, Training, datos, training así. Perfecto. Listo para ir comprobando por acá
+datos. N, donde está datos n acá estos reinos, eso esto
+de forma resumida, muchachos. Esta parte del código es para hacer estos estímulos en unos Chungs. Se les llama, sí
+que esos chunks son como más o menos para ir pasándole datos de a poco al modelo y que no se sobre estallen, sí, que no se sobreestimule y que nos vote por tener poca rama. Vale.
+bueno, sigo acá sigo acá con No me queda nada más. Por aquí tengo que hacer lo mismo, pero para datos.
+kizumi, down cam can't dot with datos, training mhm, tantos testing.
+Sí,
+okay. Yo creo, creo que ok, esto es para automatizar la función y no tener que hacerla 2 de una misma
+de un mismo lado, Sí, perfecto. Está bien. Por este lado.
+eso es para automatizar la función listo.
+Y okay. Aquí tu categórical.
+tu categórical hace parte sí de una función que es de arriba. Sí, si se dan cuenta. Es de arriba de queras. Listo. Entonces otra librería que vamos a aportar queras. Listo.
+Al parecer no la tengo, voy instalándola. Mientras tanto, listo
+mientras instala, vamos viendo un poquito por acá Y
+esto es para los números de muestras, para clasificar las cosas en etiquetas categóricas para la clasificación
+es diferente el Jet. 30 que el jet test a ver
+categórica, listo, no este va igual. Vale
+este vamos a dárselo igual porque nuestra categórica nuestra categórica. Acá Sí, a. C,
+Listo Esto lo vamos a dejar igual porque lo que queremos, si es colocar esas en el en el jets, en el Jet 30 se acuerdan lo que les dije. El Target, que debía ser 0, 1, 2, porque sistema de clasificación
+que debía ser como como eso sí, como como tomar un orden, pues lo mismo estamos haciendo aquí con esta función. Sí, estamos pasando todas esas, digámoslo así, esos
+esas esa lista de que teníamos de de etiquetas, Sí, por lo menos de caminar, de bailar, todo eso lo estamos pasando a 0, Uno, 2, 3, etcétera. Listo a eso lo estamos pasando. Acá.
+Entonces vamos a darle por aquí.
+Sí, vamos. A:
+Ay, no, ya le hice pip install. Vamos a correrlo a ver si está. Ay, me tengo que descargar Tensorflot.
+Me toca que descargar Tensorflow, lo que sea Por ustedes, muchachos tensour flow y vamos a importar sour flow
+solamente importarte en surflow listo. Es curioso que no hayamos importado pandas hasta el momento.
+Esto pesa un montón. Tengo que hacer
+eliminación de pips de eliminación de paquetes.
+Bueno, bueno, bueno, pues yo creo que no lo vamos a terminar de entrenar mientras descarga tensor Flow, esto es para convertirlo a categórico, listo.
+Y vamos dándole acá. Al entrenamiento.
+Vamos a darle al entrenamiento
+acá si se dan cuenta lo que estamos haciendo aquí es haciendo lo mismo que hicimos antes, pero acá lo estamos diciendo: 80 20, Nosotros tenemos 70 30. Entonces, ¿qué es lo que vamos a hacer le vamos a dar, pues, obviamente, en vez de 0 2 le vamos a dar 0. Tres. Listo.
+¿es eso.
+Stratifi. El Stratifi es para el balanCEO muy importante, variable. Si Si la quieren averiguar con ayuda de la I a esto es muy recomendable. Gracias a esto pude hacer mi sistema de detección de fraude en el casino, sí,
+porque esto maneja el desbalanCEO de clases en caso de que haya visto.
+Bien, recuerden aquí que hay 5 clases que queremos predecir, quieto, caminando, puño, bailando y trotando listo.
+Entonces, eso es un poquito. Eso ¿vale? Esto. Olvídenlo. Si esto es puro print, esto es puro puro print.
+Más bien, vean lo otro listo, entonces sensor flow ya está dando tensor flow para la categórica. Listo.
+Perfecto. Ay, No puse disque que el pede elimine elimine el pandas por error.
+Listo. Eliminé el pandas por error
+o bueno, nunca lo coloque, si es que por acá hay una parte nueva, Sí, listo. Ahora. Fíjense por acá.
+Tenemos los datos de validación. Tenemos de la primera clase en los datos de entrenamiento, 16 muestras, la segunda clase, 21, etcétera, etcétera. En la clase de validación. Tenemos 8 muestras de la clase 0 de la clase, 9. Recuerden que las clases están acá.
+Aquí listo aquí. Yo hice el mapeo de clases aquí. Yo le puse 0 para bailar. Uno, para caminar, 2 para puño, 3, para quieto. Cuatro para trotar listo. Eso se hace de forma manual.
+No se puede optimizar.
+Entonces.
+por último, ya vamos a ver si lo que es la definición de lo que vamos a hacer, que es un
+que es una secuencia así de modelo
+que es una red neuronal, Perdón.
+Y vamos a copiar las librerías de acá
+las librerías de acá de queras.
+Y ahora sí que eras un kitspilot donde está.
+No creo que haya algún problema con esto. Sí, esto esto lo pueden eliminar. Es la gráfica de de la red neuronal, pero pues la gráfica no la necesitan en estos momentos.
+Y esto es lo que me interesa también: el entrenamiento listo, el entrenamiento para cuestiones de nuestro proyectilco de nuestro tiempo. Vamos a hacerla con 50 listo.
+Aquí está la validación, el de validación, etcétera. Y por último, vamos a ver. Estos son los gráficos de la cura, Sí. Pero la cura. Si lo podemos leer aquí mismo, sí como avanzando conforme van dando las épocas
+a partir si se dan cuenta de la época. 65 de la época 60, es que la cosa va bien. Entonces vamos a colocarle 60 listo
+para que lo veamos. Entonces conjunto de validación. Muestras para que coincidan con el tamaño. Sí,
+estoy acá. Bueno, vamos a ir viendo un poquito listo.
+Y vamos a hacer el experimento ya con con algo más bacano. Entonces, Bueno, antes de nada, sí. Antes de todo.
+vamos a hacer guardar.
+¿lo va a hacer con ayuda de esteman give. Me y o a nivel teira a Bautesting
+Put in. Lo de in the predicciones de final modern listo.
+Lo que quiero hacer es colocar los datos
+algún dato aleatorio? Sí, algún dato aleatorio
+para que él me pueda predecir cuál es?
+Solo dame el dato aleatorio para pres guay, ¿Qué es esto
+listo? Perfecto.
+está esto. Manes este man Dios mío, perdóneme por
+lo feo que se ve el código, pero esto vaca Y esto termina. Acá.
+Entonces vamos a darle listo. Vamos a darle.
+Si hay algún error, lo vamos solucionando.
+piense que a partir de la época. 38, la cosa empieza bien
+y tenemos un modelo preciso, listo.
+Qué pena hacerlo tan a las carreras, pero bueno, casi no hay tiempo.
+El I D, X, El I D X no es.
+Fíjense índice válido para muestras, simplemente una X y 0.
+Ahora o la moda a hacerlo no se demora nada.
+Pero a partir piense cómo va evolucionando mi modelo. Lo más importante es que mi modelo vaya evolucionando y que no tire tantas cosas por lo menos pase de 97 a no sé 85 así del tirón, porque es
+sospecha para over feeting.
+Sí, eso es fecha para ver cine listo, Pero fíjense acá. Previsión para la muestra aleatoria.
+Es: ¿es esto listo? La clase 0, Pero para la muestra aleatoria 0,
+la clase 0? ¿cuál es la predicción aleatoria?
+Dame
+de los datos
+listo.
+Listo. Perfecto.
+Aquí están los X, Ta: Ta: Ta Ta Ta: Y voy a bajarlo para que lo veamos rápido 30
+y esto para que lo veamos rapidito.
+La cura si aumenta aumenta va aumentando. Eso es lo que queremos, y entre más épocas aumenta mejor la vuelta. Listo Superback.
+Entonces, fíjense la primera muestra. Son 16, 3, 8, pero este más no me dio.
+No es que yo tampoco le especifiqué. Dios mío, muchachos aprendan de por mi ingeniering Dame la etiqueta
+de la de de la fitur también.
+Si la clase es caminando, etcétera.
+Listo ahora ya último intento y nos vamos a dormir.
+Sí, más épocas.
+Fíjense también como la pérdida va bajando hasta llegar a punto de ser 0. ¿sí?
+Y efectivamente, la predicción sí para la visión, para la muestra aleatoria clase, tal predicción, clase, classning bailar.
+Pero este class name este. La clase predicho
+datos de la muestra aleatorio no me da. No me da.
+No me da eso. Bueno les quedo viendo. Pero el caso es que con la primera muestra que en realidad, si es la primera muestra, si se dan cuenta hasta de testing. Es bailar salsa. Sí, entonces bailar
+está bien hecho. El modelo. El modelo me predice bien, si yo le pusiera a 1 a a él, este
+esa matriz de estímulos. Él me lo podría predecir bien. Y, de hecho, hasta la cura, si me lo dice de por sí
+en la cura. Así, la pérdida de la cura, si es muy alto, muy bueno y la pérdida no es.
+está, o sea, es baja, es realmente baja en la validación. Por supuesto que ustedes tienen que darse cuenta de esto. Sí,
+no tanto de esto, sino más bien de esto, también sigue siendo alta. Pero pues sospechen, obviamente que si en la cura, si les va bien, pues de pronto, en la validación también, pero al fin y al cabo, la que manda y demanda es esta.
+la la curación de validación vale muchachos.
+Bien, sé que hay muchas dudas.
+De verdad lastimosamente. No hay más tiempo, sí, pero
+me gustó bastante que hubiéramos hecho este proyecto
+porque créanme que por lo menos así se hace un buen un buen proyectático. Sí, por lo menos si se dan cuenta. Lo único que tienen que reemplazar aquí en el Colab: Sí,
+bueno, ahorita. Te pasamos el código Mario. Lo único que tienen que reemplazar aquí en el en el en el punto Pay. Si quieren hacer algo de sonido.
+es pues, obviamente donde está la carpeta, y sin mucho
+esto, este valor de acá. Ponerle. No sé en ese caso si está el mi medio como en segundos
+o en como se nombre los ejes, sí, pero el resto de la lógica está bueno.
+Bizum, está guay.
+obviamente también hay que cuidarse también que les devuelva las clases que usted quiere. Por ejemplo, si puso 5 una de reggaetón, una de rock, otra de baladas, otra de merengue y otra de salsa.
+pues aquí están las 5, ¿no? Pero si solamente puso una de reggaetón y otra de rock, pues colocan en vez de 5 clases. Sí
+que va a esperar el modelo, pues colocan 2 listo, y es eso
+Bien, muchacho. Me pareció interesante lástima que no haya mucho tiempo. Sí, lástima que no haya mucho tiempo.
+Confío en que por lo menos van a tener la curiosidad de averiguar todo eso por detrás. Sí, me gustó bastante que hubiéramos trabajado en este proyecto porque, pues, al fin y al cabo es una de las cosas que yo hago en la academia.
+Obviamente, la Academia es un poco más fuertecita en términos de investigación, o sea, es raro que ustedes se encuentren con algo como esto, pero no falta sí, no falta.
+No falta.
+Les comparto el archivo por correo, sí por correo lastimosamente.
+Lo tengo aquí al institucional, pero tengo que enviarles.
+María J. Carvajal
+María J. Carvajal
+01:26:25
+Un colab rapidito no sale, no te saldría.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+01:26:29
+Sí, copiamos y pegamos en un colab, Un tadito al 0. Sí,
+ajá clase, 21, 0, Uno 26. Listo aquí está
+y lo comparto con el institucional.
+Sáquenle una copia y jueguen con él. Vale muchachos.
+créame que lo que es: redes neuronales ahorita. Vieron un pedacito muy chiquito de lo que es. Sí, porque lo vieron muy rápido, pero cuando lo utilicemos en la aplicación con visión computacional, o sea, la próxima clase.
+van a quedar más más duchos en eso sí van a entender muchas cositas.
+Vale, No sé si tienen alguna duda, pregunta inquietud, todo está claro.
+yiceth mata lozano
+yiceth mata lozano
+01:27:26
+Sí, pero lo despejamos Mañana.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+01:27:30
+Sí.
+Las preguntas que tienen porfa me las de espera mañana, que es que me da. Me da pena robármeles mucho tiempo o si no hay problema con ustedes
+en el tiempo, pues no hay problema por mí
+o si quieren, también me lo pueden enviar por correo. No hay problema. Tampoco vale.
+¿qué queremos?
+¿se quedaron callados? Bueno.
+yiceth mata lozano
+yiceth mata lozano
+01:28:00
+Pasa nada.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+01:28:00
+Entonces las dudas por correo.
+Anyi Lisbeth
+Anyi Lisbeth
+01:28:03
+Entonces la evidencia final. Tú la cargas por correo.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+01:28:11
+Pues me la pueden enviar por correo igual. Yo la cargo en el en la plataforma, me la pueden enviar por la plataforma me la pueden enviar al correo.
+Anyi Lisbeth
+Anyi Lisbeth
+01:28:18
+Una de.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+01:28:19
+Plazo hasta el domingo. Vale, pero no pueden enviar a cualquier lado.
+Anyi Lisbeth
+Anyi Lisbeth
+01:28:23
+Te agradezco mucho. Si si pudieras como darle como un detallito como que como para para saber qué ver, qué pena contigo para saber qué qué más y ponerme al día, no como que ir haciendo ir viendo la clase.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+01:28:40
+No, no, no, no se preocupe, angie. No, yo la entiendo. Yo entiendo eso, no no hay, no me ven nada. La verdad es que yo también, por lo menos
+en lo que es cuestión de trabajo, es muy duro. Sí, de hecho
+no pasa nada por ese lado, porque yo los entiendo mucho. Sí, yo los entiendo mucho.

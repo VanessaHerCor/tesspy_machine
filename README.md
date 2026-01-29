@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# tesspy_machine
-Repositorio para clases
-=======
 # 🐍 Sesión Django - Los 3 Enfoques Web - 2 Horas
 
 ## 📋 Agenda de la Sesión
@@ -238,4 +234,3 @@ ALLOWED_HOSTS = ['*']  # Permite todas las IPs (solo desarrollo)
 **⚠️ Nota de Seguridad:** `ALLOWED_HOSTS = ['*']` **solo para desarrollo**. En producción, especifica IPs/dominios específicos.
 
 **¡Sin admin panel! Solo Django core y conceptos fundamentales!** 🎯
->>>>>>> e2c17bf652615bb793ab9a1469d744ec789020a8
