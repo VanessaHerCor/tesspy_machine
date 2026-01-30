@@ -124,10 +124,10 @@ def auto_label_images():
     print(f"✅ ¡Listo! Se generaron etiquetas para {total_labeled} imágenes.")
     print(f"{'='*60}")
     print("\nTu dataset está listo para entrenar el modelo.")
-    print("\nProximos pasos:")
+    print("\n📋 Próximos pasos:")
     print("1. Verifica que los labels se guardaron en: dataset/train/labels y dataset/valid/labels")
-    print("2. Crea un archivo 'data.yaml' con la configuración")
-    print("3. Ejecuta: python train_custom_model.py")
+    print("2. Limpia imágenes sin detecciones: python clean_empty_labels.py")
+    print("3. Entrena el modelo: python train_custom_model.py")
 
 # =====================================================
 # EJECUTAR LA FUNCIÓN
