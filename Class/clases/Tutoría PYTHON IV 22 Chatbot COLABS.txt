@@ -1,0 +1,188 @@
+!pip install langchain==0.2.16 langchain-community==0.2.17 langchain-text-splitters==0.2.4 transformers sentence-transformers faiss-cpu numpy==1.26.4 scipy scikit-learn --quiet
+
+from google.colab import drive
+drive.mount('/content/drive/My Drive')
+
+import os
+import glob #*.pdf
+from langchain_community.document_loaders import PyPDFLoader
+
+pdf_folder_path = './pdfs'
+
+if not os.path.exists(pdf_folder_path):
+    os.makedirs(pdf_folder_path)
+    print('sube los pdfs en la parte correcta:' + pdf_folder_path)
+
+pdf_files = glob.glob(f"{pdf_folder_path}/*.pdf")
+pdf_files
+
+all_pages = []
+
+# Task
+Mount Google Drive and define the path to the 'pdfs' folder within your Google Drive, assuming it is located at "/content/drive/My Drive/pdfs".
+
+## Mount Google Drive
+
+### Subtask:
+Mount Google Drive to access its contents.
+
+
+**Reasoning**:
+The subtask is to mount Google Drive. The code to achieve this is already present in cell `0KUomqtLPpf0`.
+
+
+
+from google.colab import drive
+drive.mount('/content/drive')
+
+## Define PDF Folder Path
+
+### Subtask:
+Define the path to the 'pdfs' folder within your mounted Google Drive. This assumes the 'pdfs' folder is directly in 'My Drive'.
+
+
+**Reasoning**:
+To define the path to the 'pdfs' folder within Google Drive as requested in the subtask.
+
+
+
+pdf_folder_path = '/content/drive/My Drive/pdfs'
+print(f"PDF folder path set to: {pdf_folder_path}")
+
+_____________________________________________________________________________________________________________________
+
+!pip install gensim transformers torch
+
+from gensim.models import Word2Vec, FastText
+from transformers import BertTokenizer, BertModel
+import torch
+import numpy as np
+from sklearn.metrics.pairwise import cosine_similarity
+
+corpus_w2v = [
+    ['rey', 'es', 'un', 'hombre', 'poderoso'],
+    ['reina', 'es', 'una', 'mujer', 'poderosa'],
+    ['mujer', 'es', 'inteligente'],
+    ['el', 'rey', 'gobierna', 'el', 'reino'],
+    ['la', 'reina', 'gobierna', 'el', 'reino']
+]
+
+# **Sección 1: Word2Vec - Embeddings Estáticos**
+
+# Entrenamos un modelo Word2Vec simple
+# vector_size: la dimensionalidad de nuestros vectores (embeddings)
+# window: el tamaño de la ventana de contexto
+# min_count: ignorar palabras con una frecuencia menor a 1
+model_w2v = Word2Vec(corpus_w2v, vector_size=10, window=5, min_count=1, workers=4)
+
+# Obtenemos el vector (embedding) para una palabra
+vector_rey = model_w2v.wv['reina']
+print(f"Vector para 'rey' (10 dimensiones):\n{vector_rey}\n")
+
+# Encontramos las palabras más similares
+print("Palabras más similares a 'rey':")
+print(model_w2v.wv.most_similar('rey'), "\n")
+
+print("Palabras más similares a 'mujer':")
+print(model_w2v.wv.most_similar('mujer'), "\n")
+
+# Un rey siempre necesita de una reina
+# Realizamos la famosa analogía: rey - hombre + mujer ≈ reina
+print("Calculando: rey - hombre + mujer...")
+resultado_analogia = model_w2v.wv.most_similar(positive=['rey', 'mujer'], negative=['hombre'], topn=3)
+print(f"El resultado más probable es: {resultado_analogia}\n")
+
+# **Sección 2: FastText - Manejando Palabras Desconocidas**
+
+# Entrenamos un modelo FastText con el mismo corpus
+model_ft = FastText(corpus_w2v, vector_size=10, window=5, min_count=1, workers=4)
+
+# FastText puede generar un vector para una palabra que NO está en el vocabulario
+# porque usa sub-palabras (n-gramas de caracteres).
+try:
+    # Esto daría un error con Word2Vec
+    vector_realeza = model_ft.wv['realeza']
+    print("FastText SÍ puede crear un vector para una palabra desconocida como 'realeza':")
+    print(vector_realeza, "\n")
+except KeyError as e:
+    print(e)
+
+# También funciona con errores tipográficos
+vector_reina_typo = model_ft.wv['reinaa']
+print("FastText también puede manejar errores tipográficos como 'reinaa':")
+print(vector_reina_typo, "\n")
+
+# **Sección 3: BERT - La Revolución del Contexto**
+
+# -*- coding: utf-8 -*-
+"""
+Este script demuestra el poder contextual de BERT usando una palabra
+con múltiples significados no relacionados: "planta".
+"""
+
+# Importaciones necesarias
+from transformers import BertTokenizer, BertModel
+import torch
+import numpy as np
+from sklearn.metrics.pairwise import cosine_similarity
+
+# --- Configuración del Modelo ---
+print("Cargando modelo pre-entrenado de BERT en español (puede tardar un momento)...")
+tokenizer = BertTokenizer.from_pretrained('dccuchile/bert-base-spanish-wwm-cased')
+model_bert = BertModel.from_pretrained('dccuchile/bert-base-spanish-wwm-cased')
+
+# --- Oraciones con la palabra "planta" en contextos más ricos y largos ---
+oracion_ser_vivo = "La planta de tomates que sembramos en el jardín necesita mucho sol y agua para crecer"
+oracion_fabrica = "La planta de ensamblaje de coches en la zona industrial tuvo que cerrar por falta de suministros"
+oracion_cuerpo = "El atleta sintió un dolor agudo en toda la planta del pie después de correr la maratón"
+
+def get_bert_contextual_embedding(text, target_word, model, tokenizer):
+    """
+    Obtiene el embedding contextual de una palabra promediando las últimas 4 capas de BERT.
+    """
+    inputs = tokenizer(text, return_tensors="pt")
+
+    with torch.no_grad():
+        outputs = model(**inputs, output_hidden_states=True)
+
+    hidden_states = outputs.hidden_states
+    tokens = tokenizer.convert_ids_to_tokens(inputs["input_ids"][0])
+
+    # --- Diagnóstico: Imprimimos los tokens ---
+    print(f"\nTokens para la oración: '{text}'")
+    print(tokens)
+
+    try:
+        target_word_index = tokens.index(target_word)
+    except ValueError:
+        print(f"-> ERROR: La palabra '{target_word}' no se encontró como un token único.")
+        return None
+
+    last_four_layers = [hidden_states[i] for i in (-1, -2, -3, -4)]
+    token_embeddings = torch.stack(last_four_layers).sum(0)
+    word_embedding = token_embeddings[0][target_word_index]
+
+    return word_embedding.numpy()
+
+# --- Obtenemos los 3 vectores diferentes para "planta" ---
+vector_planta_ser_vivo = get_bert_contextual_embedding(oracion_ser_vivo, 'planta', model_bert, tokenizer)
+vector_planta_fabrica = get_bert_contextual_embedding(oracion_fabrica, 'planta', model_bert, tokenizer)
+vector_planta_cuerpo = get_bert_contextual_embedding(oracion_cuerpo, 'planta', model_bert, tokenizer)
+
+if all(v is not None for v in [vector_planta_ser_vivo, vector_planta_fabrica, vector_planta_cuerpo]):
+    # --- Comparamos las similitudes ---
+    sim_ser_vivo_fabrica = cosine_similarity([vector_planta_ser_vivo], [vector_planta_fabrica])[0][0]
+    sim_ser_vivo_cuerpo = cosine_similarity([vector_planta_ser_vivo], [vector_planta_cuerpo])[0][0]
+    sim_fabrica_cuerpo = cosine_similarity([vector_planta_fabrica], [vector_planta_cuerpo])[0][0]
+
+    print("\n--- Similitud del Coseno entre los Embeddings de 'Planta' ---")
+    print(f"Ser Vivo vs. Fábrica: {sim_ser_vivo_fabrica:.2f}")
+    print(f"Ser Vivo vs. Cuerpo:  {sim_ser_vivo_cuerpo:.2f}")
+    print(f"Fábrica vs. Cuerpo:   {sim_fabrica_cuerpo:.2f}\n")
+
+    if max(sim_ser_vivo_fabrica, sim_ser_vivo_cuerpo, sim_fabrica_cuerpo) < 0.8:
+        print("¡Éxito! Los valores de similitud son bajos, lo que demuestra que BERT")
+        print("creó tres representaciones vectoriales distintas para 'planta' basadas en el contexto.")
+    else:
+        print("La diferencia es medible pero más sutil de lo esperado.")
+

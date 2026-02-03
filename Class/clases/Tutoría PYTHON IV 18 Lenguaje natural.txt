@@ -1,0 +1,631 @@
+2026-01-30 a las 18:55
+
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+Hola. Buenas noches. ¿cómo están?
+Me está Gised, un momentico? Una espirita que se conecta a los demás. Y le damos a.
+yiceth mata lozano
+yiceth mata lozano
+00:24
+Listo!
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:25
+Listo!
+yiceth mata lozano
+yiceth mata lozano
+00:26
+Pregunto.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+03:15
+Ajá:
+Hola, muchachos. ¿cómo están? ¿cómo va todo chachas? ¿qué tal va.
+María J. Carvajal
+María J. Carvajal
+03:28
+Hola. Buenas noches.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+03:30
+¿qué tal están? ¿cómo va Todo
+Todo bien?
+María J. Carvajal
+María J. Carvajal
+03:36
+Viernes.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+03:38
+Uy, Sí, por fin. Viernes: Sí. Un viernes, Por fin! Viernes, Dios.
+yiceth mata lozano
+yiceth mata lozano
+03:43
+El fin de mes.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+03:45
+Y fin de mes uy fin. De nuevo, invierno, un cierro, un viernes, Dios mío, pero bueno.
+María J. Carvajal
+María J. Carvajal
+03:51
+Fin de mes del año.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+03:54
+Mhm.
+Mhm.
+yiceth mata lozano
+yiceth mata lozano
+03:59
+Estos 6 meses de este año han sido difíciles.
+Mhm.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+04:03
+Uy, sí que sí, que
+sí, que es que sí que pero bueno, muchachos ya lo bueno es que es viernes y ya casi se gradúan
+felicitaciones.
+Ya casi se gradúan
+deme un momentico. Ya les coloco las diapositivas y empezamos. Hoy ¿vale? Hacemos de una vez a ver lo que tenemos para hoy.
+Steaming.
+mejor. ¿no?
+Bueno, para empezar a compartir de una vez pantalla. Vale, por acá nunca listo. Perfecto. Muchachos. Bueno.
+a ver muchachos a ver a ver a ver a ver. Les explico por aquí
+el día de hoy. Vamos a ver un poquito una cosa que va a ser la continuación de los Tokens, que estaba en colab, que se llamaba lematización, steaming y Ner se llamaba esto.
+¿qué pasa? Muchachos? Esta partecita me la voy a saltar, sí, porque normalmente ustedes en sus proyectos. Yo les comenté algo sobre el auto, el autotoquinizador, ¿cierto? Normalmente en todas las empresas no se parte de un
+digámoslo así, de una de una aplicación con el L M desde 0 siempre incluyen tarde
+lo de también sea de opening de de Google, si de Cloud, lo que sea, siempre incluyen un modelo ya listo, sí, Y así mismo, se van entrenando dependiendo, pues de todo esto sí de lo que se requiera.
+Y esos modelos tienen su propio tokenizador. Tienen su propio tokenizador en el 90 por 100 de los casos, entonces
+esta parte de tokenización. Sí, era bueno que lo supieran.
+Sí, porque al fin y al cabo, los tokens son los que mueven todo el tema de la economía de los proms. Sí, ustedes ven que core, se cobran por Token y era bueno que ustedes supieran algo de tokens.
+Pero en realidad, el tema que seguías y que eras Team, ilematización, iner digámoslo así, es como una optimización de los tokens sí de estas partes tokenizadas es como
+una optimización, pero en realidad aplicado así al 100 por 100, o sea, no, no casi nunca es aplicado, obviamente, es aplicado cuando ustedes van a crear un L. L. M Desde 0, pero normalmente no funciona así en las empresas ¿vale? Entonces el steaming, la climatización y el nerd se los dejo ahí en el colab
+Mírenlo. Si tienen alguna duda, me preguntan, pero en realidad esta partecita. Me la voy a saltar porque quiero llegar a una parte importantísima con ustedes, que es todo el tema de representación de texto, un poco de vectores y lo que son en beins, que esa parte sí es crítica, porque esta parte
+ya toma todos los tokens y empieza a procesarlos listo. Entonces
+esta partecita es, como le digo, una: si quieren ir más allá de la tokenización, digámoslo Así que quede increíblemente optimizado, pues aplican técnicas de steaming de telematización o de Nerv. Si se lo dejo como repaso, si hay alguna duda me escriben por el correo. Pero en realidad, pues, como les digo, esto, en realidad casi no se usa Casi no se usa
+el Embadings. Y quiero tener buen tiempo para explicarlo, porque
+si se dan cuenta hasta tenemos que repasar algo de vectores, aunque sea parte
+muy básico, pero es importante esta partecita así para que no se la pierdan. Entonces, pues vamos a saltar
+directamente a lo que es ya ya representación de texto, se llama listo.
+Bien, ese pequeñito cambio, dudas. Hasta ahí
+tenían alguna duda de de la clase anterior antes de que iniciemos ya con E, n B A y
+o de esta clase. Con estos temas
+agobias súper tenemos que lo de la de la anterior.
+Perfecto.
+Sí, vámonos entonces ya con en Bains, sí. Vámonos entonces ya con embates
+directamente porque la verdad en B en sí es muy, muy, muy fuertecito y muy, muy, muy bacano.
+Bueno, a ver.
+para empezar, necesitamos todas estas librerías para todo el tema del embveding. Si se dan cuenta que necesitamos todas estas librerías, entonces
+el pi cristal de una vez
+vamos a a conectar, y vamos a darle mientras ustedes descargan las librerías del collab que les voy a compartir. Vale, hagan una copiecita y vayan jugando con él.
+Les voy a compartir el link del colab del día de hoy.
+Perfecto. Ahí está listo. Ya se descargo aquí. Voy a ir explicando un poquito. De.
+Ah, bueno, esto representa. Esto no representa esto. Nos Primero, vamos a empezar con representación de texto el
+algo más algo más más suavecito para que entiendan un poquito ¿vale? Vamos a empezar. Es con este colab
+listo con el colab que les voy a compartir. Ahorita, vamos a empezar
+con representación de texto. Yo les había comentado a ustedes si
+que resulta que nosotros, cuando el modelo procesa todo el tema de Tokens. Todo el tema de, digámoslo así, de
+de estas partes se utiliza
+viene de un principio, digámoslo así como, por ejemplo, por ese estilo viene de un principio llamado representación de texto. El arte de cómo pasar todas estas letras o todas las palabras a números, vale a números.
+Y pues esto es muy bacano, ¿sí? Porque pues juega mucho con la tokenización. Y aquí es donde viene. Resulta que imagínense que
+aquí, antes de imagínense que necesitemos pasar esos esas palabras y de de la tokenización, Yo les había comentado a ustedes que la tokenización, lo que nos ayudaba era
+bueno aquí no está. Era pasar precisamente estas palabras a números, ¿cierto? Y ustedes, en el código en el código. No vieron esos números.
+No vieron esos números. Cuando les mostré el playground de de Open, a cuando vimos esa tokenización. Vimos el token I D, Ahí sí se veían los números, pero en realidad
+el pasar, digámoslo así, de esta separación de las palabras. Si podemos ver por acá. Podemos verlo.
+Vamos a verlo en este colab de acá. Cuando estamos diciendo, token aquí, solamente separamos las palabras o la sentencia ¿cierto? Ahorita. Queremos darles un número
+para que mi red neuronal la procese, pues gracias a este tema, si el procesamiento. Todo esto existe la representación de texto.
+Para eso es importante, muy, muy, muy importante saber lo básico de vectores
+y lo básico. Con lo básico me refiero a una. Cuando Cuando ustedes estaban por allá, en noveno, décimo, 11 se vieron la universidad, pues en la universidad también lo vieron. Se vieron en el técnico. Tal vez tuvieron que también ver esto. Sí, porque es algo muy básico. Y también viene incluido dentro de la parte básica de las matemáticas. Sí, digamos lo más que todo de la física, pero pues lo tuvieron que ver.
+aunque sea en el colegio, Tuvieron que ver algo, O sea, ustedes saben que es un vector. Mejor dicho.
+entonces.
+¿qué es lo que pasa con los vectores antes de iniciar, digámoslo así, esta parte de la representación de texto hay que tener en cuenta muy claro. La primero, la anatomía de un vector.
+un vector. Si se dan cuenta por aquí como está en el ejemplo, tiene magnitud, dirección y sentido listo, magnitud, dirección y sentido nosotros, que nos va a interesar bastante. Nosotros.
+en realidad nos va a interesar bastante Lo que es, pues, todo este tema de la anatomía del vector Si todo ese tema de la anatomía del vector, pero sobre todo el sentido listo sobre todo, digámoslo así, la dirección y el sentido para dónde le están apuntando mis vectores, Y eso va a ser muy importante.
+Entonces
+lo básico sí de estos vectores es que ustedes pueden ver que aquí, bueno, aquí yo tuve un error. Si se está dando cuenta?
+Bueno, tuve un error y ahorita. Lo estoy notando desde ahora.
+Pues verdad que no me dijeron si se está dando cuenta. Aquí, tenemos 2 vectores que tienen la misma dirección. Sí, tienen la misma dirección. Miren la línea, sí, tienen la misma línea, pero tienen diferente sentido listo. Vectores con diferente sentido.
+y este tiene.
+Estos vectores también tienen di igual sentido.
+Esto para aclarar, me ha Me he dado cuenta de eso.
+Pero bueno, el caso, lo que nos importa aquí es el tema del sentido listo. ¿por qué?
+Fíjense por acá podemos tener vectores con distintos sentidos. ¿sí? Y eso ya van a ver en el procesamiento del lenguaje natural. Significa que hay
+primero.
+Estos vectores. Van a tener un significado. Unas palabras. Supongamos, ustedes le asignan aleatoriamente una palabra así. Se le asigna un vector, eso. Lo vamos a ver ahorita Vale, pero pues se le asigna al a una palabra un vector. Entonces, ¿qué pasa con ese vector? Se dice que si los vectores tienen distinto sentido en el procesamiento. Lengua natural
+significa que las palabras, las palabras asociadas a esos vectores no se relacionan.
+no se relacionan. Es como, por ejemplo, yo colocar aquí. Si yo colocara aquí perro, si yo colocar aquí perro
+aquí perro y abajo, yo podría colocar en el vector azul. No sé perro. Yo le coloco algún nada que ver alguna nada que ver, nada que ver. Yo le coloco
+contenedor, ¿sí? Algo así. O sea.
+si ven que le estoy asignando una palabra a cada vector. Bueno, si esos 2 vectores están en diferentes sentidos.
+Significa que no se asocian, así como, por ejemplo, perro, no se asocia contenedor. No creo que que haya alguna similitud entre el perro y el contenedor. A menos de que digan: ¡ay, es que hay un perro en un contenedor, cosa que es ilógica. No creo que un perro alguna vez haya venido en un contenedor. Y si lo hacen, pues
+bueno, es por algo feo, pero Pues sí me entienden Lo que les digo.
+Lo que queremos aquí es que yo lo que quiero que ustedes entiendan es que si hay vectores con diferentes sentidos y con distintos sentidos opuestos. Sobre todo, significa que van a tener significados totalmente diferentes que no se van a relacionar para nada, mejor dicho.
+no como los vectores con igual sentido si los vectores tienen la misma dirección y también tienen el mismo sentido. O sea, o
+que las palabras asociadas a esos vectores se relacionan listo, se relacionan
+como, por ejemplo, yo decir aquí la palabra perro. Y aquí en el vector azul, yo digo la palabra
+pincho, ¿sí?
+Estos se van a relacionar muchísimo porque pues un pincher es un perro y un perro puede ser, puede un perro también.
+Y que la raza puede ser un pinche. Entonces tienen mucha relación. Eso es lo que necesitamos con los vectores. Vale, María levantó la mano. No sé si tiene alguna duda.
+María J. Carvajal
+María J. Carvajal
+16:54
+Sí, pero para eso debería haber también como
+un cluster de como un escenario a base de información. ¿verdad?
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+17:05
+Ahí es donde va la cosa. Ahí es donde va la cosa súper interesante. Se Spoilearon algo. Fíjense el problema que nos dice María listo. Quiero que lo tengan presente porque lo voy a explicar bastante con este tema y, curiosamente, María
+no va tanto, o sea, es lo más interesante del procesamiento del lenguaje natural. No es que vas a ver que la solución no tiene que ver nada con un diccionario, sino en cómo aprenden las neuronas, o sea, es súper bacarísimo, pero tengan en cuenta, tengan entre ceja y ceja el problema de María listo.
+tengan entretenienses. El problema de María
+Vanesa levantó la mano.
+Cuéntame: Vanessa.
+Vanessa Hernandez
+Vanessa Hernandez
+17:51
+Hola. Me escuchan.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+17:53
+Sí, te escuchamos.
+Vanessa Hernandez
+Vanessa Hernandez
+17:55
+Profe. No sé si tenga algo que ver, pero eso de de pues, digamos el vector y las flechitas es algo así como la inercia entre los datos.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+18:07
+Entre la inercia de los datos en.
+Vanessa Hernandez
+Vanessa Hernandez
+18:13
+Te lo va a explicar de de de la manera salvaje de de que yo no sé, pero.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+18:18
+Y.
+Vanessa Hernandez
+Vanessa Hernandez
+18:19
+Estuve mirando, no digamos con su tarea de del datase Recuerdas
+Yo, pues quería sacar, pues comida casé de salud mental quería sacar la población de que si de o sea que si la música que escuchaba dependía de si tenía ansiedad, era lo que yo quería sacar ¿cierto? Entonces ahí fue que yo le pregunté a usted si podía hacer el método clustraring que es no usar un Target, sino que simplemente agrupar los datos.
+Sí.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+18:49
+Sí. Entiendo.
+Vanessa Hernandez
+Vanessa Hernandez
+18:50
+Entonces la vaina es que usé el método amis o algo así.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+18:57
+Sí.
+Vanessa Hernandez
+Vanessa Hernandez
+18:58
+Que creo que lo que hace es agrupar por, por, digamos, por grupos, redundancia, ¿no? Pero entonces yo tenía otro problema, que era que no sabía cuántos grupos debería de haber, porque se tiene que definir los grupos, No, pues si son 4 y son 3. Y son 2, bueno.
+y ahí tuve que usar otro método que no me acuerdo. ¿cómo se llama que es básicamente que digamos, el programa. El modelo
+se ejecuta varias veces y luego empieza a ver las diferencias entre grupos y el mismo. Saca los grupos cierto.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+19:31
+Sí.
+Vanessa Hernandez
+Vanessa Hernandez
+19:32
+María, en.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+19:33
+Sí, Eso sí.
+Vanessa Hernandez
+Vanessa Hernandez
+19:35
+Un de.
+María J. Carvajal
+María J. Carvajal
+19:35
+Es un.
+Vanessa Hernandez
+Vanessa Hernandez
+19:36
+Okay. Entonces.
+María J. Carvajal
+María J. Carvajal
+19:37
+Solidaria, porque me imagino cómo fue eso.
+Vanessa Hernandez
+Vanessa Hernandez
+19:40
+Sí. La verdad es que mira hasta la inseguridad, me llega el modelo de machine learning Y bueno, entonces
+clustering use el clustering para sacar los grupos. Usé el camin como método para poderla, pues sacar los datos, ¿cierto? Y tuve que usar el otro método que no me acuerdo. ¿cómo es para saber cuántos grupos, porque yo no sabía cuántos.
+La vaina es que para hacerlo, pues obviamente la yo toco la ya no me van a quedar aquí, que yo soy el Laboratorio de Dexter.
+Entonces me hizo un script para yo poder sacar unos grafitis. Así como ese que estás mostrando en el medio, no para saber cuántos grupos la vaina es que el programa se ejecutaba varias veces. El programa se ejecutaba varias veces para saber qué tanta inercia había entre los datos
+y la inercia son esas flechitas que tienes ahí. No digamos que tanto.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+20:29
+Un para.
+Vanessa Hernandez
+Vanessa Hernandez
+20:29
+Estaban las similitudes para saber qué tan diferentes eran los grupos para saber cuántos grupos había que sacar.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+20:37
+Sí en.
+Vanessa Hernandez
+Vanessa Hernandez
+20:38
+Perdón, perdón. Entonces
+entonces yo le pregunto que si esto es básicamente esa cosa, o sea, como yo tuve que mirar la inercia entre varios.
+Y y, de hecho, yo hace datos, tuvo un sesgo. Y es que digamos de los 900 datos, digamos, 500 eran de gente que escuchaba rock. Entonces solamente me separaban 2 grupos entre los rockeros y los demás géneros.
+Cuando le saqué el grupo de rockeros, volví a ejecutarlo y me sacó más de 2 grupos. Me sacó 4, 5, porque, claro, ya había más variedad de datos que sí que electrónica que hip hop baja, O sea, había un fracaso horrible, un fracaso en en en predecir.
+pero pues entendí bastantes cositas. No sé si de pronto esto que estás haciendo de repaso de vectores y y que, porque o sea, me estás diciendo que el grupo se separa porque arriba está el perro y abajo está el contenedor, o sea, que, o sea, que no tiene nada que ver y que ellos, mientras más lejos estén, pues supongo que se aleja más de la idea principal. Entonces no sé si eso sea lo que estás hablando. No sé si yo estoy hablando
+abusada. Ya me composi.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+21:48
+Que Okay, no entiendo. Entiendo, primero, primero, antes que nada, muchachos.
+Los tengo tan traumados, Dios mío, duro, no, no, no, pero interesante interesante a mi respuesta.
+sí por ahí va.
+Y aunque parezca loco, aunque parezca loco
+más que por el tema de de que está tema de la inercia que venga, que es que por lo menos que aquí dice el tema, método que después hice el camins que después yo les había dicho. Cuando vimos clustein, sí
+que yo les había dicho lo del lo del centro, ¿cierto?
+Yo les dije, el método calcula la distancia entre el centro y los demás puntos para hacer un grupo cierto y cuando haya una distancia terriblemente grande, Pues ahí se cierra el grupo
+más que por el tema de de del hecho de la inercia de los datos, de todo eso que también va Ahí es en cómo aprende los modelos. Es en cómo aprende los modelos.
+y lo pudiste explicar muy bien, vanesa. Y es interesante, muy, muy, muy acertada la teoría, porque resulta que
+todo es matemática, En realidad, todo lo que hay detrás del modelo de matemática y 1 en clustering lo que 1 en realidad yo no les quise colocar eso. Pero lo que 1
+a la a la a la.
+Vanessa Hernandez
+Vanessa Hernandez
+23:28
+No sé si mi Internet está feo o o el o por el profe, como que se escucha.
+María J. Carvajal
+María J. Carvajal
+23:32
+Es de las.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+23:34
+Es.
+Vanessa Hernandez
+Vanessa Hernandez
+23:36
+Profe. Eso era como un transformer.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+23:38
+Hay una que se llama distancia.
+Vanessa Hernandez
+Vanessa Hernandez
+23:44
+Profe, no se le escucha nada.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+23:51
+También hacer esto.
+A ver a ver a ver.
+No, yo. Aquí no tengo datos.
+Entonces pongo datos. En mi teléfono. Se me subieron los datos.
+Hola, me escuchan ahí mejor.
+María J. Carvajal
+María J. Carvajal
+24:35
+Sí, señor.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+24:36
+Ah, perfecto, no les cuento. La verdad es que precisamente hoy, entonces
+el wifi, locos, espero, me entiendan. Pero, bueno, todo bien, Ya ya ya me escucharon bien, ¿qué hice hoy?
+Vanessa Hernandez
+Vanessa Hernandez
+24:56
+Posee desayunar.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+24:58
+Desayunar. Nooo! ¿qué acaba de decir que dice hoy? ¿me mudé?
+Sí, escucharon que me mudé ¿cierto? Todo bien.
+Vanessa Hernandez
+Vanessa Hernandez
+25:05
+No, no.
+yiceth mata lozano
+yiceth mata lozano
+25:06
+No, que.
+María J. Carvajal
+María J. Carvajal
+25:07
+Es a.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+25:08
+Y no puede ser que se me esté cortando de nuevo.
+No escucharon esto.
+María J. Carvajal
+María J. Carvajal
+25:12
+Nosotros le respetamos la privacidad de.
+Vanessa Hernandez
+Vanessa Hernandez
+25:14
+Alegría de que apaguen el.
+María J. Carvajal
+María J. Carvajal
+25:16
+Las no.
+Vanessa Hernandez
+Vanessa Hernandez
+25:17
+Hola. Fue.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+25:18
+Sí, no muchachos. Ahí me escuchan mejor.
+¿no? Cierto que no. Déjenme en me.
+Vanessa Hernandez
+Vanessa Hernandez
+25:41
+Y pues, mientras el Profe no está, si metabo todas con ese proyecto de machine learning ustedes vieran ustedes vieran aplique 3 vuelos diferentes. Uno llamado Pisker Random. Yo pensaba en arbolitos, dios mío, ¡Santo.
+María J. Carvajal
+María J. Carvajal
+26:00
+Ahí estás aprendiendo a gestionar el error
+que regularmente 1 busca supuestamente encontrar las soluciones.
+Llegan los chicharrones y no se sabe cómo responder
+Muchas Ahí vas teniendo herramientas de para qué sí y para qué no.
+Vanessa Hernandez
+Vanessa Hernandez
+26:16
+La verdad, sí, O sea, pues obviamente yo no programé. Porque, pues la verdad, que está bastante complejo, lo que es la sintaxis y tal.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+26:25
+Hola, muchachos me escuchan. Bien.
+Vanessa Hernandez
+Vanessa Hernandez
+26:26
+Me sirvió bastante de probar antes. ¿sí? ¿sí? Profe: lo escúchame.
+María J. Carvajal
+María J. Carvajal
+26:29
+Estamos haciendo terapia.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+26:31
+Vamos a decir, amigos.
+Vanessa Hernandez
+Vanessa Hernandez
+26:32
+Y de.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+26:32
+Ganas de aprovechar la.
+María J. Carvajal
+María J. Carvajal
+26:34
+Cuál.
+Vanessa Hernandez
+Vanessa Hernandez
+26:35
+Tú serás.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+26:36
+Aprovechando la.
+Vanessa Hernandez
+Vanessa Hernandez
+26:36
+El de.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+26:38
+Programadores anónimos. Me Sí, a ver listo. Me escuchan mejor. Ahí deberían de escucharme mejor.
+Perfecto. Perfecto.
+No.
+Bueno, uf
+de una cátedra como de 5 min, y se me escuchó como transformer. Entonces lo que lo decía, Sí,
+lo que decía, no muy interesante. Lo que expone vanesa, ¿sí? Y sí, efectivamente va por ahí Vanessa, aunque parezca que estuviera loca. Aunque parezca que, mejor dicho, son muchas cosas.
+es que precisamente el procesamiento del lenguaje natural exige muchas cosas
+y más que el tema de que, por ejemplo, sea algo que tiene que ver con la inercia de los datos, algo que, digamos, ustedes lo asocian a
+a un ecosistema de, de pues un área del machine learning es la forma en cómo se entrenan los modelos listo sobre todo el de clustering, El de clustering. Lo que hace es medir una cosa que se llama distancia euclediana, sí
+entre los diferentes entre los puntos, las observaciones y el centro, sí, y él va alterando. Y va haciendo todo esto.
+Resulta que gracias a esa matemática, que es muy similar a la que se usa en el machine learning, pues también ocurre aquí
+lo mismo de la distancia, pero no se llama. No se llama distancia. Como o sea, no se llama distancia Euclip Deme, un momentito que me están
+deme un momentico que tengo el mouse loco.
+Bueno, entonces lo que decían, mhm.
+Si no, no me hackero, no me hackero.
+estaba cambiando lugar. Lo que decía muchachos, la distancia. Si esta vez en el procesamiento del lenguaje natural.
+Ya no se llama Distancia Euclediana. Ya se llama similitud. Se llama similitud del coseno, que nosotros lo conocemos más a
+como la distancia entre vectores, listo entre 2 vectores, sobre todo
+entonces si tiene que ver mucho con clustering, pero sobre todo es lo que les digo muchachos. Y me encanta que entiendan eso, porque ya entienden, digámoslo así. La curiosidad matemática que hay detrás del asunto Listo.
+¿Qué hay detrás del asunto, entonces? Más que inercia de los datos? Si es la cuestión de cómo 1 llega a la inercia de los datos. Entonces ahí es donde dice, bueno, el modelo clustering. Entonces, ¿cómo se entrena para llegar a esa a esa inercia? Y ahí es donde 1 se da cuenta
+de que 1 es con distancia euclediana, y otro es con distancia entre vectores. Pero los 2 son distancias. Los 2 son distancias.
+eso, ténganlo muy en cuenta porque son fundamentales, ya que, por lo menos en el clustering.
+si un punto está muy alejado del centro, sí tiene una distancia muchísimo mayor que otro punto, pues el otro punto va a pertenecer más que el punto que esté más alejado. Lo mismo va a pasar aquí con las similitudes. Listo, Eso se va a calcular a través de la distancia.
+Entonces por eso es que prácticamente suena igual, pero
+es porque tiene la base matemática general de los modelos listo, que es el tema de las distancias, entonces es súper bacano que también lo tenga. Esa tenga esa teoría vanesa, porque tiene mucho que ver. Solo que, como les digo, o sea.
+aquí aquí la cosa N, su diferente ecuación matemática, que lo diferencia del resto. Pero en realidad, si se están dando cuenta los modelos de Machine Learning. Casi todos entrenan con distancias, distancia entre el valor observado y el valor predicho
+distancia euclediana para el Closering distancia entre vectores. La similitud del coseno sí se llama así.
+Entonces todo esto esto es muy buena teoría vanesa
+si si ha prestado atención, se ha prestado atención a la curiosidad. Eso me parece va canísimo.
+Bueno, Perfecto. Muchachos, ¿no? Así respondí tu duda vanesa.
+Vanessa Hernandez
+Vanessa Hernandez
+31:26
+Sí, Sí, mi duda era si tenía que ver si si tenía que verlo.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+31:32
+Sí sí tiene. Sí, tiene mucho que ver. Sí, tiene mucho que ver, pero pues obviamente, si te tienen que enfrentar a algo diferente, pero entienden que es la misma la misma el tema de las bases. Sí, aquí la la la fórmula importante de muchas de los modelos de machine learning
+es y ey learning Al final es las distancias, las distancias, o sea, mucho tiene que ver con el tema distancias. Vale.
+bueno, bueno, bueno, bueno, y muchachos. Recuerden la pregunta que me hizo María, que no la voy a responder ahora, porque la voy a responder después. Es muy interesante
+y les voy a dar el spoiler. No se hace con un diccionario. Es muchísimo mejor.
+Es, es, es es bacanísimo ver como las como las redes aprenden a diferenciar. Vale.
+bien, ¿tienes alguna otra duda?
+Obviamente reparte la de María, que no le ha respondió, pero que lo va a responder.
+Bueno, creo que vamos bien hasta ahí con vectorescito excelente.
+Sigamos Entonces lo que bueno ahorrar primero. Primero, esto. Sí. Primero, esto.
+borrar todos los dibujos vale borrar todos los dibujos por acá listo. Entonces.
+Bueno, antes antes de de empezar a ver la representación, Sí, antes de empezar a ver la representación. Sí,
+la vectorización es el proceso de un vector que simplemente bueno, esto lo vamos a ver. Ahorita el caso, muchachos. Ya vamos a entrar al tema de representación de texto
+que la representación de texto es básicamente coger lo que me hace el tokenizador que normalmente yo les dije que se usaba un tokenizador por palabras, cierto.
+pero pues yo cojo todo lo que hace el tokenizador y lo colocó en unas matrices, o ya sea un vector, como mínimo o matrices
+de números de números listo de números para poder enviárselo al modelo. Entonces.
+eso es muy difícil, ¿cierto? Es muy difícil, digámoslo. Bueno, yo como hago
+para pasar las palabras a números.
+O sea, ¿cómo ¿cómo haría yo? ¿cómo haría yo sí. ¿cómo haría yo desde desde el Pri desde la primera parte? Sí, desde la primera parte, cómo cómo se se les ocurriría, pues este tema de de pasar las palabras a números.
+Una cosa: una solución que sea sencilla, por ejemplo.
+María J. Carvajal
+María J. Carvajal
+34:13
+Dónde.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+34:13
+Claro.
+María J. Carvajal
+María J. Carvajal
+34:14
+A ver.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+34:16
+Ordenar clave.
+María J. Carvajal
+María J. Carvajal
+34:17
+Ponderar lo clave.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+34:19
+Ponderar lo clave. Tipo. Colocarle 1 a hola, Colocarle 2 o cómo.
+María J. Carvajal
+María J. Carvajal
+34:28
+Y pues, por eso mismo me refería al escenario base.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+34:32
+Ajá.
+María J. Carvajal
+María J. Carvajal
+34:33
+O a la necesidad en contexto, porque en tu ilustración, pues el perro según la
+según la según el contexto, pues va a necesitar para hacer ese cluster
+unos valores o un ecosistema. No es lo mismo el perro delicioso que hace aquí enseguida mi vecino al perro de la veterinaria, que va a urgencias o del perro cuando le dicen así, alguien por grosería.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+35:03
+Ajá de la muestra completa.
+María J. Carvajal
+María J. Carvajal
+35:06
+Mi ex a.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+35:09
+Es que el perro de mi ex Sí, Exacto. Exacto. La tienen muy bien cogida. Muchachos.
+Lo que María dice tiene muchísima razón.
+Sí, tiene muchísima razón.
+Vanessa Hernandez
+Vanessa Hernandez
+35:22
+Lo que.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+35:23
+No es lo mismo una ola negra que una negra. Kent.
+María J. Carvajal
+María J. Carvajal
+35:29
+Pues mira que parece que a veces te vas para unos, luego te vas para otros.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+35:34
+¡ay, no. Jodás es. Soy intermitente.
+María J. Carvajal
+María J. Carvajal
+35:37
+No eres Tú soy yo.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+35:39
+Esto soy yo.
+Ah, pero me están hablando del ejemplo de la conexión mía.
+María J. Carvajal
+María J. Carvajal
+35:46
+En lo de la conexión ahorita vanesa, no te escuchó. Ahorita Luego vi que las muchachas se hicieron pulgar. Yo no supe qué era y el que cayó, y no supe.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+35:57
+Muy bien.
+¿qué hacemos? ¿qué hacemos? ¿qué hacemos? ¿qué hacemos?
+Sí, Sí, vamos, pero es que
+no me está cogiendo muy bien la señal y no puedo cambiar a datos listo.
+No pasa nada. No pasa nada. Ahí veo que hacemos, pero no se preocupe
+que si no vuelvo a repetir, vale avísame si me pierdo mucho.
+pero ¿cómo van hasta ahí? Bien, escucharon todo lo anterior pronto y vacíos.
+Bien, Perfecto. Perfecto.
+Si de pronto no escuchan una palabra, no pasa nada. Voy a hablar también un poquito lentico para que no se pierda más el significado, pero es cierto
+lo que María dice
+es muy cierto, Dependiendo del contexto que tengan muy en cuenta el contexto cambian, ¿cierto? Cambian. Y mucho
+una de las soluciones, Digámoslo así. Es bueno ponderar sí, Digámoslo. Ponderar pero ¿cómo se haría esa esa ponderación. ¿cierto? Ese sería el primer problema. Dos.
+el problema del diccionario sí está el problema del diccionario. Supongamos.
+Resulta que yo tengo, si yo tengo la palabra, por ejemplo, la que la que dijo lo que dijo María, listo.
+entonces yo le digo a mi modelo si yo le digo mi modelo
+oiga la palabra perro. Es un animal listo. La palabra perro es un animal.
+Pero imagínense que yo cojo, un un diccionario. No sé un diccionario, un diccionario, Por ejemplo, qué digamos.
+ustedes saben, de un país donde no donde donde perro no tenga múltiples significados, o sea, solamente sea el animal. No sé, por ejemplo, que no le digan el perro de ese mi ex.
+yiceth mata lozano
+yiceth mata lozano
+38:00
+En China, solo comida.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+38:02
+En China es sólo comida listo, Entonces, supongamos que yo tengo un diccionario chino, Sí,
+entonces yo le digo a esos Manet listo.
+Ustedes tienen el perro y puede ser un perro animal. Un perro es un animal para ustedes. Es comida, sí, pero luego ese modelo A
+y se enfrenta. No sé a Colombia.
+Entonces ustedes cogen de psicólogo Adif Sik, y le dicen no que es que me engañó. El perro ex me engañó.
+¿qué creen que vaya a pasar cuando el modelo?
+Haga digámoslo así. Haga el procesamiento de eso sí, sí se supone que el modelo ya fue entrenado.
+Resulta que va a tener una confusión. Va a tener un sesgo. ¿por qué? Porque él no puede estar conectado a todos los diccionarios del mundo, y él no va a tener todos los significados del mundo si
+y ojo ahí hay una solución. Esa el diccionario es una solución más robusta, pero tiene un problema.
+Cuántas palabras hay en el diccionario.
+Ustedes saben cuántas palabras tiene tiene un diccionario.
+Si se han preguntado eso, Bueno, no sé, vamos a buscar. Vamos a googlear cuántas palabras, tiene un diccionario.
+88 000 palabras del diccionario de la Rae
+Listo: 88 000 palabras.
+Imagínense que yo a él le doy ojo una tokenización, digámoslo así. Yo soy porque tengo que tokenizar esa esa ese diccionario, ¿cierto?
+Yo le doy una toque inicial una tokenización mínimo mínimo. Mínimo. 88 000 tokens ya empieza por ahí,
+que eso en realidad, pues, bueno, no es mucho, pero tienen que contar. Tienen que contar que yo al mo a un modelo. L. L. M: No le voy a dar solamente 2 Pdfs o 3 Pdfs Chat Pty no está formado a partir de 10 de 100 P. F: No
+son 1 000 000, 1 000 000, 1 000 000 de Pdfs de documentos de libros, de matemáticas, de informes en la web, páginas, sí y adicional, le tengo que sumar otros 88 000 tokens. Entonces.
+en ese tipo de problemas en donde necesitamos eficiencia. Si en donde nos quedamos cortos de eficiencia, necesitamos encontrar una solución que sea más robusta, listo que digamos lo que bueno yo cargo aquí, el diccionario, y nadie me promete a mí que el modelo
+va a tener un sesgo, por ejemplo, si es de China. Y yo le pregunto a, y sobre el significado de perro en Colombia, nadie me va a prometer que Aipzig conteste bien, pero lo que puede hacer Deep, si es entrenarse
+con varias palabras mejor en la web, si mejoren la web
+de, por ejemplo. No sé, yo le pongo entrenarse a él de de no sé chistes en Colombia si y aparezca la palabra perro y sea referente a una persona listo. ¿qué es lo lo más común que sucede en estos L? L Ms: lo que queremos es más información. También ellos vienen cargados de
+diccionarios, obviamente porque diccionarios también pertenece a la rama de la información, sí, pero pero pero pero lo que necesitamos es optimizar. Necesitamos que el modelo se enfrente a nuevas cosas. Sí
+que estén más allá de un diccionario que esté más allá de un diccionario que él entienda más qué es lo que quiero decir y se arriesgue más que se encasille en un solo diccionario. Ahí es donde entran los envains
+Le doy el spoiler. Ahí es donde entran los embages.
+los embaines es una técnica que lo vamos a ver ahorita, que tiene que ver también con la representación de texto. Sí
+en el que se asocia a cada palabra una lista de números que es un vector, y
+ellos van interactuando con cada una de las palabras que tiene la la la frase, digámoslo así, y dependiendo del contexto, ellos aprenden a diferenciar entre, por ejemplo, el perro de de de del ex y
+el perro de la casa, sí o el perro. El perro caliente
+vale, es súper bakanísimo. No necesitamos, no tenemos necesidad de cargar un diccionario. No tenemos necesidad de de de coger todos los diccionarios del mundo, Tampoco él puede aprender, así como nosotros aprendemos
+a nosotros, no nos ponen un diccionario de de
+de, por ejemplo, de caleños o de rolos o o de o de qué o de
+europitas, si nosotros aprendemos es conforme las por no sé, preguntamos y nos entrenamos. Así mismo, pasa con los modelos.
+¿es eso.
+Entonces sus súper interesante, Sí, ese tema, esa teoría, ahí del del diccionario, sí, porque de hecho, una de las partes de la tokenización se hace con este tema del diccionario, pero es bastante bastante bastante pesada, bastante pesada. Se usa para soluciones que sean muy precisas.
+y estamos hablando de soluciones que la verdad no vale la pena correr, porque, pues ya tenemos esa información en la Web.
+Vale
+bien muchachos. Entonces, antes de de empezar con las dudas y preguntarles si si si hay otras dudas, vamos a salir y vamos a volver a entrar para que quede la grabación y vamos a volver a entrar al otro a la otra sesión. Vale para asistenciaito.
+Bueno, entonces, pero pues.

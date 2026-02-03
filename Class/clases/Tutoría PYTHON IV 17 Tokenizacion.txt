@@ -1,0 +1,765 @@
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+Hola muchachos, de nuevo.
+yiceth mata lozano
+yiceth mata lozano
+00:23
+Muchachas y Gio.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:25
+Ríe.
+yiceth mata lozano
+yiceth mata lozano
+00:27
+¿qué será Labial Gio.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:30
+Verdad. Y yo yo estaba la yo. Fue un con el profe Néstor. O qué.
+yiceth mata lozano
+yiceth mata lozano
+00:37
+No me fijé.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:39
+Pero yo yo estaba con nosotros.
+yiceth mata lozano
+yiceth mata lozano
+00:42
+Sí, él se enteró de todo el chisme. Yo creo que todavía está escuchando el chisme.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:47
+A.
+yiceth mata lozano
+yiceth mata lozano
+00:49
+Sí, Sí.
+María J. Carvajal
+María J. Carvajal
+00:50
+El resalta entre nosotras por el silencio.
+yiceth mata lozano
+yiceth mata lozano
+00:54
+No, no, no.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:56
+El silencioso pero efectivo.
+Él no me pierde eso.
+María J. Carvajal
+María J. Carvajal
+01:00
+Eso está bien.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+01:02
+Mhm: Sí, Sí, pero bueno, muchacha está bien. ¿cómo le fue con Néstor, Ay Dios mío!
+Me hice que Néstor llegará tarde. Diez minutos tarde.
+yiceth mata lozano
+yiceth mata lozano
+01:36
+Con estar bien en pruebas. Estamos viendo pruebas con moching.
+Sí.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+01:45
+Nunca lo había escuchado.
+yiceth mata lozano
+yiceth mata lozano
+01:47
+De Mosqui.
+María J. Carvajal
+María J. Carvajal
+01:48
+Hopkin.
+yiceth mata lozano
+yiceth mata lozano
+01:48
+Al lado. Los.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+01:51
+Como que tampoco lo había escuchado.
+María J. Carvajal
+María J. Carvajal
+01:55
+Yo. Para eso tampoco comprueba que estoy saliendo el cascarón. Como pongo en el Sticker Zipper.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+02:03
+De los.
+María J. Carvajal
+María J. Carvajal
+02:03
+Más todavía.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+02:05
+Mhm: No, pero chévere.
+Bueno, vamos a seguir aquí.
+Mhm: Hay buena cosa para ver en
+eso. Es lo que vamos a ver.
+pero no para nada, o se entienden rapidito por acá bien. Bueno, no
+se nos fue a ver eso, y no fue gio. Esperemos a ver si llega, pero, bueno.
+bien, muchachos muchachas.
+Les cuento
+el día de hoy. Vamos a empezar a ver un poquito de lo que tiene que ver. Ya vas con el tema de procesamiento del lenguaje natural. Hace mucho tiempo, mucho, mucho, mucho tiempo en introducción, yo les hablé sobre el el procesamiento del lenguaje natural, cierto de forma introductoria. Les dije más o menos
+qué parte de la inteligencia humana. Digámoslo así. Quiere imitar esta inteligencia artificial, ¿sí? Y pues, un poco de todo esto, Sí, un poco de todo eso las implicaciones que he llevado.
+Hablamos un poquito de lo que tenía el modelo, digámoslo lo que le entraba. Y vimos que le entraba un número cierto? Bueno, le entraba un texto en ese caso.
+y pues íbamos para para salía un número, Sí, en la capa de salida, tendríamos un número.
+todo como una red neuronal común y corriente. Ahora
+vamos a ver un poquito sí de toquenización. Vale, vamos a ver un poquito de toquenización, que es la toquenización.
+La tokenización es la técnica de manejar los tokens. Listo, digámoslo así, de todo la parte de de de la transformación de texto a Tokens. Bueno, de un poco de de de todo
+para eso, pues
+hay que partir desde lo más básico. Sí. ¿qué es un token? ¿qué es un token? A: Bueno, eso es curioso que no me dejé colocar aquí el texto
+que le habrá pasado a la plataforma Open. Y hay que no que no quiere colocar tokens.
+toquen, toquen token.
+Mhm, ves se tumbo la la página de Open A
+para hacer el el el token. Para ver el ejemplo del de la tokenización, es vacanísimo.
+yiceth mata lozano
+yiceth mata lozano
+04:37
+Ya la tumbaste. Profe.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+04:39
+Sí ya la tumbé. Imagínense sin querer queriendo, y
+me gané, cuánto es que ofrecía Apple por por hackear la base de datos a través del a I a como un 1 000 000 de dólares. Vea aquí. Me los gané pendejamente en en una explicación de Token vestir tan raro.
+María J. Carvajal
+María J. Carvajal
+04:59
+Pero es solo esa.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+05:01
+Sí, cierto. Es, solo está open Agay. No está caído. Creo.
+María J. Carvajal
+María J. Carvajal
+05:04
+Vicio.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+05:06
+Mhm.
+María J. Carvajal
+María J. Carvajal
+05:06
+Yo también entré a la principal y ya está ahí en la principal.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+05:13
+Ves Sí, tan raro.
+Fíjense a ver. Ah, ahora, sí, mira, te soluciono
+bueno, cosas de Open Yai.
+Pero Bueno.
+colocarles ticos, y imagínense que tenemos una frase como esta. Si digámosle hola, mundo, ¿cómo estás? Vale, Tenemos 24 caracteres listo.
+Tenemos 24 caracteres. Tenemos 4 palabras de forma muy general. ¿vale?
+Entonces, ¿qué es lo que hacemos con la tokenización? Lo que hacemos con la tokenización? El objetivo principal de esta tokenización es pasar todo este tema de ya sea frases, ya sean caracteres, ya sea palabras, sin pasarlos a números, pasarlos a números.
+Entonces más o menos está el ejemplo de Open, Ai. ¿cómo funciona. Open, Ai Ya van a ver que open a maneja un modelo mixto. Si nosotros vamos a ver tokenizadores, vamos a ver tokenizadores, pues por palabra y por por frase, perdón por por carácter y por
+y por palabra. Sí, digámoslo por oraciones. Bueno, ahorita, lo vemos bien.
+pero pues normalmente los modelos ya tienen integrado su propio sistema de toquenización. Van a ver que esto en el proyecto final, Si ustedes, pues simplemente ustedes descargan la tokenización del modelo que van a usar y listo.
+pero es bueno saber todo el tema de Tokens, porque el día de mañana, cuando ustedes les digan, Bueno, implementeme una solución con I A, Y necesito que utilice la a P. I Open y les diga: ah, yo le cobro por 1 000 000 de tokens, que es lo que hace open a
+él, cobra. Fíjense por acá el el cobra esto por por un 1 000 000 de tokens en cuanto a.
+bueno, aquí está, o a input o output, Sí, del modelo más reciente de solo datos de entrada cobra 0, coma, 8 céntimos de sí. Och 87
+céntimos de dólar, sí y de salida? Cobra Siete Dólares: Sí. Cobras 7 dólares por un 1 000 000 de tokens. Pero
+cuando ustedes se asustan, cuando ustedes, de pronto tienen un cliente, ustedes definitivamente les ponen a hacer eso.
+ustedes les van a primero, que le va a decir el cliente o la persona que usted, digámoslo así, tiene encargada. Es bueno cuánto va a valer este este proyecto y por eso es que usted tiene que saber cuánto cada día cuánto cobra y por cada cuánto tokens cobra sí, entonces un 1 000 000 de tokens, un 1 000 000 de tokens es bastante. Si se dan cuenta
+nomás con 4 palabras, tenemos 7, tokens sí.
+Si seguimos más o menos un promedio, Digámoslo así: si
+si digámoslo así, si separamos por
+por palabras y por ejemplo, por comas y por todo, por signos de interrogación, etcétera, como símbolos. Así
+digamos que por ahí, por ahí, por ahí, por ahí, por ahí son unas entre comillas, Sí, bueno, y eso es mínimo. También mínimo.
+Un 1 000 000 de tokens es más o menos unos 500. Unas 500 000 palabras.
+Listo, unas 500 000 palabras entre palabras y caracteres. Listo, porque recuerden que hay algunos caracteres, sí, por ejemplo, los símbolos de pregunta las comas
+que se cuenta como tokens. Listo, entonces tengan en cuenta también eso. Si no es que obviamente digámoslo Así que el cliente usted le diga, no es que esto va a valer, va a costar, no sé, 40 000 dólares mensuales.
+y y resulta que no, o sea, el resulta que solamente le cobran 7 dólares para lo que él necesita, que son 500 000 palabras y caracteres y cosas como eso.
+Entonces, por eso es bueno que sepan de Tokens. Vale que sepan de tokens
+ya. Si, por ejemplo, ustedes usan una solución un poco más barata. Si supongamos que eso se usa en soluciones ya más debajo de bajo presupuesto, existen los tokenizados, sí, los los las librerías que hacen este proceso de tokenización para los modelos listo. Ah, bueno.
+una cosa importante: también se acuerdan que los tokens Yo les dije que el principal, L, digámoslo así. Objetivo de los tokens es pasar esas palabras y esos caracteres, digámoslo así, especiales a números. Bueno.
+imagínese que este modelo está para desierto.
+Ah, en tengo 7 tokens que están divididos y se dan cuenta por colores. Y fíjense
+que lo que hace el proceso Open A es que yo lo veo aquí a Tokenside, y él me hace 7. Si se dan cuenta. Él me hace 7 elementos de una lista asignándoles un valor de esas palabras. Si, por ejemplo.
+hola. Sí, me lo asignó con el valor de 49 864. ¿por qué no sabemos normalmente si normalmente las los tokens se inicializan de una forma aleatoria, sí, pero pues algunos modelos
+exacto a lo Matrix: pastilla, sur, pastilla, roja, así tal cual o sea, se inicializan de manera aleatoria. Y y con eso le das. Da vale. Pero pues, bueno.
+quién sabe el secreto peney como sea.
+pero pues normalmente es eso se inicializan de forma no aleatoria, y eso no hay ningún problema.
+La librería que vamos a ver se llama Nltk. Listo. Pueden buscar la documentación por acá
+ignorancia feliz o la verdad y la realidad exacto
+Pueden buscar la librería. Listo aquí. La documentación en el Q. R. Bueno.
+al fin y al cabo, en biblioteca es todo para este tema de de tokenización. Tiene buenos recursos léxicos. Tiene buen tema de de diccionarios, porque aquí también las palabras juegan un componente importante. ¿sí? Y ya lo vamos a ver.
+y para hoy vamos a ver estos 2 sistemas de tokenización. Listo, estos 2 sistemas de tokenización Vamos a ver el Word tokenization y el sentens tokenization Estos 2 se diferencian claramente por su título
+en 1. Tengo la tokenización por palabra, Sí, por, digámoslo así, si K palabra es un elemento de la lista que vimos de números y la otra es más robusta, bueno, es más robusta, más
+más a la loca. Sí, cada una tiene su motivo. Yo les voy a explicar el porqué.
+De hecho, creo que tenemos más. No, esto. Esto ya es steam de matización. Y bueno, el caso es que tenemos estas 2 partes citas para hacerlas listo.
+Entonces, Wirema Colab, no lo tengo abierto, pero bueno, pasa nada.
+No pasa nada a poner más. Cola. Puedes irme a con Ruiz Uptein, listo
+y discor copia, semillero, clasificación, Finting transformer en Berdings Toquen lematización.
+Token, ¿Dónde está el toque. No está el toque. ¿no? Aquí este del colab
+Sí, es del Colab. Lo voy a compartir. Vale, se los voy a compartir
+aquí. Vale, calcula que vamos a ver.
+Entonces, bueno, muchachos a ver un poquito el el el
+de la tokenización. Sí, mien mientras se me descarga todo este tema de las librerías y vamos a usar en Ltk, ¿cierto? Hay algunas tokenizaciones, Sí,
+por lo menos en lteca. Lo que tienen son en realidad paquetes, sí, paquetes para todo el tema de toquenización y para otras cosas que vamos a ver más tarde. Vale.
+pero pues sobre todo paquetes de de de toquenización ¿vale?
+Entonces la tokenización. Piense por acá
+esta parte de tokenización, Si, digámoslo así, es crucial, O sea, todos los modelos tienen tokenizadores, todos funcionan con tokens. Listo ahora.
+Entonces pues esta parte. Fíjense por acá Tenemos 2 de las más famosas.
+El World Organization. El center Stock organization
+Es muy sencillo. De explicar es bastante sencillo de explicar si se dan cuenta.
+simplemente importan de la librería. En Ltk, el World to Canalis, Listo. Le dan una sentencia. Cualquiera listo y
+pues simplemente pone la función la función del Word o Canalys, la el método y le coloca como parámetro la sentencia. Y él le va a dar esto. ¿vale? Él les va a dar esto. De hecho, lo vamos a ver. Les va a dar esto.
+Nótese lo curioso del asunto. Sí, porque aquí empiezan las aristas más que la sintaxis, y todo esto es el concepto de tokenización. Sí, como lo maneja. Digámoslo así: el huerto canal.
+¿cómo lo maneja el puerto? Canal?
+Fíjense, por ejemplo, si fíjense, por ejemplo, que él es bien robusto en el tema de, por ejemplo.
+Esta es parte de tokenización. Sí
+que el el World Tokenization si se dan cuenta sí sí se dan cuenta él inclusive agarra los puntos, como parte, digámoslo así, de de que son una palabra, sí de que son una palabra, o sea, si yo coloco aquí un punto. Si si lo ven aquí, coloco un punto.
+pues él me toque en ese punto también listo.
+Entonces, digámoslo. Así pues, tiene tiene este tema. Tiene todo esto vale
+y normalmente es el más utilizado; normalmente. Es el más utilizado, pero depende del problema que ustedes manejen. Si ustedes manejan, digámoslo así, un problema. No sé,
+pongámosle
+ustedes los los contrataron para ser la solución y digamos lo que tienen un un buen presupuesto, un presupuesto bueno, Sí, y tienen tiempo, sobre todo tiempo, pues la mejor opción para ustedes. Ay, Bueno, y quieren buena precisión. Sí, la mejor opción para ustedes es el work tokenization.
+El de abajo es el Center Stokenization. Esto simplemente cambian el Word por el Cend, y ya lo tienen.
+Y él lo que hace es dividirlo por sentencias listo por sentencias.
+Aquí hay algo muy interesante, sí, muy, muy interesante, y es que si ustedes tienen saltos de línea, por ejemplo, espacios. Por ejemplo, yo esto es un espacio Acá listo. Significa que la sentencia es algo como
+como esto. Creo que ustedes ya lo ya lo entienden. Ya es un ducho en Python, pero es algo como esto, y por abajo
+es esto listo por abajo. Es: ¿Es este Vale, es algo como eso.
+Lo mismo. Acá Si yo coloco un salto.
+¿sí? Sí, Yo coloco aquí un un salto de línea, Sí, ustedes qué creen que pase
+ustedes? ¿qué creen que pase? ¿me lo va a contar como un una s, una sentencia nueva, ese salto de línea o no.
+o no me lo va a contar como un salto de línea.
+O sea, no me o sea, me va a tener 2 toques
+o voy a tener solamente 1?
+¿qué opinas.
+yiceth mata lozano
+yiceth mata lozano
+17:12
+Difícil Esa pregunta tramposa.
+Vanessa Hernandez
+Vanessa Hernandez
+17:20
+De.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+17:21
+Han que no.
+Vanessa Hernandez
+Vanessa Hernandez
+17:22
+De línea cuenta como Tokens.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+17:25
+Pues probemos a ver, probemos a ver que no nos mienta. Python, Yo les puedo mentir, pero Python no
+fíjense por acá exactamente
+si yo tengo un salto de línea, se supone que si yo tengo ahí el salto de línea. Ay, Bueno.
+yo si soy pelota, me faltó. Me faltó el
+aquí el saltito de línea con el N,
+pero el N, el N me hace falta. El
+el el el f string. No recuerdo cómo era el n Uy, no muchacho. Me siento. Me siento.
+Vanessa Hernandez
+Vanessa Hernandez
+18:03
+Creo que tienes que poner la F al principio. Y luego de de antes.
+Y eso.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+18:09
+Exacto. Vamos a ver.
+Vanessa Hernandez
+Vanessa Hernandez
+18:12
+No, pero creo que lo puedes poner sin el.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+18:15
+En los.
+Vanessa Hernandez
+Vanessa Hernandez
+18:15
+Es un.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+18:16
+Ok, probemos.
+Vanessa Hernandez
+Vanessa Hernandez
+18:18
+Creo, creo, creo.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+18:20
+Dice efe string literal. Ah, bueno, pues coloquio. Entonces esto aquí se ve el problema.
+no el salto. El salto no me lo hace. El salto no me lo hace.
+María J. Carvajal
+María J. Carvajal
+18:31
+Yo creo que para.
+Vanessa Hernandez
+Vanessa Hernandez
+18:32
+Para el.
+María J. Carvajal
+María J. Carvajal
+18:32
+Tienes que llevarlo como cadena.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+18:35
+Como cadenas. ¿cierto? Cierto que sí.
+Hello. World: Entonces peguémoslo. Vamos a ver si después de colocar como cadena aquí, a ver, peguémoslo.
+Peguémoslo a ver, no a este verraco. Se puede hacer con el Print
+Prince Hello Prim World Nor World
+con doble con doble con doble Slash. No, Yo me acuerdo que en mis tiempos
+era con un con un enlace hacia allá.
+Hola, mundo. Solo funciona con el Print
+o.
+Vanessa Hernandez
+Vanessa Hernandez
+19:19
+Pareciera.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+19:22
+Vean, pues yo aprendí algo nuevo.
+Solo funciona con el print.
+Guau! pensé que no había limitación. Yo me acuerdo que yo no tenía limitaciones con eso, a ver.
+Vanessa Hernandez
+Vanessa Hernandez
+19:39
+Creo que para cualquier cosa, si sirve en P, H, P: Pero.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+19:43
+O sea.
+Vanessa Hernandez
+Vanessa Hernandez
+19:43
+Igual entre lenguajes.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+19:45
+Sí, ¿cierto?
+Text.
+No. Pero mira que mira, que mira, que yo estoy viendo por acá. A usted, no está mirando mi pantalla. Fíjate que aquí aparece, no pero hello. Bueno, aparece último
+con un strip Bueno, y no po aquí no, pero se puede eliminar.
+Vean, pues
+vean puesta como aquí.
+Raro.
+Interesantemente raro, interesantemente raro.
+Bueno, si alguien sabe el tema ahí listo, me lo puede comentar, pero pero pero pero pero pero
+pues aprovechémosla ya de una vez. Es raro hacer el salto de línea de la sentencia, porque yo me acuerdo que yo podía hacer lo de la sentencia, sino que es que él él queda activado.
+¿será que es porque falta el print no no.
+Vanessa Hernandez
+Vanessa Hernandez
+20:57
+En el.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+20:58
+Todo y.
+Vanessa Hernandez
+Vanessa Hernandez
+20:58
+Con el primavera.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+21:00
+Será, no, Pero es que igual no lo puedo.
+No puedes hacer el ejercicio.
+Y si que dice que si vieron lo que pasó,
+literalmente. Este Mo me colocó un punto. Eso es lo único que cambió. Y ya.
+Ohh: Interesante interesante, interesante, pero No.
+no es lo que quiero. Esto tiene un sesgo.
+Esto tiene un sesgo, porque debería funcionar sin punto.
+Debería de funcionar sin punto Es más, ¿saben qué?
+Hagámosle un Prince al Center a ver qué es lo que me sale
+Uy. No Jodas que que con un Print Estalle, toda la Ram de de Google. Ok Miren.
+Miren que sí. Efectivamente, si la está tomando bien entonces interesante.
+Interesante, ¿qué pasó muchachos.
+contó los saltos de línea. Sí, los contó con este separador de acá por eso es que
+si ustedes se dan cuenta, pues está todo bien en el Print, pero acá él lo contó como s como si fuera un separador. Sí, como, y todo está pegado que de hecho está pegado, sí.
+Y pues, el separador. Ahí está interesante.
+Interesante interesante para que lo tengan en cuenta. Acuérdense que por más de que tengan un espacio en blanco o tengan un espacio sin línea de salto, él también se los va a contar. De hecho.
+de hecho, vamos a hacer este experimento, hacer ese experimento.
+yiceth mata lozano
+yiceth mata lozano
+22:55
+Tokenizando ahí, pero no es que esté interpretando.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+22:59
+Exacto no está interpretando el salto.
+Vamos a ver si aquí dice.
+no tiene que ser con punto.
+porque eso usted por la plataforma dice que.
+María J. Carvajal
+María J. Carvajal
+23:15
+Criptográfico que estás descubriendo.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+23:18
+Uy. Sí, Sí, muchachos exactamente toda la experiencia de mi vida. Y hoy descubrí en sen tokinais
+el el salto lineal superbacano a ver por qué eso? Bueno, entonces nótese, Así que si se dan cuenta
+el el tokenizador, sí, el tokenizador
+no me está contando el salto de línea, o sea, para él, todo es una misma sentencia, aunque esté en un diferente salto de línea. Prueba es que tienen que tener mucho cuidado con el Centers tokenization listo
+el Center Stokenization. ¿para qué es normalmente para las veces en que necesitamos modelos rápidos y también o también tengamos necesitemos modelos baratos. Vale modelos que necesiten que procesar
+muchos datos, etcétera, pues el tenter soccenization es una buena opción. Vale.
+pregunta. Ya sabemos que por aquí, aunque yo esté con un punto él, aunque yo esté con un salto de línea, él me va a reconocer que el punto es otra.
+Eso es otra. Es otro toque, ¿cierto? Después del punto.
+Entonces podemos afirmar que él, si digámoslo así, entre comillas, podemos afirmar que él sí. Con el punto separa la sentencia, que es normal, nosotros también, con un punto, separamos sentencias.
+Entonces, ¿qué pasa con la coma? Por ejemplo.
+con la coma? Yo digo que en el español, si 1 toma aquí una cosa y luego lo coloca en otra con otra con una coma.
+pues
+esos son como 2 sentencias que, a pesar de que se relacionan, pues son son 2 sentencias diferentes, ¿cierto?
+Pues. Fíjense por acá Entonces Tokenization dice que es la misma sentencia.
+Y ¿Qué va a pasar entonces? Muchachos que creen que vaya a pasar con el punto y coma?
+¿qué creen que pasen?
+¿quién apuesta más 1, un token o 2 tokens
+el que tenga la respuesta correcta, una una décima más, un.
+Vanessa Hernandez
+Vanessa Hernandez
+25:37
+El.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+25:38
+Un Token, dice Jezet, un toque o k un toque y vanesa, hizo un token.
+Vamos a ver. Entonces vamos a ver entonces listo, efectivamente, un toque.
+Ya Entonces acá empezamos a saber algo muy importante, y es que el senten Stokenization sí
+funciona solamente separando las sentencias, Digámoslo así, con puntos, pueden ser comas, pueden ser punto y comas, pueden ser sentencias. No sé que se me olvida un punto. Si o el procesador no me lo cogió Bien, bueno.
+no perdona de nada, y lo único que él hace es tokenizar solamente tokenizar
+si estamos hablando de puntos, ¿vale? Recuerden siempre el tema de por lo menos. Si ustedes tienen las 2 situaciones y, por ejemplo, necesitan un modelo más barato o un modelo que tiene un montón de datos, utilicen el Center Soccensation si necesitan un modelo más preciso, más equilibrado, Mucho, digámoslo así,
+tienen buen buen presupuesto, Buen. Digámoslo así:
+tiempo. También. El huerto que iniciations es la opción adecuada
+muy de forma común, o sea, de forma muy, muy, muy común.
+El world tokenizations es el normal. De hecho, si ustedes lo vieron, parte de la de la arquitectura de Tokens de Open aye está construido también a través de ese de ese Word Tokenization listo
+Entonces normalmente siempre apuntan al huerto que dicetion. Esa es mi recomendación. ¿vale?
+Y bueno, listo preguntas hasta ahí con toquenización, punk.
+Todo, claro.
+todo claro, perfecto.
+María J. Carvajal
+María J. Carvajal
+27:43
+No mucho.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+27:45
+No mucho.
+yiceth mata lozano
+yiceth mata lozano
+27:46
+Estaba preguntando, pero 1 aquí, en en Do, o sea, no entendí en qué se se se utiliza esto.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+27:55
+La toquenización.
+Vanessa Hernandez
+Vanessa Hernandez
+27:58
+Supongo que.
+María J. Carvajal
+María J. Carvajal
+27:59
+Lo vuelvo a.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+28:02
+Recuerden, recuerden, recuerden, recuerden ustedes, no les recomiendo ahora, Pues porque estamos viendo el paso a paso, listo, pero imagínense que esto es una red neuronal y que ya quieren saber las respuestas, pero ustedes, fíjense cómo funciona el ejemplo de Chad. G. P. T.
+Si ustedes recuerdan por allá en introducción que lo mantengo recordando siempre siempre.
+Las redes neuronales nunca reciben letras, nunca reciben imágenes
+siempre reloj que reciben, digámoslo así. Lo que procesan en realidad son números, Listo, ¿Son números.
+Entonces, ¿qué pasa
+los tokens? Sí, En realidad los tokens sirven como una medida. Digámoslo Así que a pesar de que muchos de ellos son
+aleatorios, sí sirve como una medida para que se oriente la red neuronal listo, porque si la red neuronal solo tuviera, digámoslo así.
+Tuviera.
+pues, la capacidad de solo ver letras. Pues Bueno, 1 dice, vaya y venga. Pero necesitamos transformar las letras en números. Siempre muchachos. Una red neuronal nunca procesa letras, nunca procesa imágenes, siempre procesa números. Entonces, ¿qué pasa con eso?
+Si yo a él? Si yo le pongo un imagínense, yo le pongo un
+un documento, sí un documento de palabras.
+y yo mismo lo asigno a cada 1. Si yo mismo le asigno a cada 1 le colocó 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, Ta: Ta: Ta: Ta: Ta: Ta. Ta Ta Ta Ta: así sucesivamente.
+¿qué pasa con eso va a llegar un momento.
+Va a llegar un momento
+en el que primero eso no es tan óptimo. Sí, no es tan óptimo, porque, pues ustedes tienen que separar qué caracteres, como por ejemplo, fíjense acá como lo separa la autocanización, 2 tienen que separar también el tema de
+de de las palabras sí, entonces, pues tienen que crear un código. Y todo esto. Y, bueno, y 3, que es la más importante sí que es la más importante de todas. Resulta que si ustedes le colocan las digámoslo asínúmeros del 1 al No sé al
+100 200 si existe la posibilidad de que el modelo por temas de cercanía, porque acuérdense que todo eso es estadística y matemáticas
+por tener más de cercanías, le dé más importancia a un valor, más chiquito y le dé menos importancia a un valor más grande
+cuando las palabras tienen En realidad, digámoslo así,
+una importancia, por lo menos equilibrada que el modelo diga, bueno, yo voy a juzgar eso lo vamos a ver después que yo voy a juzgar por el contexto y por lo que me está aportando esa palabra a mí listo, pero el del tirón del Pri en el primer inicio.
+él no sabe nada. Él se tiene solamente que encontrar con los números. Por eso es que él no tiene que juzgar listo. Entonces.
+si se dan cuenta los tokens, los tokens son números al azar, o sea, al azar al azar, al azar, 30 58, 18, 49 000, si son números totalmente al azar, y es precisamente para que ese modelo no le dé importancia a un número más pequeño o a un número más chiquito
+listo, sino que es que se enfrente a lo que en realidad es palabras al azar.
+María J. Carvajal
+María J. Carvajal
+31:38
+Mi Mi inquietud no era tanto el proceso
+teórico, sino en lo escalable, listo. Yo hice este proceso, generé esta red neuronal
+me llegó el la segunda parte. Segunda temporada: ¿cómo sería?
+Vuelvo y cojo esa base de datos que me hizo súper aleatoria en el primer momento, o me toca otra vez
+coger esos datos, entrenar desde 0, a ser el modelo 1 y volver a ser el modelo doble, o sea, esa esa primera tokenización es reutilizable.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+32:15
+Ahí es donde voy en un buen asunto, y es que si la tokenización, bueno, todo depende. Cierto. Todo depende. ¿qué pasa? Ustedes
+en realidad
+deberían de tener una buena cosa por ahí? Es que primero ustedes van a tener con esta toquenización. Esa tokenización va a servir principalmente para algo que ustedes van a llamar una base de datos vectorial, que la vamos a ver más adelante, listo.
+pero ustedes se supone que van a tener una base de datos vectorial.
+Estas bases de datos vectorial. Digámoslo así, son como las interacciones. Ustedes recuerdan, cuando vimos redes neuronales, los pesos, ¿cierto? Los pesos, todo eso, bueno.
+digámoslo que
+él él coloca las iteraciones. Él busca el significado entre las palabras, todo esto y él los aloja en una base de datos vectorial, listo, esa base de datos vectorial es reutilizable, O sea, no hay necesidad de que ustedes coloquen otros tokens que ustedes hagan todo ese tema
+porque tienen la base de datos vectorial. Si quieren volver a entrenar el modelo, lo que hacen es agarrar esa base de datos vectorial, ¿sí? Y ir iterando sobre esto, sí literando sobre la base de datos vectorial sobre los pesos ya iniciales que están. Pero la tokenización no cambia.
+La tokenización no cambia, se mantiene igual. Me preocuparía más bien por la base de datos vectorial, ¿sí? Pero es muy normal.
+Es muy normal que cambie eso muchachos, porque es muy normal que un modelo se reentrene que un modelo se haga de nuevo. Es muy normal y las bases de datos están preparadas para eso? Mejor dicho, ustedes tendrían ustedes para las soluciones que necesitan. Hay bases de datos e inclusive en local.
+o sea en su computadora. Les puede correr. Bien, esto porque son números. Recuerden que igual
+el Machine Learning: Lo bueno del Machine Learning y lo bueno de Python y de todas estas librerías procesadores de la programación es que procesan muy rápido. Los números listo, entonces ustedes no van a notar mucho la diferencia, ya si ustedes hacen
+un un bot tipo. G, P: T, Cinco. Ahí sí, les creo que ahí sí la cosa va a cambiar un poco.
+¿van a empezar a considerar de pronto cómo no tocar tanto la la la base de datos vectorial. Sí que tiene como todo ese. Esa interacción es entre los tokens, digámoslo así, que ya lo van a ver más a punto.
+pero solamente en esos casos del resto. Es muy normal que que las cosas cambien. Vale, Es muy normal que las cosas cambien.
+Pero este paso siempre es necesario porque necesitamos transformar, recuérdenlo. La tokenización es necesaria porque necesitamos transformar las letras a números. Eso es lo más importante de la tokenización.
+Sí, nosotros no transformamos las letras a números. El modelo no va a hacer nada porque el modelo no entiende de letras. El modelo solo entiende de números.
+¿vale?
+No, María, Sí.
+María J. Carvajal
+María J. Carvajal
+35:26
+Teóricamente, sí.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+35:28
+Vale. Perfecto.
+Sí, Bueno, muchachos alguna otra duda con toquenización.
+Bueno, creo que no hay dudas.
+Bueno, muchachas. Muchas gracias por la asistencia.
+Muchas gracias por la atención. Mañana vamos a ver seguir pues todo. Bueno, mañana mañana es viernes, Ah, mañana es viernes, mañana vamos a seguir dándole a esto. ¿vale?
+Mañana vamos a ver una cosa que si la quieren buscar, es va canísima. Se llama lematización.
+Y, bueno, son técnicas, ahorita Después las vemos.
+Aunque, bueno, esas no son tan tan cruciales, sí son más como un proceso de optimización de los tokens, pero pues es bueno que lo sepan que están. Pero los tokens son muy, críticos, muy, muy críticos, muchachos, ya ven que hasta para la plata
+de por medio hay tokens, entonces
+échense una repasadita a eso. Y fíjense cómo funciona, les va a salvar más de una vez el pellejo.
+Bueno.
+Vanessa Hernandez
+Vanessa Hernandez
+36:42
+No sé.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+36:43
+Yo le.
+Vanessa Hernandez
+Vanessa Hernandez
+36:44
+Pues, estadiéndome el tema de de la tokenización, ¿en qué quedó eso de visión computacional.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+36:54
+Que quedó el tema edición con el proyecto. Me dices o qué.
+Vanessa Hernandez
+Vanessa Hernandez
+36:59
+Sí sí, o sea que ¿qué es lo que tenemos que hacer, que que que se detecte con la Cámara
+el que lo que 1 lo entrenó.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+37:12
+Ah, pero eso eso sí, pero eso es un trabajo. Si ustedes quieren de gusto, no ustedes ya yo ya les califiqué, Creo.
+Vanessa Hernandez
+Vanessa Hernandez
+37:20
+Uy, como que ya nos califico en qué momento enviamos eso.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+37:24
+No, pero no, no, no, Yo no. Les Yo no les pedí el proyecto para que me lo enviaran como evidencia, No, yo les dije a ustedes con la participación que habían hecho de el jueguito más. Otra cosa que no me acuerdo ¿qué era.
+Ya tenían el 5 y vos me enviaste el jueguito. Y yo creo que ya te califiqué.
+Vanessa Hernandez
+Vanessa Hernandez
+37:48
+Yo pensé que esto era otra cosa que había que hacer.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+37:53
+No, no, no, no, no, No tranquilo, tranquila, tranquila, esto es procesamiento de lenguaje natural. No, eso. Yo ya lo tengo muchachos.
+Vanessa Hernandez
+Vanessa Hernandez
+38:02
+No, Yo no sé, Y lo voy a terminar.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+38:07
+No, no pasa nada, muchacho. No, esa era una tarita por si querían igual, pues si se van a van a profundizar más en el
+en esta parte de
+de aplicación con visión computacional en el proyecto final, pues les va a servir bastante Ay muchachos, aprovecho que me hicieron acordar porfa acuérdense de saber en qué se van a enfocar listo. Si a ustedes les parece muy entretenido el chatbot. No vamos por el chat bot, si ustedes les parece muy entretenido. La aplicación con visión computacional vamos por ahí. Si les parece muy entretenido
+el machine learning, como vemos por ahí por el proyecto final. Vale, yo manejo.
+Vanessa Hernandez
+Vanessa Hernandez
+38:48
+Careo.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+38:50
+Y el.
+Vanessa Hernandez
+Vanessa Hernandez
+38:50
+Creo que para esas personas que son inseguras, no sé quién, pero pues lo digo no como por en general esas personas que son súper inseguras. Creo que sería chévere que digamos, te tomaras una media horita para guiarnos a nosotros, los loops, y luego decir, mira con el chat bot, se pueden lograr estas cosas
+con el Payeme. Se pueden hacer estas cosas con la visión computacional. Se pueden hacer. O sea, me interesó lo del la visión computacional, pero realmente no sé para qué me servirá Tengo 0 creatividad. También me gusta lo del chat bot, pero no sabría qué hacer con un chat bot específicamente. Y bueno, ese tipo de cosas. Entonces creo que que sería chévere como una pequeña introducción de mira, me
+pueden escoger estas cosas
+que de aquí salen estas cosas. Entonces, 1 dice, como. Digo, 1 no, O sea, las personas inseguras.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+39:40
+Okay Okay están bien.
+Está bien.
+Está bien.
+Hagamos una cosa mejor para que
+es que igual el repasito, el repasito, si quieren, lo doy, pero tengo una mejor idea.
+Díganme un problema que ustedes tengan, ya sea de pronto de su empresa o algo que quieran hacer con I A,
+y listo.
+No sé, díganme, ay profe, yo quiero crear un
+yo creo yo, quiero crear un, no sé un chat de Whatsapp o una persona
+que me conteste con puros chistes y sea bacano y atienda a los jóvenes. Entre 18 y 15 años, por ejemplo, cosas así.
+Otra persona me dice, ¡ay, Profe es que en el trabajo
+1 no puede entrar a una a una zona clasificada. Entonces quieren implementar un sistema que detecte eso por ahí y cosas como esas, ¿Sí? Entonces
+hablen, digámoslo así, di también pueden hablar con la D I A, sí, Pero tráiganme un problema
+listo. Tráiganme un problema no es que es que si yo les digo: de pronto no es que esto les va a servir. Lo mejor es que ustedes me traigan un problema que les encantaría resolver con ella y yo decidí decirles: bueno.
+usted se va a ir por la parte de aplicación con visión computacional. Usted se va a ir por el chat. Usted se va a ir por los L. L. Ms por el machine learning, etcétera.
+Listo, si 1 entretiene en todo toca enfocarse.
+Sí, igual Es de mucha creatividad. Muchachos. Yo, por eso les digo, sí,
+me parece mejor idea esa que andar de prontos soltando un poco de información y todo eso para que no estalle.
+o por lo menos, si quieren, yo yo yo puedo hacer lo que lo que dice vanesa, así no pasa nada, pero tráigame un problema. Sí, Tráiganme un un un problema que quieren solucionar o algo que les pareció entretenido del curso y quisieran ahondar más en él.
+Sí, eso eso está bien, pero no se preocupen, yo les hago. Yo les hago la la mini clase listo, digo más o menos, para que
+que funciona tal cosa o tal otra y listo.
+Vanessa Hernandez
+Vanessa Hernandez
+41:57
+Es que digamos en ese momento, yo no sabía, o sea, que tuviera problemas. Yo no sabía de todas formas, para que podría usar Yo la vi la visión computacional
+y lo de machine learning, pues o sea, ya ya sé que es para entrenar y tal, pero pues tampoco sé en qué podría yo aplicar eso
+sobre algo, o sea, si a si acaso tengo el el concepto lo de Pine Game porque, bueno, es un juego, o sea, y el chamán, porque, bueno, asistentes, pero digamos las otras cosas, y yo no sabría que podía yo
+hace con eso o algo así. Entonces, pues no hace una sugerencia.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+42:36
+Okay Okay Okay, ¿Está bien, está bien?
+Sí, Sí, está bien, podemos hacerlo yo? Entonces
+sí. Yo yo yo, yo, a ver cómo cómo hago eso. Sí, cuando entremos igual a a la a la parte de proyecto final y le dedicamos una sesión a eso listo.
+Hacer un repasito. ¿les parece entonces.
+María J. Carvajal
+María J. Carvajal
+43:03
+Muchas gracias.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+43:04
+Bueno.
+Vanessa Hernandez
+Vanessa Hernandez
+43:05
+Y muchas gracias. Profe.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+43:08
+Bueno, está bien, bueno, muchachos que descansen y quedamos así, entonces vale.
+María J. Carvajal
+María J. Carvajal
+43:14
+Vale feliz. Noche a todos.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+43:16
+Bueno, feliz noche
+
+COLAB DE CLASES TOKENIZACION:
+
+!pip install nltk
+
+import nltk
+nltk.download('punkt_tab') # Para la tokenización
+nltk.download('wordnet') # Para la lematización
+
+# **Tokenización**
+
+Parte esencial en el proceso de creación de modelos NLP
+
+## *Word tokenization*
+
+from nltk import word_tokenize
+sent = "ParqueSoftTI is a great learning platform. \
+It's one of the best for Computer Science students."
+#print(sent)
+print(word_tokenize(sent))
+
+## *Sentence Tokenization*
+
+from nltk import sent_tokenize
+sent = "ParqueSoftTI is a great learning platform. It's one of the best for Computer Science students."
+print(sent)
+print(sent_tokenize(sent))
+
+# **Stemming**
+
+busca reducir una palabra a su forma raíz o base. Es un método más rudo y rápido. Simplemente corta el final de las palabras para llegar a una raíz común, que no siempre es una palabra real. Muy liviano, menos preciso.
+
+from nltk.stem import SnowballStemmer
+
+stemmer = SnowballStemmer('spanish')
+
+palabras = ["corriendo", "corredor", "corrimos"]
+stems = [stemmer.stem(p) for p in palabras]
+
+print("Palabras originales:", palabras)
+print("Stems (raíces):", stems)
+
+# **Lematización**
+
+busca reducir una palabra a su forma raíz o base. Es un método más inteligente y lento. Utiliza un diccionario y reglas morfológicas para reducir una palabra a su forma base real, llamada lema. Pesado, más preciso.
+
+from nltk.stem import WordNetLemmatizer
+
+# NLTK solo tiene un lematizador en inglés por defecto que funciona como ejemplo
+lemmatizer = WordNetLemmatizer()
+
+words = ["running", "ran", "runs"]
+lemmas = [lemmatizer.lemmatize(w, pos='v') for w in words] # 'v' indica que son verbos
+
+print("\nPalabras originales (inglés):", words)
+print("Lemas (forma base):", lemmas)
+
+# *Named Entity Recognition (NER)*
+
+NER consiste en identificar y clasificar la información clave de un texto, como nombres de personas, lugares, organizaciones, etc. Es un paso importante para la extracción de información y la comprensión del significado del texto a un nivel más profundo. Es un paso importante para extraer información y comprender el significado del texto a un nivel más profundo. Bastante pesado pero extremadamente preciso.
+
+from nltk import word_tokenize, pos_tag, ne_chunk
+
+# Download the required resource for NER
+nltk.download('maxent_ne_chunker_tab')
+nltk.download('averaged_perceptron_tagger_eng')
+nltk.download('words') # This resource is also needed for the chunker
+
+# Sample text
+text = "Barack Obama was born in Hawaii in 1961. Barack Obama was US president"
+text_2 = "Barack Obama was born again when he realized he was going to go to war with Afghanistan."
+
+# Tokenize and POS tag the sentence
+tokens = word_tokenize(text)
+tokens_2 = word_tokenize(text_2)
+
+tags = pos_tag(tokens)
+tags_2 = pos_tag(tokens_2)
+
+print(tags)
+print(tags_2)
+
+
+# Apply Named Entity Recognition
+entities = ne_chunk(tags)
+print(entities)
+entities_2 = ne_chunk(tags_2)
+print(entities_2)
+
+* "Barack Obama" se identifica como PERSONA
+* "Hawai" como EPG (entidad geopolítica).
+* VBN: Esta etiqueta significa Verbo, participio pasado. It refers to the form of a verb used in perfect tenses or as an adjective (e.g., "eaten", "broken", "gone"). In the example output, "born" is tagged as VBN because it's the past participle form of "to bear".
+* VBD: Esta etiqueta significa Verbo, tiempo pasado. This tag stands for Verb, past tense. It refers to the simple past form of a verb (e.g., "ate", "broke", "went").

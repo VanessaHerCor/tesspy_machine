@@ -1,0 +1,599 @@
+2026-01-30 a las 18:55
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+Tú qué más.
+Pero sí me entendiste. María.
+María J. Carvajal
+María J. Carvajal
+00:31
+Sí entrar más a ver cómo Co: lo de la codificación.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:39
+Sí.
+María J. Carvajal
+María J. Carvajal
+00:39
+Para 1 de cara al usuario. Eso es una respuesta ahí aleatoria a la que 1 ahoga humano, pues no le ve como tan fácilmente el resultado o como el patrón.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:52
+Mhm.
+María J. Carvajal
+María J. Carvajal
+00:52
+Solo hay unos números que, en efecto tienen algún proceso, pero
+pero pues no es de cara directamente al usuario, al usuario final.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+01:04
+Sí va por ahí va por ahí, por por el.
+María J. Carvajal
+María J. Carvajal
+01:10
+Ayer también me quedaba como esa duda de
+de bueno listo. Este es el escenario base. Si vuelvo a hacer ese mismo ejercicio
+toca coger este, este sirve o toca otra vez volver a hacer el proceso y que
+la tokenización del 1 no vaya a afectar o a limitar.
+pues, el ecosistema de datos del otro.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+01:35
+Mhm: Sí, eso también es muy, eso. También. Es muy, muy importante que que lo entienda.
+Sí, no, pero sí te queda más claro el tema del del del diccionario, pues es súper interesante también ese tema de del entrenamiento. Así.
+María J. Carvajal
+María J. Carvajal
+01:51
+Y pues es que varias cosas, por lo menos vanesa, lo vio más por la parte matemática.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+01:59
+Mhm.
+María J. Carvajal
+María J. Carvajal
+02:00
+Lo estaba viendo ahí, Pero yo lo estaba viendo más como por una parte lingüística.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+02:05
+Exacto. Tiene varios géneros.
+María J. Carvajal
+María J. Carvajal
+02:07
+Final. Las 2 empatan.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+02:09
+Exacto Exacto. Las 2, frente los 2 frentes empatan y les das no super bien.
+Vanessa Hernandez
+Vanessa Hernandez
+02:15
+Vamos igual de traumadas. Entonces.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+02:17
+A a.
+Sí, señora Sí, Sí, señora, no. Si esto es un campo muy bueno, muchachos, o sea.
+pues ya están viendo que que lo las empresas.
+las Big Tech se están matando por crear la la Ia perfecta y
+y cada día se sorprenden más. De hecho, los avances. Los avances cuando sacaron G, P. T, 2,
+literalmente los manes se sacaron. Disculpen la palabra, pero el pajazo mental
+y no antes de de de G. P. T, Dos, teníamos una arquitectura que se llamaba que que era C. N, N,
+Bueno, era una arquitectura para que me lo entiendan.
+Era como una arquitectura, un poquito de que yo hago el intento y me hago la retroalimentación a mí mismo. Era un poco raro. Pero bueno, no vamos a meter tanto en eso.
+Pero los manes literalmente llegaron y se levantaron un día y dijeron, ¡ay, yo quiero. Yo quiero cambiar una partecita que se llamaba el
+el D, E, C, o D, E, R,
+y y yo y omanes llegaron. Y dijeron yo, qué Ay, se los voy a quitar.
+Y así. Y así nació Yipity, 2 literalmente le quitaron una cosa.
+Y nació allí pitidos.
+Es súper interesante esa ese, esa, esa arquitectura, o sea, literalmente.
+Entonces, o sea, cada día, hay cosas más
+más más raras y todos los avances que han hecho hasta ahora. Ha sido así. A que un día me levanté, sentí la curiosidad y me metí al error y funcionó. Y ya fui millonario.
+Así es.
+pero bueno, no súper muchachos van rebién, van re Bien, me alegra.
+Me alegra, entonces una de las teorías de de María por ahí, pues, el tema de los diccionarios de la ponderación. Sí,
+vamos a coger un poco el tema de la ponderación. Listo Ahora vamos a analizar un poquito lo que lo que comentaba María de la ponderación. Bueno, yo, como
+ponderó, eso sí que esa era una pregunta muy interesante. Uno: ¿Cómo pondera las palabras
+más importancia, más contenido abarcan más cosas. Bueno, mucho, mucho, mucho, mucho, mucho, mucho, mucho, mucho a entonces.
+digámoslo así, existió la primera técnica, la primera técnica con la que todo empezó que era lo más básico. Dijeron, bueno.
+nosotros vamos a tocanizar por palabra, cierto. Entonces, por cada palabra vamos a contar el número de veces que se repite esa palabra en cada una de las frases, en cada una de las sentencias
+en el Corpus en general. Ustedes recuerdan, el Corpus era algo como
+como bueno. Esto no es un corpus, literalmente. Es una lista y de texto ya, pero el corpus tenía metadatos y el contenido.
+Pero bueno, el caso es que literalmente empezamos desde lo más básico que es bueno. Yo agarro, Sí, Yo agarro y empiezo a contar en cada sentencia. Así, en cada en cada línea.
+empiezo a contar cuántas veces se repite la palabra listo. Entonces, por ejemplo, aquí en los ejemplos de acá arriba dice el perro, come la comida, el gato come pescado. Ya sabemos aquí, sí
+que por lo menos come sí,
+por lo menos. Si están viendo, acá
+se se repiten, pero en diferentes frases. Entonces, acá si se dan cuenta en la frase 0, me cuenta 1 la frase, 1 me cuenta 1 también. Pero ¿qué pasa con si se repite, pues, en una misma sentencia. Fíjense entonces
+gato. Sí, el animal aparece 3 veces en una misma sentencia que la sentencia. Uno: listo, la sentencia o no acuérdense que la sentencia 0, 1, 2, vale.
+Entonces aparece 3 veces en la sentencia. Uno: Fíjense acá que aparece también 3 veces repetidas en la sentencia 1, y así sucesivamente.
+Esto, por supuesto, no sirvió para nada, porque
+lo que pasaba era que yo les había contado a ustedes, que
+volvemos a hacer este asunto. Yo les había contado a ustedes, sí
+que eso se representaba. Las palabras se representaban con vectores.
+Entonces.
+claro, si yo tengo una cantidad. Sí, sí, yo tengo una cantidad. Supongamos que yo tengo aquí la palabra repetida una entonces. Voy desde el origen hasta el 1, ¿sí? Y luego tengo otra vector y que va a estar 3. Por ejemplo, supongamos que aquí está el 3 y otro así vector. Esto no va a tener
+ningún sentido, literalmente, o sea el sentido, va a ser igual y ustedes, por ejemplo, están de acuerdo. ¿están de acuerdo
+en que, por ejemplo, la palabra gato y la palabra perro son diferentes, ¿cierto? O sea, un perro diferente a un gato. A pesar de que sean animales, sí,
+un perro es diferente a un gato.
+Lo mismo pasa.
+María J. Carvajal
+María J. Carvajal
+07:39
+O son mascotas.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+07:41
+Exactamente por ahí. También podrían ser mascotas, Pero todos sabemos que un gato y un perro son diferentes. ¿cierto? Son diferentes.
+Aquí. Lo que me está diciendo
+solamente con la cantidad es que perro y gato prácticamente son iguales, o sea, en un 100 por 100, porque tienen el mismo sentido y la misma dirección. Listo así, tengan diferentes magnitud
+grande, 1 que el otro. Me está diciendo que son iguales.
+listo, que son iguales. La distancia entre esos vectores son prácticamente es prácticamente mínima, sí,
+porque pues no no está 1 al lado de otro no está en un sentido opuesto. Y pues un gato no es un 100 por 100, lo mismo que un perro.
+Vale, Ese es el problema con la cantidad.
+Ese es el problema con la cantidad. Animales, mamíferos, una cola o 2 orejas, etcétera. Si tienen muchas cosas en común, pero son 100 por 100, Si son 100 por 100 iguales.
+No, ¿cierto?
+yiceth mata lozano
+yiceth mata lozano
+08:51
+No, señor.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+08:52
+No son 100 por 100 iguales. Ese era el problema que nosotros enfrentábamos con el tema del sentido. Sí, con el tema del sentido y de la dirección
+listo con el tema del sentido y de la dirección.
+la magnitud en este caso. Bueno, yo no les comenté la magnitud aquí. También es importante. Me dice
+qué tan importante digámoslo Así es la palabra en esa tarjeta vale qué tan importante la palabra en esa Taset. Pero en realidad, la similitud, la similitud
+me la da, digámoslo así. Esta parte de la dirección. ¿sí? Y esta parte del sentido. Porque, pues, la distancia entre 2 vectores que tienen diferente sentido y diferente dirección es mucho más grande, listo, es mucho más grande, y eso significa que si 2 vectores, pues
+tienen diferente dirección y sentido, pues
+tiene mayor distancia. Y cuando tiene mayor distancia, puede significar que no están asociados. Listo.
+Entonces el problema aquí principal, muchachos es que con la cantidad 1 no se da cuenta realmente de la importancia y del contexto, Sí, para el modelo es lo mismo. Sí es lo mismo un perro que un gato.
+La única diferencia es que por lo menos piense, acá el gato aparece 4 veces en el dataselo y perro aparece aparece 2. El modelo, gracias a esa cantidad, puede llegar a afirmar que el gato es más importante que el perro solo por la cantidad, ni siquiera por el contexto.
+cosa que directamente está mal. Usted no puede juzgar a una palabra si no ve su contexto listo.
+sino en su contexto. Recuerden lo mismo lo que lo que decíamos de no es lo mismo una bola negra que una negra. M: sí,
+todo eso hay que tenerlo en cuenta.
+Listo, vanesa. Cuéntame.
+Vanessa Hernandez
+Vanessa Hernandez
+10:52
+Voy a volver a hablar del trauma psicológico de.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+10:58
+Sí, Sí.
+Vanessa Hernandez
+Vanessa Hernandez
+10:58
+Profe: ¿ Resulta que en digamos en la misma, en la misma columna, tenía varios géneros, ¿cierto? Pero entonces.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+11:09
+Sin problema.
+Vanessa Hernandez
+Vanessa Hernandez
+11:09
+El M es que solamente procesa números. Entonces yo dije, bueno, pues no importa. Yo puedo convertir los géneros en números y que cuente cuántas veces hay cada 1 y tal. Pero luego laia me dijo, no puedes hacer eso porque
+si pones que 1 sea jazz y 6 sea hip hop, él va a detectar. Qué hip hop es más importante que el jazz.
+Entonces así no te va a poder. Y yo ay.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+11:34
+A ver.
+Vanessa Hernandez
+Vanessa Hernandez
+11:36
+Me tocó crear 19 columnas adicionales.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+11:39
+Uy.
+Vanessa Hernandez
+Vanessa Hernandez
+11:40
+Cada género y simplemente colocar en 1 el género que si era de la persona y los demás colocarlos en 0 para que mi modelo ahí, Si pudiera detectar los 19.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+11:50
+Sí.
+Vanessa Hernandez
+Vanessa Hernandez
+11:51
+Sí.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+11:52
+Precisamente ese es el problema de los modelos.
+Los modelos, curiosamente, sí. Curiosamente, tienden a.
+digámoslo así, a considerar los valores que son más altos como más importantes. Si digámoslo así, por el estilo
+y y en temas de cantidad bueno, es muy relativo, eso sí es. Depende también del modelo y también depende del contexto, pero en temas de cantidad muchas veces, pues también
+más es mejor. Sí.
+Obviamente, es muy relativo de la visión que ustedes tengan. Pero el modelo responde a esa realidad, aunque ustedes no lo eviten El modelo igual. Si ustedes tienen el mismo problema de vanesa, sí que son diferentes escalas.
+diferentes números, y los números van creciendo desde el 0 hasta el no sé el 50. El modelo inevitablemente va a crear un sesgo de que va a colocar una variable más importante de la otra, cuando lo único que tiene es que predecir
+listo. Lo único que tiene que hacer es predecir o clasificar, no decir si ésta más importante que la otra.
+Él no tiene la capacidad de ver. Eso, simplemente necesita clasificar
+listo, clasificar. Es lo único que necesita.
+Y eso tiene que ver mucho que ver también con esto. Lo que yo les decía de la magnitud de la magnitud del vector. Lo que me está diciendo aquí es que prácticamente perro y gato son 100 por 100 similares, pero por la magnitud, porque, pues
+gato es un vector de 0 a 4 por el total y perro. Es un vector de 0 a 2 por esa magnitud. Me está diciendo que el gato es mucho más importante que el perro. Entonces.
+inevitablemente, el modelo va a pensar eso, pero no es así. Muchacho. No es así. El gato y el perro son igual de importantes. No nos debería importarse un gato. Es mejor que un perro o un perro. Es mejor que un gato en temas de machine learning de matemáticas. Sí, porque pues
+lo que queremos es clasificar, por ejemplo, si A es un perro o es un gato, si cosas como esas hay que tenerlas en cuenta. Muy buena observación vanesa.
+muy buena observación y si tiene que ver también por ahí.
+Por eso es que también le dieron la magnitud.
+Entonces, aquí la cantidad. Digámoslo así dijeron estos Manet. Bueno, nos estamos quedando con el problema de la cantidad
+mismo sentido misma dirección, o me está diciendo que son lo mismo.
+pero que una es más importante que la otra. No tiene ningún sentido.
+Vamos más allá.
+Entonces, estos manes se inventaron una fórmula matemática.
+que es la técnica. Dos que les voy a enseñar que se llama T Tf: I, F, listo. Tf.
+El T, F y D F Es una fórmula matemática. Es una fórmula matemática para intentar
+para intentar saber ahora sí el contexto
+bueno más que el contexto, la importancia Sí, la importancia que tiene una palabra con respecto a otra listo.
+Entonces, ¿qué pasa? Teníamos ese problema de que estaba diciendo, bueno, no tiene ningún sen, Tienen ¿Tienen iguales.
+Tiene, f
+digamos, similar, sí, similar significado. Sí, en este caso, de si si contamos esta la bolsa de palabras. La primera técnica sí, pero el Man, lo que quiere hacer, Lo que querían solucionar estos males era el tema de la importancia de la magnitud. Sí, el tema de la magnitud querían solucionar
+entonces
+los Manet dijeron, bueno para otro momento, hacer el sentido y la dirección. Pero lo que más me interesa es que no me ponga el gato por encima de de del perro solo por el hecho de que aparezca más veces en un texto. Hay veces en que, por ejemplo.
+no sé, supongamos, yo les pongo ustedes. Supongamos que ustedes son veterinarios y yo les coloco a ustedes 100 revistas de de de gatos en el que aparezcan pura información de gatos influencers que cuando nació,
+que que, como que, como tiene, no sé que como tiene el el el pelaje y cosas como esas y que cuántos seguidores tiene en Instagram? Sí, Y yo les coloco a ustedes.
+Yo les coloco a ustedes 10 revistas científicas de perros.
+enfermedades de perros más comunes, enfermedades de base, raza de perros, información médica. Bien, bacana.
+Ustedes están de acuerdo
+de que, aunque yo les entregue 100 revistas de gastos influencers. Eso no les va a servir para nada. No va a ser importante para ustedes que están viendo medicina le sirve mejor. Las 10 revistas científicas que tienen todo el tema de las bases de de enfermedad y todo eso.
+entonces pilas, cantidad no es calidad. Y estos males dijeron lo mismo.
+lo mismo con la importancia entonces, para que ustedes lo entiendan, para que ustedes entiendan más o menos la fórmula. Esta es más o menos la fórmula. Así lo que dijeron los manes es.
+vamos a dividir la la fórmula en 2 en 2 partes. Una que es Tf, que es qué tan frecuente es la palabra en un solo documento. Si en un solo documento, por ejemplo, aquí
+¿qué tan frecuente la palabra en un solo documento, o sea, qué tan frecuentes comen el documento 0, pues una una una frecuencia. Y así, ¿qué tan frecuente es gato en el documento? Uno.
+pues tiene frecuencia 3 veces apareció 3 veces, ¿Sí? Y esto más es lo que dijeron. Es, bueno, vamos a bajarle la expectativa
+y crearon la otra parte que es el I D, F,
+dijeron, vamos a meterle una frecuencia inversa, ¿sí?
+Y le vamos a multiplicar. ¿qué tan rara o común es una palabra en toda la colección de documentos. Y aquí es donde viene la cosa clave donde la viene la cosa clave, muchachos.
+si gato aparece muchísimas veces en todos los documentos. Sí, en todos los documentos.
+Al modelo no le va a parecer raro. Es como si yo le entregara a ustedes lo que les digo: 100 revistas de gastos, influencers, ¿sí? Y el modelo dice, bueno, pero es que esto es tan común
+que si yo selecciono un algo al azar, me va a aparecer esa revista. ¿sí?
+Entonces, ¿qué es lo que pasa, Por ejemplo, Si si si ven a perros, si si ven, por ejemplo, no sé a Orina, por ejemplo, si se dan cuenta acá, sí
+que estamos viendo la palabra orina.
+Lo que va a decir un modelo es que venga. Este man aparece una sola vez en su documento es bueno si es importante, pero le va a poner también atención a que el man solamente aparece en ese documento Si yo quito el documento, la palabra orina. Prácticamente yo no voy a saber nada de ella.
+Listo, No voy a saber nada de ella. Entonces aquí fue bueno, bastante bien con la importancia de las palabras, si con la importancia de las palabras, porque no sólo determina la cantidad, sino también es la calidad. Cuántas veces digámoslo? Si Si el gato aparece 3 veces.
+3 veces, pero recados en todos los documentos, 1 dice, pues? Bueno, no pasa nada.
+Sí, pero si se aparece 3 veces en un solo documento, no dice si yo quito ese documento.
+¿Qué va a pasar con el gato?
+Sí. ¿qué tan importante va a ser el gato? No va a tener prácticamente, va a perder una palabra bien importante. Y es eso.
+Y es eso muchachos.
+Y es eso lees. Tengo una serie propia para eso. En Netflix se llama omnisciente que estaba hablando de omnisciente. Bueno.
+es esto muchachos lo que se inventaron estos manes está la fórmula empírica, como, por así decirlo, lo que hace, digámoslo así, para que ustedes lo entiendan, y esta es la fórmula real. Vale.
+no va a explicar tanto, pero creo que se entendió.
+Si hay dudas, me dicen, es una serie de comida, uy
+me la tengo que ver. Me la tengo que ver
+entonces muchachos, fíjense, acá. Lo bacano del asunto. Sí, porque ahorita. Ya empezamos a medir las importancias. Entonces fíjense que esta vez, si Fíjense que esta vez
+el gato, Si el animal gato es menos importante.
+por ejemplo, que la comida. Y ustedes dirán, bueno, ¿y por qué? Porque comida
+aparece una sola vez en un documento, ¿sí? Pero si yo quito ese documento, no va a volver a aparecer, o sea. Si yo quito ese documento, ya no va a haber palabra comida.
+ya no va a haber, Es rara de ver.
+aunque no es tan importante para el documento, pero es que ven que no tiene una importancia así grandísima como, por ejemplo, carne. Vamos a ver carne, por ejemplo.
+que otra parte sí. Carne.
+¿dónde está carne orina pescado? Ah, Bueno, no, no, no puse carne, no pasa nada.
+¿vale?
+Voy a darle a Play a esto y vamos a ver. Entonces por acá. Que es lo que tenemos mejor aquí. Perfecto.
+Carne: Carne: Sí, está carne, Sí, está comida del gato, juega a la ventana. Bueno, aquí puse el perro. Come carne, el gato, come pescado, el perro, comida. El perro juega con el gato. ¿sí?
+Fíjense que carne. Sí. Fíjense que carne es bastante importante.
+Es bastante importante porque aparece una sola vez, pero
+puede ser un solo documento, y así, digámoslo así. Si entonces la verdad le aplicaron honestamente una muy buena aproximación. Tenemos aproximaciones mucho más robustas, pero le aplicaron una muy buena aproximación. Le aplicaron una muy buena aproximación.
+A Esto Sí, dijeron, cantidad, no es calidad, y lo hicieron con eso, pero
+seguíamos sin ahora ya mi modelo.
+Si ven que tenían como una una escala similar, no bajaban como de estaban, como en intervalos entre 20 y 40. Sí.
+Entonces aquí había un problema. Sí, ya digamos que el modelo mío ya
+hacía una buena importancia. Sí, Sí, Por ejemplo, la palabra gato era importante, pues en verdad matemáticamente es porque lo era, sí, o sea, muy buena aproximación. Pero teníamos ahora el problema si de
+de la del sentido, porque si se dan cuenta esto, pues es un intervalo entre un 0 coma como 20 y un 0 coma, 40 sí, pero todos le apuntan a la misma dirección. Al mismo sentido.
+entonces todavía me está diciendo es que venga. Esto se está relacionando, pero pues ya tiene una importancia que en verdad es importante. En verdad es importante la palabra, pero me está diciendo que que la carne
+es lo mismo que el perro. ¿sí? Entonces aquí es donde viene la pregunta: si nosotros le pasáramos un modelo, la representación está un modelo.
+Él posiblemente me dice que el perro es
+comida. Listo. El perro es comida, por ejemplo. Sí,
+Si yo le colocara ahí un animal, posiblemente me me seguiría diciendo que el perro es comida, Porque no digámoslo así, no entiende las difer
+creencias entre el contexto, entiendes? Solo la diferencia entre las importancias.
+Entonces aquí viene la solución de estos males la que combina los 2 importancia y
+importancia y dirección y sentido.
+Aquí ya entiende él el contexto y adicional de que entiende el contexto, ya entiende la importancia
+de la palabra.
+Sí, la importancia de la palabra y es superbacano.
+¿tienen alguna duda esta idea de la representación del texto o vamos bien, pasamos a bates. Pasamos a la combinación.
+María J. Carvajal
+María J. Carvajal
+24:26
+Yo.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+24:28
+Cuéntame, María.
+María J. Carvajal
+María J. Carvajal
+24:30
+Listo, Ahí estamos como hablando de un escenario mínimo. No.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+24:34
+Mhm.
+María J. Carvajal
+María J. Carvajal
+24:36
+Cómo sería frenar un valor máximo, es decir, por ejemplo, en matemática existe el límite superior, pues, aplicado a estadística y aplicado también a
+Ahorita. Estamos hablando de álgebra vectorial, como
+cómo proyectaría 1 como un límite superior para que, pues no era falsos, positivos o negativos, positivos.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+25:04
+Falsos positivos negativos, positivos. A ver si entiendo tu pregunta a ver si entiendo otra.
+María J. Carvajal
+María J. Carvajal
+25:10
+Pero por lo menos con lo que tenías ahí. Ya sabíamos que había que el
+que había representatividad con el perro no.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+25:20
+Sí.
+María J. Carvajal
+María J. Carvajal
+25:21
+Como de pronto entrenar esa red y que de pronto 1 mismo pueda ir parametizando como bueno hasta aquí,
+este mismo elemento puede ser representativo
+de aquí para allá. Me va a distorsionar el contexto.
+Entonces.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+25:45
+Pregunta.
+María J. Carvajal
+María J. Carvajal
+25:46
+Como un límite superior o algo por el estilo, o una forma como de frenar tendencias.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+25:54
+Entiendo, entiendo, y eso es un tema muy interesante. Y eso tiene que ver ya con directamente en bail listo en bailks
+y lo va a carísimo del entrenamiento listo del entrenamiento, que es también algo muy bacano. Resulta que
+en los envenenas, ya si se dan cuenta, no tenemos.
+digámoslo así, fórmulas, por ejemplo, que el T F y D F, cosas por ejemplo, por este estilo sí, sino que vamos a tener algo mejor. Esta vez vamos a tener redes neuronales, listo, redes neuronales. Entonces.
+¿cuál es el tema ahí con el tema de del límite con con las redes neuronales.
+Es precisamente el hiper parámetro. Digámoslo así, el parámetro que ustedes pueden ajustar en este caso se llama la tasa de aprendizaje.
+Si ustedes vieron algo del gradiente.
+saben de lo que estoy hablando. Por eso es que era tan importante.
+pero yo prácticamente puedo decirle al modelo. ¡venga! Necesito, por ejemplo, que de todo lo que yo le va a pasar de estas palabras esté un poquito abierto si esté un poquito más cerrado o, por ejemplo, sea un poquito más
+más estricto, sí entre comillas
+y ponga esos límites realmente muy estrictos. Cosas como esas. Realmente no hay un parámetro como para, por lo menos yo decirle: venga es que usted de esta parte a esta parte y no me va, no me va a dar de esto o dar lo otro sí, sino es más bien el tema de el aprendizaje, sí del aprendizaje
+en el aprendizaje. Él va valga la redundancia aprendiendo sus límites.
+Él va aprendiendo sus límites.
+Él va diciendo, venga de aquí para allá. Es que esta palabra ya no está funcionando. Y de aquí para acá esta palabra realmente si es bacana, si es importante. ¿sí?
+Porque precisamente entran las redes neuronales, y eso es lo robos o el asunto, porque ya no depende de algo lineal, como lo son de pronto, este tema de de de las ecuaciones, sino que ya depende de un campo más abierto, que es el aprendizaje, el aprendizaje, el Deep Lardin, el aprendizaje profundo
+vale.
+entonces, o sea de forma resumida. No hay un parámetro, Digámoslo así. Más bien, es ustedes cómo entrenan la red neuronal, pero la misma red neuronal sabe sus límites. Si se dan cuenta la la función aquí no sabía sus límites.
+La función aquí no sabía sus límites. En cambio, una red neuronal sí lo sabe, porque se enfrenta a múltiples contextos. Y gracias a esos contextos, puede saber cuándo está bien una palabra y cuando está muy repetida una palabra y de sí mismo, tener esa importancia
+Vale, no es el conejo. Respondí tú a.
+María J. Carvajal
+María J. Carvajal
+28:49
+Igual. También ya estoy por acá dándole a la idea.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+28:51
+Perfecto.
+Perfecto.
+Sí, tiene que ver más que todo con el tema y muchachos. Bueno, una cosa también importante, no una cosa también importante, más que el límite, la importancia de las palabras y todo eso, lo que queremos con un L. L. M: lo que yo les comentaba
+era predecir la siguiente palabra listo. Eso es lo más importante. En ese sentido, la predicción de la siguiente palabra
+siguiendo entonces con el tema. Siguiendo entonces con el tema, nosotros aquí ya tenemos un poco de lo que es
+ya redes neuronales: un Envey. Si se dan cuenta eso, lo vamos a ver más adelante. Pero cuando yo a ustedes les diga venga, es que hay en bages abiertos, por ejemplo, resulta que son
+son arquitecturas, Sí, por así decirlo, son arquitecturas. Sí, es como una arquitectura de red neuronal
+que se encargó precisamente de recolectar un poco de texto. Sí, un poco de datos de de texto.
+y precisamente aprendió eso listo. Aprendió el contexto, que es lo más.
+Aquí es donde lo bacano del asunto. Sí, lo bacano del asunto, que es el contexto. Lo que ustedes me decían del perro.
+Esta vez ya él es capaz de reconocer que no es lo mismo el perro del ex que el perro de la comida. Listo, el perro del ex, el perro de la comida es súper bacano. Esto. Porque ¿qué es lo que pasa?
+Es la manera en cómo funciona. Esto es bastante interesante. Él
+coge una lista de números por cada palabra. Él le asigna una lista de números. Cómo empieza aleatoriamente. Y esa lista se va ajustando. Sí, se va ajustando
+conforme pasa el entrenamiento de una forma en el que las palabras. Y él va diciendo, bueno, las palabras. Él va interactuando. Sí, va interactuando palabra tras palabra, y las palabras, digámoslo así,
+van interactuando cada una con cada una y cada una de las palabras sabe realmente qué le aporta la otra y que no
+listo. Entonces, esto es lo más bacano. Y lo más importante que cada palabra itere con cada palabra
+y entienda, bueno, ¿qué le estoy aportando realmente a la palabra de allá. Por ejemplo, no sé, supongamos, by, Sí, aquí, Don Bay River: sí, por ejemplo, aquí el buysy
+no es que le esté aportando mucho, por ejemplo, a D. Aquí los 2 son conectores, pero se usan de forma diferente. Entonces ellos interactúan entre los 2 y dicen: venga, es que yo, por ejemplo, estoy conectando si yo estoy conectando de.
+bueno, si se dan cuenta esta palabra estas palabras es
+el Banco de River, bajando en la como en la en la parte del río, pues
+voy a desde que salté a en el agua, pues o sea, ustedes saben que por ahí el río también por ahí se salta en el agua. ¿cierto?
+Lo mismo con pancho. Bueno.
+pero para que me entiendan, entonces, digámoslo así, Esa interacción entre los 2 no es no es algo normal, por así decirlo, sí, o sea.
+Bay conecta, por ejemplo, bajando por el río cierto y desconecta, por ejemplo, saltando en el agua.
+Vale. Entonces digamos lo que ellas no tienen mucho que aportarle a la otra, y eso lo saben en el entrenamiento. Eso lo saben en el entrenamiento, y ahí mismo cogen el contexto.
+Listo. Ahí mismo cogen el contexto.
+lo que yo, lo lo que lo deseamos de los perros. ¿cierto? Eso es lo acá. No del asunto.
+Ellos van interactuando palabra tras palabra, y ellos van diciendo, bueno, yo que le sumo a usted.
+yo que le sumo a usted realmente en la oración, ¿vale?
+Para así predecir a la siguiente palabra.
+Eso es lo que nosotros necesitamos con embate.
+Entonces, al final, el en bading, lo que me va a hacer ahorita así es una representación
+victoria muchísimo más óptima, muchísimo más óptima.
+Pero antes de pasar a la representación vectorial alguna pregunta con con esta parte, porque aquí ya empezamos a haber un poquito de embages.
+preguntas.
+yiceth mata lozano
+yiceth mata lozano
+33:26
+Sí,
+cómo se corrige, cómo se entrena esto. Digamos que aquí me tomo que perros comida, pero ¿cómo cómo lo corrijo para que entienda que no es comida. Puede ser mascota, por ejemplo, o animal.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+33:41
+Exactamente muy buena pregunta. Tiene que ver con la frase. Listo con la frase.
+Por ejemplo, pongamos aquí. No sé un
+algo, sí, por lo menos aquí alguito. H y J, A.
+Es que aquí una cosa, pongamos, no sé, un
+sketch pack deme un momentico para yo colocarles aquí algo
+o bueno, busquemos la patata, lo ha dado.
+Bueno, abramos abramos un golpe mejor cambio a ver lo cambio
+va a abrir un Word. Ya les comparto el Word.
+Sí, ya ves. Comparto igual, visto.
+todo depende del contexto con el que fue entrenado, listo. Por ejemplo.
+si ustedes ven por aquí, vamos a hacer un ejemplo con los perros, pues para no irnos por allá. Entonces
+yo digo, yo le paso a mi modelo del Lm: Yo le digo, venga un perro, Sí, un perro.
+Un perro es un animal y el mejor amigo del hombre, por ejemplo, ¿sí?
+Y yo después.
+Para que él aprenda, supongamos que yo tengo otra frase, el perro de mi, ex
+el perro de mi. Ex quédense acá, el perro de mi ex me dejó.
+Me vengo.
+Sí, me dejó Hasta aquí, el modelo entraría en un sesgo ni el verraco, porque el creería
+que literalmente el perro es de de del ex, de ustedes ven ese que su ex tiene un perro.
+y ese perro, ustedes los deja
+hasta que el modelo tendría un sesgo increíble, porque aquí estamos aquí. Estamos entendiendo que el perro de de de su ex, la persona lo dejó. Sí. Entonces
+entonces aquí vienen las otras. El otro contexto. Sí que refuerza, Digámoslo así, esta frase.
+entonces sí sabemos por ahí que él está haciendo un sesgo. Le sumamos otra fase.
+Mi ex es un per.
+Mi ex es un perro, ¿sí?
+Y ojo Aquí la cosa espera un momentico. El perro me dice, mira, ese es un perro exacto exacto.
+Aquí la cosa cambia con esa tercera frase, porque le estamos diciendo al modelo venga, es que el ex. Si digámoslo así, el ex de ella es un perro, entonces cuando ella
+diga que el perro de mi ex me dejó o el o el perro, o el perro, o mi ex era un perro.
+¿sí? Pues él va a entender un poquito. ¿sí?
+Bueno, otra cosa.
+Los hombres que son perros engañan listos. Supongamos, engañan mucho, ¿sí?
+Y aquí vamos a coger otro contexto mejor por otro mejor, así, mejor, así,
+mucho mejor para que lo entienda.
+Entonces. Fíjense que él va entendiendo un rompecabezas. Entonces digamos que yo tengo.
+Bueno, el perro de mi. Ex.
+Supongamos que yo quiero predecir esta sentencia.
+Es eso sí, mira, es eso.
+Si yo el modelo lo entrene con muchos contextos, Sí, con muchos contextos.
+Un perro es animal, sí, pero es un animal, ¿sí?
+Si yo lo entreno con varios contextos, como, por ejemplo, se está dando cuenta aquí. Yo lo entrené con 3 contextos diferentes. ¿vale?
+Con 3 contextos diferentes.
+Él va a tener la posibilidad de reconocer realmente, de reconocer
+las diferencias, Las diferencias entre el contexto, las diferencias entre el contexto vale.
+y es precisamente por eso es que el entrenamiento, el entrenamiento es crucial en esos modelos para evitar el sesgo. Por eso
+tienen un montón de información para que entiendan de muchísima mejor forma el contexto
+listo. Entonces, posiblemente esta primera parte que yo le pregunto a él. Mi ex es un posiblemente me encontraste que es un perro y un perro. Es un animal, me diga sí,
+y es el mejor amigo del hombre
+listo, y es por el contexto con el que fue entrenado por las sentencias, por los datos con los que fue entrenado Así, Él aprende a diferenciar el contexto. Y ustedes están de acuerdo? Si ustedes están de acuerdo en que aquí la palabra perro está asociado a animal. Pero acá hay
+hombres. Si la palabra hombres, la perdón, la palabra perros está asociado a los hombres. Si está asociado a
+entonces, claro aquí también el perro de mi Ex: Bueno, aquí tú ves por el tema así, pero digamos los hombres perros aquí en la tercera sentencia perros Está asociado a los hombres. ¿sí?
+Entonces él sabe si digámoslo Así que le fue entrenados, pues sabiendo que que el ex
+es una persona, digámoslo. Así que el que las que que los 6 de 1 son personas que rompieron con 1,
+entonces él sabe que es un hombre, una mujer. Si lo que sea.
+entonces él asocia esa palabra sí la palabra que está asociada con perros con hombres y él, si
+asocia, digámoslo así, las palabras. Dependiendo del contexto, es un poco raro de ver, es un poco raro de ver. Pero lo que quiero que entiendan es que él aprende con base en los datos que ella ha visto.
+Y así mismo, si él se enfrenta a muchos a muchos contextos. Él va a entender mejor.
+Listo.
+Él va a entender mucho mejor. Así es que se entrena eso. Así es que aprende el contexto.
+Vale, Hay dudas de pronto de esto, o todo claro
+a ver si respondí tú a Gised.
+yiceth mata lozano
+yiceth mata lozano
+40:44
+Ajá! Sí, señor.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+40:46
+Perfecto. Perfecto. Excelente.
+Excelente.
+Bien. Pensé que no, que no lo iban a entender, pero bueno, súper bien.
+porque me pareció un poquito complicado de de
+de de explicar esa partecita, porque fíjense que precisamente tenía el el ejemplo. Acá.
+Iba a ser. Iba a ser. Ah, bueno, no le estoy compartiendo. Tenía el ejemplo aquí en canva
+de cómo era, cómo era que aprendí, cómo era que aprendía mañana, lo vamos a ver matemáticamente, pero es
+con distancia entre los vectores, literalmente.
+María J. Carvajal
+María J. Carvajal
+41:24
+Con la serie, no en con la serie, con 5 capítulos, 5 o 6 capítulos.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+41:29
+Excelente mañana, Ay, mañana. Y es que mañana, viernes.
+yiceth mata lozano
+yiceth mata lozano
+41:37
+Uy nos dañó de nuevo los platos.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+41:39
+No, no, Eso muchacho, no, no como él, y todo es dulce, no muchachos.
+Entonces me alegra alguna duda. Está ahí todo claro, todo excelente.
+Vamos bien hasta aquí.
+yiceth mata lozano
+yiceth mata lozano
+42:00
+Sí inclusive. Yo creo que ya me dio la idea del Proyecto.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+42:05
+Perfecto.
+yiceth mata lozano
+yiceth mata lozano
+42:06
+Con, no sé de Promp. Puede ser un chatbotz que realizar un resumidor de documentos Le.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+42:15
+Puede ser. Es va carísimo, Dice, de hecho, bueno, ahorita. Viene el profe en esto mientras él llega porque no, no me parece aquí todavía logueado, dice. Yo tengo un compañero que lo hizo y está ganando Harta liga. Se llama Abody, claro.
+Conecta la A P I de de Pero ese no es más de de de documentación legal, sino es más bien de de leyes enfocado mucho a juicios, sí, asesoría legal.
+yiceth mata lozano
+yiceth mata lozano
+42:45
+Mhm.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+42:45
+Pero pero es súper interesante. Las apis del gobierno son gratis, aunque son horribles, son gratis, y ustedes prácticamente pueden hacer un ataque de de o ese. Y eso manes ni enterados.
+María J. Carvajal
+María J. Carvajal
+42:57
+Que ya se llamaba jurisprudencia colombiana.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+43:01
+Sí.
+María J. Carvajal
+María J. Carvajal
+43:02
+No sé si de pronto también le pueda servir para acelerar.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+43:06
+Sí, no es va carísimo. O sea, hay mucha oportunidad por ahí,
+pero súper me alegra que que tengan el proyecto. Me parece interesante que lo tengan por ahí.
+Me alegra bastante también. Gise. Y bueno, bien, muchachos. Entonces.
+si no hay duditas, repasen en Beddings sí reemplasen un poquito de esto. Recuerden, de pronto
+tener de pronto una una idea.
+una idea, un poquito de lo que va a ser el el proyecto? Sí, y de pronto, tráiganme, un problemita que tengan. Bueno, por ahí va.
+Y bueno, nos vemos el lunes les parece bien. Nos vemos el lunes.
+yiceth mata lozano
+yiceth mata lozano
+43:50
+Perfecto. Ya Ya conectó néstor.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+43:54
+No, Pero pues ya ya le va a dar espacio porque me regañaba soporte.
+yiceth mata lozano
+yiceth mata lozano
+44:00
+A los.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+44:00
+No sé qué más.
+yiceth mata lozano
+yiceth mata lozano
+44:01
+Pero sí sí estaba pensando esa idea. La la sigo desarrollando. Porque tengo aquí unos.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+44:07
+Sí.
+yiceth mata lozano
+yiceth mata lozano
+44:08
+Argumentos decretos de una.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+44:15
+Claro.
+yiceth mata lozano
+yiceth mata lozano
+44:15
+Gracias.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+44:17
+Cualquier duda. Estoy pendiente del correo. Vale un saludo muy buena fin de semana y, bueno, te veo un muchacho a todos, Pues
+chao, nos vemos.

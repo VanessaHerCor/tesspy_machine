@@ -1,0 +1,643 @@
+2026-01-30 a las 18:55
+
+Nestor Cardona
+Nestor Cardona
+Hola, Buenas noches.
+Buenas, noches. ¿cómo están.
+yiceth mata lozano
+yiceth mata lozano
+01:10
+Bien, bien, ¿cómo vas.
+Nestor Cardona
+Nestor Cardona
+01:12
+Muy bien.
+yiceth mata lozano
+yiceth mata lozano
+01:13
+Mhm, No.
+Nestor Cardona
+Nestor Cardona
+01:16
+Ya les comparto pantalla.
+Bueno, yo le subí.
+Mhm ayer.
+Bueno, Bueno, ¿cómo están? Cómo va todo.
+María J. Carvajal
+María J. Carvajal
+02:23
+Hola. Buenas noches.
+Nestor Cardona
+Nestor Cardona
+02:25
+Noches. Viernes: viernes, mi cuerpo lo sabe.
+María J. Carvajal
+María J. Carvajal
+02:29
+Viernes viernes de siluetas. Pero viernes.
+Nestor Cardona
+Nestor Cardona
+02:33
+Sí, Viernes: de de Dustin.
+Bueno.
+sí.
+Qué divertido les parece divertido?
+yiceth mata lozano
+yiceth mata lozano
+02:52
+Yo creo que son los más odiados.
+Nestor Cardona
+Nestor Cardona
+02:54
+Un.
+yiceth mata lozano
+yiceth mata lozano
+02:55
+No, no.
+Nestor Cardona
+Nestor Cardona
+02:56
+De las noches. Los de pruebas.
+yiceth mata lozano
+yiceth mata lozano
+02:58
+Que en viernes, digan eso. Está mal. ¡ay, Dios mío.
+Nestor Cardona
+Nestor Cardona
+03:03
+No, cómo se cam cambias a producción un viernes a las 6 de la tarde migración de.
+María J. Carvajal
+María J. Carvajal
+03:10
+A ver.
+Nestor Cardona
+Nestor Cardona
+03:11
+Sí unos release viernes a las 8.
+yiceth mata lozano
+yiceth mata lozano
+03:16
+Y que, y que empieza a fallar el sábado y no marcándole. Esto no funcionó.
+Nestor Cardona
+Nestor Cardona
+03:22
+Sí, eso suele pasar.
+Bueno, nosotros estamos viendo lo los
+pruebas unitarias. Nos faltaba ver las pruebas de integración, cierto.
+yiceth mata lozano
+yiceth mata lozano
+03:39
+Y las 2 E. Ters.
+Nestor Cardona
+Nestor Cardona
+03:43
+También.
+yiceth mata lozano
+yiceth mata lozano
+03:44
+Mhm.
+Nestor Cardona
+Nestor Cardona
+03:46
+Bueno, prueba de integración.
+Miremos la definición y luego ya, pues, vamos a los archivos. Estoy ahora revisando los archivos
+como para entender la lógica.
+María J. Carvajal
+María J. Carvajal
+03:59
+Yo no.
+Nestor Cardona
+Nestor Cardona
+04:01
+Igual ahorita. Lo miramos que es una prueba de integración.
+prueba que verifica la interacción correcta entre múltiples componentes o sistemas y hay diferentes niveles de de integración.
+Bueno, ya me han dado Row integration cuando son entre 2 o 3 componentes. Por ejemplo, un servicio con un repositorio, un controlador con un servicio o 2 clases, pues simplemente la comunicación o la inter interacción entre esas 2 clases y, pues son más rápidas y controladas, pues son
+pruebas de integración.
+Pero cuando también quiero ver todo el sistema completo, por ejemplo, toda una App con la base de datos o una A. P I que revise, No sé la autenticación con el almacenamiento, todo el flujo completo
+y los entu en work floast, que son los los que los que veíamos, e 2 e
+que son flujos de trabajo, de
+donde se prueba toda una funcionalidad completa.
+También hace parte. Dentro de las pruebas de
+de de integración lo que lo que se se se busca es
+bueno, lo más importante es que testea cada cada 1 o qué es lo que es lo que se busca con estas pruebas. A diferencia de las
+pruebas unitarias, que es lo que se
+intentas verificar y validar de manera aislada cada 1 de los componentes de su expresión mínima en en un entorno, pues llamémoslo aislado.
+Aquí Lo que se necesita revisar y validar son, por ejemplo, el flujo de los datos entre las capas
+que esta clase, que tiene unos una información y se la pasa a la otra clase.
+cómo hallas esos datos que salieron cómo llegan al otro lado.
+Para eso también nos sirven esas pruebas de integración o configuración de componentes reales.
+Estas pruebas de integración
+ya se pueden validar con componentes, o sea, con una App y con el servidor de correos real, entonces ya ya ya no sirven. Es para
+para hacer esas validaciones y ese tipo de verificaciones
+o transacciones. Con la base de datos, yo ya puedo probar mi aplicación y cómo se y comunica cómo consulta con la base de datos y esos datos y los trae los trae en el formato correcto. Bueno, ahí son ese tipo de pruebas. También me permiten hacer ese tipo de validaciones y autenticaciones y autorizaciones
+C. Si los datos están autenticados o no, Entonces, ¿qué? ¿cómo se debería comportar el sistema? Ah, no inicio sesión, entonces esto debería responder de una forma, porque no tienen, no tienen una autenticación o un o un token de autorización.
+Y si lo tiene, pues que efectivamente lo lo lo haga, y lo valide.
+y el manejo de errores entre sistemas.
+muy integración en algo que es, ya saben que es 2 o 3 componentes.
+Por ejemplo, acá es un test de unos de un usuario
+que se valía un servicio con un repositorio
+que dices, está probando y user services con el repositorio viendo que trabajen juntos.
+Entonces, no, o sea, no cambia nada dentro de la estructura. Lo único es que
+se crean instancias de los componentes. Por ejemplo.
+una entrada a una instancia de la base de datos, entonces se llama
+a la instancia de la base de datos y una instancia, pues de las clases, en este caso la clase
+user service y user repositorio, pero mira que la instancia de usar repositorio, pues me genera
+ese repositorio. Pero el servicio requiere de dicho repositorio. Como parámetro.
+Ya entonces hay una correlación, hay una dependencia entre ellas.
+cosa que no, que no debería y no, y no, y no pasa con las pruebas unitarias en las pruebas unitarias. Yo yo no, yo, no puede depender
+de Estados a a anteriores. Aquí sí, aquí sí, justamente es lo que se busca validar que un una
+que requiere una instancia de otra clase y ver como como sí,
+cómo es ese flujo de trabajo.
+Entonces, pues el servicio crea un usuario. Y ese usuario lo llama, pues nombre y correo.
+y eso devuelve un identificador.
+Y luego, como ya se creó, entonces estoy validando que si se haya creado, entonces
+llamo en lugar de crear usuario, obtener usuario mandándole el I D No.
+Y eso me devuelve el usuario
+y el usuario tiene nombre y correo.
+Entonces, si esto lo creo correctamente, si yo consulto con ese I D.
+El nombre y el email deberían corresponder a esos mismos con los que se acabo de crear. Correcto. No tiene sentido.
+Aquí se está validando que un usua un un servicio que crea un usuario.
+Y luego, con ese identificador validar que efectivamente
+se encuentra en la base de datos. Se se consulta ese usuario y se valida.
+yiceth mata lozano
+yiceth mata lozano
+09:19
+La valida.
+Estaba liando que si efectivamente se haya creado el usuario.
+Nestor Cardona
+Nestor Cardona
+09:25
+Eso, correcto. Eso es un ejemplo de una prueba de integración, porque sabemos que es integración, porque a
+hay una línea delgada entre cuerda sanitaria y pre de integración, porque todas usan la misma sintaxis Al final es Python, pero es más, es la de integración trabajan con datos reales, o sea, bases de datos o o o sistemas o servicios, no no
+se pueden simular datos. Se pueden utilizar datos de un modo como las unitarias, pero también se pueden utilizar servicios, Apis, bases de datos, etcétera, para hacer las correctas validaciones.
+Y aquí se ven que hay 2 clases que están interactuando. Ok, que se está validando la integración entre esas 2 clases
+web, patrón de organización recomendado Entonces, en esa carpeta test en nuestros proyectos.
+debemos separar las pruebas unitarias. Son pruebas rápidas y aisladas. Cuando habla de aisladas que se pueden correr y no dependen de ningún servicio externo. Y todos los datos son simulados o con datos móvil, y allí se ponen las pruebas para cada 1 de de los servicios de lo que 1 requiera.
+Luego prueba de integración que esto, ya que lo que se valía son los componentes. Aquí se mueven las se valían las unidades, o sea.
+y los métodos, las funciones, las clases.
+una a una que es que funcionen bien.
+En esta se valida todo. Un componente que el componente interactúe es una prima, una base de datos o incluso
+algún flujo de trabajo.
+Y aparte, pues 1 crea la carpeta para el acento ente
+que son pruebas completas de alguna funcionalidad.
+Estas son más lentas después y son más poquitas. O sea, es una sola que prueba.
+No sé toda la funcionalidad de la aplicación y ya aquí a este nivel, pues está el cómplices, que es donde se ponen las fitures compartidas que van a utilizar todas ellas.
+Y eso es una u un patrón de organización, pues que se recomienda a la hora de hacer nuestras pruebas, o sea, vamos a tener el source lo que sea nuestro proyecto. Pero pues, cuando creamos la carpeta de test que es donde nos van van a ir por las la, el, el test, las pruebas, organizarla de esa manera.
+pruebas unitarias, pruebas de integración, si tenemos en tu end también para probar juegos completos.
+Y aquí tener el context que es donde van los fitures listo, y
+eso por un lado, y al Y aquí al al nivel del proyecto, tener el Pyths punto Ini.
+Y en ese parten punto Inny, vamos a configurar los marcadores.
+Entonces aquí ten. Aquí está el ejemplo. Entonces es la el la ruta, la carpeta.
+la ruta, pues es allí mismo
+el punto significa que es como en en en esta misma ruta.
+patrones de los archivos. Eso ya lo hemos visto.
+Pero mira más acá los los marcadores. Estos marcadores
+también se definen. Eso es lo que justamente aquí se recomienda que esos marcadores.
+por ejemplo, unit para pruebas unitarias rápidas integration para pruebas de integración. Slow para pruebas que tardan
+alrededor de un segundo
+o si hay una prueba que requiere una base de datos. Uno le puede decir, no sé para ellos o externa, pero para se va a probar con un servicio externo, yo puedo etiquetar como quiera a a mis pruebas. Y solo que esas etiquetas van aquí.
+Yo quiero agregar otra etiqueta, pues simplemente le agrego. Acá
+Y después de la etiqueta, le pongo como para qué es eso?
+Y eso para qué basado en este país de cine? Yo puedo ejecutar los comandos
+que yo le puedo decir con el el marcador con el Market.
+cual quiero que corran. Y si le pongo ese marcador, solo va a ejecutar las que tengan dicho marcador
+o las puedo separar, por ejemplo, no de Slow, o sea, todas las va a correr todas menos esas Y así, o solo las pruebas de bases de datos. Sí, María.
+María J. Carvajal
+María J. Carvajal
+13:51
+Porque esas marcaciones vine más arriba. Están así pues, como tan codificadas al lenguaje humano y no tanto llamadas como por duplas por diccionarios.
+Nestor Cardona
+Nestor Cardona
+14:02
+Es de aquí.
+María J. Carvajal
+María J. Carvajal
+14:04
+Mhm.
+O sea, yo entiendo listo. Está la clase de market. Es igual a Ta: Esto lo muestra de cara
+de cara al usuario cuando corre o.
+Nestor Cardona
+Nestor Cardona
+14:16
+No, Esto lo usa. Esto lo usa la librería Pyths.
+Recuerden que cuando vamos a ejecutar estas pruebas, pues simplemente es
+usando 6 coma 2: Pay. Tes.
+Pero el cuando corre pitess el revisa el país de cine para saber si hay algunas
+marcas tal solo va a tomar lo que está acá a la izquierda de los 2 puntos. Acá, Es como para
+para ejemplificación, o sea, si miramos el a ver dónde estoy, es test.
+Estoy en sesión de, bueno, vamos a pasar a la sesión 3
+Okay, la casa del proyecto
+hace el surf es el bien. Voy a habilitar el ambiente
+Okay.
+Entonces, por ejemplo, aquí y y le ponemos paites.
+lo que menos tacha debería mostrarme.
+Okay. Si miramos aquí, esto es como el menú help.
+Todo lo que puede hacer esa librería Pay test, todo eso.
+Entonces hay muchas formas de configurar un comando listo.
+pero yo puedo validar, por ejemplo, acá
+menos menos Markers y menos menos features
+me muestra esos marcadores y esos fichers disponibles, listo.
+Y esto de donde lo saca donde lo obtiene, Pues porque, como lo estoy ejecutando acá al menos Acá él es
+punto
+exacto. Ahí está el punto Inny. Cuando él se ejecuta, él va a buscar ese punto y para llevar la información a la librería. Y yo le digo cuáles son las marcas.
+Él ya sabe cuáles son los 2 market.
+María J. Carvajal
+María J. Carvajal
+16:34
+Bien, porque también es una escritura simple.
+Nestor Cardona
+Nestor Cardona
+16:39
+Dime.
+María J. Carvajal
+María J. Carvajal
+16:41
+Que superbién, porque también hace una escritura simple.
+Nestor Cardona
+Nestor Cardona
+16:44
+Exacto, in Incluso me lo me los muestra unit y me y y me me sale. Esto me sale, es para, por si yo quiero validar cuáles son.
+Me dice: ah, es este y este es para tal cosa.
+Es este y este es para tal cosa. Y ahí está la forma de usarlos.
+Pero yo puedo tener otros.
+Si los configura acá en el país, 3 Ini.
+tanto los markets como los fitures.
+María J. Carvajal
+María J. Carvajal
+17:16
+Ustedes algo nuevo para ver.
+Nestor Cardona
+Nestor Cardona
+17:21
+Esa parte No.
+María J. Carvajal
+María J. Carvajal
+17:21
+Va causando interés.
+Nestor Cardona
+Nestor Cardona
+17:24
+Está llamando la atención.
+María J. Carvajal
+María J. Carvajal
+17:26
+Sí.
+Nestor Cardona
+Nestor Cardona
+17:27
+El testing llama la atención, sobre todo si la persona es muy organizada, si es una de las personas como que le gusta tener allí todo todo organizadito todo bien metódico por carpetas, por nombres. Por eso.
+María J. Carvajal
+María J. Carvajal
+17:40
+¿por qué?
+Nestor Cardona
+Nestor Cardona
+17:42
+Sí esto como que, como que no sé, yo digo, pues como concepto personal, le le llena a 1 esa necesidad de
+de de organizar y clasificar y categorizar todo y que funcione bien, Entonces, como que.
+María J. Carvajal
+María J. Carvajal
+18:00
+Tesis.
+Nestor Cardona
+Nestor Cardona
+18:01
+Eso de jugar tetris, de de acomodar la estantería, de organizar el escritorio. Bueno, no sé si eso, y ya
+ya ya con la práctica. Esto esto se
+se puede implementar. Entonces, ya, por ejemplo, ya ya se ya se trabajaría, lo que serían un rol de
+a ver sería como un rol de Cuba
+a ver rol de Cuba, cuál ite Churins qua Tester: Sí,
+Y es quad textil, cuál y techuras Tester Gara garantiza la calidad del software antes de su lanzamiento, identificando errores, asegurando que los productos sean funcionales funciones del code tester diseño de las pruebas que se elabora en los casos de pruebas, planes de pruebas, escenarios basados en requisitos funcionales.
+ejecución de las pruebas realiza pruebas manuales funcionales de usabilidad automatizadas
+con otras herramientas. Esto lo vamos a ir viendo documentar defectos encontrados detallando
+pasos para reproducirlos y realizar seguimientos para su corrección. Trabaja con desarrolladores para manejar el producto desde las bases iniciales y asegura que el producto cumple con los estándares de calidad y la experiencia del usuario
+necesita, pues, saber S. Q. L. Y herramientas de
+de gestión de pruebas y fundamentos de programación.
+Conozco muchos de Cuba que ni siquiera son ingenieros. Son o bueno, o por lo menos de sistemas son de
+cómo se llaman esos ingenieros de procesos
+industrial, sí, industrial industrial, pues que saben de procesos y todo eso. Y no solo aprenden a programar Python. Y ya.
+María J. Carvajal
+María J. Carvajal
+19:36
+Con eso. Y la te interrumpo. Qué pena, Porque el Sq: L.
+Nestor Cardona
+Nestor Cardona
+19:42
+En.
+María J. Carvajal
+María J. Carvajal
+19:43
+Para ir viendo en paralelo consultas de base de datos.
+Nestor Cardona
+Nestor Cardona
+19:46
+Muchas muchas veces se requiere, se requiere o parte de las pruebas requiere escribir consultas. S. Q. L. Para validar cosas en base de datos.
+María J. Carvajal
+María J. Carvajal
+19:55
+Vale.
+Nestor Cardona
+Nestor Cardona
+19:55
+En la misma definición de las de las pruebas. Además, yo, por aquí tengo
+a ver yo tengo que quedar un proyecto luego, como, pues tiene que ver con la materia, un pequeño paréntesis
+y Mhm Desarrollo Count.
+Ya miro a ver.
+No recuerdo cuando cerrar la sesión.
+un proyecto que yo hice hace poco.
+donde aplicamos bien las metodologías. Quiero mostrar la parte de de de testing que se que se utilizó.
+Segundo, yo lo busco y rápidamente. Les muestro
+la documentación, o sea, entonces eso ahí ya como que ya va, va, se va relacionando.
+¿De qué manera se puede este aplicar.
+Creo que eso lo mandamos. Por.
+Ya sí, ya me acordé donde estaba Star y Right
+Okay. Aquí ya les puedo compartir.
+Listo.
+Si miramos aquí, esa fue la documentación de de
+informe final. Creo que es esto
+27 de septiembre, primero de octubre.
+pero desgraciadamente hecho. No hay.
+Bueno, mira, puede ser esa que dice en forma final No, Este no es
+Okay, Creo que sí. Es decir.
+ese sí es. Vamos haciendo un desarrollo. Los diferentes roles
+desarrolla una plataforma elearning así en crónica, para personalizar contenidos de aprendizaje, Yo lo estaba haciendo para para ustedes, para para la empresa, pues
+para subir contenido también es un L. M. S.
+Grabado en formato de vídeo, y todo eso incluso están desplegado por aquí, lo tengo.
+y me acuerdo del correo.
+María J. Carvajal
+María J. Carvajal
+22:54
+Saludos a tu hogar.
+Nestor Cardona
+Nestor Cardona
+22:57
+A actuar.
+María J. Carvajal
+María J. Carvajal
+22:58
+Oye, lleva el nombre.
+Nestor Cardona
+Nestor Cardona
+23:00
+A Carlos lo conocen. El Él fue tutor hace mucho.
+María J. Carvajal
+María J. Carvajal
+23:03
+Sí.
+Nestor Cardona
+Nestor Cardona
+23:04
+Sí, sí sí a ver, por ejemplo.
+María J. Carvajal
+María J. Carvajal
+23:06
+Vieron una una, una estudiante medio intensita.
+Nestor Cardona
+Nestor Cardona
+23:12
+Sí.
+María J. Carvajal
+María J. Carvajal
+23:13
+Sí, no voy a hablar.
+Nestor Cardona
+Nestor Cardona
+23:16
+Hablarles de el qué tomar. Carlos Navos. Ese es de la Universidad.
+María J. Carvajal
+María J. Carvajal
+23:24
+Me dieron a mi clase.
+Nestor Cardona
+Nestor Cardona
+23:27
+Sí, Sí, Sí, Sí, Sí, yo. T, Tú y tú ya viste el de desarrollo de software. ¿cierto?
+Cierto que sí.
+María J. Carvajal
+María J. Carvajal
+23:38
+Sí, señor.
+Nestor Cardona
+Nestor Cardona
+23:39
+Sí, sí me sonaba bastante el nombre. Yo yo, como que será la misma. Ella fue de dar clases, pero Sí, los 2. Es más, las primeras clases, Los primeros Cortes llamamos en la Corte 40, las primeras Cohortes literal. Carlos y yo las dimos los casi todas las materias cuando to todo estaba empezando.
+Yo lo saludo listo. Entonces, por ejemplo, acá se todas estas, toda la documentación de un proyecto. Y esto fue en 2 meses que tuvimos que los diferentes roles.
+pero que no quiero que no, porque máquina, aparte de pruebas
+ejecución del proyecto, los diferentes Sprints.
+arquitectura, quiero mostrar, es la parte de tenía componentes
+modelo de la base de datos
+y bueno, las evidencias de todos los funcionalidades.
+Mhm
+Tatua.
+esta parte de acá obviamente, control. Entonces, por ejemplo, acá. Todo el seguimiento y control de que si se hayan desarrollado eso es más de informe esa parte de acá
+entonces eso es lo que llamo un plan de pruebas, pero un plan de pruebas sale de de una matriz de riesgos.
+Esto es lo que hace la parte del test test. Entonces tenemos nosotros tenemos rol de test en el en el equipo de Cuba y que ya la persona trabaja justamente haciendo eso. Entonces.
+la matriz de riesgos.
+Lo primero que para hacer un plan de pruebas
+de testing, o sea, un plan de pruebas, lo primero que toca hacer es una matriz de riesgos que se realiza la matriz de riesgo, validando impacto, probabilidad y calculando probabilidades de impacto, identificando
+que cuáles pueden llegar a ser los riesgos en el proyecto o en la aplicación o en el desarrollo en todos los niveles, cambios de requisitos durante el desarrollo curva de aprendizaje, implementación de ciertas tecnologías fallas en la integración de los módulos
+y se desarrolla el testling
+el cubo dice Vanesa, aquellas de de todo Okay, si nada, no cuando 1 programa solo le toca así,
+pero mira cuando se trabajan en equipo. Se salen cosas muy chéveres, por ejemplo. Esto. Y ya con esto se calcula la y dependiendo la probabilidad, sí que se calcula riesgo y cuáles son las estrategias para para mitigar.
+María J. Carvajal
+María J. Carvajal
+26:04
+Al principio, pues había una lista.
+Digamos que yo esa lista la había. Así pues, la voy entendiendo en el en la primera clase
+como una matriz, que es lo que alguno emplea para controlar procesos.
+Nestor Cardona
+Nestor Cardona
+26:18
+¿correcto?
+Entonces, un trabajo bien hecho en un proyecto ya, pues, de software 1 saca la matriz de
+de probabilidad de impacto, pues sales de esa
+matriz de riesgos identifica cuáles son
+aquellos riesgos, Entonces, ya, de de acuerdo a esto, pues de alto riesgo mayor a 2 punto. Uno, que es lo que
+se identifica. Acá
+Entonces, basados en esto, sí, Y entendiendo cuál cuál es lo lo que más riesgo tiene ya Ahí se hacen los el plan de pruebas.
+El plan de prueba se basa en esos riesgos identificados.
+entonces el plan de pruebas dice: determina, pues, todo lo que se va a tester y se va a aprobar el plan de pruebas. Entonces son
+plan de pruebas, describe la estrategia de verificación y validación de la plataforma que concluya emocionalidades todo de las funcionalidades del Darbort, etcétera, etcétera, etcétera. Se concluyen pruebas de cuál es el alcance, pues las pruebas de todos los componentes que se van a realizar fuera del alcance, pruebas de rendimiento de infraestructura. Eso no se va a hacer estrategia de las pruebas, tal requisitos.
+datos que se van a probar
+supuesto, los entornos replican comportamientos de producción ente.
+Y ya después de esto.
+bueno, estos ya son como el seguimiento y todo lo lo basado en las pruebas que se hicieron, salen los casos de prueba de los casos de prueba. Es lo que se va a testear, entonces, pues se necesita validar, por ejemplo, el login con usuario y contraseña. Dado que estoy en la página del login
+ingre ingreso usuario válido y contraseña incorrecta. Entonces se muestra mensaje de error en contraseña incorrecta. Y no ingresa el dadboard. El sistema valía credenciales detecta contraseña errónea y muestra el mensaje. Esto es lo que se espera
+y eso es lo que se testea.
+Se puede testear manualmente o se hacen pruebas unitarias después de integración para ciertas cosas. Entonces aquí lo que se cumple o no cumple es la evidencia.
+la evidencia, Pues justo el pantallazo ya cuando
+con el hipervínculo acá donde están las
+las las evidencias y las pantallas.
+Entonces, ya con estos casos de pruebas es donde se hace la implementación de de las pruebas
+y otras cosas que, pues, que es que ya son los costos del proyecto, los los presupuestos y todo lo demás.
+Ya claro en Pero, además de todas esas pruebas, el rol de Cuba tiene la tarea de
+hacer el diseño de pruebas A. Eso es lo que significa ejecución de pruebas, reporte de errores y la validación. Y eso es como las habilidades que
+que necesitan, incluso en parques zonas nació una empresa. Creo que es la más grande de
+se llama Green. Ese cuadro.
+yiceth mata lozano
+yiceth mata lozano
+28:56
+Green Horizon.
+Nestor Cardona
+Nestor Cardona
+28:58
+Green Horizon es otra de Parquesoft.
+yiceth mata lozano
+yiceth mata lozano
+29:00
+No.
+Nestor Cardona
+Nestor Cardona
+29:01
+Pero también est es que en parques han nacido un montón de
+de empresas más de 800, y muchas de esas son tan grandes como esta como Green Squa, el Green squa.
+Esos son ellos se encargan de esto. Se contratan para hacer testing, a no a a desarrollos como servicios.
+Es más, desde en ca de cali nació en parque surf, y la la la dueña, o sea la la S E. O
+a ver si yo nos nos etiquetan, ya no nos etiqueta en Colombia, en el ingenio, en cali y contratan la mayoría mujeres.
+la mayoría de mujeres, supongo que son más organizadas que los hombres y
+y tienen alrededor de 500, 2 como 400 500 personas contratadas haciendo esto siendo testing coag. Esos son una de las empresas dedicadas a eso y trabajan en grandes proyectos, y son los que se encargan de hacer las validaciones y las pruebas y etcétera. Entonces, como para
+para comentar allí un poco, Entonces.
+es. ¿es esto lo es. Esto está pausado, Esto tenemos que terminarlo, integrarlo con otra cosa que estoy haciendo, pero
+yo creo que pinta bien.
+pues todavía debe debe funcionar así. Ahí está
+La programación permite a los que la máquina y yo
+carga rapidísimo. O sea, pusimos un montón de cosas para poder tener reproductor de vídeo que consumiera
+de escribir bastante rápido.
+Esto lo vamos a seguir desarrollando. Y la idea es como tenerlo allí para que se suban las plataformas o agregar y subir contenidos aparte, pero ya grabado, bueno
+en
+pero es un rol bastante bastante interesante si le llama la atención y tiene también mucha salida, mucha demanda. Y y hay empresas, incluso aquí en Colombia que se dedican a eso como la que les mostré, green, ese Cuba?
+Bueno, Bueno, no sé alguna pregunta. Ya para retomar eso aquí esta parte.
+Okay.
+Y vale.
+bueno que muestran algunas estrategias para testear
+bases de datos. Después de crear un fisture que tiene
+un motor que carga una base de datos y devuelve la instancia para agregarlo como fisture
+o la sesión de la base de datos.
+Sí
+son ejemplos de hechos que se pueden utilizar con con la base de datos versos, pruebas unitarias y pruebas de integración. Cuándo usar cada una
+en temas de velocidad pruebas unitarias deben durar menos de menos de un milisegundo
+y una prueba de integración debe durar entre 10 ms y un segundos
+en cuanto a aislamiento, las pruebas unitarias, el aislamiento es total. Todos los contratos simulados, datos Mooc
+y la y en la escuela de integración.
+El aislamiento es parcial, o sea, parte de las cos datos sol se pueden
+se pueden utilizar datos móvil o incluso ninguno se prueba directamente con con servicios o con bases de datos o temas ya de producción.
+Los progenitores buscan validar una lo una lógica específica, mientras que la de integración, el flujo de los datos.
+porque in interactúan varios componentes.
+El de Booging pues es fácil y es preciso. Es un poco más complejo, pues por por la misma interacción entre los componentes, el mantenimiento de las pruebas unitarias es bastante bajo
+y la de integración, si hay un cambio, pues sí requiere, digamos, revisar y y modificar ciertas ciertas cosas.
+y
+las pruebas unitarias generan confianza en los componentes y la integración, pues entre la comunicación de los componentes o la interacción de los componentes en la propia integración. Listo
+si voy a validar lógica de negocio, cálculos o validaciones pro sanitarias.
+Si voy a probar una a P I. Y la cuando hablo de persistencia, es de almacenamiento en bases de datos, flujos de trabajo, cosas de configuración, pues se establecen pruebas de configuración.
+ciertos errores comunes, pruebas unitarias que
+usan la base de datos, por ejemplo.
+Entonces se debería convertir a prueba de integración o cambiar y utilizar datos moco o integración muy amplio. Entonces.
+dividir en componentes más pequeños a veces es una integración, pues que ya queda haciendo como
+como un flujo de trabajo completo o moocks muy complejos. Entonces eso es señal de más diseño en el código. Si al final los datos
+para poderlo simular se vuelve bastante complejo. Eso implica, como que el diseño del mismo código del desarrollo no está tan
+bueno como debería.
+Bueno, pruebas de aislamiento. Las mejores prácticas es siempre comenzar con las pruebas unitarias, que es una base sólida y rápida. Luego la integración.
+pero por componentes específicos, digamos lo de lo más crítico
+y separar claramente todo, o sea.
+por carpetas, integración unitarias y especificarlas con los marcadores diferentes. Separar también los tipos de cada una de las pruebas aplicando los marcadores, por ejemplo. Todas estas pruebas de integración tienen el el marcador de integración
+para que cuando se ejecuten las pruebas.
+si quiero ejecutar, solo las unitarias se ejecutan las unitarias si quiere ejecutarlas de integración, pues corren la de integración
+en
+y las herramientas. Bueno, esmoquin nativo de Python, entonces Unites, punto Moc hay varias partes donde se usan Pyth Smooc es una sintaxis mejorada.
+Factory Voice dice que genera datos de pruebas y fakers datos sintéticos. Realistas. Vemos una parte de las librerías que se están utilizando en el mismo código
+y ya si se utiliza algún framework, por ejemplo países flash, pues es específico para Flax o Pyth Djangot es en específico para Jango
+o de de contenedores, servicios con contenedores. Listo.
+Bueno, ¿Vamos a correr correr las pruebas, los productos, las unitarias. Entonces, si yo le digo Firetest.
+no sé a medio ni bueno, el el B E. P es para el verbous Voy a ponerlos así.
+Yo tengo instalado en el ambiente en el ambiente de ejecución. Yo ya tengo instalado Selected que dice acá
+y
+ya me tocó pasar la rueda completa Test Unite.
+Venga, yo veo qué pasó aquí,
+categoría de pruebas, pues te escuche.
+Bueno, y dice que y un archivo de caché que
+que está apuntando a otro lado.
+Bueno, el archivo de caché se genera para con Fifa. El
+mira así nos las ejecuta. Voy a mirar por qué, de pronto tengo un error ahí en el en el Init.
+en el país de cine. Pero si le pasó la ruta completa, pues pueden ver que las ejecutó entonces simplemente aquí ejecutó sólo las que son
+pruebas unitarias o categorizadas como Unit.
+entonces validar validar correo para los diferentes
+funcionalidades que se están testeando porque se han implementado en este caso paseo todas.
+Si hay algunas que no llegan a pasar, pues aparecerían el porcentaje de las pruebas que pasó ya
+Y, por otra parte, si yo quiero, pues, por resolver solo las pruebas de integración de esta manera.
+ya que están por carpetas o que están por A
+con el marcador, pues me permite.
+y mira que des entró solo a las que están en in integración, integración, integración, listo, etcétera.
+Entonces aquí podemos pueden correr las pruebas, Necesitan que se instalen estas dependencias que aquí ya las tengo instaladas en un ambiente de ejecución, pero pues en ellas ya sería entrar aquí a revisar, bueno, las pruebas sanitarias, cada una de ellas como utilizan y acá las pruebas de integración.
+por ejemplo, con las bases de datos
+primero, pues se marcan como integración y se bueno, se define la clase y supra un flujo completo
+donde se trae. Esto es Mhm.
+Voy al repositorio de session, ese t sesction nes Okay
+te crea una instancia del usuario.
+Importa desde el modelo y crea el usuario el usuario de testing.
+Entonces, a seguir viendo ese de dónde lo llaman.
+Voy al repositorio ya debe ser desde aquí y otro expositorios.
+pues tocaría mirar aquí. Esto de dónde se llama desde dónde se llama esto?
+Mhm.
+Para ver qué se le mandó. Pero bueno, era una instancia. Eso es lo que permite crear el usuario.
+Y dadas esas sesiones, realizo un cómic, luego pues obtiene por identificador
+del usuario creado y luego valida que el I D corresponda el usuario, el email, el nombre completo corresponde. Es como la variación. Como si fuera un repositorio. Un Githup está haciendo
+está enviando allí.
+Mhm
+comido cambios. Entonces, ver si se si si quedan registrados o no, dada una sesión que está creada, pues más o menos como el ejemplo. Pero pues ahí hay que revisar primero el código de del surf
+para poder entender qué es lo que te has, qué es lo que está? Está testeando listo.
+igual funciona porque ven que corrieron todas.
+Pero pues me que me queda la duda, acá esto? ¿de dónde lo llaman?
+Voy a mirar donde está implementado eso. Pero bueno, dejemos hasta allí. Yo creo que ya este este tema ya lo cerramos porque, pues estamos 2 sesiones, ya. La clase, 4 son pruebas de regresión. Eso lo vemos mucho más rápido y pruebas de carga.
+lo mismo que la clase. Si la clase 5, que es temas de depuración.
+si quería hacer bastante énfasis acá porque es como del fuerte, por así decirlo.
+de del tema en sí. María.
+María J. Carvajal
+María J. Carvajal
+42:59
+Ahí ahorita en el P, D, F, E tenías discriminado para las pruebas que para Django que para el docker que para flash
+cuando en la vida real ya va un software, algo maduro y tiene mezcolanza de todo que se recomiendan
+coger el entorno del Flash y trabajarlo con Flash, coger el lo que hubo de django y trabajarlo con Dj, coger lo de Bocker y trabajarlo con Docker.
+Nestor Cardona
+Nestor Cardona
+43:30
+Cada tecnología se hacen las pruebas para cada tecnología. Es lo mejor.
+María J. Carvajal
+María J. Carvajal
+43:35
+Haciendo un salpicón. Resulta tétrico.
+Nestor Cardona
+Nestor Cardona
+43:40
+Sí, pero se valían las pruebas de los componentes que están en algo, aunque pues no necesariamente es un selpicom, porque hay muchos arquitecturas basadas en microservicios
+que
+cada componente está usando una tecnología y lenguaje de programación diferente y por lo mismo, al ser independientes, simplemente se comunican a nivel de mensajes a nivel de interfaces de aplicación o como servicios. La comunicación entre ellos, y son componentes de la misma aplicación.
+pero independientes y como son independientes, pues está en un repositorio en un servidor independiente. Ahora sí mismo, las pruebas independientes se le pueden hacer indistintamente. Y si yo hago cambios en ese servicio, pues no me va a afectar nada de lo demás. A veces no es ni siquiera salpicón, sino pues, por por el tipo de arquitectura del sistema y es válido que tengan
+varias fuentes. Si es una arquitectura, microservicios.
+María J. Carvajal
+María J. Carvajal
+44:31
+Vale. Gracias.
+Nestor Cardona
+Nestor Cardona
+44:33
+Bueno.
+Bueno, además hasta aquí, pues es toda una feliz noche que está muy bien.
+María J. Carvajal
+María J. Carvajal
+44:39
+Igual, feliz fin de semana para todos.
+Nestor Cardona
+Nestor Cardona
+44:42
+Vale que esté muy.
+yiceth mata lozano
+yiceth mata lozano
+44:43
+Fue bien.
+Vanessa Hernandez
+Vanessa Hernandez
+44:45
+Igualmente hasta luego que descansen.
+Nestor Cardona
+Nestor Cardona
+Hasta luego.

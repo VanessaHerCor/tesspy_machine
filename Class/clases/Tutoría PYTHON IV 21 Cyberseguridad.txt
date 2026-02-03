@@ -1,0 +1,455 @@
+2026-02-02 a las 18:55
+
+Nestor Cardona
+Nestor Cardona
+00:55
+Buenas noches.
+María J. Carvajal
+María J. Carvajal
+01:01
+Hola, Buenas noches. Música.
+Nestor Cardona
+Nestor Cardona
+01:10
+Buenas noches, cómo están.
+yiceth mata lozano
+yiceth mata lozano
+01:12
+Buenas noches. Bien, bien, gracias a Dios, ¿cómo va.
+Nestor Cardona
+Nestor Cardona
+01:16
+Muy bien.
+S
+Liszt: Ya les comparto pantalla.
+Okay.
+Bueno, el último tema que vimos fue: Estamos viendo pruebas de regresión. ¿correcto?
+Hoy vamos a empezar a ver
+porque acabamos de ver, pues los temas
+pruebas unitarias y pruebas de integración sí confirman
+hasta allí están claros los conceptos.
+Bueno.
+listo. Entonces vamos a tratar de ver sesión 4 y 5. Esto lo alcanzamos a ver ya le subo, entonces
+yo creo que la sesión 4 ya se la había. Ya se la había agregado, ya debe estar allá en el
+y ya debería estar listo? Okay?
+Lisz: Bueno, vamos a mirar lo que son las pruebas de regresión y las pruebas de carga
+y cuáles son los objetivos para cada una de ellas.
+Esto, ¿
+Hay herramientas para pruebas de carga en Python, como Locust, y
+ya las pruebas de regresión requieren Buy Lyne Aut.
+que se configuren para de manera automatizada que si se cumplen o no disparen una acción, en este caso, unos cambios en en un servidor o en producción. Ese tipo de cosas. Solo que estas estas pruebas, ya de regresión.
+son más robustas y toca interactuar ya con con con un entorno de de pruebas con un entorno de producción dependiendo si cumple o no vale
+en Okay. Bueno, me lo preguntas hasta el momento, antes de empezar.
+María J. Carvajal
+María J. Carvajal
+03:50
+Esas descargas van directa. Hola, ¿qué tal.
+Nestor Cardona
+Nestor Cardona
+03:53
+Cargaban directamente a lo que sería la base de datos.
+María J. Carvajal
+María J. Carvajal
+03:57
+O algo más.
+Nestor Cardona
+Nestor Cardona
+04:00
+Ir al.
+María J. Carvajal
+María J. Carvajal
+04:00
+Sí a.
+Nestor Cardona
+Nestor Cardona
+04:00
+Pero también se busca es establecer cuál es
+parámetros, por ejemplo, de consumo de uso de mi de mi aplicación y, sobre todo, entender
+cuál sería la capacidad de transacciones, por ejemplo, que puede que puede
+que puede hacer en Al Al al al al mismo tiempo.
+Y qué requerimientos de servidor se necesitan para ese tipo de cosas, o sea, además del de de la base de datos, y eso es lo que se busca. Es medir las capacidades del cómo quedó construido mi aplicación
+y cómo es el consumo de esta misma con respecto a los recursos Memorial, almacenamiento, procesamiento para tener bien, digamos, bien establecidos esos esos esos parámetros.
+o que Ta, hasta cuánto soporta. Antes de que se recuerde eso, eso es para para poder determinar
+qué tipo de servidor y generar también alertas. En caso, tal donde, ya sabiendo y conociendo bueno esas pruebas.
+¿hasta dónde puede ir. En En mi aplicación en el servidor que se tiene desplegado, 1 puede generar alertas y o configurar.
+por ejemplo, que se
+que se escalen los recursos, da dado ciertas condiciones de esa manera, evitar que que falle o que o que se ponga lenta. La aplicación vale, pero pues no solamente va de de cara a la base de datos, sino al al rendimiento en general, principalmente listo.
+María J. Carvajal
+María J. Carvajal
+05:49
+Vale, y esto no lo dejaría integrado como para darle alguna especie de alarma.
+Ya quedaría aquí, ya que había excepción.
+Nestor Cardona
+Nestor Cardona
+06:00
+Sí lo exacto en el servidor. Lo que se ya hace po ya se ponen, son programas de monitoreo
+de monitoreo constante de los recursos
+y ya teniendo en cuenta los parámetros, pues esos programas de monitoreo, ya lo que hacen es medir, me medir y generar alertas o disparar ciertas rutinas dependiendo de si suceden o no. Si o se exceden los límites permitidos ese tipo, de cosas.
+pero se hacen, se hacen antes, O sea, esas van acompañadas con ese seguimiento y ese monitoreo. Bueno.
+bueno, las planes de regresión son como un sistema de alarma en tu casa. No previenen que alguien entre pero te alertan inmediatamente
+cuando algo cambia sin autorización, por ejemplo, la regresión.
+Y digamos que antes había una funcionalidad de esa funcionalidad. Tuvo unos cambios.
+Por ende, se genera un nuevo código y lo que se hace es que se pregunta
+si sigue funcionando, o sea, puede ser una funcionalidad. Y Y así estaba bien. Ya estaba testeada ya estaba validada.
+se agregó un nuevo código o simplemente se reestructuró dicha funcionalidad. Y lo que se busca es que si después de la reestructuración o el nuevo código que se implementó sigue funcionando. Entonces.
+si no sigue funcionando, lo que se busca es regresar a la funcionalidad en su estado
+inicial, cuando cuando estaba bien, mejor dicho, listo.
+y hay varios tipos de regresión.
+está la regresión local y vemos que en
+cuando una funcionalidad rompe el código existente, deja de funcionar, por así decirlo, una regresión remota cuando afecta a módulos aparentemente no relacionados, o sea, como aquí es un cambio en en en en este módulo en este servidor, pero me dejó de funcionar otra cosa.
+entonces se debe hacer esa regresión.
+o sea, detectar el fallo y devolver los últimos cambios que se hicieron
+o de rendimiento. Esto tiene que ver también de la de la mano de de las pruebas de carga.
+La funcionalidad se vuelve más lenta antes. La funcionalidad de unos tiempos de respuesta. Y ya después de eso, ya se tarda más tiempo en en responder. O sea, como que los cambios
+afectaron el rendimiento de la aplicación y de configuración, cambios de entorno de librerías, etcétera, pues cambios de entorno afectan ya el comportamiento, ya
+entonces las regresiones ocurren cuando se se hace cambios y modificaciones al al
+al Código o a las aplicaciones, o se implementan nuevas funcionalidades o se arreglan
+Books, entonces a veces intentando arreglar un algo que está fallando. Se se corrige, pero se dañan otras cosas. Entonces, esos son.
+Es muy común que arreglar un un bug genere otro
+o que se actualicen las dependencias
+estaba con una versión de librería. Se actualizó y
+generó. No sé, Ya ya no se soportan ciertas funcionalidades o métodos.
+entonces al toca también actualizar también el código para que se adapte a la nueva librería o, en su defecto, pues devolverse a la versión anterior
+si es estrictamente necesario actualizarla por temas de que se necesita algo.
+una nueva implementación. Entonces se llama, se opta por por adaptar el Código a la a la nueva versión, bien o también cambios en la infraestructura, ya sean desde el servidor, la base de datos o la misma red donde te
+dependiendo el tipo de aplicación. Entonces, realmente tantas cosas pueden generar fallos en la aplicación. Y lo que se busca es
+con las pruebas de de regresión, es detectar esos cambios, ya sean en infraestructuras, dependencias, arreglos, nuevas funcionalidades. Y si ese cambio
+en
+sigue o si sigue funcionando o no o nos o no siguen funcionando todos los componentes. Si no siguen funcionando, se devuelve a la versión antes del cambio y se evalúa y se revisa ya en un entorno de pruebas. ¿qué fue lo que pasó? Porque no funcionó.
+Pero lo que se busca es automatizar, eso vale alguna pregunta
+Okay?
+Bueno, hay una pirámide, pues de de regresión? No lo hay casos críticos.
+pero pues lo que más se busca es pruebas unitarias, más integración, se pueden testear y validar
+y a y basados en si cumplen o no cumplen dichas pruebas unitarias y de integración.
+entonces se realiza una regresión. Entonces, si esto pasa, es porque la base es sólida y la ejecución está.
+Lo Lo importante también es que se todas estas se ejecutan de manera rápida, tanto las de unitarias como las de integración, ya o cuando se testea, una funcionalidad
+completa y falla, por ejemplo, una una A, P I o o todo un flujo de trabajo
+allí también que se busca hacer esa regresión al estado anterior.
+Bueno, Bueno, hay una. Hay un tipo de pruebas que llaman pruebas de humo
+o smoog test. Lo que hace es
+el enfoque de estas pruebas. Es validar funcionalidades críticas.
+Es, viene siendo más como de de lo de esto, de unidad de integración. Solo que estas se ponen es como
+para validar componentes críticos o funcionalidades pueden ser unitarias, pueden ser de integración o combinación de ellas. Lo que se busca es
+detectar esas funcionalidades básicas y críticas de nuestra aplicación.
+que podrían fallar o que son susceptibles al fallo simplemente es que se le agrega la etiqueta
+para que se corran todas esas pruebas. Entonces le pones la etiqueta smoke y y una característica es que
+deben ser de cada prueba de estas o no deben tardar todo el conjunto de prueba en menos de 5 min.
+¿no?
+Y eso ¿Por qué?
+Porque de esta manera se puede validar justamente todas esas esas funcionalidades críticas
+especificando que corren las pruebas de humo
+y si llegan a fallar, entonces ya puede disparar.
+reversar los cambios, entonces especies que se ejecutan primero en cada deploy, Entonces, en cada despliegue.
+cuando hablan despliegues que o se agregaron nuevas funcionalidades, Hubo cambios y van a ir esos cambios a al a a producción al servidor de producción, donde donde donde lo usan los usuarios, pues los clientes. Pero antes de eso se deben correr esas pruebas
+que sí no pasan, se devuelven a la versión anterior. Y si pasan, se guardan esos cambios
+y se actualizan, digamos, la versión desde split listo.
+Mhm
+Okay están los Golden Test.
+Eso se hace más a a nivel de de reportes para comparar, o sea.
+digamos, que hay un Estado esperado de lo del del de lo que lo que se espera que reporte la
+la la aplicación cuando se ejecuten en versus
+lo que reporta con los nuevos cambios. Entonces, al al hacer esa esa comparación, bueno, se se se revisa así
+en coinciden
+los reportes, pues los cambios con lo que se esperaba que entregara la la aplicación. Estos también se utilizan como parte de
+pruebas que se pueden permiten validar si se establece o no una una regresión listo
+igual. Todo esto es muy relativo. Todo esto ya depende de de el los proyectos en sí ya depende del criterio que se le dé
+la persona, pues encargada de no sé de devox o o de los despliegues en en en la aplicación o L o la por las políticas que se han establecido en los equipos, en la metodología de trabajo. Entonces, ¿qué se hacen? Si se utilizan unas, si no se utilizan otras
+buscando adaptarse de la mejor forma a al al proyecto que se esté desarrollando
+aquí. Se está como a a rasgos muy, muy generales, Pero bueno, al final va a depender del equipo de desarrollo y de las estrategias o políticas que se establezcan sobre
+cómo validar y garantizar que sea de calidad conforme se vayan agregando nuevas funcionalidades y no me vaya a hacer daños que luego deje la aplicación, No sé caída o o o lenta, o o que, o bueno.
+más bien, lo que se busca es hacer eso listo? Garantizar de que si algo llega a fallar, pues no se suban esos cambios, sino que se devuelva la versión que ya está validada, que funciona. ¿vale?
+Y aquí es donde están esas estrategias entonces primero, pues siempre ejecutar pruebas sobre lo que es de alto riesgo, de temas de pagos y seguridad.
+entonces debe de venir sus pruebas, ya sean de humo o golden apis públicas.
+Eso ya también tiene que ver con la Con Deca de cara a la seguridad.
+porque son, pues, los vectores de de ataque donde pueden acceder. Hay muchas cosas que se comunican internamente entre la aplicación mas no se tiene acceso directo, pues no sé. No hay un endpoint al cual se pueda consultar y que responda.
+Pero si es una a P I pública. Sí es esto. Se debe testear y se debe validar muy bien porque puede generar una brecha de seguridad
+o el cordel del del negocio, entonces todo aquello que es de alto riesgo siempre debe ejecutar bien esas pruebas.
+flujos de trabajo o o integraciones, sobre todo cuando se van a hacer un nuevo release.
+Se hacen cambios suficientes para que salga un nuevo release, pues esta vez es también se corren pruebas para eso
+en
+y se recomienda, pues, periódicamente ya temas de interfaces de usuario, admin tools deportes, to todo ese tipo de cosas
+que si fallan, o sea, no la aplicación podría seguir funcionando? Bueno, no, no, no hace reportes.
+se corrige, pero lo lo demás puede seguir seguir funcionando
+de cara, pues a los clientes de cara al usuario. Entonces, por eso le dice que sumo de bajo riesgo, aunque
+se enfoca más en en en en en eso que es crítico crítico de la aplicación vale Okay.
+Bueno, como simplemente en esas pruebas de regresión
+se se desarrollan y se escriben. Bueno, se configuran mediante pivelines que se automatizan.
+Eso puede ir en normalmente. Spiceland en formato. G. M. L, o G. M. L, Y
+puede ser con Gith Actions o alguna herramienta, Pues que que que que haga sus análisis. Entonces, desde aquí ya se puede. Se se puede configurar
+todo todo un flujo de de de de pruebas.
+Por ejemplo, está el archivo G, M, L o o G. M. L
+Se sube con el repositorio y se configura desde los repositorios que cuando
+hayan. No sé comido que haya un cierto evento. Por ejemplo, acá se se le da un nombre y que dice que cuando o sea dado que ocurra, ya sea
+un evento de pool ricos, pool ricos en en gifa, ves cuando se combinan.
+digamos, cambios de una rama y se pueden llegar a pasar a a otra rama, en este caso a la rama principal.
+como quien dice, cuando los desarrolladores vayan a combinar su desarrollo con la rama principal.
+entonces esto dispararía el evento o también se puede programar
+que cuando todos los días, a las 2 de la mañana se corran y se ejecuten las pruebas. Esto simplemente son los los disparadores para que se ejecuten las pruebas. Ya entonces esto lo interpreta el Gitad Action o o o o o las herramientas de control de control de de versiones
+para poder correr las las pruebas, entonces, dado ya los criterios que dispararían en la ejecución de las pruebas.
+entonces acá, se establecen esos trabajos, entonces las pruebas de de humo, entonces se van a correr, lanzan, levantan todas estas con contenedores, levantan un ambiente de untu
+y lo primero que va a hacer es correr este serial comando de que correría las pruebas. El último ¿Es eso
+Pay test y le da la ruta donde están las pruebas.
+En este caso serían las pruebas de humo. Vale.
+en este caso, serían las flores de humo
+y bueno y que se por seguridad se le da, pues, de Time Out, ese tipo de cosas.
+Y también, además de las pruebas que se van a correr.
+pues en este caso sería también las pruebas de regresión
+listo. Esas pruebas se demoran bastante se demoran, como prueban tantas cosas
+dice que necesita que se hayan ejecutado las prioridades de humo, o sea, depende de.
+y también la cor las corra en un entorno de de de Linux, o sea, dentro de una máquina virtual dentro de un contenedor. Más bien, y lo mismo ejecuta dada que si pasaron esas pruebas, entonces
+corre las pruebas de regresión y todo eso se hace desde Pythers. Y esas pruebas duran alrededor de 30 min.
+Eso es como un ejemplo. Es como un ejemplo de cómo se configuraría. Esto es un pay line, como se configuraría un piveline
+que haría un un una ejecución de pruebas de regresión
+ya. Y bueno, dice, pues, ¿cómo se organizarían los tests de acuerdo a ya ya ese concepto, entonces se tienen
+pruebas de de humo. Te Recuerden que las pruebas de humo buscan validar flujos críticos, socios del coor de negocios, autenticación, temas de seguridad y debe ser rápido. Esas pruebas no, no, no, no, no, no, deben demorarse más de 5 min.
+Luego está la prueba de regresión completa, pues que son ciertos escenarios que 1 quizá quiere validar el Golden, que es como
+una comparativa con con reportes. O sea, yo yo espero que me devuelva esto. Y cuando las ejecute, comparo sin si me devolvió o no, me devolvió, pues, la L, la aplicación cuando la corrí,
+y también se pueden ir generando una prueba histórica como que se han identificado ciertos books. Cuando se mueve una cosa, a veces resultan entonces se hacen y se desarrollan esas pruebas sobre esos books, entonces ya una prueba, correr las pruebas de regresión queriendo o buscando que pasen todas esas históricas, esos
+escenarios de casos complejos que que 1 quiera como replicar. Y si todas estas pasan, pues no hay necesidad de que de que ocurra, si no, entonces
+hemos simplemente no, no sube los cambios No, no no se suben los cambios
+que se hicieron ante este evento, o sea.
+o los cambios que habían a esa hora o o L o los nuevos cambios que se agregaron a la a la rama a la rama media. En ese caso.
+Bueno, alguna pregunta.
+Como ya les decía, eso es. Esto es muy subjetivo. Es muy subjetivo del equipo de desarrollo y de la metodología que están haciendo. Entonces ya lo que se hacen es
+eso? Se va a disparar. Y el país de me va a decir, pasaron tantas pruebas, no.
+Entonces 1 puede poner ese criterio como que.
+Bueno, no pueden. No pueden fallar ninguna de las de las smoke de las pruebas de humo, porque, pues son los temas críticos listos.
+Tal te permite que todo todas se deben
+ocurrir. Pero Tam, como también se pueden validar otro tipo de pruebas como las pruebas de regresión. Le digo, las las
+estar sujeto a otro tipo de pruebas.
+pero pues que no son tan críticas.
+Uno puede tener ello un margen de
+no sé si falla solo el 5 por 100 de las pruebas, pero en
+y son de pruebas que no me van a afectar el el core de negocios, sino que son para otras funcionalidades complementarias, pues 1 puede optar por como que, bueno, pues establece ese parámetro y no no se establezca una regresión. Simplemente súbase con esos cambios y luego se corrigen ya.
+porque el se le da más peso a que se suban los cambios
+necesarios en el core del negocio. Por ejemplo, esto
+ya viendo acá, el, el, el el el el proyecto, Pues, acá está un ejemplo del proyecto
+C. R. C. Star Source.
+Ese es el generador de reportes para las las Las pruebas tipo Golden, ¿En
+qué más tenemos acá un procesador de datos con funciones que pueden degradarse usando para detectar regresiones de rendimiento Okay. Entonces eso es un una clase que lo que hace es validar y mirar el el rendimiento, el rendimiento de los procesos, el rendimiento
+de las búsquedas de usuario. Entonces.
+¿y cuál es la complejidad del algoritmo cuando se hace una búsqueda de usuario.
+Entonces esto es una búsqueda. Ahí va a decir, de cara a la base de datos.
+pero lo que mide es la complejidad. Desde que inició hasta que terminó la consulta. ¿cuánto tiempo se tardó en hacer esa consulta? Entonces esto esto ya me da. Y esto va generando esos datos. Y esos datos se se guardan por acá no se da data o reportes, ya
+para qué? Para que me sirvan como comparativa. Entonces, cuando corro una prueba, golden, se corren estos
+se ejecutan esas pruebas y se compara con los con los valores de referencia es como queda mejor o empeoró ya el es a criterio de decir qué tanto si Bueno, si se demoraba 5 s y ahora se demoraba 6, pues eso da igual. Pero demoraba 5 s la consulta y ahora se demora un minuto, 2 min.
+entonces eso también ya es a criterio de parte del
+del desarrollador o el modelo o de la metodología que se están manejando, entonces tienen herramientas que justamente eso calculan estadísticas sobre sobre las consultas sobre
+sobre manejo, pues con dependiendo la cantidad de datos que tienen?
+Bueno, aquí hay unos ejemplos, más bien un algoritmo intencionalmente lento para demostrar la regresión
+versus, un algoritmo que esté más optimizado, entonces la complejidad de 1.
+Este es o D, en el cuadrado
+que dice, pues conforme crecen los datos, el tiempo que tarda.
+crece de manera cuadrática, o sea, si son 10 datos. Se. No sé, se demora 10, Si son
+20 datos, no se va a demorar 20, sino que se va a demorar, pues crece de manera exponencial
+el tiempo. Y mientras exceso de 1, sé que siempre se va a demorar lo mismo. No importa la cantidad de datos.
+entonces esto se puede evidenciar. Y si hay un desfase de de de esta manera poder de decir: no venga. Esos cambios no no están empeorando mucho. El rendimiento de la aplicación, No, no los pasa
+y corríjanlo y optimicen el el algoritmo liso.
+Y aquí hay una App que es una A, P. I una Api en flax para validar pruebas de carga
+con diferentes Endpoints, entonces conexión a la sed de datos, estadísticas ta ta Ta: ta ta
+tu válida que esté conectado o que le responde Lenedpoint.
+Y bueno, se establecen unas rutas con unos métodos para realizar unas acciones.
+Pepe es una piz, una piz sencillita en Flash
+donde se varían ciertas cosas. Emplean mucho la documentación de lo que yo les digo, pues si nos ponemos a mirar muy al detalle, acá pues se nos pasa el tiempo. Pero si vamos a como a correr la prueba
+y lo que quiero que lleve más allá del del código y que se entienda bien al 100 por 100 del código es el concepto de la de la prueba ya adicional de les deja un proyecto que luego pueden revisar con pruebas que pueden testear, que pueden validar
+para que lo muevan, le como quien dice, le cacharreen.
+Y ya con el conocimiento bien interiorizado o el concepto que es lo que quiero que se se se que sepan que es una prueba de de de regresión, que sepan que es una prueba de carga, y eso es general, Eso lo aplica para cualquier lenguaje de programación. Entonces aquí luego está un un ejemplo en
+en
+en Python, pero pues no hay nada. No hay nada raro. Si miramos acá las las las pruebas de regresión simplemente son lo mismo que veníamos viendo de de Pyths.
+ya solo que se marcan como regresión o performance.
+Y
+lo único es como el enfoque de la prueba, o sea, eso siguen siendo pruebas tal cual como las otras. Lo único es. El enfoque de la prueba, entonces lo del performance. Busca validar el rendimiento de de los datos, por ejemplo, pensamiento de usuarios debe mantenerse rápido. Se establece
+una línea base de rendimiento para detectar regresiones. Sabes, como quien dice hasta que hasta qué punto ya ya no lo admite
+ya, entonces esos son pruebas que valían el performance de la aplicación igual histórical.
+Entonces ya hay una serie de de bugs que se han identificado
+y censo de reducción resuelto. Entonces están todas las se marca como pruebas de regresión. ¿para qué? Para cuando corran las pruebas de regresión con Paypas, Pues corran todas estas
+para eso se utilizan los marcadores
+y aquí, ¿Qué se busca hacer, que eso que ya se detectó, que ha fallado antes, pues cada vez que haya unos cambios se vuelvan a validar, que nos hayan vuelto a dañar. Vale
+más que todo. Es por eso, y aquí simplemente se organizan por carpetas ya. Y las Golden generan reportes
+en reportes de cierta información de usuarios que para poder comparar que se generan a ver
+aquí, aquí hay un reporte de de rendimiento, o sea, como que ya se establece ciertos valores de referencia
+o análisis de tendencias en los mismos comportamientos de las aplicaciones. Eso es lo que nos genera unos reportes. Y con esos reportes
+que genera, se hacen las comparaciones. Para eso se se corren las
+las pruebas golden que se comparan
+los datos de entrada con los de salida y y si coinciden o no llegarían. Eso es un poquito más más
+más complejas en cuanto a la
+porque toca generar los reportes y luego se y luego compararlos.
+Pero al final es. Es, es la
+Es lo mismo, ¿no? Yo estoy acá. Asociación. Tres.
+al final es el mismo concierto. Es la misma herramienta con la misma forma de hacer las pruebas. Lo único es que es el enfoque de dichas pruebas. Se utiliza de otra manera entonces y se combina con el uso de
+fivelings para que de esa manera se automatice que si pasaron.
+está bien, se suban los cambios al servidor.
+Y si no pasaron, pues se devuelva una versión anterior, eso ya va de la mano con el sistema de de gestión de versiones listo.
+entonces hay unas Hay unas scripts que corren las
+las diferentes pruebas o haciendo uso de de la herramienta, entonces para que también las revisen. Pero, ¿cómo se corren cada una de las pruebas?
+¿cómo se hacen las validaciones entonces? En este caso, yo recomiendo aquí.
+Vayan al una sola configuración.
+Mhm Vayan a qué vayan a
+esto. Ya es para la escuela de carga que ya vamos a ver aquí al Rhyth min Listo.
+De aquí está explicada como que que la App toca instalar estas dependencias
+y corren las pruebas. De esta manera se corren todos los plus, todos los tests, si quiero correr, son los Smoke.
+pues este es el comando y esto, por ejemplo, eso es un parámetro que dice que máximo puede fallar 1
+Ya entonces ahí se detienen.
+Uno puede cambiar esos valores, o sea.
+o las pruebas de regresión completas. Entonces ya entraría acá, y buscaría todas las etiquetas de lo que tenga regresión
+o las de performance. Eso es lo es lo mismo. Lo único es que es Pay Test y le dice cuál va a correr
+en ya para las pruebas de carga, pues toca inicializar el servicio.
+El tema de las pruebas de cargas que se requiere, la aplicación funciona en funcionamiento para poder validar y testearla. Y en este caso se ejecuta una herramienta llamada Locust.
+que correría este script que lo dice z
+que correría este script y lo instancia en este servidor. Y esto me va a mostrar. Se va a estar monitoreando. Va a estar mostrando en todo momento lo
+lo que se quiere validar. Y finalmente, 1 puede generar reportes
+sobre sobre las pruebas de carga, pero pues vamos a ver primero la la lógica listo de de que son las pruebas de carga y cómo se
+podrían utilizar Bueno, alguna pregunta.
+María J. Carvajal
+María J. Carvajal
+33:58
+No, señor.
+Nestor Cardona
+Nestor Cardona
+34:01
+Está claro. Hasta el momento.
+ese yo ya lo había subido. ¿cierto? Este ya está en el en la clase 4 no.
+yiceth mata lozano
+yiceth mata lozano
+34:19
+Las 4. Sí, señor.
+Nestor Cardona
+Nestor Cardona
+34:21
+Sí, sí ya lo había subido en.
+bueno, a ver si logro correrlas.
+Las pruebas de carga.
+Pero bueno, más allá de, como le digo, no sé, no sé, conceptos tanto en el Código, el Código, yo los pasos también es como un plus para que vean un ejemplo práctico de cómo se podría emplear
+aquí. Lo que te lleven más que todo es el concepto de de la misma. La de la prueba en sí vale
+es que mira las pruebas de carga triples por segundo osea peticiones que se hacen un servidor por segundo y cuántas puede darle manejo la latencia? La latencia es el tiempo de respuesta. Desde que llegó una petición al servidor hasta que el
+el procesamiento, todo lo que tengo que hacer para dar un rispón, una respuesta.
+el uso de los recursos. ¿qué porcentaje? Bueno, cuánta cpu memoria, disco o red se está utilizando ya.
+También miden un porcentaje de de peticiones fallidas.
+Hay peticiones que que no se completan, pues, que responden. No sé 500 500 algo. No sé
+medir est esa cantidad de peticiones. Son mis dométricas que necesitan, pues, para validar eso va de cara al servidor
+y la concurrencia. Cuántos usuarios al tiempo soporta, y
+cómo se afecta los el uso de los recursos conforme se incrementan los usuarios.
+Bueno, tipos de prueba, Bueno.
+de las pruebas de carga buscan establecer cuáles son las condiciones normales, entonces se hacen pruebas con un con el uso esperado diario, o sea.
+los usuarios típicos, Como quien dice al día. No sé, es un marketplace y al día, pues es normal que entren
+500 usuarios 100 usuarios en
+o en simultáneo cuántos cuántos van a van a entrar. También se se hacen ese tipo de obligaciones.
+También hay pruebas de estrés que en última son pruebas de carga que lo que buscan es
+ir más allá del límite. Es Co: es encontrar ese punto de quiebre, como quien dice. Eso me va a decir ¿Cuál es la cantidad de de usuarios máximos que puede tener en simultáneo.
+entonces se estresa el sistema y eso se hace automatizando instancias de repetición, entonces ya lo que se busca es, como que
+yo, en las pruebas de carga, lo que hago es simular, no sé 1 000 conexiones o
+o mi se automatizan peticiones al servidor para que hagan 1 000. Dos 1 010 1 100 1 000 como si fueran personas navegando haciendo peticiones a los endpoints
+y y viendo cómo se comporta con todas esas peticiones y esas respuestas para buscar en qué punto falla.
+Y ahí ya sabemos, con los recursos donde está desplegado, porque también depende de de de los recursos de del servidor.
+¿cuál es ese máximo usuarios máximos que pueden portar soportar. Para qué?
+Y eso tiene que estarse actualizando.
+Porque con cada vez que hay cambios, cambia el performance cambia todo en la aplicación, entonces se debe volver a calcular entonces ya con esos cambios Antes soportaba 1 000 usuarios el tiempo, pero ahorita ya no solo soporta, 800
+y eso es importante saberlo, porque, por ejemplo.
+no no sé, hagamos el ejemplo de Amazon Marketplace
+en Black Friday, yo me imagino que
+tiene unos picos de de conexiones, o sea, típicos.
+Normalmente se conectan cierta cantidad, ciertos volúmenes de personas, y llega a ese de esos días o o promociones especiales, y
+se conecta mucho más doble el triple o o poco X veces más. Entonces
+ellos tienen muy claro cuál es su límite para que
+cuando midan la cantidad de usuarios que están ingresando.
+escalar los recursos necesarios para que no se venga abajo La aplicación, para que no se dañe, para que no se ponga lenta y no es que 1 en Black Friday funciona bien, venden y y son muchos más usuarios conectados de los que
+habitualmente se hay. Entonces, para eso sirven este tipo de pruebas para saberlo. Y además de eso, monitorearlo y y poder.
+digamos, escalar como todo funciona con re con recursos Cloud. Entonces, pues, escalar los
+unos recursos, pues es es más fácil. Es ampliar la capacidad del en los contenedores en lo que se está haciendo?
+Y Bueno, el spike testing que es usted justamente Bu busca eso
+los picos súbitos. ¿cómo ¿Cómo se
+¿Cómo se corregirían? Este es establece el límite, ¿no?
+Y este establece es simular esos picos. Cómo se comporta y que, justamente ante una carga repentina.
+¿Cómo pues se puede evitar o o
+hay muchas formas de evitar, O sea, a ver esto, se puede hacer o aumentando los recursos de los servidores o creando copias horizontales, pues en
+otras instancias de otros servidores, pues que te atiendan. Entonces, como quien dice, hay nodos.
+esta es mi aplicación, pero puede estar distribuida, entonces puede estar en un único servidor y hace clic con un único servidor con ciertas configuraciones, menos me acepta 1 000.
+Cuando ya va llegando cierto punto, se puede automatizar para que se despliegue otra instancia, otro no. Ya. Y lo que es ese es que se pone un balanceador de carga. Un balanceador de carga es como que recibe todas las peticiones, pero él decide
+a cuál
+al servidor 1 o el servidor. Dos: el que esté más desocupado. Las nuevas peticiones usuarios que se están conectando les pasa para que los procesen
+de esa manera.
+Justamente eso balance a la carga que que no se sature un solo servidor, y y eso también se automatiza. Entonces 1 puede aumentar las capacidades del servidor para en ese mismo servidor, atender más más personas, más usuarios.
+o puedes escalar múltiples servidores de lo mismo, de la del son instancias de la misma aplicación
+en servidores diferentes, solo que de cara a las peticiones está el balanceador de cargas y se las distribuye
+y pueden tener la base de datos en común. Ellos. Bueno, esos son estrategias que luego se hacen. Pero entonces es importante tener estos conocimientos y saber esos límites para que ya, de cara a esas estrategias que eso también se automatiza. Eso es todo eso. Es trabajo del de de box.
+de automatizar tu manejo de la infraestructura.
+Entonces, dada la arquitectura que se tiene que cuál es el mejor enfoque o incrementar los recursos de la instancia que se tiene o replicar y que el balanceador de carga se encargue de
+de repartir el tráfico
+y de esa manera, pues no se supera el límite. Ah, Bueno, te tengo máximo 1 000 usuarios, pues cada 1 000 usuarios crea una instancia
+del servidor.
+Y como eso te cobras por por uso, por peticiones, por
+pues, en el momento que que que hubo un pico.
+pues se se se abren otras instancias
+y 1 paga por la infraestructura y ya
+y se deja de usar en el momento en el que el pico, pues no se reduzca.
+Lo pasé, digamos, esos tiempos y también se buscan manejo de grandes volúmenes de datos.
+Es como se comporta cuando, pues la cantidad de datos de consultas de peticiones o de procesamiento de datos es muy grande. Entonces eso también se se revisa
+estas de Acá es para buscar, es una carga sostenida.
+Es para detectar degradación en el tiempo. O Memory Leaks, que son fugas de memoria. A veces ocurre
+que, por ejemplo, desde la programación no se no se utilizaron buenas prácticas y no se crean objetos o o variables.
+y crees que se llama una función.
+se crea un nuevo, un una nueva objeto, o sea, un nuevo objeto, una nueva variable. Son instancias de memoria Ram que están allí reservando.
+pero no se sigan como que reutilizando ni liberando los recursos, sino que cada vez que se llama una función.
+se crea otro, pero deja el el el del llamado anterior, sigue ahí sin hacer nada. Entonces eso va aumentando la memoria Ram, que está consumiendo y aumentando y aumentando la memoria más. Eso es lo que se conoce como un memorialito.
+O sea, como que 1 000 usuarios se supone que debería la cantidad de Rane que están utilizando para mantener constante, pues en sus operaciones.
+Pero conforme se hacen peticiones y esas peticiones
+se incrementa y se incrementa la cantidad de de radio que están utilizando, por ejemplo.
+cuando no debería. Entonces lo que se tiene que hacer es que se debe estar liberando recursos de memoria
+que ya no se que ya no se vayan a utilizar, por ejemplo.
+los métodos destructores de los objetos. Ese tipo depende del paradigma o del lenguaje de programación o o donde tenga la falla. Esto ya buscas eso. Entonces es ver si los cambios
+cuentan con Memory Lyx, porque, pues funciona muy bien. Funciona muy bien al principio.
+pero después de la aplicación, estar 10 h corriendo, acumulo Y ya reservo y reservo un montón de recursos que no estoy usando, y ya el servidor no tiene espacio ni para poder
+atender nuevas peticiones.
+No 1 fue liberando espacios de memoria que ya no ya no se necesitaban o ya no se requerían. ¿vale?
+Bueno, hay un montón de herramientas para para pruebas de carga Java y Javascript, y
+pero en este caso, pues locust es el que se utiliza para Python.
+Entonces, las ventajas, pues, es que está escrita en Python. Por ende, la integración es fácil escala Múltiples máquinas.
+Él desarrolla una web intuitiva para monitoreo en tiempo real. Es lo que le digo que cuando 1 C corre ese aplicativo.
+saldrían allí levanta un servidor web que 1 entra al al al al puerto de red. Creo que en el 5 001
+y allí te va a mostrar todo lo que está monitoreando de la aplicación que está corriendo, que eso es una herramienta que te permite hacer eso y correr todas las las las y conforme se van corriendo las pruebas te van haciendo y mostrando las métricas
+y y que, pues luego no puede generar los reportes de lo que vio de aquí e ejemplo de
+de implementaciones usando la librería.
+Y esto, y cómo se correrían las pruebas.
+Uno le dice de dónde, en qué puerto de red quiere que se corra
+y siempre se ejecuta ejecutando el archivo especificando
+que no alcan. No alcanzo a correrlos. Prueben Prueben instalar acá en el ring, instalar las dependencias, sigan el rime.
+Y me cuentan. Si si pudieron correr estas pruebas de acá de de este script.
+entonces ya después con con con calma.
+Bueno, nos vemos allí porque tienen otra clase. No sé si hay preguntas, si hay dudas.
+María J. Carvajal
+María J. Carvajal
+46:23
+Entonces, cuando pasa esto, de que se satura y empieza 1 a pedir en globos más
+más carga, los puertos siguen siendo los mismos a los que 1 configura la los puertos y las url seguirían siendo las mismas las que no configuradas
+al al servidor inicial.
+Nestor Cardona
+Nestor Cardona
+46:44
+Sí el el Endpoint, o sea, si si es si es sobre el mi la misma instancia, el End Point no cambia. Ya. Ellos modifican cómo son son últimas, Eso Lo manejas con contenedores, es, se le aumenta o se le disminuye el.
+María J. Carvajal
+María J. Carvajal
+46:57
+Desde la parte de contenedor, ya no sería manipulando el desarrollo, sino del contenedor.
+Nestor Cardona
+Nestor Cardona
+47:02
+Desde el contenedor. Sí.
+María J. Carvajal
+María J. Carvajal
+47:03
+Okay. Gracias.
+Nestor Cardona
+Nestor Cardona
+47:05
+Bueno, bueno que esté muy bien una feliz noche.
+María J. Carvajal
+María J. Carvajal
+Pau.
+Nestor Cardona
+Nestor Cardona
+47:09
+Ocho.
+María J. Carvajal
+María J. Carvajal
+47:10
+Inicio de semana.

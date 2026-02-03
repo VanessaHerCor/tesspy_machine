@@ -1,0 +1,711 @@
+2026-02-02 a las 19:40
+
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+Hola muchachos. ¿cómo están todo?
+Demos 5 min a que los demás se unan? Vale.
+bueno, muchachos. Yo creo que ya podemos iniciar. Vale.
+podemos iniciar un poco de lo que vimos, lo que estamos dándole
+entonces a ver a ver, Ya veo que por aquí por el Instagram puesto.
+Les voy a compartir el colate el día de hoy.
+Cuénteme cómo les fue este fin de semana
+súper.
+María J. Carvajal
+María J. Carvajal
+04:43
+Voy a montar bicicleta, cosa que no hacía hace rato.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+04:49
+Eso es bueno, eso. Bueno, muchachos que disfruten, que disfruto muchachos
+deme un segundito que si me necesita por acá.
+María J. Carvajal
+María J. Carvajal
+05:13
+Profe. También me surge una pregunta.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+05:16
+Sí, claro. María. Cuéntame.
+María J. Carvajal
+María J. Carvajal
+05:18
+Y eso y está programaron para esta semana 10.
+No sé mentira, estoy fascinando.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+05:26
+Y sesiones.
+María J. Carvajal
+María J. Carvajal
+05:28
+Transcripciones.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+05:31
+No, no las programaron, porque yo hablé con ellos para que no las programaran.
+María J. Carvajal
+María J. Carvajal
+05:37
+Ah, Vale, 2, 4, 5, 6, 7, 8, 9. Bueno, casi en la punta
+se supone que es proyecto final.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+05:48
+Todo es construcción de un chat Book con lanchain.
+Sí, si eso quieren, si eso gustaría sí.
+María J. Carvajal
+María J. Carvajal
+05:57
+Cuéntanos sorpréndenos porque no sé al fin cómo va a ser el proyecto
+que si hacemos todos lo mismo, si seguimos una línea.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+06:06
+Okay, pues a ver primero el proyecto.
+Ustedes van a tener tiempo. Si eso es lo más importante, ustedes van a tener tiempo.
+tiempo, que es lo más importante ahí en ese sentido. Sí
+porque van a tener tiempo, porque precisamente por eso es que no vamos a meter las 10 sesiones. Ahora sí les voy a dar también un tiempo del fin de semana y todo para que terminen todo eso van a tener tiempo también en clase si quieren aplicar el proyecto final que originalmente es un chatbot. Está bien, sí.
+Y si quieren aplicar otro proyecto final, también está bien. ¿por qué lo digo?
+Resulta que yo tuve unos estudiantes. Bueno, una sí, una una estudiante y también otro otro mam
+que me comentaron acerca de que de que pues ellos ya habían visto esto o que ya habían visto como crear un chat bot que ya habían visto como hacer todo esto. Bueno, mejor dicho, impresionante, pues
+entonces yo les dije a ellos listo. Entonces, decían ustedes ¿qué quieren hacer?
+Vale, decían ustedes qué quieren hacer, y ellos al final hicieron hicieron algo, por ejemplo, una aplicación con visión computacional, otro con algo de machine learning, otro ni siquiera nada que ver algo con software, sí, software, puro.
+pero pues un poco eso sí, entonces ellos, como que tenían la decisión, yo les dije a ellos, no pasa nada.
+Si ustedes no quieren, por ejemplo, pensar en un proyecto o no quieren que esto que lo otro. Yo no me siento bien o algo.
+pues no pasa nada. Vamos a hacer el proyecto del Chatbot? Sí, porque no me demoro tantas sesiones o con eso listo.
+Y bueno, entonces yo les digo, si alguien va a hacer un proyecto diferente. Primero, díganme si tiene preguntas dentro de las horas de clase y las resolvemos, si nadie tiene preguntas de ese proyecto.
+lo que hace lo que hago yo es seguir mi mi mi clase de chatbot
+listo. Entonces funciona. Esas 2 de esas 2
+Es como lo del chatbot. Es como un G. P. T. Es como un G, p. T, enfocado a discord
+vanesa.
+Una combinación de ambas.
+De hecho.
+es un jeep. Es como un G, p. Un G, p. T que interactúa contigo como un bot?
+No, no, no, no, no, no, No vamos a usar discord, No vamos a usar discord.
+No vamos a usar discord.
+no un chat bot. El chatbot se puede desplegar con una cosa: que llamas streambling, entre otras cosas, listo.
+pero el Chatbotxambold como tal el concepto, si es que me lo preguntas
+es la combinación de ambas. Pero no es que siga disco. No, nosotros vamos a ver una cosa que se llama Line Shane. Con eso vamos a crear unos agentes bien bravos de con código. Listo, porque normalmente ahorita hay herramientas como N Ocho. N que la automatizan. Sí,
+todo este tema. Pero Len Shane es para cosas muchísimo más complejas y pues
+al final, las las empresas piden más más más linchine que N 8. N: Bueno, todo depende porque son pocas. Pero si
+es eso, pero no significa que va a volver otra vez. Discord, No.
+lo de discord ya fue. Vale.
+te imaginas un chavo como un error que conteste en automático a mi historia, escogiendo lecciones.
+Mhm: Bueno, eso también. O sea, su proyecto final, Puede ser eso porque yo les digo, o sea, yo inicio, chat, bot.
+y yo. Esto lo termino de dar en 3 sesiones, 4 sesiones como máximo, y las otras 6.
+Bueno, y una es de de sustentación. Mini Pitch de 5 min
+contándome qué fue lo que hizo y ya
+5 minutitos que hizo, cómo lo hizo. Y ya
+no hay más. No hay, no hay que traumarse.
+Vale.
+yiceth mata lozano
+yiceth mata lozano
+10:12
+Súper Me interesa en este chat bots. Lo puedo entrenar para lo que te lo que te dije inicialmente del
+subir documentos y que me los sí.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+10:24
+Sí como tarea. Entonces tengan en una carpetita los documentos. Vale, por qué.
+yiceth mata lozano
+yiceth mata lozano
+10:33
+Se van a.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+10:34
+Demorar, porque, bueno, no se van a demorar.
+O sea, ustedes deciden qué qué quiere hacer el chat o todo esto sí, pero pues entre más datos mejor vale.
+yiceth mata lozano
+yiceth mata lozano
+10:42
+Y que sean buenos, obviamente, entre más datos y de buena calidad, mejor.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+10:46
+Pero hagan ese ejercicio?
+Bueno, un bo un chat bot por ahí Contestando a la pregunta de de vanesa: cuáles documentos. Resulta que ustedes sí. Ya no van a ver Latasets, tipo que numerito aquí, que numerito acá no van a trabajar tal vez con Pdfs, que es lo más probable, Pero
+con tal vez tx test, si en la medida de lo posible, traigan Pdf porque un modelo. Un chat bot funciona por detrás.
+¿cómo funciona un modelo? G, P, T, que es recolectando todo el tema de de de palabras de letras listo.
+entonces
+posiblemente no posiblemente obligatoriamente van a tener que traer varios Pdfs para el proyecto final, si es que quieren enfocar en el chatbot. Listo de cuánto está hablando por ahí? Unos mínimo. Tres P. D. Fs: de más o menos 20 páginas pueden ser libros pueden ser
+cualquier cosa. El idioma no es importante, vanesa.
+pero sí es importante que tenga un mismo idioma. Vale, Es importante que tenga un mismo idioma. No me vayan a traer chino, inglés y mandarín y portugués. Y todo eso porque
+por acá tengo unos decretos, Mi idea es entrenarlo para que exactamente
+perfecto no pasa nada. Cualquier tipo de P. D, F. Le sirve cualquier tipo de texto. Le sirve
+cualquier tipo de idioma le sirve, siempre y cuando sea un solo idioma listo, si no se complican bastante.
+vale, entonces creo que va a pasar aquí. Vale.
+Hoy terminamos ya la última parte de lo que vamos a ver de del procesamiento del lenguaje natural.
+No pasa nada. ¿vamos bien de tiempo.
+O sea, como les digo, sí, Entonces pregunta.
+alguien tiene un proyecto que no sea el el bot, el chat bot.
+Alguien ha pensado en un proyecto que no sea el chatbot lastimosamente por tiempos y porque igual nos quedamos mucho tiempo.
+No puedo, no puedo decirles, venga, es que necesito. Esto es, que es que usted puede hacer esto con esto. ¿sí? Y todo eso No, no lo puedo hacer.
+No puedo hacer ese mini resumen, porque no hay tiempo, ¿sí? Y honestamente, bueno, o sea, las soluciones son muchísimas, o sea, son muchísimas para los problemas que haya y sin problemas. No puedo
+como imaginar una solución listo, bueno y y y y eso, entonces
+alguien ha pensado de pronto en un proyecto que no sea de pronto el chatbot que digamos, yo quiero hacer un un detector de objetos que me detecte. No sé
+que me detecte.
+por ejemplo, si una basura es reciclable o no o un mach, un un modelo de machine learning
+que me detecte el cáncer, ¿sí? Con base en unos datos del cáncer que me pueda detectar el cáncer o que me ayude a medir, Por ejemplo, no sé el la el total de ventas de casas el próximo año, etcétera, como eso
+o el bot, el chatbot, algo con con N L, con n. L, P, Con procesamiento, lengua natural.
+María J. Carvajal
+María J. Carvajal
+14:04
+Yo, el chatbol lo quiero in ingresar a un proyecto donde ya no, que ya ya tengo estable.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+14:11
+Perfecto.
+Perfecto. Mario.
+María J. Carvajal
+María J. Carvajal
+14:13
+Ya como que me estaba haciendo una hojita de rutas en la cabeza, pues si te voy a
+bombardear con correos, seguramente con.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+14:22
+No pasa nada, no pasa nada. Yo los contesto. Y cualquier cosa igual. Aquí tenemos la clase. ¿vale?
+Pero bueno, súper saber si alguien no tiene otro proyecto en mente que no sea el Chalbot Listo.
+alguien tiene otro proyecto en mente que no sea el chatbot
+Okay.
+Creo que no.
+Yo Todavía no sé qué hacer
+si no sabe qué hacer denle una repasadita al video a los vídeos y hagan el chatbot.
+hagan el chatbox. Vale, hagan el chatbot como lo del chapot.
+Es que muy duro porque el enfoque un juego.
+También pueden hacer un juego que le integren una guía. Sí, son cosas como esas. Puede ser, O sea, no necesito. Es que simplemente me diga, ¡ay, no Profe es que voy a hacer un sistema de aplicación de con aplicación con visión computadora. No, simplemente dígame. Profe. Yo voy a hacer un juego que persiga
+que persiga el cuadradito, por ejemplo.
+con una red neuronal con algo de día integrado. No sé, pero vamos, Ya listo. Perfecto.
+Sí, son cosas como esas. Yo no pido
+que venga que lo integre que esto que lo simplemente dígame
+qué quieren, ¿Qué solución quieren crear, ¿Qué resolución les gustaría crear, ¿Qué tienen pensado ir con base en eso.
+con base en eso, pues
+le dan al proyecto que tenga ella. Obviamente, como requisito proyecto final de ella debe tener bien.
+¿vale?
+Bueno, entonces piénselo
+y y me dicen cualquier cosa. Si no seguimos con el chat bot, no pasa nada. Vale, no pasa nada igual. El chatbot es muy bueno. Si nunca han visto el chat bot
+es superbacano, súper Excelente. Entonces, bueno, te vamos bien, hasta ahí dudas.
+Perfecto.
+No hay dudas.
+Excelente.
+Bueno, muchachos. Entonces hoy ya vamos a terminar un poquito la parte de envenings listo y
+ya vimos un poco de representación de texto en la forma vectorial, Vimos un poco los embages. Sí, Yo les hablé acerca del contexto. Hablamos cómo funcionaba lo interesante que con lo que funcionaban. Sí, ¿Cómo hacían de pronto esa
+esa conexión de palabras, por así decirlo, sí, sin tener en cuenta un diccionario, sin tener en cuenta la palabra previamente antes saber el significado, no simplemente por el hecho de estar rodeado de otras palabras, las palabras van interactuando entre ellas
+y al final, eso es lo que le da el contexto al modelo listo.
+Así funciona el E. M B, a y qué más. Por acá
+Aquí es donde donde venía la cosa, Donde yo les comentaba acerca del clustering acerca de todo esto que vamos a ir avanzando un poquito. Sí,
+ahorita cómo funciona el embeding. Y ya esto, ya ustedes ya saben, un spoiler listo, ya saben, un Spoiler.
+Primero, Fíjense en el corpus. Lo que yo les había explicado del corpus. Listo. Un rey es un Fíjense Este corpus, Por ejemplo, un rey es un guerrero y hombre honesto. Una reina era hermosa y fundamental. Es su papel de ar herederos. Las caleñas mujeres son como las flores hermosas. Las papas son riquísimas. Listo
+en un enveding en un envening liso
+en un enmeding. La Supongamos que yo extraigo de de de de esa de ese corpus las palabras. Hombre: rey, Mujer: Reina y papas.
+Listo. Papas así.
+O si quieres en inglés potato. No, no importa.
+listo. Qué es lo que pasa con el embay? ¿qué es lo que pasa con el embay?
+Fíjense por acá sí piense por aquí. Resulta que nosotros tenemos los diferentes vectores esta vez, ya
+dependiendo ya de su cercanía, su sentido y su magnitud. Ya hablamos un poquito de eso. Sí,
+esta vez, con el contexto
+ya más o menos ya sabemos cómo va la cosa listo. Ya no estamos adivinando. Ya no sufrimos del problema de magnitud. Ya no sufrimos del problema de que venga. Si el vector está aquí. Entonces todos parten del origen. No fíjense que todos parten del origen. Si se dan cuenta, todos parten del origen, pero tienen sentidos magnitudes y direcciones diferentes. Listo.
+Y a pesar de eso, comparten muchas similitudes. Por ejemplo.
+ustedes saben que hombre está asociado, muy asociado a la palabra rey, ¿cierto? Los hombres, antes se les decía, no sé en una en una monarquía se les decía rey.
+a la mujer se le asocia mucho, también con una reina antes en la monarquía. Se le decía a la mujer Reina, ¿cierto? Pero por ejemplo, yo Tengo aquí un corpus que dice que las papas son riquísimas.
+Listo, Las papas son riquísimas. Recuerden lo que habíamos hecho, lo que habíamos hecho antes. ¿cómo aprende mi modelo? El empieza a ver las palabras. Listo. Entonces dice, bueno, un rey es un guerrero famoso y un hombre honesto.
+Entonces un rey que es es un hombre, pues también un guerrero, pero un hombre listo.
+Aquí es donde viene la cosa. Una reina. Era hermosa y fundamental en su papel de dar herederos.
+Listo. Entonces, ¿qué pasa aquí con este segundo ejemplo de acá con este segundo ejemplo de acá listo. Con estos 2 s ejemplos de acá
+dice que una reina, sí, una reina era hermosa, listo. Una reina era hermosa
+en el segundo en el segundo en el tercer documento. Aquí, listo dice que las caleñas mujeres sí que las caleñas ya sabemos que se mueren, Son como las flores hermosas. Cierto que las flores son hermosas. Bueno.
+resulta que el embading lo que hace es
+relacionar la palabra hermosas con la palabra de hermosa de arriba. Entonces dicen: venga, es que estos 2 tienen la palabra hermosa, listo la palabra hermosa.
+Entonces, si entonces
+él también lo que va a hacer es interactuar con las demás palabras y dice: uy, venga, ¿quién era hermosa. Entonces se va retrocediendo avanzando. Sí, hasta que topa con la reina. Listo.
+Entonces
+cuando yo veo por acá si cuando yo veo por acá aquí. También me dice las caleñas mujeres. Visto en el tercer documento, acá me dice las caleñas mujeres.
+Entonces, si entonces él puede afiliar. Si él puede aprender. Sí, que las mujeres
+son reinas. Listo por el simple hecho de compartir
+una palabra similar, como lo es hermosas visto yo. El modelo mío no sabe que una reina es mujer, No sabe que una reina mujer por mal léxico por más palabras que no, que dice una o dice reina en vez de rey. Él no sabe eso.
+Él no sabe eso. Él simplemente ya sabe que son mujeres para nosotros. Parece obvio. Él simplemente ya sabe que son mujeres porque comparten la cualidad de hermosas listo. Él sabe que una reina es mujer porque comparte la cualidad de hermosos.
+Es así. El emery sin complicarnos la vida es hacia el E. M. B. Vale.
+Entonces cuando él va a hacer la predicción, Si fíjense que los vectores, hombre y rey, están están cercanos.
+Mujer: y rey están un poquito más cercanos también. Y mujer y Reina están cercanos. Toda esta parte de acá está cercano. Se podría decir que esta parte, digámoslo entre comillas es como de la parte de de la realeza. Sí que un hombre era un rey y una mujer era una reina.
+pero tenemos en la otra parte, la parte más alejada, este corpus
+en ningún lado en ningún lado sí.
+Del corpus aparecen ni papas ni riquísimas, ni rico, ni nada
+listo, nada. Entonces, ¿qué va a pasar con ese vector? Ese vector va a ser. Si ese vector va a ser
+ese vector, va a estar, digámoslo así, opuesto a los demás vectores, porque no está relacionado
+listo, no está relacionado Ahora, esta vez ya la cosa cambia como está. Lejos de los vectores. Tiene diferente. Digámoslo así. Bueno, aquí tiene igual sentido, pero tiene perdón, tiene igual dirección, pero tiene diferente sentido 1 hacia la derecha, otro hacia la izquierda. Así
+pues, es diferente. Es diferente. Están opuestos, o sea, gráficamente claramente se ven que están opuestos. Listo.
+Entonces, ¿qué es lo que va a pasar cuando yo le diga a él listo, prediceme una reina era una
+y por ejemplo, tienes estas 2 opciones: papá o mujer.
+pues esta vez ya no tendremos el problema de que de pronto diga Uy o papa o diga cualquier otra cosa. ¿no? Esta vez dice, bueno, por cercanía sí que lo vamos a mostrar aquí.
+Así que lo vamos a mostrar acá
+por cercanía de los vectores y por la distancia entre los vectores que hablamos algo de eso Sí,
+él hace, digámoslo así, esta suma y se da cuenta de que.
+por ejemplo, ah, bueno, esto es otro ejemplo. Sí,
+por la cercanía de los vectores. Listo.
+Él se da cuenta así de que una reina es una mujer porque es el vector más cercano visto. Es el vector más cercano. El otro vector más cercano es o rei o papas.
+pero el vector más cercano. Es mujer. De ahí se da cuenta de que una reina efectivamente era una mujer.
+¿sí?
+Y
+este es un ejemplo de lo anterior sí como funciona. De pronto la suma de los vectores que lo vamos a ver también en código. Sí,
+por ejemplo, yo digo, yo tengo el mismo corpus de antes, pero le sumo algo. Un hombre siempre necesita de su mujer, listo.
+Un hombre siempre necesita de su mujer.
+Entonces, si yo lo pongo de la predecir un rey siempre necesita una sí
+Por el tema de la similitud, se acuerdan una reina, una mujer hermosa, mujer, mujer, pues se dará cuenta de que un rey es un guerrero honesto, un hombre, un hombre listo.
+Entonces se da cuenta de que un rey siempre necesita de una reina
+y es por la distancia entre los vectores. La distancia entre los vectores. Vale, ustedes lo que hacen es hacer restas y sumas Así de sencillo, Sí,
+le restan el vector rey, menos el vector, hombre y le queda esta distancia listo, le queda esta distancia y le resta el vector.
+perdón y le suma el vector, el vector, mujer listo para tener esta distancia.
+Y eso qué le da si yo coloco, listo, Si yo coloco
+si yo interactúo con esta distancia de acá listo, pero interactúo con esa distancia de acá. Y voy desde mujer.
+Sí, Entonces busco el vector más cercano. Nos damos cuenta de que efectivamente es
+reina. Listo. El vector más cercano es reina, ¿Por qué no puede ser hombre, si no puede ser hombre.
+¿Por qué está muy lejos? No puede ser rey, Sí, no puede ser rey.
+porque el rey ya está 1 ya está en la oración. Si 1 ya está en la oración y 2 rebasa por montones.
+o sea, por montones, rebasa el vector de rey.
+Entonces necesitamos que tener una medida muy cercana. Digámoslo así: Si entre los vectores, si yo coloco, por ejemplo.
+un rey acá visto un rey acá y lo colocó con papas. Fíjense que el vector de papas está muy, muy, muy, muy lejos.
+Listo, entonces posiblemente sí, posiblemente mi modelo, lo que va a ser.
+Es decirme que un rey siempre necesita una mujer por el simple hecho de la cercanía entre los lectores. Vale, es eso?
+Listo? Tú haces ahí del enveje.
+Ya lo habíamos visto un poquito antes.
+Así que vamos súper listo. Perfecto.
+Vamos súper entonces
+listo, Tenemos entonces ese modelo en Bay? Sí, digámoslo. Así que se llama World to Wet. Normal. Es como bueno. Les cuento también
+los modelos de embages. Ioh. Yo ya se los dije, se los recuerdo. Entonces hay modelos de emba en línea listo en repositorios.
+entonces Eso es lo que le estoy mostrando. No son los más potentes, pero son las bases con las que fueron creados nosotros.
+visto Entonces, no vamos a utilizar word to Beck. No vamos a utilizar word, Vamos a utilizar envagings
+más potentes, por ejemplo, un M B, y no sé hecho, por ejemplo, por meta así para el el el de Open, a todo esto todo esto listo. Ojo Recuerden lo más. El objetivo del embage. Eso es muy importante que recuerden el objetivo del embay. Bueno, sí.
+Si se comparte el modelo, sí en los repositorios.
+porque entonces también se comparte el embain, porque resulta
+Helen Bay. Lo que hace es traerme el mayor contexto posible para mi respuesta listo que la respuesta asocie las palabras que realmente son que no me busque otras palabras, que nada que ver.
+que cuando mi modelo vaya a predecir, no vaya a predecir que un rey siempre necesita unas papas por el simple hecho de que de que no hay un baing. No hay distancia entre los vectores y dice cualquier pendejada.
+Por eso son importantes los envains Por eso son pesadísimos. Son pesadísimos porque tienen toda esta parte de vectorial, todos estos vectores almacenados A.
+Y es precisamente por eso porque es el que me da el contexto al modelo, el modelo, simplemente lo que hace es interpretar el contexto. Pero este es el que me da el contexto.
+Es eso.
+Tenemos otro modelo en Bay que se llama Fast Test. Ese fue creado por por Facebook. ¿vale? Y lo que hace esta vez es un poquito más rápido que el word to Ex. Pero pues, bueno, no es no es normal que lo que lo utilicemos en
+en en producción ni nada de esto por el estilo. ¿vale? Pero para que entiendan, hay diferentes, hay diferentes en bases. Cada 1 varía dependiendo del que lo hizo. Vale.
+Pero pues eso todo tiene la documentación.
+Lo que diferencia con el otro es que fíjense en lugar de aprender un vector para cada palabra completa. Sí,
+fastend, descompre las palabras en subunidades.
+por ejemplo, para corriendo. Aprende los vectores cor por ri etcétera. Listo.
+Fíjense las ventajas. Ahí los tengo para que lo para que lo vean.
+por ejemplo, bien se manejo de palabras desconocidas. Por ejemplo, si yo le digo a él mis amiguitas y mis amiguitos son mis amistades listo.
+Por ejemplo, él no conoce amiguitas, no conoce amiguitos. Creo que en en en el diccionario 1 no dice amiguitos. Uno no dice amiguitas listo
+o de pronto, el diminutivo. Pero Bueno, eso es otra cosa. El caso es que él aprende. ¿sí? Gracias a esas 2 unidades como como se divide. Vale, eso es
+y acá. Ya ponemos una cosa bien bacana. Sí, una cosa bien bacana.
+¿qué es el embay principal? Listo? Es el embay principal.
+Se llama Berth. Ustedes lo conocerán porque en el pensón aparece como transformer.
+Este fue el algoritmo que revolucionó todo el verraco con texto. Todo lo revolucionó. Y fue el algoritmo sí que. Bueno, el perdón, el método sí
+de embeding, con el que se crearon los gpities.
+los gpittis vale con el que se crearon los gypities.
+Hay un problema. Hay un problema con los otros vectores de acá. Sí, y es que, Por ejemplo, por ejemplo, si yo tengo un vector, piensa casi. Yo tengo un vector, No sé
+si yo tengo un vector
+a ver. Yo tengo un vector como que se acuerdan del ejemplo del ejemplo que yo les dije.
+D Bueno, que ustedes los dijeron, el rey Come Papa.
+¿Se acuerdan del ejemplo que que que ustedes me dijeron sobre sobre el perro. Sí, resulta que si yo tengo el perro acá visto.
+Él me daría un solo vector. El problema es que el perro tiene varios significados, tienen varios significados.
+Entonces el vector ahí se me vuelve loco el vector. Ahí se me vuelve loco, no sabe para donde ir, no sabe para donde entrar. Él dice, Bueno.
+¿cómo hago si si esto, si esto es un animal, y luego me están diciendo que esto es una persona, entonces cuando me digan un perro, que es lo asocio con mi ex o con un animal.
+Sí, cosas como esas. El modelo se vuelve loquísimo. Y Aquí es donde viene la atención.
+el el método llamado Werth Listo.
+¿qué es lo que hacen ellos? Sí, ¿Qué es lo que hacen ellos. Fíjense acá.
+Él lo que lo que hace. Si fíjense acá
+que en vez de asignarle un solo vector a cada palabra, ver lo que hace. Si ver lo que hace es asignarle diferentes vectores y diferentes vectores
+a las diferentes palabras. Ejemplo: Fíjense acá.
+La palabra banco tendría el mismo vector. En fui al sacar el banco que
+en me senté en el banco del parque, sí
+que me senté en el banco del parque.
+Fíjense, acá, lo acá, no del asunto, Sí, fíjense acá lo acá no del asunto
+aquí, sí, aquí el problema, O sea, la gran diferencia del ver si es que él entiende. Él entiende, porque él interactúa con las demás palabras.
+Él entiende que una cosa es un banco de sacar plata. Y otra cosa es un banco presentarse en el parque listo.
+Es demasiado potente porque revolucionó todo esto porque resulta que estos manes crearon la arquitectura y hicieron una nueva arquitectura que que era con unas capas de diferentes redes neuronales
+y y experimentaron, le dio esto
+el vector. Entonces fíjense que lo más importante con la diferencia entre los otros es que los otros tenían un solo vector para una palabra. Este
+me va a dar 2 diferentes vectores Si la palabra tiene un significado distinto, y la palabra tiene un significado diferente.
+Vale, Es muy potente. Está hecho por detrás con una red neuronal. Si alguien quiere por curiosidad, buscarla. Se llamaba back propagation. Sí, la técnica
+de de las y las redes se llaman redes como redes neuronales como lucionales
+no son son solo eso. Redes neuronales convolucionales con una técnica back propagation. Se llama.
+Vale, Vale.
+Pero es esto es esto. Aquí con verd, Ya empezamos a ver un poco el tema de que ya manejamos todo, o sea, ya el Man sabe diferenciar
+en sentido magnitud y dirección y adicional. ¿sabe el contexto, Sabe que un banco de sacar plata es diferente a un banco del parque.
+porque, pues, acuérdense que las palabras, las palabras interactúan entre todas ellas para entender su significado, entonces el banco interactúa con a con sacar con dinero sí para entender el sentido. Entonces, si luego banco
+se vuelve aquí en en banco del parque, sí, él va a decir, bueno, ¿y esta cosa, ¿Qué
+el banco no era de sacar plata, pues entonces lo que hace es si hay confusión, si entre comillas, si hay confusión, crea el otro vector
+Vale, y es superback.
+Ese descubrimiento fue hecho, claro está, por Google, listo y está publicado en el Paper, más famoso que se llama Atention Isald Unit.
+Vale, tatúenselo, o sea, tú eres el Q. R. El Paper, porque eso es lo que
+lo que inició toda la revolución de de los modelos de lenguaje natural
+de los modelos de lenguaje grande, se les llama como chagi pity gemite. Todos ellos.
+Entonces ahí les dejo la curiosidad.
+¿vale?
+Esto. No, Esto no es Turquía y Torquare.
+Esto no. Esto no es todo bueno, eso Sí, vale
+ellos la diferencia, Digámoslo así, de una arquitectura. Así que ellos tienen por detrás listo es que van a aparecer una nueva, un nuevo tema que se llama el vector cuero y vector qui y vector value Vale, van a aparecer estos estos 3 vectores.
+Precisamente haciendo referencia. Digámoslo así, al significado general de las palabras. Si de los tokens.
+entonces para que lo tengan más o menos presente, sí para que lo tengan más o menos presencia. Y no hay, no hay que estallarse la cabeza con esto, sin la arquitectura, pues tampoco lana pregunta en el trabajo. ¿qué es un vector que vector Vali
+Vale.
+Entonces pero sí es importante, pues para que lo entiendan un poquito. Vale
+el vector. Cuery. Tenemos un vector Cuerry, que es que, por ejemplo, es un vector. Literalmente lo dice la palabra de, busca.
+supongamos un ejemplo.
+Yo voy a una biblioteca y quiero buscar un libro de finanzas personales. Entonces, mi director, Cueri, ¿quién es es el que le hace las preguntas. ¿cuál de estos libros me sirve para finanzas personales?
+Luego sigue el vector Key Listo.
+que lo que hace el vector Querig es interactuar con el vector q y decirle venga
+cuál es su título. Entonces Él dice a finanzas para directivos interesante lees al título al libro Dos: venga. ¿cuál es su título
+al libro? Tres: ¿Cuál es el título, y él se queda con el título que le que le suene más listo, que le suene más con lo que está buscando en este caso, pues
+el de finanzas sí suena más.
+Entonces, ¿qué es lo que va a hacer? ¿está estos 2? ¿van a interactuar y dicen: listo. Usted es el mejor libro o el mejor vector.
+Entonces, ¿qué es lo que voy a hacer con usted? Sí, ¿Qué es lo que hace la red neuronal? Lo que 1 hace es, por ejemplo, en la diarrea se compra el libro y lo lee
+Juan. Lo que leo, lo que leo sí como tal. El contenido del libro. Ese se llama vector valio
+listo. Vector, valor. Es re sencillo.
+Vale
+lo que tiene el contenido como tal del vector, entonces vector coery que hace. Me busca entre los títulos. El vector quique hace me da el título.
+Si me quedo con el que mejor título tenga. Pues simplemente me quedo con el contenido del punto me quedo con su valor.
+Vale.
+por qué es importante esto? Bueno, un ejemplito. Sí, un ejemplito. Si quieren, lo ven, pero no creo que haya, No, No creo que haga falta vale.
+Pero bueno.
+porque entonces lo estamos viendo. Se preguntarán, y qué es lo que tiene que ver. Todo esto escaneen el Q R Si no escanean el Q. R.
+Yo lo va a colocar Splayner, un núcleo, este
+listo Les voy a dar el link.
+Este es la arquitectura Transformers.
+Listo. La arquitectura transformer.
+Fíjense que se empieza Si se dan cuenta.
+1 empieza por el embelle listo. El embel qué es vector vector de qué dimensión es un vector que tiene 100, 68 números. Entre comillas, listo.
+100, 38 dimensión.
+178 100, 78. Sí. Bueno, aquí es para predecir esta palabra listo para como predecir esta palabra.
+Entonces. Fíjense que el Cohen Bedding hace técnicas, digámoslo así con una red neuronal que fíjense que se llama, bueno, es una curiosidad. M L, P: Si ustedes no entienden
+que es, por ejemplo, M. L. P. Que es, por ejemplo, Multifad Self Atention, ustedes simplemente le dan clic, y él les explica.
+vale, Él les explica.
+Pero no hay necesidad. De pronto de que se agobien con con arquitecturas con capas es un poco más profesional. Listo, Eso es un poco más profesional. Entonces, si hay que tener mucho más tiempo para eso.
+entonces fíjense por acá. Cuando el embvey impast lo que 1 tiene que hacer pasa por una capa que se llama capa capa de multi soulf atention listo.
+Es una capa que de por sí viene la arquitectura listo de los Transformers que sacó en el Paper Google.
+Entonces no hay problema. Por ese lado, no se tienen que aprender todo esto si no, no pasa nada, simplemente di denle un vistacito, sí, y es súper interesante para la teoría.
+Pero fíjense que acá. Aparezca el vector. Q. El vector Cuerry, el vector valio. Listo. Entonces ellos 3,
+Digámoslo el vector, qui el vector Coery, interactúan, interactúan, interactúan varias veces y van viendo patrones etcétera.
+Cuando cuando dice hend five of el Stuart
+es porque son las son las épocas. Sí, son las épocas de de la red neuronal.
+Entonces, de poco a 1 Ta Ta: ta ta ta todo esto.
+Y por último, pues, eso se repite hasta que al final ya estamos con la salida. Y fíjense que acaba el vector válido, listo. Lo que me quiero quedar como tal de la palabra vector value. Y al final lo que hacemos es estadística vale es estadística. Le ponemos una función de activación que se llama Gelu.
+Y eso nos da la probabilidad de la próxima parada.
+Vale.
+nuevamente no tienen la necesidad de aprenderse, que esto que lo otro es súper interesante. Eso les va a sumar un plus importante en entender esa arquitectura. G, P, T,
+Pero Pues en realidad con que sepan de pronto el M B, Ya lo saben. Si vector, quie vector Ky Vector Value, y de pronto, ¿qué es lo que pasa después? Con la capa de salida? Y ya la probabilidad, obviamente, es una probabilidad, 3 0 y 1, o sea, entre 0 y 100 por 100,
+y ya terminamos Transformers y ya terminamos todo sí
+lo del procesamiento del lenguaje natural.
+recordar que es un transform que en un transformer el objetivo. Fíjense acá nuevamente porque el Transformer Profe que es eso? Toda esa teoría
+no pasa nada. No pasa nada. Es casi lo mismo. Sí, de hecho, es lo mismo. El objetivo del transformers es predecir la siguiente palabra, como el objetivo de todos los L. L. Ms, como los objetivos de todo, porque precisamente tienen esa arquitectura por detrás. Visto.
+Y Bueno, cosa importante, recorderis, como lo dije en introducción, lo vuelvo a repetir: eso. Está.
+Fíjense que el él va soltando cierto. Por ejemplo, cuando usted le le escriben a chat lo que hace es predecir la la la siguiente palabra y luego, con la palabra, vuelve a repetir el proceso.
+Así, hasta que la siguiente palabra que él va a predecir tenga una probabilidad tan baja
+que no, que él dice que él mismo dice. No, no lo voy a dar, porque pues ya aquí acabé lo del resto en redundante. Así es como para una guía. Cuando ustedes le preguntan algo, vale.
+¿es eso y listo Aquí ya empezamos la práctica.
+Aquí ya empezamos la práctica conjuven Facebook?
+Vale preguntas preguntas, preguntas.
+vemos el el código antes de las preguntas. Les parece?
+Veamos el código antes de las preguntas.
+pero antes de las preguntas vamos a
+cerrar sesión y vamos a iniciar sesión de nuevo para que quede la grabación de asistencia les parece?
+Bueno.
+
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+01:13
+Bien, muchachos volvamos. Entonces vale.
+Entonces
+no vamos a manejar mucho la sintaxis. No nos vamos a estallar muchos con en Badens. Porque, bueno, de nuevo les repito, esta parte ya está prácticamente más que automatizada. Sí, los mismos modelos traen sus propios embages. Ya nos vamos a dar cuenta de eso. ¿vale?
+Entonces no configurarla. Es muy sencillito, Vale, muy sencillito. Entonces vamos a ver de forma de forma muy, muy rapidita, muy rapidita.
+No pasa nada si tienen dudas de los embages listo, porque en realidad, pues son igual muchas cositas teóricas, pero van a ver que en la práctica, en el chatbot del embain es solamente una línea o máximo 3, 4 listo.
+o sea, es superbatanísimo.
+Entonces.
+por aquí que estamos viendo más teoría, todo este tema, entonces no me va a demorar tanto. Va a ir directamente Más que todo este tema ¿vale?
+Y vamos a ver por acá entonces listo.
+Recuerdan que yo les dije que los embages estáticos como borthueve y fasth test. Bueno.
+fíjense lo que yo les comenté de los vectores de los vectores. Resulta que
+Worldweck tiene una función que lo que hace es mostrar el vector más, Digámoslo así, más más cercano. Sí,
+el el sí, el vector más cercano.
+dependiendo de los vectores que yo le dé a él. Por ejemplo, se acuerdan que yo les dije que para encontrar el vector la analogía de
+un rey siempre necesita una reina. Listo.
+Yo les dije que se tenía que restar la palabra Ray.
+perdón. Se tenía que restar la palabra rey, menos la palabra hombre para asociar como como esa mezcla de la realeza. ¿sí? Y a eso sumarle la palabra. Mujer: vale la palabra. Mujer.
+Vale, si yo hago esa esa, digámoslo así, esa operación.
+El mismo Word, tuve lo que me dice es que el resultado más probable haciendo esta operación. Si rey, menos hombre, más mujer
+es reina el vector reina, entonces efectivamente el M Bein funciona listo. El M Bein funciona.
+La palabra Reina es es el resultado más probable.
+No se asusten por esto. La verdad. Esto es muy teórico. Sí, como les digo, es muy teórico el fast test. Piénselo. Acá no. Si fijénselo, acá, no.
+por ejemplo, para reales, Sí,
+resulta que si yo tengo una palabra desconocida, acá, listo si yo, por ejemplo, le doy a el listo. Mujer: Así vale el vector. Mujer.
+si él no sabe del vector, ¿sí? Porque aquí yo le puse un corpus para para hacerlo claro. Si le puse un corpus, y aquí no aparece la palabra Mujer: así ¿no?
+Si él no tiene la coincidencia exacta de la palabra. Mujer: listo
+así sea que yo me pase en una sola aleta. Él me va a decir: ese vector, no existe para nada. Y no voy a hacer nada
+de eso.
+Fast test es más resiliente a eso. Listo. Es más resiliente a eso.
+Fíjense que, por ejemplo, fas test puede crear un vector para la palabra desconocida como realeza en el corpus. Yo nunca hablo de realeza. Nunca tocó la palabra realeza.
+Lo mismo con reina con doble A.
+No tengo una palabra. Reina con doble A
+y él me crea los vectores. Igualmente.
+es muy resiliente a errores. Es bastante. Digámoslo así, resiliente a errores. Es un poquito más pesadito y no es tan preciso porque, pues al fin y al cabo, es mucho de creatividad listo. El El juega mucho con la creatividad entre comillas
+y el Vert. Sí, el Vert.
+que aquí es donde viene una cosa bien bacana visto.
+Bueno, eso después lo vamos a ver bien.
+Pero pues esta parte del ver si si se dan cuenta por acá. Yo tengo aquí unas unas oraciones
+y vamos a ver por acá si fíjense por acá
+los valores, sino que todo eso más de lo que pasa que con la palabra planta y contexto perfecta.
+Piense por acá si yo tengo 3 oraciones. Una dice la planta de tomates que sembramos en el jardín. Bueno, la planta de ensamblaje de coche no es una industrial. El atleta sintió luego en la planta del pie. Todos sabemos que aquí la palabra planta la
+tiene un significado diferente en las 3 diferentes oraciones visto, no es planta de tomates. Otra es planta de fábrica y otra es planta del pie listo.
+Resulta que este mang, si este ma que tiene una función tiene una función para comparar las similitudes entre los vectores, porque él me genera los vectores. Bueno.
+resulta que
+este Man, si si 1 ve las similitudes, sí entre planta de piensa acá. Similitud entre la planta del ser vivo con la planta de la fábrica, visto es de casi el 80 por 100,
+tiene una similitud alta. Es cierto, es cierto, pero si yo no tuviera el ver esa similitud, sería prácticamente el 100 por 100
+del 100 por 100 y obviamente no son iguales.
+entonces ver, digámoslo. Así pues, obviamente con los nuevos embages. Sí, ver si quedó atrás, Pues porque fue el inicio.
+pero pues él sí nos explica. Él sí nos explica que era robusto en su época. Listo porque si sabía diferenciar, sí sabía diferenciar que era lo más importante.
+Ahorita ya, pues esto esto esta similitud no es tan alta. Y todo esto vale.
+Y es un poquito esto.
+No me voy a poner a explicar código porque, como les digo en el bot en el chatbot van a Se van a dar cuenta de que esta vaina sale en una sola línea listo
+y no hay necesidad de leer todo el código, pero es simplemente saber un poquito más como
+esa parte práctica. Y la teoría como tal de esto vale bien.
+Preguntas. Hasta ahí,
+todo, claro.
+Perfecto. Todo claro, ya
+bien, perfecto, entonces
+perfecto, perfecto. Perfecto. Vamos. Entonces ya directamente muchachos, se acabó el el curso de de procesamiento de lenguaje natural. Ahora vamos a ir
+al al al bot, al chat, listo al chat.
+entonces el chat, pues estas son las 2 primeras sesiones. Voy a dejar de compartir por acá
+estas son las 2 primeras sesiones. Entonces, por aquí por acá es otro aquí antigravery visual. Studio. Code. Perfecto.
+Vamos a ver un poquito por aquí solo un poquito por acá y no genial.
+Sí, el proyecto Fina.
+Entonces Proyecto pruebe. Aquí tengo una Expedit
+en todo el país. Es el que hay
+que me da bien esto. Y también
+Point prueba copy nuevo en en Bein. S of Tay.
+Vamos a verlo por acá. Bueno, lo bueno del Embrail es que Uy, pero es que ese se demora esto en cola
+este se demora el resto por la ap
+point, listo, listo, listo. Listo? Listo? Listo? Listo? Listo?
+Listo?
+Bueno, vamos a darle, Vamos a darle, Vamos a darle, pues vamos a dormir.
+Vamos a darle, vamos a darle
+de verdad un momentico. Yo tengo que responder algo.
+Yo no me entiendo qué pena con usted
+deme un segundito que solo aquí hablamos con lubina y trabajo listo. Entonces
+a ver qué vamos a hacer, ¿Por acá. Qué vamos a hacer por acá. Primero, muchachos Aprovechen este preciso momento de la clase, Sí,
+para recolectar los P. D Fs que requieran
+póngalos en una carpeta. Listo. Pónganlos en una carpetita. Miren el Pdf. Vale.
+Entonces fíjense, por acá por ejemplo, yo
+quédense por acá. Por ejemplo, yo vamos a hacer esto desde hacerlo. Pero Pero, bueno.
+yo tengo aquí en mis Pdf. Yo tengo aquí mis Pdfs para abrir la carpetita.
+Yo tengo yo tengo deme un segundito. Comparto toda la pantalla.
+Yo tengo el pensum de Parquessoft, por ejemplo, listo el penzum de parquesso. Vale.
+el pensum de parque soft visto. Entonces, ¿qué es lo que yo quiero? Digamos así como enfocar mía Primero es lo lo primero. Es eso
+en que quiero enfocar mi vida. Y yo yo personalmente, lo que quise fue con base en el en el pensum de parques. Of
+Lo que hago es, por ejemplo, crear un chatbot que me asista así. Las preguntas de los estudiantes con respecto al temario listo, Pues, por ejemplo.
+dicen Uy. ¿qué es esto de pro de desarrollo de aplicaciones con visión artificial? ¿qué se ve ahí? Entonces mi chavo le dice: oye aquí en Parquessoft, tú ves en
+en dónde está
+A aquí en parques soft, tú ves el uso de a P I S para integración como discord respuesta automatizada, el uso de pike games y cada 1 que la vaya explicando con un resumen político, ¿sí? Entonces digámoslo así, Esa es mi intención con el bot, con el chatbot. Vale.
+que haga eso.
+¿qué les parece entonces?
+Entonces? Tienen que ustedes? Pues obviamente van a tener un proyecto diferente al mío. Vale la sintaxis. Va a ser igual, pero las conclusiones sobre este tema, pues va a ser diferente, listo.
+Y pues por eso es que yo les mandé a dar otros pedx Vale.
+Entonces, ¿qué vamos a hacer? ¿qué vamos a hacer. Voy a dar 10 minutitos para que ustedes busquen los P. D Fs que quieren buscar. Les recomiendo que nomás busquen 2 3 para hacer una prueba. Sí, Porque, pues vamos a hacer.
+Vamos a hacer una pruebita de cargar sólo ojos, solo cargar los Pdfs listo para que lo entienda el el El el chatbot
+vale, y eso se hace en 10 minutitos. Es súper sencillito, súper sencillito.
+entonces les parece muchachos, 10 min a las 8 57
+a las 8 y 57 le le damos de nuevo el código. Si cualquier duda igual del P. F, me me me hablan por aquí, les parece entonces.
+María J. Carvajal
+María J. Carvajal
+14:16
+Bueno, señor.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+14:17
+Perfecto. Entonces denle por acá.
+Verme por acá. Entonces vale, estoy pendiente por aquí
+mientras esto. Quiero ver el cómo se comporta el bot, el chat, bot, el chapot, el chat bot.
+¿cómo se comportaría este chapote
+soft?
+No, Qué compra
+ohh
+austríacos!
+Todo
+por cierto, súper interesante, algo que
+leí hace poco. Vamos a ver si por acá está.
+Vamos a ver si por aquí esta.
+¡Ay, no. Si usted es 1 de una cuenta seria por Dios
+y no por acá y comprende el nivel oportunidades.
+Ornants, este
+no uy piense por acá
+hace poquito. Hicieron una integración bastante fuerte, bastante poderosa en el tema del campo de las matemáticas y la aceleración de la ciencia con
+integrando los papers de látex en todo un contexto de de de los modelos, o sea.
+para que me entiendan
+los los modelos. Sí, los modelos, por ejemplo, cuando revolucionó su época tras los transformers, sí
+los transformé. No es que estuvieran en un código o que estuvieran en un repositorio o algo por el estilo. Los Transformers fueron hechos en un paper, sí, o sea, toda la arquitectura. Todos los datos del Pra
+eran del Paper. Eran del paper
+listo. El Paper estaba, de hecho, con látex.
+posiblemente estaba hecho con látex. No creo que estaba hecho con látex al 100 por 100 listo. Entonces, ahorita si.
+¿qué es lo que hace, ¿Qué es lo que hace. G, P, T, Dos: Lo que hace G, P, T, Dos es
+a hacer como la integración de esta parte del látex, Sí, de esta parte de, digámoslo así, del látex
+y vienense por acá aquí. Se está integrando. G, P, T, con la parte del látex, entonces eso.
+Dur, O sea, eso es
+acelera un montón. La ciencia acelera un montón, un montón montón. La ciencia sí, porque pues no solamente razona la parte de la teoría matemática, sino que también látex. Si se dan cuenta por acá.
+Es un código asqueroso, o sea, látex.
+Creo que para empezar, tiene su propio lenguaje.
+¿sí?
+Y es un código asqueroso, entonces se pierde menos tiempo también ahí
+es súper interesante por si alguno quiere repasar matemáticas, quiere aprender de vectores. Sí, ahí tiene un paper
+que le pueda ayudar, vivir de forma interactiva, súper. Buen carísimo, dato curioso de hoy.
+Denle. Entonces, ir andando
+¿Siguen liando. Entonces
+con todo diferencia en el mundo.
+Sí. Sí.
+Mhm: Sabes, Sí.
+Mhm.
+Sí, Esto es.
+yiceth mata lozano
+yiceth mata lozano
+21:55
+Antes. Pdfs eran ya. Tengo 2.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+21:59
+Sí con 2 o 3 también.
+yiceth mata lozano
+yiceth mata lozano
+22:01
+Y es perdón.
+No me había fijado que tenía tantos coopers.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+22:09
+Mhm: Yo sí,
+hacer un nuevo, un nuevo entorno virtual y eliminar el que tengo por eso se demora.
+Pero no voy a ir ni nada. Soy nuevo, Pythony: Sí. Hombre de seguridad.
+un instante hasta mañana.
+Uy, no, esto. Esta vuelta esta vuelta sale más rentable, hacerla en colab
+sale mucho más rentable hacerlo en Colap.
+Muchos de ustedes tienen buen computador.
+Por ejemplo, tienen tarjeta gráfica.
+yiceth mata lozano
+yiceth mata lozano
+25:07
+Yo creo que no.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+25:09
+Okay Okay.
+Bueno, eso significa, así que sí, Perfecto.
+A los que tengan computador que no es tan bueno, háganlo en colab.
+Y los que tengan buen computador, háganlo en visual. Vale.
+honestamente, yo lo voy a hacer en colab porque no se que no sepan, no hay computador de tanta cosa.
+pero sí es esto. Holandes punto. E igual con el Retech Content
+otra vez. Estoy en la playa. Acá
+voy a traer esta vaina para acá y la vemos por aquí.
+Y vamos a a colocar por acá abres como a ver. No.
+Bueno.
+vayan abriendo un colab o monten ojo, también los que van a los que van a hacerlo en colab
+monten la carpeta en el drive. Vale. Monten la carpeta de una vez en el drive
+arrastrar o arrastrar acá en mi carpeta.
+Soundtraint: Ay Dios mío, soy demasiado.
+por cierto, muchachos. Tengo el computador súper lento. Será Será la descarga y no voy a cancelar esta descarga
+de los paquetes.
+Y tengo un montón de pestañas, porque
+fíjense que ya tengo que preguntarle el el saber, pro vale, o redentalizar, pro y estos verracos
+se supone que, bueno hoy, si hoy
+era el re el recaudo ordinario del I F E. S, y ahí, en cuanto me costaba. Ese era el examen. Me costaba 212 000 pesos.
+O sea, era un chiste.
+Tengo un chiste el precio y y qué.
+Y resulta que eso Juan Ruiz of Te.
+Y eso era lo ordinario. El El el extraordinario era el doble: 450 y Pico. 1 000 eran extraordinarios.
+Y esos verracos que son muy berratos, dijeron, dijeron qué
+dijeron, no, que el el extraordinario. Todo eso. Ustedes tienen para pagar el 2,
+hagan el pago por P. C. Pueden hacer el pago por p. C. Muchachos sin mentirles hoy a las 3, 4 de la tarde
+o no. Perdón a las 6 de la tarde. Seis 5 de la tarde habilitaron la plataforma
+solo hoy, o sea, tuvieron como 2 meses y la vinieron a habilitar hoy para hacer el pago por P. S E.
+Y lo peor del caso es que se puede hacer por el pago bancario, pero el pago bancario, el problema del pago bancario es que si ¿Vos
+hacías un recibo con P. S. El I, F E no te dejaba hacer un recibo con el banco, o sea, era
+terrible, o sea terrible. Era terrible.
+Ahí les cuento una chocoaventura de hoy que tuve con estos verdacos.
+P. D Fs: Uy. Está lentísimo, eso está súper lento. Está lento, lento, lento, lento
+porque se me va a descargar. Así que ven un momentico traigo. El cargador
+mal cargados.
+Este revuelto sí
+Uy cambió, cambió enormemente.
+Ay, yo
+Dios funciona y perfecto, Funciona ya.
+Y. Acá P. D Fs: Mi unidad
+listo a ver listo el proyecto Ya por acá. Hay que descargar esto.
+Hos Hay que colocar el consumo de este acá.
+Bien, va entonces a compartir pantalla, Vale.
+voy a compartir pantalla. Ya este es el colab.
+Les voy a compartir. Si les voy a compartir esta parte, no se vayan a fijar en esa parte de acá porque cada parte es diferente. Sí, pero pues tiene que ver algo. Es más, No lo va a compartir. Así con esta parte de amor haciendo
+pasito a pasito pisto a pasito a pasito, pasito a pasito
+porque cada p. F. Cada cada cosa de ustedes es diferente. Cada
+cada formato de ustedes es diferente, ¿vale?
+Entonces lo primero va a compartir. Entonces él
+con la app Vale, para que lo tengan aquí listo listo aquí. Y esto
+para que lo tengan listo aquí y lo vamos a conectar
+y adicional de que lo vamos a conectar. Vamos a darle acceso al Drive listo
+como la galaxias aldrive le van a montar drive y acá desaparece esto.
+From Colab: Yo no sé qué Import Drive. Bueno, aquí les hace una línea predeterminada.
+Ustedes se van a ir a la carpeta donde yo la coloco, mi Mi unidad, Sí, en P. D, F, Y no pasa nada si ustedes simplemente no saben, vale, no saben ustedes, llegan. Y le ponen acá donde está
+cogen acá Y le ponen aquí una una minicapturita. Listo. Hacen una captura.
+Llevan aquí les dicen a Geminite, sí que les ponga la ruta.
+Bueno, pero no puedo. No puedo subir las capturas. Bueno, no pasa nada.
+Le dan aquí información de archivo, detalles.
+enfrentar y ubicación. P: D, F: Listo.
+Ubicación. P: D, F, ¿Dónde está
+compartir, Copiar vínculos? No, pero es que es copiar vínculos, no organizar.
+Bueno, ustedes le colocan aquí, administrar acceso.
+Mhm Mhm.
+Bueno, a ver, llegan y le dan aquí a la carpetita donde ustedes están, le van a quedar detalles de este y
+copian esta partecita de acá listo. Copian esa parte de acá de ubicación.
+La verdad es que listo o bueno, todo si se puede copiar todo en la ubicación, lo más.
+y le dicen a a Jenny Knight y
+con la ruta de la anterior carpeta, es mi hijo en general.
+listo, y ahí ya mina ya el dato. No hay que complicarse la vida con esto.
+Y esto esto esto esto perfecto. Esto.
+Ustedes le dan aquí a cambiar nombre. Este. Le dan doble clic acá y ahí ya copia en esta parte cita.
+final. Tosk: pero sí en brutal.
+Ustedes le dan Bueno, en la parte de abajo este mal como que lo hacen, o simplemente necesito que lo haga rapidito.
+Necesito que lo haga rápido Uy. No esté mal. Hace unas
+conectar con Google Drive. Ustedes le le van a conectar con Google Drive. Les aparece la cuenta en la que quieren conectar con Google Drive. Le dan a seleccionar todo listo.
+Y aquí ya desconecto con Google, drive
+a ver monté listo bueno. Y esta cosa que
+de leer un espaciocito en un espaciocito
+mera configuración. Aquí esto lo más demorado del Verraco Bot visto
+aquí, ya me soltó. Listo Aquí ya me soltó. My Drive. P: F: Listo.
+Ahí no hay especies. Perfecto.
+P: F Sporters: Sí, aquí le van a dar
+aumentar. Drive le da la P, F, listo.
+Efes. Bueno, le quitas la parte de los del P D F, sí. Si se dan cuenta
+aquí como la parte de abajo tiene y la vamos a probar. Lo primero. Vayan haciendo el tipo install acá visto de las librerías que necesitan. Ahí están en el collab. Se las paso. Si no las tienen ustedes por aquí listo.
+se les va a demorar, pero pues es mejor. Es mejor que ustedes la instalen aquí en cola.
+Yo prefiero que trabajen en cola porque si no se le estalla ese computador.
+¿y qué más? ¿qué más? ¿qué más que más? Bueno, si estaba en Navidad?
+¡ay, No, jodas, no jodas, No, jodas, No, jodas.
+La razón no me podían colar. Bueno.
+mañana traigo las librerías. Sí, mañana traigo las librerías que son valen mejor. Dejemos hasta aquí por hoy.
+Tenemos hasta aquí por hoy. Vale para empezar el proyecto.
+Entonces aquí ya vale, tienes alguna duda hasta ahí.
+Bueno, no hemos hecho nada del proyecto, Pero mañana, entonces, ¿qué van a hacer? Ya tienen la carpeta.
+y mañana le vamos dando al tema de
+del del voto. Vale el chat.
+Bien, vale muchachos muchachas.
+yiceth mata lozano
+yiceth mata lozano
+35:48
+Listo, profe.
+María J. Carvajal
+María J. Carvajal
+35:50
+Gracias.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+35:51
+Muchas gracias que tengan buena noche muchachos. Igualmente, un saludo a todos vale.
+yiceth mata lozano
+yiceth mata lozano
+35:57
+Bueno, chao, chao.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+Chao.
