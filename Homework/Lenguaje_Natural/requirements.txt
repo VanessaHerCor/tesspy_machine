@@ -1,0 +1,23 @@
+# Dependencias para el proyecto Lenguaje Natural (NLP)
+# 
+# Para instalar todas las dependencias a la vez, ejecuta:
+# pip install -r requirements.txt
+
+# Análisis de datos y matrices
+pandas>=1.3.0
+numpy>=1.21.0
+
+# Machine Learning y vectorización
+scikit-learn>=1.0.0
+
+# Embeddings y Word2Vec
+gensim>=4.0.0
+
+# Transformers y BERT
+transformers>=4.25.0
+
+# PyTorch (necesario para transformers)
+torch>=1.10.0
+
+# Opcional pero recomendado para mejor rendimiento
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
