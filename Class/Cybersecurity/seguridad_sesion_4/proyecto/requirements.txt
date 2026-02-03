@@ -1,0 +1,22 @@
+# Dependencias para el proyecto completo
+
+# Framework de testing básico
+pytest>=7.0.0
+pytest-mock>=3.10.0
+pytest-cov>=4.0.0
+pytest-xdist>=3.0.0
+
+# Regression testing específico
+pytest-regressions>=2.4.0     # Golden/snapshot testing
+pytest-benchmark>=4.0.0       # Performance benchmarking
+pytest-html>=3.1.0           # Reportes HTML
+
+# Load testing
+locust>=2.14.0                # Framework de load testing
+
+# API y servidor
+flask>=2.2.0                  # API server para testing
+requests>=2.28.0              # Cliente HTTP
+
+# Utilidades
+faker>=15.0.0                 # Datos sintéticos

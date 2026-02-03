@@ -1,0 +1,21 @@
+{
+  "change_percent": 50.0,
+  "daily_average": 127.14,
+  "date_range": {
+    "days": 7,
+    "end": "2024-01-07",
+    "start": "2024-01-01"
+  },
+  "lowest_day": {
+    "date": "2024-01-01",
+    "value": 100
+  },
+  "peak_day": {
+    "date": "2024-01-07",
+    "value": 150
+  },
+  "report_version": "1.0",
+  "timestamp": "2024-01-01T00:00:00Z",
+  "total_sum": 890,
+  "trend": "increasing"
+}

@@ -1,0 +1,27 @@
+# ============================================================================
+# ARCHIVO 13: requirements.txt (Actualizado)
+# ============================================================================
+
+# Dependencias actualizadas para el proyecto completo
+
+# Framework de pruebas
+pytest>=7.0.0
+pytest-mock>=3.10.0
+pytest-cov>=4.0.0
+pytest-xdist>=3.0.0
+
+# Base de datos y ORM
+sqlalchemy>=1.4.0
+psycopg2-binary>=2.9.0  # Para PostgreSQL en production
+
+# HTTP requests y APIs
+requests>=2.28.0
+
+# Generación de datos de prueba
+faker>=15.0.0
+factory-boy>=3.2.0
+
+# Desarrollo y linting
+black>=22.0.0
+flake8>=5.0.0
+mypy>=0.991

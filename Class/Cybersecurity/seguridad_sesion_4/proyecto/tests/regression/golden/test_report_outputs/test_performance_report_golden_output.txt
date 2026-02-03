@@ -1,0 +1,15 @@
+{
+  "max_value": 0.234,
+  "mean": 0.153,
+  "median": 0.15,
+  "metrics_count": 10,
+  "min_value": 0.089,
+  "percentiles": {
+    "p90": 0.202,
+    "p95": 0.218,
+    "p99": 0.231
+  },
+  "report_version": "1.0",
+  "std_dev": 0.043,
+  "timestamp": "2024-01-01T00:00:00Z"
+}

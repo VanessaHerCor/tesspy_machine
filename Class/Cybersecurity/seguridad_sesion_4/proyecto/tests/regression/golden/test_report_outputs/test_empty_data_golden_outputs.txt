@@ -1,0 +1,15 @@
+{
+  "empty_metrics": {
+    "error": "No metrics provided",
+    "timestamp": "2024-01-01T00:00:00Z"
+  },
+  "empty_trends": {
+    "error": "No data provided",
+    "timestamp": "2024-01-01T00:00:00Z"
+  },
+  "empty_users": {
+    "summary": "No users found",
+    "timestamp": "2024-01-01T00:00:00Z",
+    "total_users": 0
+  }
+}

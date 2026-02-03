@@ -1,0 +1,22 @@
+{
+  "active_users": 3,
+  "activity_rate": 75.0,
+  "inactive_users": 1,
+  "report_version": "1.0",
+  "timestamp": "2024-01-01T00:00:00Z",
+  "top_email_domains": [
+    {
+      "count": 2,
+      "domain": "gmail.com"
+    },
+    {
+      "count": 1,
+      "domain": "company.com"
+    },
+    {
+      "count": 1,
+      "domain": "university.edu"
+    }
+  ],
+  "total_users": 4
+}

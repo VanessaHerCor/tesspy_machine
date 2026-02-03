@@ -1,0 +1,99 @@
+# ============================================================================
+# COMANDOS DE EJECUCIÓN ESPECÍFICOS
+# ============================================================================
+
+"""
+COMANDOS ESPECÍFICOS PARA UNIT VS INTEGRATION TESTS:
+
+1. Solo pruebas unitarias (rápidas):
+   pytest tests/unit/ -v
+   pytest -m unit -v
+
+2. Solo pruebas de integración:
+   pytest tests/integration/ -v
+   pytest -m integration -v
+
+3. Excluir pruebas lentas:
+   pytest -m "not slow" -v
+
+4. Solo pruebas con base de datos:
+   pytest -m database -v
+
+5. Combinaciones útiles:
+   pytest -m "unit and not slow" -v        # Unit tests rápidas
+   pytest -m "integration and not external" -v  # Integration sin servicios externos
+
+6. Ejecución en desarrollo (solo rápidas):
+   pytest tests/unit/ -x --tb=short
+
+7. Ejecución completa para CI/CD:
+   pytest --cov=src --cov-report=html -m "not external"
+
+8. Ejecución paralela para integration tests:
+   pytest tests/integration/ -n auto
+
+ESTRUCTURA DE EJECUCIÓN RECOMENDADA:
+
+Desarrollo local:
+1. pytest tests/unit/ -v                    # Primero unit tests
+2. pytest tests/integration/ -v --maxfail=3 # Luego integration tests
+
+Pipeline CI/CD:
+1. pytest tests/unit/ --cov=src --cov-fail-under=80
+2. pytest tests/integration/ -n 2
+3. pytest -m "not external" --cov=src --cov-report=xml
+
+SALIDA ESPERADA:
+
+$ pytest tests/unit/ -v
+======================= test session starts =======================
+collected 15 items
+
+tests/unit/test_models.py::TestUserCreation::test_create_valid_user PASSED
+tests/unit/test_models.py::TestUserCreation::test_invalid_username_validation[ab-al menos 3 caracteres] PASSED
+tests/unit/test_models.py::TestUserCreation::test_invalid_username_validation[aaa...aa-no puede exceder 50] PASSED
+...
+tests/unit/test_services.py::TestUserServiceCreateUser::test_create_user_success_without_external_validation PASSED
+tests/unit/test_api_client.py::TestExternalUserValidationClient::test_validate_email_success PASSED
+
+=================== 15 passed, 0 failed in 0.12s ===================
+
+$ pytest tests/integration/ -v
+======================= test session starts =======================
+collected 8 items
+
+tests/integration/test_database_integration.py::TestUserRepositoryIntegration::test_create_and_retrieve_user PASSED
+tests/integration/test_database_integration.py::TestUserRepositoryIntegration::test_unique_constraints_enforcement PASSED
+tests/integration/test_user_workflow.py::TestUserWorkflowIntegration::test_complete_user_lifecycle PASSED
+
+=================== 8 passed, 0 failed in 1.45s ===================
+
+ANÁLISIS DE COBERTURA:
+
+$ pytest --cov=src --cov-report=term-missing tests/unit/
+---------- coverage: platform linux, python 3.9.7-final-0 -----------
+Name                      Stmts   Miss  Cover   Missing
+-------------------------------------------------------
+src/__init__.py               0      0   100%
+src/models.py                89      5    94%   45-47, 67-68
+src/repositories.py          67      8    88%   23-25, 78-82
+src/services.py              95     12    87%   34-38, 89-95, 120-125
+src/api_client.py            45      8    82%   67-75
+src/exceptions.py             8      0   100%
+-------------------------------------------------------
+TOTAL                       304     33    89%
+
+=================== 15 passed, 0 failed in 0.18s ===================
+"""
+
+if __name__ == "__main__":
+    print("Sistema de gestión de usuarios con pruebas unitarias e integración")
+    print("\\nEstructura del proyecto:")
+    print("tests/unit/        - Pruebas unitarias (rápidas, aisladas)")
+    print("tests/integration/ - Pruebas de integración (con BD real)")
+    print("\\nComandos principales:")
+    print("pytest tests/unit/ -v              # Solo unit tests")
+    print("pytest tests/integration/ -v       # Solo integration tests")
+    print("pytest -m unit -v                  # Por marcador")
+    print("pytest --cov=src --cov-report=html # Con cobertura")
+    print("\\nPara más detalles, ver comentarios en el código.")
