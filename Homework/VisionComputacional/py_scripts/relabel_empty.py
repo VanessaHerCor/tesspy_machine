@@ -19,12 +19,12 @@ def relabel_empty_fixed():
     print("🔍 RE-ETIQUETANDO IMÁGENES SIN LABELS (VERSIÓN ARREGLADA)")
     print("=" * 70)
     
-    base_dir = os.path.dirname(os.path.abspath(__file__))
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     
     # Cargar modelo
     print("\n📦 Cargando modelo YOLO-World...")
     try:
-        model = YOLO('yolov8s-worldv2.pt')
+        model = YOLO(os.path.join(base_dir, 'yolov8s-worldv2.pt'))
         print("✅ Modelo cargado\n")
     except Exception as e:
         print(f"❌ Error: {e}")
@@ -113,10 +113,6 @@ def relabel_empty_fixed():
         print(f"\n   Resultado '{subset}': {relabeled_count} imágenes re-etiquetadas")
         print()
     
-    print("=" * 70)
-    print(f"✅ ¡LISTO!")
-    print(f"   Total procesadas: {total_processed}")
-    print(f"   Total con detecciones: {total_relabeled}")
     print("=" * 70)
     print(f"✅ ¡LISTO!")
     print(f"   Total procesadas: {total_processed}")

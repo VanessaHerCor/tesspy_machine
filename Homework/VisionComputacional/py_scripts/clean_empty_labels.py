@@ -16,7 +16,7 @@ def clean_empty_labels():
     print("🧹 LIMPIANDO LABELS VACÍOS")
     print("=" * 60)
     
-    base_dir = os.path.dirname(os.path.abspath(__file__))
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     
     # Procesar train y valid
     for subset in ['train', 'valid']:

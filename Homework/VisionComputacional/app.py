@@ -121,8 +121,10 @@ def main():
             break
         
         elif key == ord(' '):  # Presionar SPACE para capturar
+            # Crear carpeta de capturas si no existe
+            os.makedirs('cam_capture', exist_ok=True)
             timestamp = time.strftime("%Y%m%d_%H%M%S")
-            filename = f"capture_{timestamp}.jpg"
+            filename = f"cam_capture/capture_{timestamp}.jpg"
             cv2.imwrite(filename, annotated_frame)
             print(f"✅ Imagen capturada: {filename}")
         

@@ -183,7 +183,7 @@ def main_quick_test():
     if model is None:
         return
     
-    # Buscar una imagen en valid/images
+    # Buscar una imagen en valid/images (ruta relativa funciona desde la raíz)
     valid_images_dir = 'dataset/valid/images'
     if os.path.isdir(valid_images_dir):
         images = list(Path(valid_images_dir).glob('*.jpg')) + \

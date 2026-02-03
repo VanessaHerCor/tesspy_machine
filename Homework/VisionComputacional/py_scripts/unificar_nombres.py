@@ -45,8 +45,8 @@ def unificar_nombres():
     print("UNIFICADOR DE NOMBRES - FLEXIBLE")
     print("=" * 60)
     
-    # Carpetas a procesar
-    base_dir = os.path.dirname(os.path.abspath(__file__))
+    # Carpetas a procesar (subir un nivel para llegar a la raíz)
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     dataset_dir = os.path.join(base_dir, 'dataset')
     
     # PASO 1: Detectar automáticamente el prefijo actual
@@ -153,9 +153,9 @@ def unificar_nombres():
     print(f"   Total de imágenes renombradas: {total_renombradas}")
     print(f"=" * 60)
     print(f"\n📋 Próximos pasos:")
-    print(f"   1. Ejecuta: python auto_label.py")
-    print(f"   2. Ejecuta: python clean_empty_labels.py")
-    print(f"   3. Ejecuta: python train_custom_model.py")
+    print(f"   1. Ejecuta: python py_scripts/auto_label.py")
+    print(f"   2. Ejecuta: python py_scripts/clean_empty_labels.py")
+    print(f"   3. Ejecuta: python py_scripts/train_custom_model.py")
     print(f"\n")
 
 if __name__ == "__main__":

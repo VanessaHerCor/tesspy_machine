@@ -21,8 +21,8 @@ def balancear_dataset():
     print("BALANCEADOR DE DATASET - 80/20 Train/Valid")
     print("=" * 60)
     
-    # Obtener rutas
-    base_dir = os.path.dirname(os.path.abspath(__file__))
+    # Obtener rutas (subir un nivel para llegar a la raíz)
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     dataset_dir = os.path.join(base_dir, 'dataset')
     
     train_images_dir = os.path.join(dataset_dir, 'train', 'images')
@@ -154,9 +154,9 @@ def balancear_dataset():
     print("=" * 60)
     
     print(f"\n📋 Próximos pasos:")
-    print(f"   1. Ejecuta: python auto_label.py")
-    print(f"   2. Ejecuta: python clean_empty_labels.py")
-    print(f"   3. Ejecuta: python train_custom_model.py")
+    print(f"   1. Ejecuta: python py_scripts/auto_label.py")
+    print(f"   2. Ejecuta: python py_scripts/clean_empty_labels.py")
+    print(f"   3. Ejecuta: python py_scripts/train_custom_model.py")
     print(f"\n")
 
 if __name__ == "__main__":

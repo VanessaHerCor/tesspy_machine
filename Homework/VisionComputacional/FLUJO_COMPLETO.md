@@ -3,33 +3,51 @@
 ## ✅ ORDEN CORRECTO DE EJECUCIÓN
 
 ```
-1️⃣ python download_custom_images.py
+1️⃣ python py_scripts/download_custom_images.py
    └─ Descarga imágenes de Internet (guitar, cat, etc.)
    
-2️⃣ python unificar_nombres.py (OPCIONAL)
+2️⃣ python py_scripts/unificar_nombres.py (OPCIONAL)
    └─ Solo si descargaste con diferente idioma (guitar/guitarra)
    
-3️⃣ python encontrar_duplicados.py (RECOMENDADO)
+3️⃣ python py_scripts/encontrar_duplicados.py (RECOMENDADO)
    └─ Elimina imágenes repetidas (evita overfitting)
    
-4️⃣ python balancear_dataset.py (RECOMENDADO)
+4️⃣ python py_scripts/balancear_dataset.py (RECOMENDADO)
    └─ Ajusta train/valid a 80/20 automáticamente
    
-5️⃣ python auto_label.py
+5️⃣ python py_scripts/auto_label.py
    └─ Etiqueta automáticamente usando YOLO-World
    
-6️⃣ python clean_empty_labels.py
+6️⃣ python py_scripts/relabel_empty.py (OPCIONAL)
+   └─ Re-etiqueta imágenes que quedaron sin labels (sin eliminar)
+   
+7️⃣ python py_scripts/clean_empty_labels.py
    └─ Elimina imágenes que YOLO no pudo detectar
    
-7️⃣ python train_custom_model.py
+8️⃣ python py_scripts/train_custom_model.py
    └─ Entrena el modelo con tu dataset limpio
+   └─ ✨ REUTILIZA modelo anterior si existe (Transfer Learning automático)
    
-8️⃣ python main.py --test
+9️⃣ python main.py --test
    └─ Prueba el modelo en imágenes de validación
    
-9️⃣ python app.py
+🔟 python app.py
    └─ Usa el modelo en tiempo real con tu cámara
 ```
+
+---
+
+## 🚀 **IMPORTANTE: Transfer Learning Automático**
+
+Ahora el script detecta automáticamente:
+
+- **Si es tu PRIMER entrenamiento:** Carga `yolov8s.pt` (modelo base)
+- **Si ya entrenaste antes:** Carga `runs/detect/train/weights/best.pt` (reutiliza aprendizaje anterior) ✨
+
+**Esto significa:**
+- ✅ Si descargas imágenes nuevas y ejecutas el script de nuevo, será MEJOR
+- ✅ La precisión mejora con más datos
+- ✅ No pierdes el trabajo anterior
 
 ---
 
@@ -37,17 +55,18 @@
 
 ### ❌ ERROR 1: Olvidar auto_label.py
 ```
-python download_custom_images.py
-python clean_empty_labels.py  ← ¡FALTAN LAS ETIQUETAS!
-python train_custom_model.py  ← FALLA
+python py_scripts/download_custom_images.py
+python py_scripts/clean_empty_labels.py  ← ¡FALTAN LAS ETIQUETAS!
+python py_scripts/train_custom_model.py  ← FALLA
 ```
 
 **✅ CORRECTO:**
 ```
-python download_custom_images.py
-python auto_label.py           ← PRIMERO ETIQUETAR
-python clean_empty_labels.py
-python train_custom_model.py
+python py_scripts/download_custom_images.py
+python py_scripts/auto_label.py           ← PRIMERO ETIQUETAR
+python py_scripts/relabel_empty.py        ← RELLENAR VACÍOS (opcional)
+python py_scripts/clean_empty_labels.py
+python py_scripts/train_custom_model.py
 ```
 
 ### ❌ ERROR 2: Mezclar idiomas sin unificar
@@ -63,8 +82,8 @@ dataset/train/images/
 
 **✅ SOLUCIÓN:**
 ```powershell
-python unificar_nombres.py  # Convierte todo a "guitar"
-python auto_label.py        # Re-etiqueta con clase consistente
+python py_scripts/unificar_nombres.py  # Convierte todo a "guitar"
+python py_scripts/auto_label.py        # Re-etiqueta con clase consistente
 ```
 
 ### ❌ ERROR 3: No eliminar duplicados
@@ -79,7 +98,7 @@ dataset/train/images/
 
 **✅ SOLUCIÓN:**
 ```powershell
-python encontrar_duplicados.py  # Elimina automáticamente
+python py_scripts/encontrar_duplicados.py  # Elimina automáticamente
 ```
 
 ### ❌ ERROR 4: No balancear train/valid
@@ -92,12 +111,8 @@ Valid: 2 imágenes
 
 **✅ SOLUCIÓN:**
 ```powershell
-python balancear_dataset.py  # Ajusta a 80/20
+python py_scripts/balancear_dataset.py  # Ajusta a 80/20
 ```
-
----
-
-## 🎯 CHECKLIST ANTES DE ENTRENAR
 
 Antes de ejecutar `python train_custom_model.py`, verifica:
 

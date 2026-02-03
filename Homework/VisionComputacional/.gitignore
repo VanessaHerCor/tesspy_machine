@@ -1,0 +1,57 @@
+# Carpetas de datos y resultados
+dataset/
+cam_capture/
+
+# Modelos entrenados - IGNORAR MODELOS BASE
+yolov8s.pt
+yolov8s-worldv2.pt
+yolov8m.pt
+yolov8l.pt
+*.onnx
+
+# Pero PERMITIR que se suba el modelo entrenado (best.pt y last.pt)
+!runs/detect/train/weights/best.pt
+!runs/detect/train/weights/last.pt
+
+# El resto de runs/ (logs, visualizaciones, etc) SÍ se ignora
+runs/*
+!runs/detect/
+runs/detect/*
+!runs/detect/train/
+runs/detect/train/*
+!runs/detect/train/weights/
+runs/detect/train/weights/*
+!runs/detect/train/weights/best.pt
+!runs/detect/train/weights/last.pt
+
+# Archivos temporales de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Ambiente virtual
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+.env
+
+# Logs
+*.log
+*.csv
+
+# Cache
+.pytest_cache/
+.coverage

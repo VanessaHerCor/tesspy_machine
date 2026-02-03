@@ -23,15 +23,15 @@ def train_model():
     # =====================================================
     # PASO 1: CONFIGURAR RUTAS
     # =====================================================
-    # Obtener la carpeta donde está este script
-    base_dir = os.path.dirname(os.path.abspath(__file__))
+    # Obtener la carpeta raíz (subir un nivel desde py_scripts)
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     # Ruta del archivo de configuración del dataset
     data_yaml = os.path.join(base_dir, 'dataset', 'data.yaml')
     
     # Verificar que el archivo data.yaml existe
     if not os.path.exists(data_yaml):
         print(f"❌ Error: No encontré {data_yaml}")
-        print("   Primero ejecuta: python auto_label.py")
+        print("   Primero ejecuta: python py_scripts/auto_label.py")
         return False
     
     print(f"✅ Archivo de configuración encontrado: {data_yaml}\n")
@@ -93,12 +93,36 @@ def train_model():
     # =====================================================
     # PASO 2: CARGAR EL MODELO BASE
     # =====================================================
-    # YOLO pequeño (recomendado para inicio)
-    # Otras opciones: 'yolov8m.pt' (mediano), 'yolov8l.pt' (grande)
-    print("📦 Cargando modelo base YOLO8s...")
+    # PASO 2: CARGAR EL MODELO (TRANSFER LEARNING)
+    # =====================================================
+    # INTENTA CARGAR EL MODELO ENTRENADO ANTERIOR
+    # Si existe, reutiliza el aprendizaje anterior (Transfer Learning)
+    # Si no existe, carga el modelo base (primer entrenamiento)
+    
+    print("📦 Cargando modelo...")
+    
+    best_model_path = os.path.join(base_dir, 'runs', 'detect', 'train', 'weights', 'best.pt')
+    base_model_path = os.path.join(base_dir, 'yolov8s.pt')
+    
     try:
-        model = YOLO('yolov8s.pt')  # Descargar modelo pequeño
-        print("✅ Modelo cargado exitosamente\n")
+        if os.path.exists(best_model_path):
+            # ✅ TRANSFER LEARNING: Reutilizar modelo anterior
+            print(f"✅ Encontré modelo anterior: {best_model_path}")
+            print("   Cargando modelo entrenado (Transfer Learning)...")
+            model = YOLO(best_model_path)
+            print("✅ Modelo cargado exitosamente")
+            print("   💡 Esto reutilizará el aprendizaje anterior\n")
+            resume_mode = True  # Para continuar desde donde quedó
+        else:
+            # 🟡 PRIMER ENTRENAMIENTO: Usar modelo base
+            # YOLO pequeño (recomendado para inicio)
+            # Otras opciones: 'yolov8m.pt' (mediano), 'yolov8l.pt' (grande)
+            print(f"   Primer entrenamiento detectado")
+            print("   Cargando modelo base YOLO8s...")
+            model = YOLO(base_model_path)
+            print("✅ Modelo cargado exitosamente\n")
+            resume_mode = False
+            
     except Exception as e:
         print(f"❌ Error cargando modelo: {e}")
         print("   Intenta: pip install --upgrade ultralytics torch")
@@ -115,7 +139,6 @@ def train_model():
     print()
     
     continuar = True
-    resume_mode = False
     
     while continuar:
         try:
@@ -129,7 +152,8 @@ def train_model():
                 batch=batch,           # Tamaño de lote
                 save=True,             # Guardar el modelo
                 verbose=True,          # Mostrar detalles
-                resume=resume_mode     # Continuar entreno anterior
+                resume=resume_mode,    # Continuar entreno anterior
+                project=base_dir       # Guardar resultados en la raíz
             )
             
             # Detectar si EarlyStopping se activó

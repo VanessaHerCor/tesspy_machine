@@ -46,7 +46,7 @@ def encontrar_duplicados():
     print("DETECTOR DE IMÁGENES DUPLICADAS")
     print("=" * 60)
     
-    base_dir = os.path.dirname(os.path.abspath(__file__))
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     dataset_dir = os.path.join(base_dir, 'dataset')
     
     # Opciones de detección
@@ -191,9 +191,9 @@ def encontrar_duplicados():
     
     print("\n" + "=" * 60)
     print("📋 Próximos pasos:")
-    print("   1. Ejecuta: python auto_label.py")
-    print("   2. Ejecuta: python clean_empty_labels.py")
-    print("   3. Ejecuta: python train_custom_model.py")
+    print("   1. Ejecuta: python py_scripts/auto_label.py")
+    print("   2. Ejecuta: python py_scripts/clean_empty_labels.py")
+    print("   3. Ejecuta: python py_scripts/train_custom_model.py")
     print("=" * 60 + "\n")
 
 if __name__ == "__main__":

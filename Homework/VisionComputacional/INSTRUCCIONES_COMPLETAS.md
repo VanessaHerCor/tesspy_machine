@@ -3,16 +3,17 @@
 ## Resumen de lo que tienes ahora
 
 ```
-✅ download_custom_images.py    → Descargar imágenes
-✅ unificar_nombres.py          → Unificar nombres (guitar/guitarra)
-✅ encontrar_duplicados.py      → Eliminar duplicados
-✅ balancear_dataset.py         → Balancear 80/20 (train/valid)
-✅ auto_label.py                → Etiquetar automáticamente
-✅ clean_empty_labels.py        → Limpiar etiquetas vacías
-✅ train_custom_model.py        → Entrenar modelo
-✅ main.py                      → Usar en imágenes individuales
-✅ app.py                       → Detección en vivo (cámara)
-✅ dataset/data.yaml            → Configuración (CORRECTO)
+✅ py_scripts/download_custom_images.py    → Descargar imágenes
+✅ py_scripts/unificar_nombres.py          → Unificar nombres (guitar/guitarra)
+✅ py_scripts/encontrar_duplicados.py      → Eliminar duplicados
+✅ py_scripts/balancear_dataset.py         → Balancear 80/20 (train/valid)
+✅ py_scripts/auto_label.py                → Etiquetar automáticamente
+✅ py_scripts/relabel_empty.py             → Re-etiquetar vacíos (opcional)
+✅ py_scripts/clean_empty_labels.py        → Limpiar etiquetas vacías
+✅ py_scripts/train_custom_model.py        → Entrenar modelo
+✅ main.py                                 → Usar en imágenes individuales
+✅ app.py                                  → Detección en vivo (cámara)
+✅ dataset/data.yaml                       → Configuración (CORRECTO)
 ```
 
 ---
@@ -22,7 +23,7 @@
 ### PASO 1: Descargar Imágenes (Si aún no lo hiciste)
 
 ```powershell
-python download_custom_images.py
+python py_scripts/download_custom_images.py
 ```
 
 Responde a las preguntas:
@@ -38,7 +39,7 @@ Responde a las preguntas:
 ### PASO 2: Unificar Nombres (OPCIONAL - solo si descargaste con diferente idioma)
 
 ```powershell
-python unificar_nombres.py
+python py_scripts/unificar_nombres.py
 ```
 
 **¿Qué hace?**
@@ -52,7 +53,7 @@ python unificar_nombres.py
 ### PASO 3: Eliminar Duplicados (OPCIONAL pero RECOMENDADO)
 
 ```powershell
-python encontrar_duplicados.py
+python py_scripts/encontrar_duplicados.py
 ```
 
 **¿Qué hace?**
@@ -68,7 +69,7 @@ python encontrar_duplicados.py
 ### PASO 4: Balancear Dataset (RECOMENDADO)
 
 ```powershell
-python balancear_dataset.py
+python py_scripts/balancear_dataset.py
 ```
 
 **¿Qué hace?**
@@ -83,7 +84,7 @@ python balancear_dataset.py
 ### PASO 5: Etiquetar Automáticamente
 
 ```powershell
-python auto_label.py
+python py_scripts/auto_label.py
 ```
 
 **Resultado:** Archivos `.txt` en `dataset/train/labels` y `dataset/valid/labels`
@@ -93,7 +94,7 @@ python auto_label.py
 ### PASO 6: Limpiar Etiquetas Vacías ⭐ IMPORTANTE
 
 ```powershell
-python clean_empty_labels.py
+python py_scripts/clean_empty_labels.py
 ```
 
 **¿Qué hace?**
@@ -105,10 +106,26 @@ python clean_empty_labels.py
 
 ---
 
+### PASO 6.5: Re-Etiquetar Vacíos (OPCIONAL)
+
+```powershell
+python py_scripts/relabel_empty.py
+```
+
+**¿Qué hace?**
+- Encuentra imágenes sin etiquetas (labels vacíos)
+- Las detecta automáticamente SIN eliminar nada
+- Solo llena los vacíos (complementa a auto_label.py)
+- Útil si auto_label.py dejó algunas imágenes sin detectar
+
+**Resultado:** Más imágenes etiquetadas
+
+---
+
 ### PASO 7: ENTRENAR EL MODELO ⭐
 
 ```powershell
-python train_custom_model.py
+python py_scripts/train_custom_model.py
 ```
 
 **¿Qué hace?**
@@ -179,15 +196,21 @@ Q     → Salir
 
 ```
 VisionComputacional/
-├── download_custom_images.py      ✅
-├── auto_label.py                  ✅
-├── clean_empty_labels.py          ✅ NUEVO - Limpia dataset
-├── train_custom_model.py          ✅ NUEVO
-├── main.py                        ✅ NUEVO
-├── app.py                         ✅ NUEVO
-├── requirements.txt               ✅
-├── README.md                      ✅
-├── yolov8s-worldv2.pt            (modelo para etiquetar)
+├── main.py                       ✅ EJECUTAR
+├── app.py                        ✅ EJECUTAR
+├── requirements.txt              ✅
+├── .gitignore                    ✅
+├── py_scripts/                   ✅ Scripts de preparación
+│   ├── download_custom_images.py
+│   ├── auto_label.py
+│   ├── relabel_empty.py
+│   ├── clean_empty_labels.py
+│   ├── train_custom_model.py
+│   ├── balancear_dataset.py
+│   ├── encontrar_duplicados.py
+│   └── unificar_nombres.py
+├── cam_capture/                  (capturas de cámara)
+├── yolov8s-worldv2.pt           (modelo para etiquetar)
 ├── dataset/
 │   ├── data.yaml                 ← CONFIGURACIÓN IMPORTANTE
 │   ├── train/
@@ -203,7 +226,7 @@ VisionComputacional/
 │           └── weights/
 │               └── best.pt        ← TU MODELO ENTRENADO ⭐
 │
-└── capture_*.jpg                 ← IMÁGENES CAPTURADAS
+└── capture_*.jpg                 ← IMÁGENES CAPTURADAS (ahora en cam_capture/)
 ```
 
 ---
@@ -227,9 +250,19 @@ YOLO-World: "En esta foto, la guitarra está AQUÍ [dibuja caja]"
 ↓
 Resultado: Archivos .txt con coordenadas en dataset/*/labels/
 ```
-clean_empty_labels.py` - EL LIMPIADOR
+
+### `relabel_empty.py` - EL RELLENA VACÍOS
 ```
-Script: "Algunas imágenes no tienen detecciones"
+Script: "Algunas imágenes no fueron detectadas por auto_label.py"
+↓
+Intenta: "Déjame intentar de nuevo con confianza más baja (0.05)"
+↓
+Resultado: Llena los vacíos SIN eliminar ninguna imagen
+```
+
+### `clean_empty_labels.py` - EL LIMPIADOR
+```
+Script: "Algunas imágenes aún no tienen detecciones"
 ↓
 Script: "Elimino 19 imágenes borrosas/malas de train"
 ↓
