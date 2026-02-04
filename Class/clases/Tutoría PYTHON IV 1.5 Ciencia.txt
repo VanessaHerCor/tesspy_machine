@@ -1,0 +1,135 @@
+Hola, chicos. ¿cómo están. Vemos 10 min a que las demás personas se conecten y ya empezamos. Vale.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:58:18
+Hola, chicos. Denme otros 5 min que se me está yendo
+yendo y viniendo la señal sin con la energía, entonces den unos minutitos. Ya estoy solucionando. Vale.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+01:04:18
+Hola muchachos. Bueno, ahora, si me escucha mejor, qué pena la tardanza
+súper perfecto? ¿cómo están? Veo bueno lo mismo de siempre: Gisela María.
+¿cómo están? ¿cómo la pasaron estas vacaciones?
+¿qué pasó con el otro? Profe?
+¿qué otro profe.
+María J. Carvajal
+María J. Carvajal
+01:04:43
+No es que primero estábamos con Julián.
+Entonces ya entonces, pues te estaba diciendo que teníamos nuevo horario.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+01:04:55
+Nuevo horario.
+María J. Carvajal
+María J. Carvajal
+01:04:57
+Pues, o sea nuevo módulo más bien.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+01:04:59
+okay.
+María J. Carvajal
+María J. Carvajal
+01:05:00
+Que siempre estas semanas estuvo fue Julián Eduardo.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+01:05:07
+Okay, entiendo. Perfecto. Bueno, me alegra ¿Qué tal? ¿cómo pasaron las vacaciones? ¿cómo va todo bien?
+Está denso? Pero bueno.
+Qué Bien, qué? Bien les cuento que a dar un descanso merecido? No los que venían por lo menos nosotros de diciembre.
+La asistencia siempre es bajita. Todo el mundo quiere salir, descansar.
+Ohh. Pero bueno, estamos estamos los que estamos estamos súper bien.
+Ya vamos a iniciar de una vez este curso. Bueno.
+a ver, este es el curso de todo el tema, pues ya como como el epílogo, todo el tema de lo que vimos en la introducción a la inteligencia artificial. Si se acuerdan conmigo.
+exploramos un poquito de lo que fue machine learning de lo que fue deep Learning. Les expliqué un poco. Ah, hicimos un mini proyecto en el que involucramos tareas de E, T. L, Vimos cómo hacer un una mini transformación. Ministracción de datos.
+Estuvimos haciendo un poco de lo que son módulos, pues simulando toda esa tarea de lo que fue
+el Modelo de Inteligencia Artificial.
+¿Qué más gema se me olvide. ¿qué más tengo para comentar? Bueno, prácticamente aquí vamos. Ustedes Recuerdan que
+me decían, bueno, pero es que no entiendo mucho del modelo que estoy haciendo. No se preocupen esta vez, si lo van a entender y lo van a aplicar, sobre todo en esta parte de lo que es ciencia de datos. Vale, bueno
+un poquito sobre mí, pero ustedes ya saben, sobre mí. Bueno, este un más. Un año ya se ha vuelto 2, y está a punto próximo a ser 3
+procesamiento. Vamos a ver entonces un poquito de la introducción a la ciencia de datos con Python, sí en esta primera parte en el que, pues ustedes dieron una pequeña aproximación a lo que fue
+un poco. Si se dan cuenta un poco esta parte de ahi.
+Perdón. Esta parte de acá sí anotación listo. Esta parte de modelado en el que se modela por lo menos
+un poco de lo que es la Mo: el un modelado de modelo de maschine learning, un modelado de un Dashboard. Por ejemplo. Sí, hicimos una preparación básica de los datos, sí,
+sobre todo esta parte, pero nos falta todo este tema. Y lo bueno es que, pues en el curso lo van a ver conmigo. Listo, pues por lo menos esta primera parte, que es el entendimiento del negocio que pilar. Esto es muy, muy. Estas 2 partes son muy, muy, muy importantes. Sí,
+en todo su trabajo como científico de datos, como ingeniero de datos. Como toda la parte de la ciencia de datos, es muy importante saberlo. Muchas personas ahorita en la actualidad, por sobre todo, muchas jefes, muchas startups sí
+están sobre todo dando como migrando su mirada a las personas que realmente sepan de negocio que no solamente sepan crear modelos de machine learning que solamente sepan crear dashboard bonito, sino que entiendan, sí,
+qué provecho le pueden sacar a la compañía con esos datos. Para eso es importante, por supuesto, entender los datos y, pues ese entendimiento, al fin y al cabo, va a ser lo que yo necesito de ustedes.
+que me cuenten una historia. Sí que me cuenten una historia. Vamos a ver en qué nos vamos a enfocar en el proyecto final. Sí, por lo menos tenemos varios enfoques. Uno de los enfoques es hacer un chat bot, aunque tuve una metodología que fue un poco diferente
+con el anterior grupo. Y era en el enfoque en el que iban a hacer su proyecto. Van a ver que en este caso, nosotros vamos a ver modelos de machine learning, modelos de deep learning que se van a dividir en 2 sectores que es
+aplicaciones con visión computacional y procesamiento del lenguaje natural. Entonces ustedes pueden decir qué proyecto quieren hacer. Por supuesto, yo les voy a dar las herramientas. Les voy a dar la asesoría
+perfecto.
+perdón. Eso es otro caso. Mientras tanto, vamos a la primera parte, que es todo el tema de esta introducción. Entonces.
+prácticamente la ciencia de datos, que es proceso usar datos para entender el mundo y tomar mejores decisiones
+no es más, sí. Si lo pudiéramos englobar en todo eso, sería ese arte que nosotros tenemos para comunicarle a la otra persona lo que dicen los datos
+de la manera que la otra persona entienda. Sí, esa es la labor de un científico de datos, de un analista de datos de un Machineland genier de un data engener. Lo que ustedes quieran ver Vale, es qué hago con toda esta montanera de información para convertirlo en algo que realmente
+le sirva a la compañía. Eso, al fin y al cabo. Eso es lo que queremos. Listo.
+Bien, aquí está un roadmap. Sí que es como prácticamente como un poco de lo que es englobado
+la carrera de ciencia de datos. Y es que aquí, en realidad esto es poquito sí. En realidad hay muchísimas más cosas dentro de, digamos lo que vi esto. Y me pareció un poco más complejo, un poco más completo frente a los otros roadmap, sí,
+pero por lo menos a dieploy en el diployment. Falta más por lo menos el uso de microservicios. Ah Bueno, les cuento
+hace hace poco tenía más que todo roles cuando yo apenas les estaba dando clases a ustedes. Tenía un rol más que todo de científico de datos.
+Ahora estoy teniendo roles de Machine learning ingenier, que es coger todo este modelo de de de machine learning que hice. Yo no sé si les comenté algo sobre el modelo de detección de fraude que estamos? Bueno, que se realizó ya en el casino.
+pues yo soy en la parte de el despliegue. Si lo que hace más que todo una parte, si lo quieren averiguar conceptos de Ml Ops de maudores de datos, microservicios, predicciones en tiempo real, apis. Bueno.
+en general, o sea, esto hay muchísimo terreno por abarcar. Hay muchísimo terreno por abarcar. Y bueno, eso es más que todo la introducción de de de esta parte ¿Tienen alguna duda
+que un comentario o algo por el estilo. O vamos bien.
+vamos bien, súper Vamos. Bien. Entonces
+bien. Entonces porque Python, bueno, a manera resumida, sí, 1 un lenguaje de alto nivel, por lo que es más o menos al lenguaje humano, o sea, la simplicidad, 2, el ecosistema de librerías que tiene
+prácticamente es casi que insuperable. Sí, todo el tema de Machine Learning. Todo el tema de inteligencia artificial en Python está muy bien servido prácticamente la competencia de Python en temas de machine learning the y b Learning es entre comillas, r
+pero no le gana ni al tiro. R es más que todo para estadística. Sin embargo, pues, gracias a las adaptaciones que se han hecho a las librerías pro originalmente para Python se han puesto para R, Sí,
+y también la de R para Python, y así sucesivamente se comparten. Pero Python es el que sigue mandando en términos de la librería, simplicidad y la curva de aprendizaje.
+Entonces vamos a hacerlo con Python. También hay muchísimo, aunque no lo coloque aquí, pues hay muchísima documentación, lo que es en Github, lo que es en Stack Cover Flow.
+hay mucho de donde agarrar. Entonces, si tienen algún problema, no solo la vida le va a resolver, sino que hay muchísimas cosas en Internet que les puede ayudar.
+Bueno, vamos a en cuanto al I D E, si reconocen el I D, pues es, por ejemplo, visual. Studio. Coup: Sí, la herramienta que vamos a usar. ¿vamos a usar el colab sobre todo para las clases. Pues si bien son aplicadas, sí
+vamos a hacer primero clases aplicadas. Y luego vamos a hacer el proyecto que, pues, aplicativo, valga la redundancia
+en el que, pues ustedes vamos a ver el código, vamos a discutirlo. Vamos a, por supuesto, forzarlo. Yo voy a estar cambiando unas cositas. Les voy a dar cosas. Y, por último, vamos a hacer un proyecto. Sí, un proyecto cualquiera. Yo cojo unos datos
+en línea cualquiera, y voy haciendo un proyecto con respecto a eso, y ustedes también pueden hacerlo con cualquier otros datos. Pueden adaptar lo que yo les digo sí. Lo importante es que aquí, pues
+no somos. Yo no soy por lo menos tan plano. Sí, a mí me gusta por lo menos que ustedes tengan la referencia primero el código, Por eso es que vamos a usar una parte de colá, pero por supuesto que vamos a tener un proyecto que no tiene nada que ver, o sea, nada de código hecho. O sea, ustedes me pueden dar
+un repositorio cualquiera, perdón repositorio cualquiera, no unos datos cualquiera. Y yo le puedo hacer el proyecto por lo menos integrador de análisis de datos con esos Con esos proyectos, con ese Data Zet si no pasa nada. Lo más importante aquí es que entiendan que todo lo que yo les enseño se pueda aplicar
+con cualquier tipo de dato. Por eso es que, pues en su tiempo, en su debido tiempo les voy a pedir que si tienen algún data que quisieran que yo hiciera en la práctica del proyecto integrador junto a ustedes.
+pues me lo den, si no, pues yo elijo al azar cualquier datación en línea. Y así le doy al al al análisis de datos. ¿vale?
+Bien, entonces vamos a usar con la App en una buena mayoría igual. Vamos a usar visual studio en otra parte. Bueno, esto ya no vale. Yo usaba cursor ahorita por todo el tema del ecosistema de los M. C, Ps, De todo el tema del ecosistema, por lo menos de la empresa. También.
+No uso ya cursos. Ya estoy usando lo que es anti Gravity.
+Lo uso con M, C, P, S, Y
+lo uso con N, C, P. I, S.
+Y pues vamos a usar lo que es visual. Studio, Code y Google Colab: Si ustedes quieren, pueden colocar el visual, estudio.
+el perdón, el el anti gravity del gran si el anti gravity se lo recomiendo. Si pueden, inténtenlo. Y si lo probaron, dígame qué tal les parece?
+Vale. Pero pues, bueno, vamos a usar Coll App y visual.
+Y bueno, quisiera saber para ustedes la primera parte, antes de iniciar todo esto de introducción y voy a dar 5 min para eso, para ustedes. ¿qué es un dato? No tiene que ser en línea. Y si quieren, puede ser cortico, listo, puede ser cortico.
+Entonces, tómenle fotos al al Qr, pero en un momentico yo me meto aquí a un mentí meter
+un segundito. No pasa nada si no escanean el Qr: ya les doy vayan haciendo el
+La pregunta: ¿qué es un dato?
+¿qué es un dato? Y yo voy haciendo por acá?
+Voy colocando la presentación, y ya les digo dónde me la coloca, ¿sí?
+Un entierro.
+Bueno, tengo aquí que es Ian, que es inteligencia artificial, que es
+tanto.
+Vayan colocando eso. Mhm: No tengo el mentirmeter
+será que lo coloque con otra cosa.
+Intim Tel me entiende qué es un dato, qué es un dato? ¿qué es un dato.
+Yo soy un dean de punto, Com Juan Ruiz de Point
+Presentation.
+¿será esta: ¿Qué es un dato visto? Ahora, sí, démelo un segundín.
+Ya les comparto la presentación.
+que le y bueno, mhm, Ya de menú segundín.
+Aquí me aparecen 3 personas, pero creo que estas son las respuestas anteriores. Así que las voy a borrar. Sí,
+las voy a borrar de acá y
+luego para borrar esto por Dios
+modo para borrar esto, aclear resorts. Aquí aparece: Listo.
+Switz: Sí, Sí,
+bien, Entonces, ¿qué es un dato? Coloca en el Q. R: Les voy a dar 5 min. Los otros 5 min
+son para ver qué es lo que respondieron y respondanlo ahí. Vale, puede ser corto largo, lo que ustedes quieran.
+Bien, muchachos.
+Hagamos una cosa, creo que ya todos respondieron, ¿cierto?
+Vamos a ver.
+María J. Carvajal
+María J. Carvajal
+01:24:42
+¡vaya por.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+01:24:44
+No han respondido. No vale nada.
+Vamos a salir y vamos a volver a entrar para temas de asistencia vale mientras responden, les parece
+bueno, Bien.
