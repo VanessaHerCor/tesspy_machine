@@ -31,9 +31,9 @@ pdf_folder_path = r'PDF_PSY'  # La 'r' significa "raw string" (ruta sin procesar
 # Alternativa más profesional con Path:
 pdf_folder_path = Path('PDF_PSY')  # Esto funciona en Windows, Mac y Linux
 
-# ⭐ RUTA DONDE GUARDAREMOS LA BASE DE DATOS FAISS
 # Si la carpeta existe, no la recrea. Si no existe, la crea automáticamente
-faiss_db_path = Path('FAISS_DB')  # Se guardará en una carpeta llamada FAISS_DB
+# ⭐ RUTA DONDE GUARDAREMOS LA BASE DE DATOS
+faiss_db_path = Path('embedding_soft_ti')
 
 # ============================================================================
 # PASO 3: VERIFICAR QUE LA CARPETA EXISTE
@@ -121,10 +121,11 @@ print(f"="*70)
 
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
+# ⭐ PARÁMETROS DEL PROFESOR (más pequeños = más precisión)
 # Crear un divisor de texto con parámetros específicos
 text_splitter = RecursiveCharacterTextSplitter(
-    chunk_size=1000,        # Cada chunk tendrá máximo 1000 caracteres
-    chunk_overlap=200,      # Los chunks se superponen 200 caracteres (para contexto)
+    chunk_size=400,         # ⭐ Cada chunk tendrá máximo 400 caracteres
+    chunk_overlap=40,       # Los chunks se superponen  40 caracteres (para contexto)
     separators=["\n\n", "\n", ".", " "]  # Separadores por orden de preferencia
 )
 
@@ -150,7 +151,7 @@ from langchain_community.embeddings import HuggingFaceEmbeddings
 
 # Crear el modelo de embeddings
 embeddings = HuggingFaceEmbeddings(
-    model_name="sentence-transformers/paraphrase-MiniLM-L6-v2"
+    model_name="sentence-transformers/all-MiniLM-L6-v2"
 )
 
 # ⭐ VERIFICAR SI LA BASE DE DATOS YA EXISTE
@@ -170,14 +171,14 @@ if faiss_db_path.exists():
     )
     
     print(f"✅ Base de datos cargada exitosamente")
-    print(f"   📊 Documentos en la BD: {len(chunks)} chunks")
+    print(f"   📊 Búsqueda lista y disponible ✅")
     
 else:
     # SI NO EXISTE: Crear la base de datos (proceso completo)
     print(f"\n" + "="*70)
     print(f"🧠 MODELO DE EMBEDDINGS CARGADO")
     print(f"="*70)
-    print(f"Modelo: sentence-transformers/paraphrase-MiniLM-L6-v2")
+    print(f"Modelo: sentence-transformers/all-MiniLM-L6-v2")
     print(f"Tipo de vector: 384 dimensiones (números por vector)")
 
     # Crear un embedding de prueba para mostrar cómo funciona
