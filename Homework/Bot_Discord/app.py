@@ -48,6 +48,8 @@ REPERTORIO = [
 indice_chiste = 0
 #Variable global para contar cuántas veces hemos completado el repertorio
 ciclos_completados = 1
+#Variable para rastrear si el último chiste fue una pregunta interactiva
+ultimo_fue_pregunta = False
 
 #Creamos una clase especial para nuestro bot con los permisos
 intents = discord.Intents.default()
@@ -62,6 +64,35 @@ async def on_ready():
     print('-----------------------------------------')
 
 # --- FUNCIONES DE APOYO ---
+
+# Listas de palabras clave para respuestas
+PALABRAS_AFIRMATIVAS = ['si', 'sí', 'yeah', 'ok', 'okay', 'vale', 'claro', 'obvio', 'por supuesto', 'adelante', 'vamos', 'otro', 'otro chiste', 'más', 'mas', 'más chistes', 'un poco mas', 'uno mas', 'a ver ese', 'dale', 'venga', 'va', 'vaya', 'bueno', 'okey', 'pues si', 'pues sí']
+PALABRAS_NEGATIVAS = ['no', 'nope', 'nunca', 'jamás', 'buuu', 'que malo', 'que malos', 'horrible', 'terrible', 'buu', 'mala', 'malo', 'pésimo', 'para', 'basta', 'stop', 'calla', 'callate', 'silencio', 'no más', 'no mas', 'ya no', 'suficiente']
+
+# Frases para responder a negativas
+FRASES_NEGATIVA = [
+    "Lastima, porque tú no me ordenas, aquí va el siguiente chiste 🙃",
+    "No me importa, aquí va otro 🤖",
+    "Oh... ¿no te gustó? Mala suerte, aquí va otro 😏",
+    "Tus opiniones me importan un 0101... aquí va otro 🤡",
+    "Me encanta tu entusiasmo, lo tomaré en cuenta ignorándolo. Aquí va otro 😒"
+]
+
+async def es_respuesta_afirmativa(contenido):
+    """Verifica si el contenido contiene una respuesta afirmativa"""
+    palabras_contenido = contenido.split()
+    for palabra in palabras_contenido:
+        if palabra in PALABRAS_AFIRMATIVAS:
+            return True
+    return False
+
+async def es_respuesta_negativa(contenido):
+    """Verifica si el contenido contiene una respuesta negativa"""
+    palabras_contenido = contenido.split()
+    for palabra in palabras_contenido:
+        if palabra in PALABRAS_NEGATIVAS:
+            return True
+    return False
 
 async def procesar_saludos_despedidas(message, contenido):
     # Lista de saludos y despedidas
@@ -83,6 +114,7 @@ async def procesar_animo_y_chistes(message, contenido):
     # Importamos las variables globales para poder modificarlas dentro de la función
     global indice_chiste
     global ciclos_completados
+    global ultimo_fue_pregunta
 
     # Respuesta si el usuario dice "bien"
     bien = ['bien', 'muy bien', 'excelente', 'genial', 'estupendo', 'fantastico', 'feliz', 'contento', 'de maravilla', 'super', 'todo bien', 'todo excelente', 'todo genial', 'todo estupendo', 'todo fantastico', 'todo feliz', 'todo contento, bien?', 'todo de maravilla', 'todo super', 'todo ok', 'ok', 'estoy bien', 'me siento bien', 'bien y tu', 'bien y tu?']
@@ -114,6 +146,7 @@ async def procesar_animo_y_chistes(message, contenido):
 async def enviar_siguiente_chiste(message):
     global indice_chiste
     global ciclos_completados
+    global ultimo_fue_pregunta
 
 # REGLA: Si el índice llegó al límite, avisamos ANTES de soltar el siguiente chiste
   # Si se acabó el repertorio
@@ -125,6 +158,7 @@ async def enviar_siguiente_chiste(message):
 
         indice_chiste = 0
         ciclos_completados += 1
+        ultimo_fue_pregunta = False
 
         await message.channel.send(
             f"Oh... Recuerda que soy Amateur así que aún no tengo tantos chistes, tanto lo divertido como mi paciencia se me agota rápido 🙂 \n"
@@ -137,6 +171,19 @@ async def enviar_siguiente_chiste(message):
     # Si no hemos llegado al final, enviamos el chiste que toca
     chiste_elegido = REPERTORIO[indice_chiste]
     await message.channel.send(chiste_elegido)
+    
+    # Verificar si es un chiste con pregunta interactiva
+    chistes_pregunta = [
+        "Espera \n¿Mas chistes? ☺️",
+        "Publico dificil... \n¿Otro chiste? 😀",
+        "... Más \n¿no? 🙂",
+        "Nunca es suficiente... \n¿Otro chiste no? 🙂"
+    ]
+    
+    if chiste_elegido in chistes_pregunta:
+        ultimo_fue_pregunta = True
+    else:
+        ultimo_fue_pregunta = False
     
     # Aumentamos el índice para la próxima petición
     indice_chiste += 1
@@ -238,6 +285,22 @@ async def on_message(message):
     if contenido in salir :
         await message.channel.send("¿Esperabas salir? Solo hay una salida: aceptar tu mediocridad.")
         return
+    
+    # --- PROCESAR RESPUESTAS A PREGUNTAS INTERACTIVAS ---
+    if ultimo_fue_pregunta:
+        es_afirmativa = await es_respuesta_afirmativa(contenido)
+        es_negativa = await es_respuesta_negativa(contenido)
+        
+        if es_afirmativa:
+            # Usuario respondió afirmativamente, continuar con el siguiente chiste
+            await enviar_siguiente_chiste(message)
+            return
+        elif es_negativa:
+            # Usuario respondió negativamente
+            await message.channel.send(random.choice(FRASES_NEGATIVA))
+            await enviar_siguiente_chiste(message)
+            return
+        # Si no es ni afirmativa ni negativa, no hacemos nada y permitimos que continúe
     
     # Probabilidad de frase ácida aumenta con cada ciclo completado de chistes
     prob_base = 0.05  # 5% de base
