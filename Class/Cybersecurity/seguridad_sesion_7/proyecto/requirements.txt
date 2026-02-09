@@ -1,0 +1,39 @@
+# Dependencias para Sesión 7: Automatización con GitHub Actions
+
+# Testing framework
+pytest>=7.4.0                 # Framework principal de testing
+pytest-cov>=4.1.0            # Coverage reporting
+pytest-xdist>=3.3.0          # Parallel test execution
+pytest-mock>=3.11.0          # Mocking utilities
+
+# Code quality y linting
+flake8>=6.0.0                # Style checking
+black>=23.0.0                # Code formatting
+mypy>=1.5.0                  # Type checking
+isort>=5.12.0                # Import sorting
+
+# Security scanning
+bandit>=1.7.5                # Security vulnerability scanner
+safety>=2.3.0                # Dependency vulnerability scanner
+
+# Performance y profiling
+pytest-benchmark>=4.0.0      # Performance testing
+memory-profiler>=0.60.0      # Memory usage profiling
+
+# Reporting y artifacts
+pytest-html>=3.2.0          # HTML test reports
+pytest-json-report>=1.5.0   # JSON test reports
+coverage>=7.3.0              # Coverage measurement
+
+# CI/CD utilities
+pre-commit>=3.3.0           # Pre-commit hooks
+tox>=4.6.0                  # Testing across environments
+
+# Mocking y testing utilities
+responses>=0.23.0           # HTTP request mocking
+freezegun>=1.2.0            # Time mocking
+factory-boy>=3.3.0          # Test data generation
+
+# Monitoring y logging
+structlog>=23.1.0           # Structured logging
+sentry-sdk>=1.28.0          # Error tracking and monitoring

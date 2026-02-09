@@ -1,0 +1,647 @@
+Nestor Cardona
+Nestor Cardona
+Buenas noches, cómo están.
+María J. Carvajal
+María J. Carvajal
+03:56
+Mhm.
+yiceth mata lozano
+yiceth mata lozano
+04:00
+Hay C. Hay como Viste Profe. Nos dejaron tarea sin piedad.
+Nestor Cardona
+Nestor Cardona
+04:06
+No estaba viendo el laptop, pero sí vi que lo teni tenían Ahí
+era proyecto final. No sé que les está poniendo proyecto final.
+yiceth mata lozano
+yiceth mata lozano
+04:15
+Y pregunté que ya ¿a qué vanesa salió llorando, que hay.
+Vanessa Hernandez
+Vanessa Hernandez
+04:19
+Hay que hacer un Skyner.
+yiceth mata lozano
+yiceth mata lozano
+04:21
+Un escáner.
+Nestor Cardona
+Nestor Cardona
+04:23
+Mhm.
+yiceth mata lozano
+yiceth mata lozano
+04:24
+Y.
+Nestor Cardona
+Nestor Cardona
+04:25
+Quién, ¿Quién será el que el que el que hace suspenso en tan descabellados.
+yiceth mata lozano
+yiceth mata lozano
+04:31
+¡ay, Dios.
+Nestor Cardona
+Nestor Cardona
+04:35
+¿quién será el profe que ese suspenso, entonces? Cabe? Ya le estoy haciendo una le Estoy haciendo una reestructuración al pensm, Pues bueno, es que no le va a tocar. Pero para las próximas
+sí le estaba haciendo como unas mejoras. Justamente anda trabajando en hoy estoy trabajando hoy. Estuve trabajando
+si no, verdad. Y desde que me levanté, estaba trabajando como desde las 6,
+pero bueno, eso es de cara a una alianza que mencionaba con con la universidad con una universidad
+andaba reestructurándola porque tiene que cumplirse un montón de cosas en los tiempos para que quede como diplomado. Y bueno.
+pero pues ya estoy como cambi se cambiaron muchos. Hay muchos temas, en
+incluso en lo que se va a ver en los fundamentos.
+Se aumentó en programación orientada a objetos, viendo que requiere más más tiempo las sesiones.
+Eso sigue igual. Toda la inteligencia artificial sigue todo tal cual.
+Bueno.
+creo que le van a eliminar, eliminar una de mis materias, o sea, la de
+me acuerdo, cual, pues una de las que yo la creo que la la de script se desarrollo de Scripts
+y significó, pues, como sistemas operativos de unix y desarrollo de scripts Bien.
+Y Pero son Cam son cambios en más que todo también en el orden de lo que se ve
+y y en el alcance. Incluso miré por acá Estoy poniendo otro proyecto
+proyecto de procesamiento distribuido de imágenes, o sea, antes de una pre scainet chévere, ¿no?
+Y aquí aquí aquí proyecto. Es más, al Skyner le le quite Antes decía chat con con lang Lanchain. Creo que era
+un chat que había que hacer en Python con the Madillo.
+Eso no le puse 10 sesiones para manejarlo de como tema abierto, pues para
+as alternativas de desarrollo que lo que quieran hacer y bueno, pero le va a tocar al
+a los a los siguientes cortes.
+Ahí está como organizándolo. La verdad. Esto ya va en versión 1, 8, o sea, un montón de cambios que he tenido. No crean ustedes que cortes son Son la Corte.
+yiceth mata lozano
+yiceth mata lozano
+07:21
+El cuarto. Tengo entendido.
+Nestor Cardona
+Nestor Cardona
+07:23
+Corte cuarta, 4 cortes. Bueno, aunque en este momento ya va ya dentro de las 6,
+empezó a las 6, pero pues en 6 cohortes obviamente es.
+se van mejorando cositas y así,
+pero ya ya he pasado por 8 cambios de de versiones y todo el tema.
+Bueno, yo me pon yo me pongo a pensar en qué momento hago tanta cosa
+listo, pero la noticia era que ya no iba a ser scainer. ¿de qué les pusieron lo del chat chat bot.
+yiceth mata lozano
+yiceth mata lozano
+08:04
+Sí, señor.
+Anyi Lisbeth
+Anyi Lisbeth
+08:05
+Sí, Sí.
+Nestor Cardona
+Nestor Cardona
+08:07
+No es Chévere. Es Chévere.
+Bueno, listo, listo, montón de transacción de pruebas. Ok.
+María J. Carvajal
+María J. Carvajal
+08:20
+Ya.
+Nestor Cardona
+Nestor Cardona
+08:23
+Creo que nos va a tocar pedir 2 sesiones más ya
+2 sesiones adicionales que determinamos hoy. Pero Mhm.
+Si me faltaría. Como toda toda el tema de selenio. Creo que es importante para textil, sobre todo pruebas de interfaces gráficas y de flujos de del lado de testear, que es lo que hace el usuario con la aplicación
+que la última sesión y automatizaciones, pues de flujo de correr pruebas automatizadas con con Github.
+porque hoy alcanzamos a ver temas de seguridad. Es como lo que nos queda. Lo que sí debemos acordar
+es cuándo. Porque yo veo que la la semana que viene, cuando Full de programación
+podríamos coordinar si todos y cada 1 puede ver esas sesiones adicionales.
+Podría ser un fin de semana, o sea, el sábado por el próximo sábado
+en el horario, donde todos pueden. Si 1 no puede. Ya no vemos cómo nos acomodamos en el horario de semana.
+pero pues son 2 opciones adicionales, precisamente porque son temas que que considero que, bueno, yo podría como dar recorrido todos los temas, pero no es que
+te queden bien, incluso pues, teniendo en cuenta eso, ya que estoy reestructurando el peso
+pese a seguridad y pruebas. Sí, Sí, la dejé.
+Yo me estoy dando en la en la cabeza. Yo me estoy eliminando mis materias, no seguridad y pruebas no me tira. Se pasaron cosas a a otras materias y se se reestructuraron así, o sea, como que los temas siguen de pronto, pero
+aumentar la 10 sesiones, por lo que veo
+así seguridad y pruebas.
+Yo creo que habría aquí como que
+aumentarle unas sesiones, 9 sesiones. Yo creo que es. Se podría manejar, No
+listo, pero entonces no sé cómo están de agenda
+de San Valentín. Catorce de febrero es que mira eso mañana. Tengo.
+yiceth mata lozano
+yiceth mata lozano
+10:48
+No.
+Nestor Cardona
+Nestor Cardona
+10:50
+No, no Ma: mañana. Tengo una nivelaciones, una reunión en la mañana a la tarde. Tengo nivelaciones
+con algunos estudiantes y el 14 perdón: San Valentín.
+yiceth mata lozano
+yiceth mata lozano
+11:02
+Nadie. El domingo subirá al cerro.
+Nestor Cardona
+Nestor Cardona
+11:05
+El domingo. ¿no? Pero eso está de hace un año ahí. Y hace un viaje como 4 años, no Subo, no, Pero lo puse, que para ir todos los domingos. Y si hace unos meses. Pero eso se quedó ahí por por
+yiceth mata lozano
+yiceth mata lozano
+11:19
+Pero después revuelve volver a reintentar. Sí, yo, esperando que acabe esto para subir al cerro, también.
+María J. Carvajal
+María J. Carvajal
+11:26
+Los contactos marcados.
+Nestor Cardona
+Nestor Cardona
+11:28
+El gran.
+María J. Carvajal
+María J. Carvajal
+11:29
+Venga 1.
+Nestor Cardona
+Nestor Cardona
+11:31
+Esto es algo en diciembre de esto retomamos.
+yiceth mata lozano
+yiceth mata lozano
+11:36
+La otra semana al maestro. No fue el lunes del resto. Creo que quedaríamos libres en la agenda de parques Off no.
+Nestor Cardona
+Nestor Cardona
+11:48
+Lunes.
+yiceth mata lozano
+yiceth mata lozano
+11:50
+Es lo que dice es que ese es otro de los temas aquí, y no sé si tú lo puedas plantear para mejorar.
+tener como una agenda para ver 1 qué clases tiene futuras, porque normalmente 1 la ve. Es el lunes.
+Y es que.
+Nestor Cardona
+Nestor Cardona
+12:04
+Se y sabes qué pasa aquí?
+Como
+son clases sin crónicas. O sea, eso implica que está tutor con las personas, tutores en varios cursos, varias materias, o sea, la la logística. Detrás de todo eso es bastante fuerte y pasa de todo que el tutor se enfermó, que
+no sé. Se fue la energía. Se se se quedó sin Internet
+X y motivo, y pasa que a ver si toca cancelar
+ya cuando van cosas con tiempo, Pues sí a una tal. Ya tengo tal cosa a tal fecha, pues ese día no me agenda en nada y toca sincronizar, pues las agendas y las clases con la disponibilidad de tiempo de los stores y en fin. Pero ¿qué ocurre que si se programa a más de una semana
+ante una eventualidad, toca cancelar, pero toca reestructurar y cambiar nuevamente todas las clases y toda la programación.
+y eso afecta a otros tutores y otras cosas. Así se vuelve una bola de nieve, y por eso lo tenemos a una semana. Entonces, el fin de semana.
+habiendo como que venga, no.
+si se cancela o pasa algo, es porque definitivamente algo extraordinario. Y si hace, pues no va a afectar las programaciones futuras.
+es es es el motivo, entonces, el el viernes sábado a más tardar, domingo, pues ya el lunes aparece lo de la semana. Se está. Lo que sí estamos haciendo es que son tocados, manual.
+pobres de soporte y sesión por sesión por clase. Lo que sí estoy haciendo es automatizando para que se
+desde la misma plataforma test mejorando el proceso para que sea más rápido.
+Y se puede tener desde el viernes.
+y es más, Ahí ahí vi que ya están subiendo
+lo de la semana que viene.
+apenas me están llegando. Ahí me están llegando las notificaciones. Ya me ya me está saliendo casi bien aquí la semana que viene. Ya me están poniendo las clases precisamente por esos cambios y esas mejoras para que estén por lo menos desde el viernes. Eso sí, fue una mejora que estoy estuvimos trabajando implementando, pero pues esa es la razón de ser que
+por la misma dinámica, si se programa más, cualquier cambiecito afecta y toca volver a reprogramar a reestructurar y actualizar, claro, pues, de la tele para los estudiantes, transparente porque les sale en la plataforma. Pero para los tutores, porque eso implica generar un Zoom, un un link de Zoom. Y ese link asociado al vídeo para luego el vídeo. Subirlo a la plataforma implica de por no notificar a los tutores, la Agenda, el calendario para que los tengan ayer
+guisaditos. Y bueno, otro topo otro poco de cosas, vale.
+pero sí to to ahí vamos mejorando, encontraremos alguna manera de de ir cada vez mejorando los procesos, pero por lo menos ya es tratar de que desde el viernes anterior quede eso, ya son cambios que apenas se vinieron haciendo y se están implementando la semana que viene, y creo que a partir de semana, ya como que está estable, está funcionando.
+Mhm: Bueno, entonces no habría que mirar Entonces miremos a ver qué
+cuándo puede ser un fin de semana o puede ser.
+Puede ser en cualquier horario, o sea, yo
+yo los yo los lunes, no ni los lunes ni los jueves tengo programado, por pues pues veo las clases de la maestría, pero yo salgo. Yo acabo las clases como a las 8 8 y media.
+Podríamos mirar ahí como despuecito de las 8 y media en esos horarios Sí, no tienen nada programado o un fin de semana, o sea, un sábado
+son las en la mañana o en la tarde.
+para mirar esos esas materias. Esas 2 son 2 clases que que voy a a poner. ¿vale?
+Y algo. Yo luego le digo a soporte que les contacte y y coordinamos. Vale.
+es una encuesta o algo ahí, y ya se mira, pues, ¿de qué manera podemos revisar la Agenda?
+Bueno.
+listo, Bueno, tenemos en materia alguna pregunta hace el momento.
+yiceth mata lozano
+yiceth mata lozano
+16:14
+No, señor.
+Nestor Cardona
+Nestor Cardona
+16:17
+Okay. Bueno.
+pruebas de seguridad, esto ya es más de de hacking, pruebas de seguridad y protección contra ataques. Además, son pruebas basadas en la seguridad de las aplicaciones.
+entonces automat automatización de pruebas de seguridad con Python. Python es ideal para todo este tema de ciberseguridad
+que 1 puede ser scripts scripts de que automaticen pruebas y
+y generan reportes. Y bueno, o cometieron un montón de cosas o que busquen vulnerabilidades y reporten. Es muy útil mediante script de Python identificar y vulnerabilidades. Revisemos lo de lo Wash top 10 que hace poquito salió la la última versión. No, No la he leído
+20 25 de cuál es ese top 10 de
+según el el riesgo que se debe identificar y prevenir en en el desarrollo.
+Bueno, y en últimas, el uso de herramientas especializadas para para el testing.
+Mhm.
+Y
+aquí estoy yo, no.
+Yo tengo los Pdfs de la sesion 4, donde esta subida, la sesión 5, y 6,
+yo la subí a la clase 5 y 6,
+o ya confirmó. No sé si subí si subí la
+las 5, no más per No me perejito. Yo subí todo, o sea, en las clases.
+y miramos en la clase hasta las 8, deben estar. O sea.
+esta que estamos viendo debería estar allí. Sí, está contenido. Uno
+que sería en la sesión 6, la subí
+la 5 también está allí, o sea, cada cada cada 1 está ahí por 13, Incluso yo subí hasta la 8
+adelante. Ahí están.
+Sí. Sí, Les aparece Okay, listo. Okay: bien bueno.
+bueno y algo muy, muy importante, y
+por el pues las las pruebas de seguridad es u justamente identificar si que tan segura es la aplicación y si puede ser vulnerado
+identificar vectores de ataque, el por qué medios o por qué parte se puede vulnerar la aplicación, ya sea que venga desde Internet o que tenga acceso a una red interna? Bueno, o es un usuario con credenciales o sin credenciales. Bueno, esos ya son los vectores de ataque
+y
+y pues, justamente lo que se es lo que se se revisa y se busca. Hay varios tipos de de pruebas de de seguridad.
+pruebas de autenticación.
+Allí principalmente se valían temas de credenciales, manejo de cesiones o que la las aplicaciones cuenten
+con múltiple factor de autenticación ya
+código moto. T, P, un código de verificación de validación que llegue por correo o por s. M. S, o simplemente una alguna de
+de token, pues de autenticadora que que tenga un un identificador de inicio de sesión, o o sea, además de, o sea, como que, además de la contraseña, tenga una confirmación por correo o una confirmación
+pasear o
+o múltiples factores de publicación. Por si se llega a perder o acceder o la contraseña, la adivinaron no le permita seguir sino que haya dado
+y, sobre todo, ese factor de autenticación debe ser como independiente, por ejemplo, asociado como el equipo al celular hoy en día ya, pues se trabaja con temas de biomeviometría
+o tokens de con clave dinámica que estén
+que estén allí de manera física es que para acceder solos se tenga de manera física y políticas en las contraseñas es, por ejemplo, si si
+que la aplicación, cuando solicita una contraseña. Establece que defina las políticas que tenga una mayúscula que lo mínimo debe ser tanto que tenga un número un carácter especial el tipo de cosas para evitar contraseñas comunes contraseñas repetitivas que se pueden probar y testear.
+En cuanto a la validación en en los sistemas de autenticación.
+sobre todo la el manejo de las sesiones, ver que, aunque qué pasa con la sesión, la sesión se puede vulnerar o no se puede vulnerar. Hay forma de replicarnos el token o un token vencido. Por ejemplo.
+normalmente los token deben tener fecha de vencimiento.
+Una vez pasada la fecha, el sistema me sigue admitiendo ese token o no.
+son ese tipo de validaciones que se que se deben hacer y en validaciones de autorización. Entonces.
+manejar un un control de acceso basado en roles, por ejemplo, en las aplicaciones y esos roles, cuando se crean los usuarios, siempre brindarles el mínimo, el mínimo de.
+o sea, el el rol con con menor por defecto con menores privilegios ya
+y más bien se creen por de manera automática, con menos privilegios y ya después se le puedan escalar, pues ya un usuario o administrador, etcétera.
+y todo el manejo, pues permisos y privilegios de escalación entonces existente, tener muy, muy en cuenta eso
+y limitar el acceso a los recursos
+para la parte de autorización. O sea, no, no, no le va a hacer las mismas tipos de consultas o acceder a la misma información. No sé un usuario, un miembro que un usuario empleado que un usuario administrador
+o un superusuario
+y validar. Y efectivamente, que si ese Token es para o esa sesión o ese token es para un usuario cuyo rol es
+intermedio no le permita de ninguna manera acceder a información que está restringida para un rol con con mayores privilegios.
+Ya se deben hacer esas validaciones.
+Parte de las pruebas que se hacen muchas de estas pruebas
+son como quien dice a pie.
+Hay herramientas para testear. Sí, muchas cosas, pero la verdad tiene.
+Hay Hay bastante automatizas automatizado, pero lo mejor para realmente hacer un una buena, un análisis, un buen testeo en seguridad
+y en la mayoría son pruebas pruebas manuales, por ejemplo pruebas de fusing mushing. Es como tipo fuerza bruta
+donde yo pruebo automatizo para probar. No sé múltiples peticiones cambiando los parámetros a ver si me responde alguna o usuarios y contraseñas
+cambiando 1 un mismo usuario, múltiples contraseñas a ver con cual me responde el sistema ya
+tipo fuerza bruta, pues pero esos ya son son
+a través de herramientas, pero pues más más un trabajo manual, Mhm
+y análisis de bueno, ¿cuál es de vulnerabilidades, validación de de de de ante de ataques, inyección de invulnerabilidades, fallas o, digamos, debilidades en
+en la lógica de del negocio, en la implementación, o problemas de configuración, no a veces
+se configuran y se utilizan sistemas o servicios para implementar e integrar en las aplicaciones.
+y a veces hay una mala configuración y se dejan usuarios por defecto, o sea, creo, los usuarios con todos los roles, pero no, no se habilitaron
+deshabilitar a los usuarios por defecto
+a cualquiera que tiene acceso. Le entra por unos héroes por defecto que por lo general los usuarios son administradores.
+y de ahí en adelante, pues ya puede crecer
+lo que sea en la aplicación.
+ese tipo de errores en la configuración
+y ya pruebas de penetración que serían
+intentar vulnerar. Entonces automatizar, escanear, además de ese testing manual
+o si o incluso ingeniería social, o sea, muchas veces los sistemas son muy buenos, muy seguros
+y siempre siempre siempre el escr. El eslabón más débil
+va a ser el usuario final.
+Entonces, cuando hablan de ingeniería social, es simplemente mediante convencimiento o una u otra táctica. Yo puedo conversar y lograr que la otra persona me entregue lo que quiero. Lo que hacen las estafas y todo eso.
+no, ni siquiera, o sea, te te te te llaman diciendo que que
+que es de la la empresa. No sé qué entonces necesitan hacer unas validaciones y por problemas de Internet, entonces que instale toda la aplicación y la gente va y y y tienen un poder de convencimiento. Se le llama ingeniería social, un poder de convencimiento y una seguridad y manejan
+conceptos que realmente 1
+cualquiera puede caer. Y y más hoy en día, con la inteligencia artificial que pueden simular voces y disfaces y y y todo ese tipo de cosas.
+Y te ponen la la voz de de tu mamá ahí. No tienes. Me me accidenté. Y y aquí me están prestando ese teléfono. Y y te está hablando tu mamá o tu tu esposa, tu esposo.
+Y es que por cogieron de un vídeo de de Youtube o de Instagram. La voz la mapearon, entrenaron una guía para que
+aprendiera a hablar y luego, con herramientas, esp speetud, el texto Speech crean diálogos o procesan
+texto o simplemente lo bueno yo hablo cualquiera habla y se procesa para que se cambie el sonido con los patrones de voz entrenados por Ida, eso se puede hacer.
+Entonces te está hablando ahí no. Tú me te manda medio, gente acá porque en el te estafaron. Eso es ingenierías
+en parte ingeniería social. Es lograr como que la otra persona te entregue esas cosas, pero más bien
+intentando engañar a través de de de
+de múltiples estrategias. Entonces siempre se está atacando no a la aplicación, sino al usuario final. Pero.
+como le digo, el el usuario final es el la el eslabón más débil.
+A veces 1 va al médico y el y y el y el médico tiene ahí
+al al lo me escuchan.
+yiceth mata lozano
+yiceth mata lozano
+27:34
+Sí, señor.
+Nestor Cardona
+Nestor Cardona
+27:36
+Se me descargaron esos. Bueno, a veces 1 va el médico y
+en el monitor ahí donde teclean y escriben, tienen este estignos de esas notas que se pegan
+ahí en la pantalla, donde entran quién sabe cuál cantidad cualquier cantidad de usuarios con el usuario y contraseña de los registros que manejan, para que no se le olvide pegado en un en un gordito del monitor.
+este usuario contraseña. Y si no saberse la url de la página, y cualquiera puede entrar ahí a descargar o sacar información, no lo sé, Pero
+tú puedes tener la seguridad que sea. Si el usuario final hace ese tipo de cosas. Hay que
+hay que ser todo eso. También tiene que ver con con políticas desarrollo de políticas de seguridad.
+por lo menos intentar blindarse en lo que más se pueda desde lo tecnológico
+y ya lo que tiene que hacer las empresas es formación y capacitación y simulacros, pues, para evitar que que que caigan
+en te en temas de ingeniería social. O, bueno, cualquiera de esas de esas situaciones Vale, okay
+alguna pregunta?
+Bueno, el primero es que hay algo llamado el asp top. Diez
+voy a buscar la la 20, 25
+valió la pena esta semana.
+Slow watch top Diez
+Okay define la lista de ese top 10 que se debe tener en cuenta en cuanto a seguridad de lo más crítico, a lo menos crítico. El 1 es lo más crítico.
+Es, por ejemplo.
+acá se busca identificar o preve evitar controles de acceso. Digamos que estén que estén rotos a ver y
+política de Senado con bueno, viola violación de
+o pérdida, pues de de de privilegios
+que normalmente se se deberían de negar, por ejemplo, un rol o o se logró un un usuario.
+o simplemente hay un token expirado que que me permite hacer peticiones y consultas como si estuviera logueado. Eso sería como algo crítico.
+problema de mala configuración en los cores que me permitan acceso autorizado a una a P I o mala configuración. En En cuanto a la información de el token, que que lo permita manipular y y de pronto se haga una excavación de privilegios, se cambia el rol
+desde el Token. Ese tipo de cosas están categorizadas como, pues, críticas, o sea, el nivel 1. Luego
+la mala configuración en la seguridad. Eso ha cambiado, pues apenas lo están viendo.
+y eso lo van actualizando, dependiendo de las estadísticas de la de los años pasados, de de acuerdo a lo que a a los casos que de lo que fue más crítico y por donde más atacaron las aplicaciones o vas pones la lista de a qué se le debe poner más cuidado. Entonces lo que se busca es de aquí para acá intentar
+darle manejo, validar lo que más se pueda. Estos son temas que hay.
+brindan cierto riesgo, inseguridad, pero pues no comprometen tanto la una aplicación. Entonces lo ideal es que por por lo menos hasta este nivel se logren.
+se logren hacer las correcciones, pues lo ideal es que no tengan en
+ninguna o muy pocas o casi nada, pero
+pero pues es da como una ruta. Da como un un una guía a a seguir.
+Bueno, aquí tené el documento con el anterior, pero pues básicamente, pues esa sigue en el primero.
+Por ejemplo, acá se pueden tes hacer testear. Aquí se está testeando.
+Es un test que estás haciendo una petición o un usuario admin
+pasándole un token, un token de de autorización, Y
+es más, se le está pasando un Token
+de un usuario que no debería.
+entonces la aplicación debería responder 403. Simplemente usted no tiene los
+permisos o bueno, lo o o los privilegios suficientes para hacer eso de esa manera debería responder entonces? Son pruebas también enfocadas a eso
+que si el usuario no tiene los privilegios o el token que tienes de un usuario y está intentando acceder a un endpoint o una lista de admin o cosas así
+o que solo debería ser un rol de admin La aplicación debe responder 403, como que Okay.
+si existe el recurso.
+404 es que no se encontró el recurso al al que se intenta acceder.
+403 es: ¿qué
+no tienen los los privilegios suficientes, o sea, el recurso existe, la impron, responde, te te llegó. Pero el servidor te está diciendo, no tienes la autorización
+correspondiente o el toque No.
+No, no no funciona. Se venció o no aplican para poderte entregar y el testing. Es justamente eso ver que efectivamente sí responde a esto y no le devuelva, No sé una consulta, base de datos o lo que sea, que responderían lo normalmente la aplicación.
+Estos son el tipo de pruebas en cuanto para prevenir justamente esto de acá y se pueden hacer desde el desarrollo
+o fallas en la criptografía. Eso es el el número 2: a ver a
+mira qué criptografía antes estaba en el 2 paso al 4
+ya le dieron mayor prioridad, y eso cada año lo actualizan dependiendo al a los reportes estadísticos de
+de de de de que manera están comprometido las cosas. Pero bueno, en
+por ejemplo, te ese es un test donde se valida el hashing, o sea, 1 no debería guardar la contraseña del usuario directamente en la base de datos, sino que se debe guardar un hash.
+Es cuando el usuario se crea con una contraseña.
+Se debe validar que el hash del password sea diferente de la contraseña que se le puso
+si se está guardando la misma contraseña, pues es no no cumple
+o y, por ejemplo, también se pueden hacer validaciones de la cantidad del tamaño debe ser largo.
+Aunque el tema de haching, lo lo que hace es que cualquier contraseña simple la va a volver
+una cadena de
+de tamaño fijo, entonces ya depende del tipo de de hachín que se está implementando, pero, por ejemplo, es así. Así. La contraseña sea bien cortita, Eso te va a generar un hash de 32 caracteres
+también por temas de seguridad, y y la contraseña puede tener
+100 caracteres, y igual te te te genera el hash en en 20, no la contraseña del hash.
+Aquí lo que estaba liando es que el hash, o sea mira password hash.
+Bueno, es un ejemplo, pues ya ya depende del del del del tipo de algoritmo de hashing, que se esté utilizando ya
+16 32, 1, 64, y
+y que sea un formato de Jash: seguro, o sea, que, pues, que contenga ciertos caracteres, tienen incluidos
+inyección de ataques. Aquí está como tercero, es el 2 024
+o 2 023. Creo que era inyección de ataques.
+Ya pasó al quinto Okay, por ejemplo, ejemplos de inyección, inyección. S. Q. L,
+que No sé si está mapeando, por ejemplo, en en en
+en un endpoint de búsqueda. Yo voy a buscar producto en una página.
+pero entonces la Consul se toma tal cual lo que escribe el usuario y no se analiza, no se procesa.
+Y lo que hace es que
+en el mismo texto ponen código. S. Q: L,
+Entonces entra a la consulta y si se pone como que esto es el parámetro de que voy a buscar.
+Lo que se hace es modificar el S Q. L. Que se está armando desde el código para cerrarlo con
+cerrar allí y agregar otra línea.
+S. Q. L, En la misma consulta. Entonces estás como alterando la consulta del cuello y S. Q. L, Dentro del mismo texto, lo que estás enviando para modificar lo que realmente estaba haciendo. Esto es una inyección de de un ataque sql.
+Eso se debe identificar antes de procesarlo y
+y pues, no debe, o sea, primero, no se debe ejecutar y, segundo.
+no debe fallar. O sea, él debe responder
+o 200 o Co, o 400. 400 Es como que no, no, no el formato de lo que están mandando no no cumple, pues lo que se esperaba y 200, es.
+no falla la aplicación, pero te manda un mensaje de que
+no está permitida la la la consulta que se está empezando a hacer
+y lo que debe validar es si el el la tabla, o sea, que realmente no se haya ejecutado.
+ya que efectivamente no haya borrado la tabla.
+yiceth mata lozano
+yiceth mata lozano
+37:51
+Lo curioso es que sepa el nombre de la tabla.
+Nestor Cardona
+Nestor Cardona
+37:55
+Hay muchas cosas por defecto
+general. Uno como programador tiende a a a pensar como como igual desde la misma lógica
+y muchas veces 1 encuentra
+y 1 programa en inglés, la la la mayoría de las veces, como conforme 1 va avanzando, pues pues los estándares y los protocolos y todo lo que nos vamos dejando el código que 1 escribe, lo va escribiendo en en
+en en inglés. Yo creo que yo creo que no. Yo creo que ya yo aquí se lo expuse
+secretis secret para el loging atend, o sea, los comentarios, los pongo en español, pero 1 el Código
+lo puede poner los nombres de las variables y todos en in en español también. Pero 1 se poco a poco va va va tomando porque las los métodos y esas cosas de las librerías se llaman en inglés, pues 1 va estandarizando todo
+el nombre de las variables y user fashion.
+¿qué pasa que a la final se va llamando parecido
+a la final. Se se va a llamar la tabla users.
+Y así,
+entonces, a ver, o puede o puede ser incluso una una consulta, una inyección de consulta para que me traiga los nombres de las tablas. Si deja la inyección, hago la inyección, consulto, las tablas. Y luego ya puedo hacer lo que sea con las tablas.
+o sea, el último del aquí. Lo
+por ejemplo, est está. Es, está intentando borrarla
+para la misma prueba, para saber si la borró no debería borrarla, entonces no, no la no la deberíamos borrado, pero si permite inyecciones de Q. L, Pues Pues es, puede ser esto, o puede ser Tráigame los nombres de las tablas.
+Mhm, Diseño y seguro y seguro estaba en el cuarto paso al sexto Okay.
+Por ejemplo, un diseño inseguro es que
+intentar transferir más dinero del del del disponible. Por ejemplo, un abuso en la lógica bueno.
+cantidades excesivas, por ejemplo, que no que no vienen al caso.
+Ese tipo de validaciones, por ejemplo, una transferencia
+de una cuenta a la otra, pues de se debería validar
+como que ciertos parámetros de de topes. Por ejemplo, 1 le diría, por ejemplo.
+tra permitir transferir cantidades de de de esta magnitud.
+Bueno, son como ejemplos.
+pero son malas configuraciones en la lógica. Eso ya es de la propia lógica que no está haciendo las validaciones del caso.
+Mis configuration. Eso subió mira aquellas Top 2. Eso antes estaba de 5. Ya pasó tos 2,
+por ejemplo, verificar que el debut esté deshabilitado o a veces 1 se le olvida y pasa el despliegue, pero lo despliega en modo de Boging y y otras cosas así.
+¿y ¿Y qué pasa con el dibujo que se revela en información. Se trazabilidad, información del sistema.
+entonces una cosa es que garantizar que en que que se haya puesto
+entorno de producción, por ejemplo, y que no esté en en modo de ibelo o en modo ebook. Porque, pues en The Booging
+como programador le sale mucha información, solo que 1 también tiene que limitar la información. Entonces, una cosa es la información que
+entre se entrega como programador o la que genero y guardo en los blogs. Otra cosa es la información que también de pronto entrego En las respuestas en las respuestas. Htt: P, por ejemplo.
+y
+a veces se se entrega información que que tú decías ahorita. Pero ¿cómo lo sup cómo lo saben muchas veces, parte de hacer peticiones y consultas y probar con los diferentes métodos. Creo que el método post option head, Bueno, todos los diferentes a ver qué me responden, cuáles están habilitados, cuáles han deshabilitados.
+Algunos entregan información que me permiten seguir avanzando y consultando y como ir ganando y recolectando información. Eso no debería. Entonces es. Y por eso yo creo que por eso le subieron del quinto al número 2, a
+porque muchas veces.
+si el el atacante no supiera cómo está construido eso por dentro, tal vez no le podría atinar ni adivinar a cómo vulnerarlo. Pero una mala configuración. Lo que hace muchas veces es brindar esa información o esas pistas que poco a poco le va permitiendo ir escalando en en ese En esos casos vale
+ya son temas temas de de mala configuración en seguridad o que no se pus, no se pusieron las cabeceras
+del en en Htt. P. P, Los Los headers que eviten ese tipo de cosas que están identificados o que se permita, por ejemplo, que se reutilicen toques o sesiones desde orígenes distintos al al origen original.
+porque, Por ejemplo, se puede ser que se a se atacó, se descargaron las cookies del navegador del usuario
+y en las cookies iban los los los tokens de sesión.
+Y entonces se reutilizan esos para
+hacer la sesión desde otro lado desde otra Ip, por ejemplo.
+y le permite y le y le permita acceder con con la información que está almacenada en las cookies, o sea, en las cookies, Normalmente 1 Guarda, por ejemplo, Tokens de sesión o inicios de sesión
+por 1, se loguea y 1 puede estar en la aplicación 2, 3, 4, 5 días. Y ya cuando expira el el el
+la sesión o el Token
+te pide volverte a loguear. Pero si no tú vuelves a entrar al navegador. Y está está la sesión activa, pero es esos tipos de informaciones se guardan las cookies si llegan a robar ese tipo de escokies o instalan algo complementos o o cosas que se jalan. Esa información. A veces es pueden haber ataques de esa de esa manera. Y esto, y es por
+mala configuración de la de la aplicación. Si lo llega a permitir.
+Mhm, por ejemplo, verificar que. Bueno, se se hace una petición y si haces una petición de
+ahora que, co como ejemplo, pues demás, la configuración es que es en producción. Está en modo de Bug y reporte, por ejemplo.
+A veces pasa. Se hace una petición que acá y debería responder 404, o sea, como que están intentando acceder a un endpoint que no existe listo, pero pues no se deben revelar información. Entonces
+el tradebag o la info del sistema no se debería responder.
+por ejemplo, en la respuesta que se dé junto con esto no Haya como que las únicas que tiene permitidas son estas, y así Ponte saca la lista de inmobis. Ella ya tiene los nombres de los impulsos a los cuales atacaron
+enton o o el formato de cómo debe estructurar el mensaje para que lo te responda el servidor. Eso son cosas que
+no deberían y son cosas que le brindan información al atacante.
+Bueno, les dejo, les dejo.
+Son las y 18 pues, seguir leyendo aquí. Aquí. Hay ejemplos en Python. ¿cómo aplica cada 1 de los del top Ten de de Wash
+en eje, en situaciones, pues hipotéticas
+como para ejemplificar qué se busca en la seguridad y todo va delimitado con
+esas recomendaciones que que brinda, pues, el o el hogar.
+que es el que rige todo el tema de de ciberseguridad, de qué es lo que se debe revisar y y y manejar en esas aplicaciones
+patrones de autorización, manejo de cesiones. Bueno, en fin, validaciones, aquí, por ejemplo, hay hay S. Q. L. No. S. Q. L ejemplos de cómo se se o X S. S Son.
+Mhm, código en Javascript, que se ejecuta
+que se ejecuta desde la interfaz gráfica, entonces ahí, si lo permite, ejecutar De hecho, por ejemplo, intento ejecutar al video si si me ejecutó. Y entonces, si me permite ejecutar algo, pues me permite inyectarle cualquier script para que haga cosas en el servidor. Eso es muy peligroso.
+Ataques X, s. S o caracteres especiales. A veces, de esta manera se se puede jugar con
+con con con las peticiones, Pues.
+bueno, dejo esta información ya el el el código. Lo podemos revisar en las siguientes sesiones.
+Incluso podemos hacer algún ejemplo de herramientas. Yo creo por aquí pongo algunas herramientas. Por ejemplo, Zaps. La El Zap Ryan es una herramienta automatizada.
+Uno lo instala y simplemente permite hacer un escaneo sobre una aplicación
+y ya tiene ciertos parámetros. Entonces te va arrojando lo que hay o lo que encuentren en cuanto a vulnerabilidades
+o Nucleit ambiente.
+Te va a hacer un escaneo de una aplicación de un servidor temas de configuración de cabecera. Desde de
+de temas de seguridad se pueden hacer o mapeo. Pues Sql: Bueno, hay varias herramientas de testing
+que 1 puede utilizar para para hacer un
+un testeo general de la aplicación. Ya aquí hay varias van y Samed Creek
+no se lo puede ejecutar. Tiene un entorno de linux, no lo puede instalar. Uno puede instalar el el sub cly en o incluso en en Windowsling, lo puede instalar en Windows, en donde sea, no cla y todos estos son normalmente los instala en un entorno de Linux. Puede ser en Ubuntu.
+Hay herramientas como Cali Linux, que ya trae todo esto instalado por defecto y literal corres. Esto en la terminal y ya lo ejecutas sin necesidad de instalarlo.
+Bueno, dejemos hasta allí. Vamos a mirar entonces con soporte. ¿cómo hacemos para retomar esas 2 opciones que nos que nos faltan
+y igual. Yo les dije que la calificación iba a ser por por asistencias, vale
+o no.
+No las había hecho.
+yiceth mata lozano
+yiceth mata lozano
+48:31
+Sí, No te arrepientas.
+Vanessa Hernandez
+Vanessa Hernandez
+48:33
+Sí. Josh.
+yiceth mata lozano
+yiceth mata lozano
+48:34
+A decir lo mismo.
+Nestor Cardona
+Nestor Cardona
+48:37
+O sea, la la nota. Yo ahorita, se las pongo, luego las pongo.
+Es más, los voy a poner, pero igual. Veamos las clases y las sesiones para que no nos quedemos ahí sin sin ver esos temas listo.
+yiceth mata lozano
+yiceth mata lozano
+48:45
+Mhm: Sí, señor.
+Nestor Cardona
+Nestor Cardona
+48:47
+Y luego vamos.
+Anyi Lisbeth
+Anyi Lisbeth
+48:48
+Que descanse en una feliz noche.
+No asistí todas las clases. No sé si.
+Nestor Cardona
+Nestor Cardona
+48:55
+Y mujer.
+Anyi Lisbeth
+Anyi Lisbeth
+48:56
+Recuperar su.
+Nestor Cardona
+Nestor Cardona
+48:57
+No. Incluso yo le puse a veces soportes que.
+Mhm, Porque hay muchas personas que se desatrasan por los vídeos.
+Anyi Lisbeth
+Anyi Lisbeth
+49:06
+Mhm.
+Nestor Cardona
+Nestor Cardona
+49:08
+Entonces viendo las grabaciones. Yo le digo, cuando voy cuando voy a calificar. Así que no voy a dejar evidencia. Yo le digo que si se cae, si que es que mande por el grupo, que si se atrasaron
+viendo los vídeos que me manden correo, si se.
+Anyi Lisbeth
+Anyi Lisbeth
+49:23
+Qué Bien.
+Nestor Cardona
+Nestor Cardona
+49:24
+Enviarme un correo.
+Yo sé que estuvieron pendientes, pero hay muchos que ni siquiera
+ni siquiera algún correíto me mandan
+Entonces pues no les califico es que es en serio. Eso es una cosa así. Una cosa de locos mientras yo les pongo como que, bueno, si me mandan un correo ya el
+le doy el voto de confianza y no, no lo mandan. Y luego a
+hay hay mañana tengo que hacerle nivelación a unos que seguramente no.
+Anyi Lisbeth
+Anyi Lisbeth
+49:57
+En entonces veo los videos que creo que fueron 2 o 3 clases que los 3 clases que me faltan.
+Nestor Cardona
+Nestor Cardona
+50:04
+Si no las revisas las revisas igual. Vamos a ver 2 2 sesiones más.
+Anyi Lisbeth
+Anyi Lisbeth
+50:07
+Mhm.
+Nestor Cardona
+Nestor Cardona
+50:08
+Miro yo miro la notificación de existencia antes.
+Yo miro como que a quienes asistieron cuantas asistieron y voy poniendo una nota.
+Anyi Lisbeth
+Anyi Lisbeth
+50:18
+Liz.
+Nestor Cardona
+Nestor Cardona
+50:18
+Si hay alguno que hay alguno, que no ha existió ninguna. Y así que me mande correo.
+Anyi Lisbeth
+Anyi Lisbeth
+50:24
+Bueno, listo. Profe: Gracias.
+Nestor Cardona
+Nestor Cardona
+50:28
+Como para testear el teletrabajo a que me preguntaban, Sabes, se los puede ejecutar en cualquier aplicación o por tele del trabajo te puede montar un entorno de Linux en un entorno, una máquina virtual o algo así en obuntu o directamente instalando calinus todas esas herramientas de testing de seguridad ya vienen. Vale.
+Vanessa Hernandez
+Vanessa Hernandez
+50:46
+Profe, lo que yo le quería preguntar yo con usted. Tengo me si me acuerdo, una asignatura perdida que es cuando recién empezamos que creo que usted no, O sea, usted empezó haciendo cositas en Pci in
+y pues yo, pues yo ya vi, pensé, entonces yo me hice la vista gorda y no entregué una una evidencia, y y luego me saltó él, no que.
+Nestor Cardona
+Nestor Cardona
+51:12
+Era.
+Vanessa Hernandez
+Vanessa Hernandez
+51:13
+Total con caso de nunca recuperación de yo. Entonces.
+Nestor Cardona
+Nestor Cardona
+51:18
+No, no. Yo siempre le pongo 2 para que tengan opción de recuperación. Si le pusiera 1 fue otro profesor.
+Conmigo.
+Vanessa Hernandez
+Vanessa Hernandez
+51:26
+Que hay que tengo que tengo que recuperar eso o qué.
+Nestor Cardona
+Nestor Cardona
+51:31
+Si bueno, normalmente ahorita con soporte. El tema es que si le pusieron 1,
+les toca pagar la recuperación es que en última la recuperación, lo que paga el el tiempo del tutor allí dándote la sesión normalmente. Es por eso el que cobran las las
+la recuperación es porque, pues el tutor va a estar allí calificándote y todo eso les toca pagarle a tutor por ese tiempo.
+en o sea, a mí.
+Vanessa Hernandez
+Vanessa Hernandez
+52:00
+Bueno, bueno, entonces yo me.
+Nestor Cardona
+Nestor Cardona
+52:03
+Fíjate con soporte.
+Vanessa Hernandez
+Vanessa Hernandez
+52:03
+No es.
+Nestor Cardona
+Nestor Cardona
+52:04
+Y normalmente con el tutor que te la que te dé la tarea. Si no se logra contratar a ese tutor, pues normalmente se busca otro tutor que de esa materia, pues si en ese caso yo
+la podrías hacer, vale.
+Vanessa Hernandez
+Vanessa Hernandez
+52:16
+Bueno, bueno.
+Nestor Cardona
+Nestor Cardona
+52:18
+Bueno, Gracias. Feliz noche que están que descansen, que estén muy bien.
+Vanessa Hernandez
+Vanessa Hernandez
+52:23
+Chao. Muchas.
+yiceth mata lozano
+yiceth mata lozano
+52:25
+Gracias, Chao.
+Nestor Cardona
+Nestor Cardona
+Vale, hasta luego.

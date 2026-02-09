@@ -1,0 +1,54 @@
+# Dependencias para Sesión 8: Pruebas con Selenium
+
+# Selenium WebDriver y herramientas
+selenium>=4.15.0             # Framework principal de Selenium
+webdriver-manager>=4.0.0     # Gestión automática de drivers
+
+# Testing framework
+pytest>=7.4.0               # Framework de testing
+pytest-xdist>=3.3.0         # Ejecución paralela de tests
+pytest-html>=3.2.0          # Reportes HTML
+pytest-selenium>=4.1.0      # Plugin de Selenium para pytest
+
+# Page Object Model utilities
+selenium-page-factory>=1.0.0  # Utilidades para POM
+
+# Cross-browser support
+# Nota: Los drivers se gestionan automáticamente con webdriver-manager
+
+# Visual testing y screenshots
+Pillow>=10.0.0              # Manipulación de imágenes
+pytest-html-reporter>=0.2.9 # Reportes con screenshots
+
+# Waits y synchronization utilities
+selenium-wire>=5.1.0        # Selenium con capacidades de network
+
+# Testing utilities
+faker>=19.0.0               # Generación de datos falsos
+requests>=2.31.0            # Para APIs y servicios web
+
+# CI/CD y Docker support
+docker>=6.1.0               # Para containers de Selenium Grid
+
+# Debugging y logging
+structlog>=23.1.0           # Logging estructurado
+
+# Performance y profiling
+pytest-benchmark>=4.0.0     # Benchmarking de tests
+
+# Data-driven testing
+pytest-csv>=3.0.0          # Tests con datos CSV
+openpyxl>=3.1.0             # Lectura de archivos Excel
+
+# BDD support (opcional)
+pytest-bdd>=6.1.0          # Behavior Driven Development
+
+# Headless browser alternatives (opcional)
+playwright>=1.38.0          # Alternativa moderna a Selenium
+pyppeteer>=1.0.2            # Puppeteer para Python
+
+# Mobile testing (opcional)
+Appium-Python-Client>=3.0.0  # Mobile app testing
+
+# API testing integration
+httpx>=0.24.0               # Cliente HTTP moderno

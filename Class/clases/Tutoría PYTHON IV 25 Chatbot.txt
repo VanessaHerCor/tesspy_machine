@@ -1,0 +1,1797 @@
+2026-02-05 a las 18:55
+
+yiceth mata lozano
+yiceth mata lozano
+Hola. Profe.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+00:55
+Hola, Gised, ¿Cómo vas tenemos 5 minuticos a que los demás entren y ya empezamos. Vale.
+yiceth mata lozano
+yiceth mata lozano
+01:01
+Ya me iba a motear.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+01:02
+Vale.
+yiceth mata lozano
+yiceth mata lozano
+01:03
+Pregunta ayer, soné muy grosera al pedir que que revisáramos código.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+01:11
+Ah, no.
+yiceth mata lozano
+yiceth mata lozano
+01:12
+Nada de eso. Yo hice, No, no.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+01:16
+No lo ha hecho.
+yiceth mata lozano
+yiceth mata lozano
+01:17
+De hecho, yo no, no. De hecho, antes antes yo quería.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+01:21
+Yo quería eso. ¡qué pena con ustedes que antes yo no tuve porque Uy, no muchacho, o sea, honestamente.
+estaba solucionando. O sea, honestamente, estaba solucionando el problema del Drive
+mientras pasaba todo esto al final me di por vencido. O sea, me pareció refeo esto del drive. Y
+pues lo que hice antes fue 5 minutitos. Antes empecé a darle.
+Empecé a darle que empecé a cargar los archivos al al entorno de del colab.
+Y ya los problemas que, pues esos archivos son temporales, no, o sea, ustedes borran la sesión. Y ahí ya se les acabó los archivos. Por eso es que no me gusta eso. Pero pues no, si no hay nada que hacer, pues no podemos hacer mucho y ya vale, pero no para nada. Gise no te preocupes, no no se va a hacer nada grosero. No te me alegra que
+que le vayan dando a esto, pero honestamente, así fue más por mi culpa.
+yiceth mata lozano
+yiceth mata lozano
+02:15
+Pero vamos bien, vamos bien.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+02:17
+Vamos bien. Hoy vamos a avanzar mucho si hoy vamos a avanzar mucho, porque, pues ya
+solucioné este tema del drive sí,
+y y van a haber ya cositas un poco más interesantes.
+Vale.
+yiceth mata lozano
+yiceth mata lozano
+02:34
+Mhm listo. Entonces esperamos que ya por aquí encontré un temita con Blanchel.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+02:45
+Sí.
+yiceth mata lozano
+yiceth mata lozano
+02:45
+Con el B, entonces esperamos y y y lo aliamos.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+02:51
+Y bueno.
+yiceth mata lozano
+yiceth mata lozano
+02:52
+Sí, claro.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+02:52
+De una vez de una vez. Si quieres.
+yiceth mata lozano
+yiceth mata lozano
+02:55
+De.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+02:56
+Si tienes una duda, sí, sí, por.
+yiceth mata lozano
+yiceth mata lozano
+02:58
+No, si es que, por ejemplo, tú tenías en el código.
+El Lanchades Eve en Beddings, ¿cierto?
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+03:08
+Sí, Sí.
+yiceth mata lozano
+yiceth mata lozano
+03:10
+Pero eso ya vimos que hicieron una mejora con el Community.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+03:16
+Con el ohh.
+yiceth mata lozano
+yiceth mata lozano
+03:18
+Exacto.
+Ya ya estoy hablando, como española.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+03:23
+No pasa nada.
+Warning módulos mooc okay Okay Okay Okay mhm.
+yiceth mata lozano
+yiceth mata lozano
+03:30
+Ya lo encontraste el código
+por el tipo 39. Creo que es ah, verdad. Esto lo tiene al otro lado.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+03:35
+Sí, yo lo tengo en otro lado.
+Lanchen en Beddings. Aquí. Blanchen. Me dicen por Hugh en Faisan Bay, me dices.
+yiceth mata lozano
+yiceth mata lozano
+03:43
+Y
+sí, sí, sí. La chin le exactamente entonces claro como estos estaba leyendo, que que hicieron una mejora, y
+entonces ya no es directamente a a la China invading, sino ya colocaron el Community Community.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+04:06
+El el sí.
+yiceth mata lozano
+yiceth mata lozano
+04:08
+Entonces lo corregimos abajo. Pero pues arriba también
+colocarlo. Y la pregunta es que aquí
+da la opción. La primera opción fue instalar el pregúrate cuando esta librería.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+04:26
+Mhm.
+yiceth mata lozano
+yiceth mata lozano
+04:27
+Dónde estás?
+Es esa? Instalar esa librería, ¿Cierto?
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+04:36
+Ya la miro a ver qué tal, pero me voy por la Mesa.
+yiceth mata lozano
+yiceth mata lozano
+04:38
+Bueno, me imagino que eso consumirá Mckinney.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+04:42
+Me me enviaste.
+yiceth mata lozano
+yiceth mata lozano
+04:44
+Un paquete, el P, el P Style.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+04:47
+Okay.
+yiceth mata lozano
+yiceth mata lozano
+04:48
+Push. Tal.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+04:49
+okay, es que creo que está por el chat.
+yiceth mata lozano
+yiceth mata lozano
+04:54
+Sí por el de aquí de la Asociación.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+04:57
+Es que no me aparece un segundito. Puedes enviarlo de nuevo, que la verdad no me aparece.
+yiceth mata lozano
+yiceth mata lozano
+05:05
+Será que estás viendo a ver. Pero yo creo que le estoy mandando donde no es.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+05:11
+Ahí Sí, ya lo vi linche. Huggin face.
+yiceth mata lozano
+yiceth mata lozano
+05:15
+Mhm.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+05:17
+Okay está bien, tuvieron que descargar ese.
+yiceth mata lozano
+yiceth mata lozano
+05:22
+No, no, no, no, no. Esa fue la.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+05:25
+A eso.
+yiceth mata lozano
+yiceth mata lozano
+05:26
+Perfecto.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+05:27
+Como la mejora que hicieron.
+yiceth mata lozano
+yiceth mata lozano
+05:30
+No. Yo lo que hice fue cambiar el el juego.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+05:35
+Sí.
+yiceth mata lozano
+yiceth mata lozano
+05:36
+Claro.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+05:36
+Sí, Bueno, pasa nada si estos
+eso es lo bueno, muchachos que ustedes se van adaptando. Si vieron que el en Shin por lo menos mejora cada rato. Lo mismo pasa con todas las librerías. Lanzan una nueva versión y
+es totalmente diferente a la anterior y todo el tema. Entonces lo bueno es que
+saben acostumbrarse a eso. Saben a ver los cambios, buscar esos cambios. Tal vez con la ayuda de la I a un poco de resolver, y eso es lo que queremos. Vale.
+yiceth mata lozano
+yiceth mata lozano
+06:07
+Y eso así fue como lo dejé yo.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+06:09
+Perfecto. Así es así. Es. De hecho, yo lo tengo viejito.
+De hecho, yo lo tengo viejito, pues porque
+por lo menos acá si se dan cuenta ya También Yo creo que el totmunity, o sea, sí, tiene que ser, vale.
+y todo funciona todo normal. ¿vale?
+Sí, eso es que yo yo normalmente, o sea, pues mis tiempos. Bien, cuando yo hacía el tema también de los
+de los agentes. Honestamente, ya el tema de los agentes se hace mucho con una cosa que se llama N. Ocho N. La han escuchado.
+la piden mucho como automatizaciones.
+yiceth mata lozano
+yiceth mata lozano
+06:47
+Sí.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+06:47
+Demostrábamos.
+yiceth mata lozano
+yiceth mata lozano
+06:49
+Me suena, pero no.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+06:51
+Le suena, pero.
+María J. Carvajal
+María J. Carvajal
+06:51
+Una cuenta la semana pasada, pero no, le no Le avancé.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+06:56
+Sí es como.
+María J. Carvajal
+María J. Carvajal
+06:58
+Muchos tutoriales.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+06:59
+Sí, estoy muy.
+María J. Carvajal
+María J. Carvajal
+07:00
+Es muy visual.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+07:02
+Sí es es muy visual. Miren, por ejemplo, aquí, por ejemplo. Fíjense que aquí se está creando un
+un agente de guía. Sí, con con un chatbot integrado
+que lo que hace es. Fíjense por acá
+mandan un un un usuario, una un creador de usuario, O sea, crean un usuario en el formulario que ellos tienen. La I A. Lo que hace es decidir si ese usuario es un
+manager o no. Y si es un manager o no, pues depende el resultado donde lo quiere mandar. Por ejemplo, si es Manager, añadir al al canal. Si no es manager actualizar el perfil, por ejemplo, cosas como esas vale
+es superinterrectivo, es súperinterrectivo.
+Honestamente si saben, dominarle en Shan es que es mucho, mucho más fácil, Pero pues obviamente tiene muchas más herramientas. Esto para ustedes es Repan comida.
+Listo. Es red, pan comido.
+yiceth mata lozano
+yiceth mata lozano
+07:58
+Es decir, que salen Change sirve para para para esos agentes.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+08:06
+Len Shan sirve sobre todo para la parte de sí, los agentes. Sí, enfocado está mucho en la parte del chatbot. Sí, digámoslo como por esta parte como tal, o sea, como esta parte como tal mixto
+de todo el tema, digámoslo yo puedo configurar el Lenchin para que él tome decisiones, pero puede ser más mucho más complejos. Sí, es mucho más complejo.
+pero yo lo puedo decir para que él tome decisiones para que él responda cosas Sí, Más que todo. Ese es el Lendsha, pero sí totalmente. Se puede hacer un agente de ella con eso. De hecho, 1 de los proyectos no me acuerdo. ¿cuál proyecto era, decía que era, por ejemplo.
+a ver. Bueno, les voy a colocar un ejemplo. Sí, supongamos que
+que que ese robot que ustedes lo tienen en la E. P. S. No es programación lineal, sino día. Es un agente de día. Entonces lo que él hace es, si ustedes, por ejemplo, dicen, Ah, quiero agendar una cita tal día, tal día, tal día.
+Él revisa la agenda. Él Lo que hace es mandar, por ejemplo, el usuario de la agenda. Cosas como ese por el estilo. ¿vale?
+Entonces eso es un agente. Hay que tener la diferencia entre chatbot y agente. Sí, porque el chatboy es solamente el que entiende y contesta las peticiones en lenguaje, Sí, en lenguaje natural, pero el agente es el que interactúa con las demás herramientas que tienen en el entorno. Sí que ustedes lo hayan mandado a interactuar.
+Vale, es eso.
+yiceth mata lozano
+yiceth mata lozano
+09:43
+Está súper apenas pero eché agua.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+09:50
+Que me comentabas, dice
+okay.
+yiceth mata lozano
+yiceth mata lozano
+09:58
+¿qué qué pena es que me extrajo mi mi hija.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+10:02
+Tranquila. No te.
+yiceth mata lozano
+yiceth mata lozano
+10:03
+Es que ahí la planta no se ha muerto y hace rato no le echa agua. Y este plástico.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+10:09
+A no no Gise, mejor dicho.
+yiceth mata lozano
+yiceth mata lozano
+10:18
+Ay, no.
+Bueno, esto. Si cuando yo hice este curso, me escribí. Yo pensé que íbamos a terminar haciendo esto agentes.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+10:29
+Los agentes de I A,
+pues, en realidad el chatbot lo que pasa es que el chatbot solamente es el tema del lenguaje natural. Listo.
+Hay poquito tiempo, pero es que me interesa mucho. Es el despliegue.
+Es el despliegue. Me interesa bastante. Es el despliegue. Además, otra cosa otra cosa importante: ustedes tienen que saber sí o sí aquí de A, P. I, S, Porque normalmente todo aquí se maneja con A, P. Is.
+Tienen que ser unos duros en A, p. I, S, por ejemplo, si lo van a integrar con discord. Saber cuál es la A. P. I de discord todo este tema, si hay integraciones? Bueno, muchas cosas.
+Pero si acabamos ese chatbot, si acabamos ese chatbot. De hecho, hoy sí
+podemos hacer una mini clase de de de n 8 n que va a ser.
+María J. Carvajal
+María J. Carvajal
+11:19
+Mira que yo he visto como ayer, me dio por explorar mi crisis, de explorar otras cosas con leche.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+11:27
+Mhm.
+María J. Carvajal
+María J. Carvajal
+11:28
+Lo la Can. La proporción de código, vi algunos ejercicios y la proporción de código al final termina siendo muy mínimo.
+porque, pues lanchain va absorbiendo como por el dentro todas las tensiones.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+11:42
+Mhm.
+María J. Carvajal
+María J. Carvajal
+11:44
+Y pues los los los los tutoriales, los los repositorios de los tutoriales que vi.
+pues serán como muy simples en proporción de pronto al código que 1 desarrolla cuando se trabaja con apis.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+11:57
+Sí.
+María J. Carvajal
+María J. Carvajal
+11:58
+No sé si estoy bien en esa percepción.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+12:02
+Como tal, el desarrollo de de de de la gente. Sí, el tema de la gente es que él dice, Bueno.
+tenemos el agente configurado, y él lo que hace solamente es interactuar en lenguaje natural.
+Por eso es que es un poquito más costoso.
+Lo veo yo, pues de esta forma. Y es que es más costoso el concepto. Sí, el concepto, digámoslo así, imaginar una arquitectura así, digámoslo así, imaginar qué posible soluciones le pueda dar al problema
+más que el código. El código, en verdad, es bastante fácil. Es muy poquito, porque hasta con leche, si se dan cuenta, Lean Shin tiene todas las funciones ya integradas y si se dan cuenta, yo dure dando más clase de teoría the en bahings quedando la clase en beings de práctica.
+María J. Carvajal
+María J. Carvajal
+12:56
+Eso voy con otros tutoriales delangrap también.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+13:00
+Mhm.
+María J. Carvajal
+María J. Carvajal
+13:00
+Y la proporción de código, que será muy mínimo.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+13:05
+Exactamente exactamente. Y es que estos estos códigos, muchachos, Honestamente, esto se puede hacer con con la guía, Sí, pero la arquitectura como tal. La solución como tal, el saber que fue, obviamente lo que hizo la I A. También
+eso se lo imaginan ustedes Sí, eso se lo imaginan ustedes y por ejemplo, ustedes dicen, bueno, aquí en este curso
+me imaginé que podíamos hacer eso, pero es que sí lo pueden hacer. De hecho, lo podemos hacer nosotros
+lastimosamente. No tengo el tiempo para explicarlo, pero es que, pues
+es puras apis, sí. Si se dan cuenta, todo está conectado a través de una app. Inclusive el modelo, el modelo es
+está conectado tal vez a la A, P, I, o P, N, I A. Y todo eso, todo es de Apis. Todo es de apis listo.
+Todo eso funcionan de A. P. I son apis contadas entre sí. Y así ya la cosa cambia.
+Entonces, digamos lo que no, o sea, podemos hacerlo? Sí, de hecho, esta partecita del N Ocho. N es muy bueno que ustedes lo aprendan porque fíjense que que
+que en el departamento de tecnología ahorita. En mi en mi trabajo está la parte de los data ingenier y la parte de automatizada de los automatizadores de los sí. En los automat, los especialistas en automatizaciones se les llama.
+Y es esto es esto listo, Es automatizar toda esta parte, digámoslo de que, bueno, yo, por ejemplo, soy lo que les dije.
+Estoy en la cita de la E. P. S, Y quiero tal día, pues simplemente yo lo digo en español, y el modelo llama agenda y todo el tema listo
+Podemos hacerlo. Podemos hacerlo.
+aunque, pues requiere ciertas cosas. Vamos a ver si lo podemos hacer con cosas más complejas como Lendsey. Sí, porque Lend Shane: primero es gratis, Sí,
+N 8. N tiene una prueba gratis, pero
+también tiene que conseguirse, por ejemplo, una a P I de los modelos. Sí,
+ustedes ya saben, de Apic. Entonces, pues no les voy a explicar. Pero pues, bueno.
+en resumidas cuentas, una A P I de de ello es simplemente ustedes colocan
+a P, I Open a sí. Api Open Aye. Entonces ahí les aparece, por ejemplo, ¿cuánto tiene de créditos esa a. P. I: Cuánto, lo que le está costando esa A, P. I, Y al final eso va a ser bastante caro hasta por
+por por ser clase, porque es que ustedes lo están pagando y listo. Ustedes están pagando esos modelos.
+En cambio, con Lenshin, tenemos la posibilidad de que exportamos un modelo de Huggin Face, que es gratis valor en nuestro computador y listo, vale.
+pero pues todo depende todo depende
+honestamente. Si les soy sincero, les voy a le voy a dar de una vez. ¿vale? Le voy a dar de una vez porque
+me gustaría ver esa parte con ustedes. Visto. Me gustaría ver esta parte con ustedes.
+pudiéramos meternos en esta parte con ustedes. Si no alcanzo a explicarles el código por lo menos que entiendan el concepto, un poco de la arquitectura que manejamos listo.
+vale.
+yiceth mata lozano
+yiceth mata lozano
+16:16
+Totalmente de acuerdo.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+16:19
+Bueno, muchachos perfecto. Entonces démosle a esto. ¿vale? Démosle a esto.
+Bien, en Beding todo bien.
+Alguno tuvo problemas hasta el momento.
+Aprobando el retriever héctor storetriever.
+Me falta importar algo Alguno de ustedes tuvo un problema hasta el momento
+esto ¿Qué habrá pasado por acá.
+yiceth mata lozano
+yiceth mata lozano
+16:53
+En el embebe y en el A a Caí. Otro es que se viene dando otro perdón.
+el que te mencioné, es cierto, el del Community.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+17:08
+Sí el de Comuniri y.
+yiceth mata lozano
+yiceth mata lozano
+17:11
+Ah, no hasta el momento. Hasta ahí, no
+solo que me fui un poquito más adelantico que mostraste ayer el código del vector storre.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+17:21
+Sí.
+yiceth mata lozano
+yiceth mata lozano
+17:22
+Y también hay otra actualización.
+Hay otra.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+17:29
+Alguien me puede decir de pronto cuál es el objeto
+que es de el el es de get Relevant, documentos.
+yiceth mata lozano
+yiceth mata lozano
+17:37
+Exactamente te lo te lo doy.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+17:41
+Sí, por favor.
+yiceth mata lozano
+yiceth mata lozano
+17:42
+Listo!
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+17:43
+Para no perder tanto tiempo en la en la documentación de esto.
+Perfecto. Muchas gracias y excelente in box Uy, Dios mío, pasaron a a a
+algo que lo explica bien a un paráme de un método que llama invoca.
+Muchas gracias. In voca y vamos a ver si corre y le damos listo perfecto.
+Bien, entonces habíamos hablado. Habíamos hablado un poquito. Sí,
+voy a volver a compartir el colab para que lo tengan por acá vale
+para que lo tengan. Por acá
+habíamos hablado de forma introductoria. Bueno, de forma muy arrasa
+lo de la celda, 5, lo de la celda 5, que es el vector Store.
+la tienda de vectores listo, un poco de la tienda de vectores.
+Yo les había comentado. Sí, Yo les había comentado
+el tema de las similitudes. Sí, digámoslo así como hacíamos para que mi modelo vale cómo hacíamos, para que mi modelo entendiera un poquito el contexto y, sobre todo, el contexto que realmente importaba. Visto el contexto que realmente importaba.
+a qué es lo que pasa. Ahorita con esto. ¿qué es lo que pasa? Ahorita con esto Resulta
+que yo puedo darle un número, si a la tienda de vectores, Dependiendo de cualquier pregunta, así yo puedo decirle: venga, tengo esta pregunta. Si en este caso, fíjense por acá mi pregunta: ¿Qué tema se ve en el bloque de introducción a la inteligencia artificial
+en parques. Of así, digámoslo en Parquessoft Vale.
+Entonces, ¿qué es lo que pasa con él? El vector store
+puede actuar como algo que se llama un recuperador, Sí, un recuperador que es un recuperador. ¿es esa parte que me da el contexto suficiente necesario para contestar la pregunta listo para contestar la pregunta.
+mejor dicho, recuperador, recupera el mejor contexto para la pregunta listo solo para esa pregunta.
+con esto, ¿qué es lo que hacemos como tal lo que hacemos.
+Hay otra técnica que se llama Finktuning.
+Yo lo vi con ustedes cuando hicimos la la red neuronal de de edición computacional. Sí, lo vimos
+que entrenábamos. Y el modelo hacía épocas, Todo este tema listo.
+¿qué es lo que pasa?
+Quiero enseñarles otra técnica que no solamente sea entrenar el modelo y darle una. ¿por qué ¿Qué pasa si yo utilizo técnicas como fine Tuning. Lo que va a pasar
+es que cada vez que yo le pregunte por algo en específico, por ejemplo, ¿qué tema hacer en el bloque de introducción a la inteligencia artificial. Todo eso. Mi modelo va a ver todo el contexto que tiene sí con el que fue entrenado y adicional más El contexto con el que lo entrené, lo va a ver todo
+todo todo todo todo todo todo lo a ver.
+Entonces, qué es lo que pasa para optimizar el tiempo, para optimizar costos. Lo que hacemos es decirle venga, yo tengo ahí. Si yo tengo ahí un
+yo tengo ahí una tienda de vectores. Si el Em Beding como tal había almacenado, entonces ¿qué es lo que va a hacer usted. Yo le voy a dar una pregunta y usted dígame cuál es el contexto
+más similar o el contexto más importante para responder esa pregunta. Y ahí es donde viene el inboca visto. Ahí es donde viene el invoca.
+Y
+entonces, ¿qué es lo que paga con el inbox. Si ustedes le pueden decir listo, el recuperador sí, el recuperador es simplemente una
+una, un método que se llama retriar, y ya está el retier.
+Entonces, acá. Cuando ya voy a colocar los documentos más relevantes. Y si los documentos más relevantes.
+coloco en Inbok visto, colocó el invoca el invoca.
+si piensa acá el inbox Lo que hace es pasar los documentos más importantes, los documentos más importantes solo para esa pregunta, y así no sobrecargar el modelo.
+no entrenarlo así tan fuerte ni nada de eso por el estilo. Esto se llama un sistema Rack.
+Sí. Vanessa.
+o sea, el inbox, que es muy, importante, muy buena pregunta, muy buena pregunta.
+buena pregunta: ¿Cómo se imaginan que que que que el inbox sabe.
+sabe, pues, hacer esta búsqueda? Sí, ¿Cómo lo ti, ¿Cómo sabe.
+yiceth mata lozano
+yiceth mata lozano
+22:34
+Por los vectores.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+22:36
+Con los vectores. Por ahí va con los vectores.
+María J. Carvajal
+María J. Carvajal
+22:39
+De ir un mundo de Ifa al interior de su.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+22:43
+Es por ahí puede ir por ahí por ahí, digámoslo así, un mundo Sí.
+Bien. Sí, Pues primero, lo más obvio, ¿cierto? Digámoslo los vectores. Pero bueno.
+si yo, o sea, yo les comenté a ustedes que lo que hacíamos con los vectores, y todo esto
+era la tienda de vectores, ¿cierto? Y de los vectores. Es por cada palabra, no por cada palabra dependiendo de la tokenización, pues, el método de tokenización que elegíamos
+cada palabra tenía su vector.
+pero esta vez no estamos comparando palabras. Esta vez estamos comparando documentos. Los documentos tienen muchas palabras, visto
+los documentos tienen muchas palabras.
+Entonces, si va por ahí por el vector, sí va por ahí por el vector, pero no son los vectores. Vale.
+yiceth mata lozano
+yiceth mata lozano
+23:34
+La distancia.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+23:35
+Ahí es donde va también el tema de la distancia.
+Ahí es donde va también el tema de la distancia, exactamente por ahí va mejor la cosa, la distancia entre los vectores, más o menos es la cuestión listo. Pero ustedes qué se imaginan inercia dice dice vanesa
+inercia, esa vanesa más que la inercia. Sí, más que la inercia.
+Es cuestión de verlo como de una manera en la que
+sí es la distancia. Honestamente, sí es es más la distancia. Pero
+les vuelvo, y les pregunto: la distancia entre entre que entre qué, entre los vectores de que
+o sea, sí vectores, pero de los vectores, de qué
+palabras no? Porque pues o bueno, o no sé si ustedes digan palabras, porque, pues las palabras aquí tenemos muchas palabras en un solo documento. Si
+entonces vectores, de qué.
+yiceth mata lozano
+yiceth mata lozano
+24:36
+Tú decías que eso se convirtiera en códigos. No.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+24:40
+Por ahí va por ahí va por ahí va.
+yiceth mata lozano
+yiceth mata lozano
+24:43
+Y igual. Aquí estamos fragmentando texto
+aquí. Lo que hace es como como las similitudes.
+y empieza a a a jugar con eso. Es lo que me imagino. Yo.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+25:00
+Exacto
+por ahí va por ahí va. Y ahí hay una parte importante, que es lo que lo que dijo Gisellet, pero lo va a cambiar más esa conversión de código por esa conversión numérica listo.
+¿qué es lo que pasa si con el Envey ya. Si ya ya ya yanqui empieza la cosa volada de la cabeza. Sí, ¿Por qué? Eren Beding está por acá si el Embading está por acá por aquí. De hecho, sí
+por aquí.
+¿qué pasa resulta? Sí, Resulta y acontece muchachos que
+nosotros estamos usando aquí el Omb para hacer la conversión desde texto a los al vector numérico. Cierto que dijimos que era el Envey.
+pero pero pero pero pero pero pilas por aquí. Sí, pilas por acá
+l medio. Si se dan cuenta el embay, lo que está recibiendo son Chums.
+si se dan cuenta. Fíjense, acá. Docs. Son Chunks. Listo. No está recibiendo palabras.
+Uno a 1. Listo, no está recibiendo palabra por palabra. No lo está recibiendo. Si no lo está recibiendo.
+entonces sí, ¿qué es lo que qué es lo que hace? Digámoslo así? El Embading, El embading
+se entrena con esas partes del Chum. Sí,
+se entrena con esas partes del Chung, pero internamente, tokeniza las palabras, si digámoslo, así, es como que hace las similitudes entre las palabras y adicional a eso. Así es como las similitudes entre los trozos de Chung, vale los trozos de Chung
+medir los Chums o fragmento de texto. Ahí es donde va.
+Ahí es donde va la cosa. Entonces, como nosotros le dimos unos chung sile. Si nosotros le dimos unos chung sile.
+él va a decir listo, yo lo que hice fue
+a hacer múltiples vectores para los chungos.
+para los Chungs. Listo. Entonces, ¿qué es lo que hace él? Él? Va a la base de datos vectorial
+y busca esos vectores. Sí, esos trozos de textos que sean más cercanos? Sí,
+al vector de las preguntas se acuerdan que yo les dije a ustedes que había un vector.
+un vector. Cuery vector. Cuerry. Vector Ki Vector value. Bueno.
+aquí es donde va la cuestión también. Si entonces él calcula la distancia. Pero entre ojo los shums.
+los Chungs más cercanos, más similares
+al vector de la pregunta listo. Entonces vector de la pregunta, dice: ah, la inteligencia artificial. Entonces, de pronto dice Uf! Las partes que inteligencia artificial, esas partes son importantes.
+Otra parte, que también diga introducción o bloques de introducción. La palabra introducción también puede ser importante, entonces ese documento. Yo lo puedo clasificar como importante.
+Sí, pero es eso.
+Es puramente. Eso
+es puramente eso. Él simplemente haces lo mismo que con las palabras, pero esta vez con los chunks, porque el modelo en B y se entrenó con los chups.
+Vale, ¿es eso preguntas Hasta ahí?
+Creo que no hay preguntas. Sí entendieron esta parte?
+Bueno, creo que sí.
+Entonces, a ver a ver a ver a ver a ver a ver un poquito a ver un poquito por acá
+a ver a ver a ver a ver. Vamos a ver. Entonces, veamos entonces los resultados. Él por default, sí por defecto. Él me trae los 4 documentos más importantes de la pregunta, sí, o sea, para él. Estos documentos que les voy a mostrar aquí
+son los más importantes para contestar a la pregunta: ¿qué temas se ven en el bloque de introducción a la inteligencia artificial en parques of Day
+listo. Entonces vamos a verlo. Vamos a verlo.
+documento, 1, introducción a la inteligencia artificial.
+1, introducción, 2, aprendizajes automáticos, 3 neuronales, 4, 5, 6, uff va canísimo
+va carísimo. Ya con esta primera parte sí sí se está dando cuenta ya con este primer documento, me estoy dando cuenta de que mi recuperador está funcionando.
+Mi recuperador está funcionando ojo. ¿qué pasa? No podemos ver lo que sigue. Acá Si por esto continúa así, posiblemente
+alcance a a a agarrar todo. Sí, todo lo de lo de introducción a inteligencia artificial.
+Entonces el recuperador va de buena va muy bueno. Me recupera el documento importante para responder esa pregunta. Sí,
+y por ejemplo, abajo programa, con énfasis en introducción a la programación funcional. Todo esto sí, entonces muchachos
+con esto con esto lo que les quiero hacer, entender, si
+también es que el retriever si el recuperador.
+él arroja los documentos en la en orden de importancia de mayor a menor Si, por ejemplo, el documento Uno es el más importante para el recuperador. En el documento, 2 es el menos importante. El tercero es mucho menos importante que el cuarto, si no es
+muy, muy importante, visto, aunque obviamente hay documentos y hay documentos que son, pues, menos importantes. Claramente.
+Listo. Cuéntame Gised.
+yiceth mata lozano
+yiceth mata lozano
+30:54
+No sé si ya lo mencionaste. Tuve un un lapsu.
+¿cómo ¿Cómo identifica ese señor? ¿cuál es más importante?
+Eso es una pregunta. Y la otra es que no. Aquí en el print de la pregunta.
+¿Tienes un page content? 250? Ese? No sé qué significa.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+31:20
+Okay? Perfecto. A primero, ¿cómo hace él para identificar
+cuál es el documento más importante? Sí,
+Y sí tiene que ver mucho con el tema de la distancia entre los vectores. Acuérdense lo que yo les había comentado hace poco
+de los Chunks.
+Para empezar. Esto es un Chung. El documento Uno hace parte de un Chung. El documento. Dos es otro chump. El documento. Tres es otro. Chup sí. Entonces él busca la similitud entre los diferentes Chungs. Y la pregunta vale y la pregunta.
+Entonces, por ejemplo, ¿se acuerdan que en las distancias, por ejemplo, las distancias. Yo les había comentado que
+yo les había comentado que que en este tema del embeding sí, en ese tema del embedi
+cuando nosotros colocábamos 2 palabras que eran similares, pero en un contexto diferente.
+Lo que hacíamos nosotros era encontrar la similitud, sí, dependiendo pues, obviamente, 1 del contexto y 2, pues la distancia entre los vectores. Lo mismo pasa aquí, pero con el Chut es igualito.
+es igualito. Él busca, Pero en vez de las palabras, pues busca las preguntas y las compara con los Chums. Y la pregunta que le den menos distancia entre los vectores, Pues es la pregunta más importante para él, porque esto, esta pregunta de acá
+esta pregunta de acá háganse de cuenta como si fuera un vector, ¿sí?
+Y los documentos, pues son vectores.
+Entonces ahí se saca la distancia. La distancia más corta es el documento más similar o el documento más importante para él
+Vale, ¿es eso, O sea, podríamos concluir
+en realidad que él busca la importancia en el vector más similar a él, por así decirlo, listo
+en el vector que sea más más cercano a él más similar.
+Sí, María.
+María J. Carvajal
+María J. Carvajal
+33:33
+Ven, sino que me fui de se me fue el internet por mi casa.
+Entonces eso es más similar a una impedancia
+a una inercia. No sé si ya lo habrás dicho en clase.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+33:44
+A una inercia, una inercia.
+María J. Carvajal
+María J. Carvajal
+33:46
+O como una electrónica, como en el E, como como a veces pasan como en electrónica.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+33:56
+Me escuchaste porque honestamente, no es el término de impedancia.
+Mhm, un pedazo.
+María J. Carvajal
+María J. Carvajal
+34:01
+La impedancia y la inercia. Ajá La impedancia y la inercia son más o menos más o menos similares.
+pero distintos.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+34:13
+Sí, Ya Okay.
+María J. Carvajal
+María J. Carvajal
+34:18
+O sea, en o sea, es como la resistencia que tienen los componentes y
+dentro, pues, dentro de un ecosistema.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+34:31
+Para.
+María J. Carvajal
+María J. Carvajal
+34:33
+Para que los flujos vayan en de una forma regular.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+34:40
+Que creo.
+María J. Carvajal
+María J. Carvajal
+34:42
+Entonces.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+34:43
+Sí.
+María J. Carvajal
+María J. Carvajal
+34:46
+Entonces O, bueno, inclusive lo puedo decir más fácil con los
+con con con el tráfico, que es más
+má más visible para todos y menos abstracto
+en una red en el tranco más. Bravo.
+¿cierto? El que usted se en el que usted se imagine ciertos patrones.
+Hay un patrón
+que es el diseño geométrico de la vida. Visto, hay unas guías que son más rápidas en teoría que otras otras.
+que son, pues, para una dis una velocidad, pues, como más prudente.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+35:22
+Sí.
+María J. Carvajal
+María J. Carvajal
+35:24
+Entonces hay una medida de tráfico que es
+la cantidad ahorita que estuvieron enredados con los ta con las tachuelas y y lo demás.
+Las Las vías están diseñadas geométricamente para ir a una velocidad y para tener una capacidad.
+Entonces, no es lo mismo. Una glorieta no es lo mismo. La Sur Oriental.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+35:52
+Sí.
+María J. Carvajal
+María J. Carvajal
+35:53
+Por cantidad de por patrones, no
+patrones que son el diseño, patrón, que es la calidad del servicio, patrón que es la cantidad de personas que van en horas pico.
+entonces ya 1 va haciendo como unos patrones allí,
+que seguramente fue lo que quisieron hacer también con el cuento de las tachuelas y de los taches, de reducir la velocidad como para buscar un patrón
+más asertivo.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+36:22
+Mhm.
+María J. Carvajal
+María J. Carvajal
+36:24
+Pienso yo igual, estoy completamente patinando.
+Es lo que pasa de pronto él ve los patrones.
+Él ya sabe, de pronto como ver los patrones de de de tráfico
+que son similares o son ajustables a lo que ya dentro del vector está
+mango mejor. Me quedo mejor. Me quedo callada.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+36:50
+No, no, no, no, no. Okay.
+María J. Carvajal
+María J. Carvajal
+36:54
+Más o menos así, o sea, una forma como de mostrarlo, no en circuitos y en electrónica, porque de allá, no tampoco sé, es como con con el tráfico.
+O sea, hay unos Hay unas formas que es un problema. Hay unas formas
+en las que 1 va interfiriendo, sobre la sobre el flujo.
+sobre el flujo de este vector.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+37:22
+Sí.
+María J. Carvajal
+María J. Carvajal
+37:23
+En la vida sería el diseño, la capacidad, los huecos, la accidentalidad, en cierto modo.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+37:34
+Y ya con eso, 1 va buscando como los patrones.
+María J. Carvajal
+María J. Carvajal
+37:38
+De pronto coger e ir reduciéndolos o ir ampliándolos.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+37:43
+Entonces.
+María J. Carvajal
+María J. Carvajal
+37:44
+Pensaba yo en mi cabeza que ese vector de pronto se va ajustando también como
+como a lo que de pronto va funcionando más similar a él.
+pues siendo un vector como con forma con contenido y lo que vaya ya en texto.
+sí o en no en un recurso.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+38:04
+Sí, esa Esa es una muy buena teoría, ¿sí? O sea, esa. O sea, honestamente, creo que te entendí bien.
+o sea, superexplicación, la verdad para todo el término electrónico y todo ese tema.
+pero sí va por ahí el tema sí es lo que hace es lo que dijiste, ¿sí? Y precisamente lo haces en el Envey. El busca esos patrones. Se adapta a esos patrones. Y precisamente.
+Por ejemplo.
+si él no ve los patrones, ¿qué es lo que hace? Pongamos como ese tache que digamos lo que sea como el reentrenamiento listo, entonces el vuelve y se ajusta con las pérdidas, como, por ejemplo, esas partes. Pero ¿qué es lo que pasa aquí? Ahí dijiste algo muy importante de los vectores
+y lo de la ampliación o la disminución. Sí,
+y es algo muy importante con el que quiero
+darle aquí a este asunto, y es que muchachos hay veces en que este recuperador
+no recupera precisamente bien los documentos importantes para sus respuestas.
+Hay un problema con eso. Si hay un problema con eso. Y es que imagínese, pues, si no recupera los documentos importantes. Pues, ¿qué es lo que está pasando? Y puede pasar? Y puede pasar, por ejemplo, lo que ustedes están viendo, acá visto que él dice: introducción a la inteligencia artificial.
+Si hay manipulación objeto, es que es como, por ejemplo, algo muy general o, por ejemplo, que aparece programa Python con énfasis en inteligencia artificial. Si entonces empieza a hacer todo este tema, entonces ¿qué es lo que 1 hace
+1, por ejemplo, si no tiene el tema de de de los documentos, 1 lo que hace es ampliar los documentos, el número de documentos que son importantes para el modelo visto.
+por ejemplo, cómo cómo al final hacemos esto? Si no lo han cambiado, es con los Keywords. Si no mal recuerdo.
+si no mal recuerdo, son como los Keywords.
+Vamos a verlo con los Keywards a ver.
+Vamos a ver así.
+Art Config retriever inbot query Keywords, Sea Works
+y Voila.
+yiceth mata lozano
+yiceth mata lozano
+40:25
+Mira lo que te mandé.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+40:27
+Listo. Perfecto.
+Exacto. Los Search Keywords, Excelente!
+Los archiware, los Shift Keywords ya van a ver acá.
+Perfecto. Ojalá no lo hayan cambiado.
+Ojalá, o si 1, 2, 3, 4, no.
+Ahora, con 6, vamos a ver, Ojalá no lo hayan cambiado.
+Ay, si lo cambiaron deme un segundito. Busco por acá en Box Sus qué Worls.
+Keywords: Keywords Deme un segundito para que ustedes lo Vean el caso es que existe un hiper parámetros y en el que ustedes pueden alterar
+ese número de documentos que quieren que le retorne
+el el recuperador. Vale, el recuperador ¿ Machinerdi Peter C, A que, sabes, pesca, ¡No!
+Inbox.
+Es es arriba, es arriba, es arriba Okay es arribita. Es aquí.
+Es aquí en el retriar.
+No es en el en el inbox señor retriever.
+porque el inbod creo que solamente hace el hace el Print.
+Perfecto. Excelente. Entonces. Fíjense por acá Hay otro parámetro que se llama Search Keywords, que 1 lo coloca aquí en el retriever como tal cuando está iniciando todo y es el número de documentos que 1 le quiere dar al modelo. Se supone se supone se supone
+que un buen modelo, pues usted va tanteándolo. Sí, sí le va dando, pero más de los 10 documentos importantes, Obviamente, dependiendo pues, del nivel de de de de P Fs que tenga y demás.
+Pero más de los 10 P. D Fs: principales, pues de importancia y que no les llegue lo que usted le quiere llegar empiece a pensar en cambiar el en B, listo.
+pero pues mientras tanto usted puede ir dándole si usted ve que 6 están bien, Pues excelente.
+y todo este tema vale todo este tema, Pero lo más importante es eso que también me hizo recordar María, Lo de la inflación es la de la disminución. Si ustedes, por ejemplo, lo que me decía del tráfico. Ella, pues el tráfico no se
+si ese vector avanza, pues bien, lo dejamos ahí. Pero si no avanza, hay que hacer algo, darle más movilidad al trancón, lo que sea en este caso significa darle más documentos al recuperador para que se lo pase al modelo. Vale, es un poquito eso.
+pero por ahí sí, María, o sea, es muy buena. La teoría es muy buena. La teoría, honestamente, si te alcanza, a saber hasta tiene parte de sentido Aquí, en el Mo, en el
+en el deep learning vale en el deep learning
+to todos los chatbots, pero no sé si.
+y con eso estés bien o tengan más preguntas o algo.
+María J. Carvajal
+María J. Carvajal
+43:46
+Pero la idea no es traumatizar el resto
+porque terminas haciendo cosas de ingeniería de tránsito que no son. Pero
+el tema. Pero si si si permiten, como luego más adelante, ir haciendo analogías.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+44:06
+Perfecto.
+María J. Carvajal
+María J. Carvajal
+44:07
+Con esa parte.
+¿sí? Porque, pues ya el vector está el vector así en física que 1
+que 1 responde con el álgebra al dolor. Pero pues ya
+el más adaptado a cosas humanas, pues va haciendo más complejo.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+44:27
+Okay.
+Entiendo si no igual. No pasa nada igual. Siéntanse libres de hablar.
+La teoría de María estuvo muy buena. De hecho, fíjense que hasta tiene una buena parte. O sea, lo importante es que tiene una buena parte, por lo menos lo de la ampliación y lo de la disminución. De hecho, lo iba a decir.
+y y me hice la antesala de eso. O sea, es muy importante. Eso también vale.
+Pero bueno, ojo, le quedaba viendo una pregunta a Joseph sobre los 250 Aquí listo.
+yiceth mata lozano
+yiceth mata lozano
+44:58
+Yo me respondí. Esa es la cantidad como de de la respuesta que.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+45:05
+Sí, Es simple. Es sencillo, eso sí.
+yiceth mata lozano
+yiceth mata lozano
+45:08
+Eso es que es que coloqué como 20 y me daban unas preguntas cortadas. Y yo.
+Ya lo moví.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+45:17
+Poco.
+yiceth mata lozano
+yiceth mata lozano
+45:18
+No si no, no coloquen tampoco tan poquito porque les aparece nomás introducción, documento 1. Y ya se me respondí sin querer.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+45:29
+Perfecto. No pasa nada si listo si no, eso, simplemente si es limitar la respuesta, porque esa respuesta normalmente con los chuns grandecitos o algo por el estilo. Eso basta! Ya
+listo, Eso basta ya!
+Pero, bueno, excelente, muchachos.
+Entonces, ¿qué es lo que vamos a hacer ya esta parte del vector? Store. Creo que está entendido. Vamos a salir de nuevo de la reunión y vamos a volver a entrar para lista y grabación.
+y continuamos con ya continuamos con con la ejecución un poco de
+del modelo L L, M para que reciba el M B, Y es la respuesta al lenguaje natural. Vale.
+bueno, bueno, entonces salgamos y ya volvemos a entrar.
+
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+Bien, muchachos te ya
+ajá
+bien, espera un momentico. Veo que pasa por Acá
+y le damos. Le damos le damos.
+Mhm.
+Nada de preguntas por con lo anterior, ¿cierto? El vector de del recuperador.
+Todo bien.
+Creo que todo bien.
+Creo que no hay preguntas.
+Listo.
+Eso es el recuperador. Muchachos. Voy a el keywords, coloquémoslo como por default, Sí, porque me estaba dando buenos resultados, entonces
+esto ya tiene todo lo que necesito para el modelo
+a ver uy que no se mueva ya eso, el colab.
+Bien, muchachos. Entonces, ¿Qué es lo que va a pasar? Ahorita si
+ahora sí empieza lo bueno, porque empezamos la carga del L. L. M. Si hoy no alcanzamos, tal vez a
+a ejecutar un poco del L. L. M: Por lo menos mañana, sí o sí, Mañana mañana mañana mañana estoy 100 por 100 seguro de que ya mañana terminaríamos listo
+mañana, Obviamente ya terminaríamos, Por ejemplo, lo que nos queda es muy poco, aunque nos queda muy poco, honestamente.
+honestamente, muy poco.
+Entonces.
+¿qué es lo que vamos a hacer ahora? Vamos a irnos a Huggin face en Huggin face. Ya no vamos a ver modelos que sean si ustedes recuerdan, ya no vamos a ver modelos tipo. Por ejemplo, lo que decíamos del embain de
+de senten Similary sími similar.
+Vamos a ver esto. Ya vamos a ver modelos de Text Generation, Si ustedes quieren arriesgarse de pronto con la Im, ver un poco más de esto súper interesante. Los multimodales, muy complejos, pero muy interesantes.
+pero hasta el momento. Sí, hasta el momento
+vamos a ver los generadores de texto listo: los generadores de texto.
+los generadores de texto, pues hay de múltiples diversas partes.
+buen que has vuelto muy famosa, que es la de China. Aquí también está.
+Sí, Minima X en la empresa. Si en la empresa, Curiosamente.
+yo no sé por qué, honestamente, a mí, minima X, no me parece, o sea, no me parece muy bueno.
+Y en la empresa dijeron, dice que dice que era buenísimo que lo instaláramos, que yo no sé qué en el casino, en la otra no
+que lo instalaramos, que que que ya van a dejar de pagar curso. Y van a colocar esto, que era increíble, bueno, pero mínima, es nada. No es tan bueno, pero ahorita. No necesitamos
+un modelo que sea bueno, sí, sino un modelo que nos pueda correr listo un modelo que nos pueda correr, que sea algo liviano, sí,
+y que pueda dar respuestas algo lógicas. Sí, que no se ha burlado de la cabeza. Tampoco no se ha burlado de la cabeza
+listo. Entonces, a ver qué va a pasar por acá. Vamos a ver un modelito, sí que sea livianito
+y que podamos probar 1 de esos modelos. Se llama
+Fi 2. Vale, Vamos a probar con fiduos, pero ustedes, si si se quieren arriesgar, sí, o sea, experimentar todo eso, pues arriésguense. Honestamente, yo, yo, yo mi computador es de 16 de Ram. Tiene una raíz en 7, sí,
+y tiene 2 u s. R A, M de G, p. U, listo.
+Tienen tarjeta gráfica integrada. Bueno, eso es Pichurri.
+y a mí, a mí, a mí, a mí hay modelos, por ejemplo, de
+un 1 000 000 000 000 sí de un 1 000 000 000 000 de parámetros, que es 1 que es bien bajito, que no me cargan.
+que no me cargaron honestamente, que mi máquina, a veces no
+los de 4 billones. Está ya de por sí el computador. Y bueno, de allá para arriba, 23 billones.
+120, obviamente no. Ya ha servido. Ya ha servido uy que uy, ¡Qué interesante!
+Uy! Qué uy! Qué a ver?
+Uy, Qué interesante!
+Guay, Fíjense, este es que que
+el Mcloud Opus ha impreso en link.
+debe ser de pago. Debe ser de pago pero X,
+entonces sí muchachos. Volviendo al tema, vamos entonces a colocar sí. Uno de los de Microsoft. Vale, vamos a colocar 1 de los de los de Microsoft es fi o este también podría servirnos para probarlo un poco e ir dándole a usted después.
+Deciden qué quieren hacer con su vida si se quieren arriesgar a otra cosa, pues excelente.
+Sí, este tiene 13. Este cuanto tiene alquiler uniformes, el P, u
+a ver a ver a ver a ver limitaciones.
+Bueno, dice que pues es que no es preciso, obviamente, y
+bueno, y y en dónde están y en dónde están los cuántos billones de parámetros tiene esta vaina y
+2 7 billones. Este es algo al tico. Esto honestamente es algo al tico Vale, es honestamente, es algo al tico. Podemos probar con mejor, con con con con
+con quién, con quién.
+Con este cuento de 0 de que encuentres de 0 6 billones. Vale. Podemos probar este
+que este igual es pesado, pero
+yo sé que él lo va a dar, entonces vamos a hacerlo con el cuento. Listo. Si ustedes tienen otro modelo, como les dije, siéntanse libres
+de ustedes, ya depende del tiempo y cuánta ram quieren que se le estalle. Pero bueno.
+por mí no hay problema.
+Pero pues se lo recomiendo. Vale, se lo recomiendo. Vamos a hacer. De hecho, yo lo voy a hacer con ese vale.
+Y bueno, qué más ahora sí empieza la cosa buena. Vale, Ahora, sí, empiezo la cosa. Buena. Len Shane: Sí que ojalá a ver. Hay un ensayo en el chat.
+recomiende 1.
+Raizen 7, 32 uh buenísimo.
+buenísimo, pero no le va a pasar de 8 a ver, No, la este preciso
+Es muy raro encontrar de 8. Normalmente son de 7 14 21. Sí, tienen un patrón.
+Este es de 8. Intenté con este vanesa contente con este
+del de 8 billones de de de la matriz le debe ser más preciso, va carísimo. Bueno, mucho gusto
+sigamos entonces a ver a ver a ver a ver Lenzine Problem Lenshing
+¿Será que es el Community import, Pues a ver.
+Import: L L Ms: Perfecto. Es el Community.
+Lo cambiaron antes. Era solo el Lean Shan. Pero bueno, import, ahora se me face.
+No hay huy en no hay modelos.
+modelos y siempre, como sí comuni de verdad, a mí me salva un montón de patria, el Community. Honestamente, como bien es lo mejor que pudieron inventar los de lenge después de la actualización de porquería que lanzaron la 1 punto, la 1,0. Y cambiaron todo
+los L. L. Ms. Huggin face
+pero no tienen estos apelines. No, no tiene
+demero un segundito, porque tengo que ver la imagen medicing.
+Su bien.
+Face listo a ver Huggin face transformer Uy. Fíjense esto por Dios.
+antes era un puntico, y tele
+ahora esto una grosería. Les cuento una grosería.
+Bueno, ¿cómo va a ver.
+Ay, no me digas que lo tengo que descargar.
+No me digas a ver, Ay por Dios, Tengo que descargar esta ap cochinada.
+yiceth mata lozano
+yiceth mata lozano
+10:33
+E. Es decir, que no, no nos salvamos de descargar ese paquete.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+10:38
+No, no se salvan de descargar este paquete.
+yiceth mata lozano
+yiceth mata lozano
+10:41
+Descarguen esto.
+Chance.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+10:44
+Antes de transformers. No, yo tengo transformer Acá listo.
+Descarguen solamente el el Huggin face otro para.
+yiceth mata lozano
+yiceth mata lozano
+10:52
+Que leche Community es queso. Ah no handface.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+10:57
+Houface acá Ahí ya le di el pipín install.
+yiceth mata lozano
+yiceth mata lozano
+11:02
+Thank you.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+11:05
+Welcome Welcome.
+Sí, listo! Ya debería de funcionar.
+Bueno, ¿qué feo es de leche?
+Ahora sí que más que más que más que más.
+qué, más, ¿qué más? Qué más? Qué más? Bueno.
+no sé, no me acuerdo. Quién me preguntó
+para qué servía la librería Transformers.
+No me acuerdo. ¿quién me preguntó y que yo le respondí para los transformers?
+Bueno, en realidad sí es la pregunta correcta, pero
+van a ver más lo que tienen de los Transformers, claro está, de los Transformers. Piense entonces Transformer Transformers
+Import.
+Él él es el que maneja el auto Totalnaiser
+el auto Tod Emerizer sin irme muy allá. La teoría matemática ni nada de eso por el estilo.
+Un Ford and Meet de Ice
+for te admite? High ajá a poner traductor
+a ver si es lo que creo que
+un modelo que parecerle a simple vista.
+Hombre: Estamos todos estamos todos bilingües. Hoy, tutor, canaliser.
+yiceth mata lozano
+yiceth mata lozano
+12:43
+Esa no es una canción.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+12:46
+Es una canción.
+yiceth mata lozano
+yiceth mata lozano
+12:48
+Suena casi.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+12:51
+Más de lo que parece. Morgan y te.
+yiceth mata lozano
+yiceth mata lozano
+12:58
+Mhm.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+12:59
+No me suena la intro de transformer, ¿no? Y yo como una hueva cantando. No, eso quedó grabado peor.
+No muchachos. Les voy a decir que les voy a decir a los de Parkinson que apenas los grabo y que les quiten los acceso a toda la grabación para que no vean la grabación.
+¡qué vergüenza yo intentándola cantar para ver si me recordaba cuál canción. Era, Bueno, Sigamos entonces ahora. Bueno.
+de Transformers, hay una cosa que se llama auto to Canaliser. Como les comentaba más que todo el autotocanaiser, digámoslo así no mueve tanto la teoría matemática ni la teoría de estadística
+ni a la teoría tampoco de transformers como tal pura y dura.
+Lo voy a colocar así. Digamos lo que es el tokenizador más optimizado que tien que que tenemos actualmente de open source, visto, o sea que se puede utilizar gratis.
+Es el mejor tokenizador, el más optimizado no funciona como un tokenizador. Digámoslo así, por palabras o por sentencias no es más optimizado como el de Open. Y ahí si ustedes se dan cuenta de Open, Ai.
+por ejemplo, a veces toque nizaba espacios toque ni usaba bases, A veces la palabra completa. Todo esto vale, Ese es el auto toque Nation
+muy bacano recomendado. Así que no vamos a luchar con las tokenizaciones.
+Hay otro módulo que se llama
+el automódel por casual. Lm: Sí, Fíjense, acá. Vamos a hacer el auto model? No más. Fíjese todo lo que tiene Transformers
+para hacer todo el proceso del modelo. Tiene para hacer los procesos de modelo de a de clasificación de audio, de clasificación de audio por frame de tokenización. Inclusive de audio, muchachos, ustedes saben cómo tokenizar un audio. Bueno, transformers lo hace por ustedes
+y el que nosotros queremos. El que nosotros queremos es
+el Ford casual. Lm: Listo. Pero aquí hay de todo muchacho. Fíjense que hay de todo. Y por cada 1 que está en Huggin face Si ustedes recuerdan, por ejemplo, en Huggin face aparecía los multimodales. Sí, en cada sección de Huggin face
+En eso también se tiene un un automóvil de transformers, eso automatiza todo el toda la puesta en marcha del modelo ya van a ver, ahorita que lo pongamos ahí en marcha listo.
+Pero pues, Bueno, el que a nosotros nos interesa es el Forcaso al L. M.
+Vale, el Forcaso del L. M.
+Aún me pusieron una canción de Bad Bonny, ¡Ay, Dios mío.
+¿Será que que puede tokenizar la canción de Bad Bunny. No sé
+el que me haga proyecto eso, ya
+me encargo yo mismo de encontrar el trabajo en Parquessof.
+María J. Carvajal
+María J. Carvajal
+16:08
+Y el último sí por el que le dieron.
+Le dieron Grammy. No son los monosílabos por los que yo me rebusaba oírlo, entonces puede ser factible.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+16:22
+Sí, Sí, ustedes
+ustedes qué ¿Qué opinan ya de cómo va la cosa? Yo digo que el Man empie, o sea por lo menos. Fíjense que por lo menos mi mamá, mi mamá también tienen la misma postura. De hecho, todavía es más radical aún.
+pero pero ha dicho que ha que ha hecho cosas buenas. Le ha reconocido cosas buenas Y
+antes le decía solamente baboso, literalmente baboso.
+María J. Carvajal
+María J. Carvajal
+16:44
+Y.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+16:49
+Sí, literalmente. Así.
+Bueno, va pon y rapeando.
+Bueno, más Bueno, y rapeando, Uy no va a poner rapeando, no a qué se dedica.
+María J. Carvajal
+María J. Carvajal
+17:01
+El fin de semana. ¿qué ¿Qué hacen?
+¿qué tanto convulsiona? El mundo brinda en el super bowl.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+17:12
+Eso es muy bueno.
+Ese es muy bueno, ¿no? Pero.
+María J. Carvajal
+María J. Carvajal
+17:18
+Tu madre.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+17:19
+Esa la la, o sea, la música. Pues
+bueno, pero no la música ahorita es muy bacara. Yo siento que muy bacana. Pero saben que si es bueno el mensaje tan verraco que yo creo que ese Ma puede ir a dar allá con los latinos con todo el tema de la isla.
+o eso debe ser muy bacano. Eso para mí, que tiene que tiene man ahí guardado.
+Tenemos guardado ahí como pasó en el Super Bowl anterior. Alguien se vio el Super Bowl anterior que cantó Kendrick, Kendrick. Lamar.
+Saben, ¿Quién es Kendrick? O sea, dieron el Super Bowl?
+Bueno, el caso.
+María J. Carvajal
+María J. Carvajal
+17:54
+Y no les suelo prestar. Pero al Super Bowl.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+17:57
+Mhm.
+María J. Carvajal
+María J. Carvajal
+17:58
+Porque no me gusta lo del fútbol americano.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+18:01
+Sí a mí también.
+María J. Carvajal
+María J. Carvajal
+18:03
+Ahí. Pierdo un poquito.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+18:05
+Sí a mí tampoco. Casi. Pero pues todos sabemos que en el medio tiempo del Super Bowl es es otra cosa, honestamente.
+sí, el mal, el mal aprovechando que ahí estaba, tro
+lanzó un mensaje, Pues sí lanzó un mensaje en el que
+prácticamente, O sea, se hizo, se hizo el análisis y era todo, como de todo el tema de la colonización
+de todo el tema, también de del baile como histórico. En el baile no había ni siquiera una sola persona blanca para empezar sí ni una sola persona blanca.
+sí. Y y es un poquito de eso. Y es un poquito, eso.
+O sea, hubo también mucho, mucho revuelo. Por eso entonces ahorita que viene. Bád Bunny.
+Ahí ya veremos a ver, pero será cosa
+para el Super Bowl. El Super Bowl es el 18 cierto o el 16. No recuerdo el ser.
+yiceth mata lozano
+yiceth mata lozano
+19:09
+No ni idea.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+19:10
+Enrique cardeño, que era de cardeño.
+yiceth mata lozano
+yiceth mata lozano
+19:16
+No sabe quién es el Ay Dios mío.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+19:18
+No, No sé quién es Enrique Cardeño. Muchas.
+yiceth mata lozano
+yiceth mata lozano
+19:20
+Liza.
+María J. Carvajal
+María J. Carvajal
+19:22
+Él es un niño. Con todo el respeto, proporciona a nosotras.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+19:28
+A ver endri cardeño.
+Parece la Epa. Colombia Es la misma.
+yiceth mata lozano
+yiceth mata lozano
+19:35
+No.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+19:37
+Fuisteis.
+yiceth mata lozano
+yiceth mata lozano
+19:38
+La generación no es la misma.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+19:41
+A la.
+María J. Carvajal
+María J. Carvajal
+19:41
+En el.
+yiceth mata lozano
+yiceth mata lozano
+19:42
+Lo van a sentir bien allá allá.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+19:44
+Claro.
+yiceth mata lozano
+yiceth mata lozano
+19:45
+De los.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+19:48
+Por ejemplo.
+María J. Carvajal
+María J. Carvajal
+19:49
+Tuviste una novela llamada los reyes en versión colombiana.
+viste que cuando eras niño, de pronto en tu casa, lo veía.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+19:58
+Sí.
+María J. Carvajal
+María J. Carvajal
+20:01
+Es esta persona? Es este personaje.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+20:07
+Pues no muchachos. Yo muchacha. Yo no la reconocí. Saben, Saben que yo soy medio de la novela que me encantó el monte
+El monte. Yo le digo a un amigo así el monte ¿no? Novela pero el escamoso, pero el.
+María J. Carvajal
+María J. Carvajal
+20:30
+No.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+20:35
+A.
+Vale, eso depende. Nació 2 000 o 1 000. Allí está. Se está la línea generacional, ¿no? ¿sí?
+Sí. La línea generacional ya ya ya ya pega ya pega. Pero Pedro le escamosa
+interesante y no muy chasis que ya era Epa Colombia. La la Enri cardeño. Para empezar, pensé que era que era hombre Endri. Yo nunca le he escuchado un nombre a un nombre de de de mujer que llaman.
+yiceth mata lozano
+yiceth mata lozano
+21:12
+Venezolano. Es hombre.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+21:15
+A es hombre.
+yiceth mata lozano
+yiceth mata lozano
+21:16
+Si eres mujer, con con.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+21:19
+No jodas.
+María J. Carvajal
+María J. Carvajal
+21:21
+Que fue como la primera.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+21:22
+Rojo.
+María J. Carvajal
+María J. Carvajal
+21:24
+Posibilidad en televisión colombiana, o sea, su
+en su pionera, porque fue como las primeras trans que yo creo que fueron posicionadas en televisión y abiertamente.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+21:39
+Pues en estado crítico tras actuar en los
+vea, pues lo que 1 se da.
+lo que 1 se da cuenta aquí que 1 nunca se imagina, Sí, Sí,
+No, Ya me están. Me están culturizando. Me están culturizando de de
+de de la de la vieja escuela, mejor dicho, ya.
+María J. Carvajal
+María J. Carvajal
+22:06
+Tenga que verme, ¿no? Pero es que las novelas de la de de toda la parte Uy son son muy locas. A veces me veo capítulos de una serie que se llamaba the momen of the byrons.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+22:16
+Fenómeno. ¿de qué.
+María J. Carvajal
+María J. Carvajal
+22:18
+Dejémonos de vainas.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+22:20
+Dejémonos de vainas.
+María J. Carvajal
+María J. Carvajal
+22:21
+Y.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+22:22
+No tiene.
+María J. Carvajal
+María J. Carvajal
+22:23
+Sin nada que envidiar a actualidad.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+22:29
+De Vargas.
+María J. Carvajal
+María J. Carvajal
+22:31
+De vaina.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+22:33
+De vainas, no de Vargas de Vaina.
+María J. Carvajal
+María J. Carvajal
+22:35
+Bueno, ahí está otra vez la diferencia generacional.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+22:40
+¡ay, no jodas de unos de vainas a ver.
+Sí, a ver a ver por acá.
+María J. Carvajal
+María J. Carvajal
+22:46
+Diré mírele nomás, el sitio como del 80 y algo al 90.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+22:50
+Uy, muchacho y muchacha. Yo. Uy, no, no.
+No muchacha. Mi mamá apenas tenía como como 20 años, como 10 años.
+yiceth mata lozano
+yiceth mata lozano
+23:05
+Profe ya siga con con el código, por favor, como así que tenía mi mamá. Tenía 20 años.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+23:11
+Qué bonito!
+María J. Carvajal
+María J. Carvajal
+23:12
+Y.
+yiceth mata lozano
+yiceth mata lozano
+23:13
+No, no.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+23:14
+Que.
+María J. Carvajal
+María J. Carvajal
+23:16
+No es la farándula para el final de la clase como opción.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+23:20
+A A: no muchacha serio.
+New: Sí, mi mamá creció con esto
+o así No, no hemos dicho, ya estaría feliz, ya estaría, se me olvidó el juego. ¡ay, Sí,
+muchacho. Basta! Basta de de de vainas! Dejémonos de vainas y de Break, Ahora, sí, pongámonos.
+María J. Carvajal
+María J. Carvajal
+23:47
+Terminaba regularmente.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+23:50
+Qué cosa?
+María J. Carvajal
+María J. Carvajal
+23:51
+En que así terminaba.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+23:54
+Sí.
+María J. Carvajal
+María J. Carvajal
+23:54
+Juegos de vainas.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+23:56
+Monas de vainas.
+Excelente. Ahora, sí, es bueno de vaino, pero bueno.
+bien, muchachos sigamos entonces de nuevo.
+Y un pipe line.
+Bueno, lo el el otro, el otro que tenemos que importar es la función pible. Este es como como todo el orquestador. Sí de los modelos para que funcionen tan bien
+y es supersencillo. Eso sale en unas líneacitas de nada. Ya van a ver.
+Lo primero hay que cargar como el identificador de modelo listo, el identificador de modelo
+que en nuestro caso va a ser. Ya lo dijimos cuenta si ya lo dijimos.
+cuen Cuántos parámetros tienes? Seis? ¿será que de pronto aparecerá por aquí los requerimientos.
+Nada que hacer, hay que arriesgarse. Hay que arriesgarse. Entonces vamos a usar. Bueno, acuérdense como yo les dije, que que podíamos copiar el modelo, ¿cierto? Le damos aquí
+aquí en el en el cosito de la ventana, y lo copiamos aquí en donde la vamos a colocar. Vale, así lo importamos luego. Entonces, ¿qué va a pasar?
+Vamos a iniciar el tokenizador listo? ¿vamos a iniciar el tokenizador con la función del auto. Toca Naser Sí. Auto
+Kanaiser, porque no me carga el auto todo al auto, todo cannazer vaya punto a from, prin training
+Y como les decía, o sea
+esta Esta función también me permite que el modelo sí. El modelo como tal, o sea, el cuen me extraiga el tokenizador que tiene el cuen yab ya de por sí pre entrenado con el que fue entrenado, Cuen listo.
+Entonces todo esto es muy, muy, muy, ket muy automatizado. Si se está dando cuenta eso, son una línea cita, ¿sí?
+Y vamos a ver qué más que más que más y acá definimos el modelo como tal que va a tener el modelo
+con el automóvil, Sí, con el automóvil, o
+porque no me sale porque no me sale por casual. Lm: Listo, cuando equivocarnos aquí.
+Lo mismo. From: Fre perfecto. Aquí, red train y model, I D, listo exactamente así.
+Exactamente así. Modela. I D.
+En Torch. Sí, vamos a colocarle una cosita aquí que ya les voy a explicar qué es lo que pasa con esto sin Torch, de Type.
+Este, el touch de Type, si depende del modelo, depende del modelo, pero ahora y también depende de
+también depende del qué, de de que tanto tenga su computador, pero siempre se coloca
+un algo que se llama un torch, Sí, sin sin paréntesis. Así. Así.
+Torch Float, 16. ¿qué pasa? Muchachos? Yo les comenté a ustedes que esos vectores todo eso son números, ¿cierto? Pero no les comenté qué tan grandes son
+Son números grandes. Son decimales, o sea, cuando hablo de números grandes, no hablo de números grandes en unidades, sino en decimales, o sea, largos, mejor dicho, sí de 20, 30, 40 decimales. Posiblemente entonces, con este Torch. Si con el torch lo que hacemos es
+lo que hacemos es colocarlo que simplemente se quede en un rango de los de del flu a 16 que creo que son como los 16 decimales, algo por el estilo, ¿sí? Entonces, como que limitamos esa parte vale para que el modelo no sea tan tan tan forzado a la hora de entrenarse.
+y me falta importar touch 14. Stack Ojalá Torch dije, decime, 14, está instalado.
+Perfecto. Entonces está instalado. Los que no tienen Torch instale Torch Pip Install, Torrch Vale.
+Pipping, Startorge y el device.
+G, P: U: Yo creo que así está perfecto.
+Eso está perfecto.
+Listo.
+Todo Bien, Hasta ahí, ¿cierto? Todo, Bien, hasta ahí con el automóvil. Si se dan cuenta de que es súper sencillito.
+ahora vamos a hacer el tema de la integración con el pipe blanes como el orquestador listo.
+Entonces lo primero que hay que darle es decirle venga lo que me va a dar este mansi, mi modelo, lo que va a hacer es un generador de texto, un text generation
+Le voy a dar
+el modelo. Sí, le voy a dar el modelo que el modelo es igual a modelo. Bueno, voy a aprovechar el champún, a veces
+modelo. Si le doy el modelo, el modelo ya está cargado aquí la variable, el tokenizador, pues ya está cargado el tokenizador y el Max New Tokens, El Max New Tokens ¿Qué es lo que pasa con esto?
+Esta variable de acá es para limitar cuánto va a
+a responder sus modelos. Listo, Por ejemplo, si yo quiero que mi modelo por cuestiones de costos responda solamente 512 tokens, listo o por cuestiones de de rendimiento, solo 512 tokens. Entonces ustedes colocan aquí 512 listo y ya
+es para limitar la respuesta de de de del modelo. Vale, es eso.
+Y ya por último.
+vamos a colocar todo esto en una sola variable que se va a llamar L. L M local.
+Y vamos a colocar el hugging face Piveline. Listo, Ahora, sí.
+Y le vamos a dar simplemente el piveline, que es igual a la variable Pyth Vale, eso es.
+Y ya cargamos nuestro modelo. L: L: M: Dudas Hasta ahí vamos. Bien.
+¿qué tal vamos claro hasta ahí,
+copiar pegar, listo. Verracos estudien Estudien muy bien, el código
+no. Si es mucho, si se dan cuenta. Es muy automatizado, muy automatizado.
+Lo que sí tienen que saber. Lo que sí tienen que tomar en cuenta es que esto.
+obviamente esto y obviamente esto, y, claro está, también dependiendo del modelo. Esto varía ¿cierto?
+No todos los problemas. Se puede usar el mismo L. L. M: No todos los L. L. M Se pueden usar los 16 decimales. No todos los L. L Ms por cuestiones de costos, pues si tengo más
+más libertad de costos, pues aumenta el número máximo de toques por respuesta, si es en vez de generación de texto de generación de imágenes, pues lo tengo que cambiar así listo el resto, Pues
+por chao, par chao, parchado, parche, bien, muchachos, entonces denle correr a ver qué tal
+denle correr a ver qué tal.
+yiceth mata lozano
+yiceth mata lozano
+31:23
+Que deberías salir.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+31:26
+Qué?
+yiceth mata lozano
+yiceth mata lozano
+31:27
+Qué debería salir.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+31:30
+Debería salir? ¿qué.
+yiceth mata lozano
+yiceth mata lozano
+31:33
+Bueno, ya está saliendo la respuesta al ejecutarlo.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+31:37
+Perfecto. Perfecto.
+Sí, Debería de de de irles dando esto. Sí, Un poquito de esto. Él les va a ir cargando el modelo. Todo esto.
+Recuerden que es como si tuvieran un cuen en su computador que eso es lo Acá no hay Hugin Face
+App.
+yiceth mata lozano
+yiceth mata lozano
+31:59
+Un qué?
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+32:00
+Un cuento, o sea un modelo. L. L. M.
+Que encuentres cargado en su computador.
+O sea, eso no depende de que Ay me quede sin Wifi no pasa nada, Está cargando su computador. ¿de qué hay? ¿qué es que tengo acceso ahí? Bueno, obviamente para descargarlo. Si necesitan Internet, claro está obvio, ¿no? Pero una vez descargado
+o en ir normal, fresco.
+yiceth mata lozano
+yiceth mata lozano
+32:24
+Listo. Creo que me está pidiendo instalar Settings Transformers.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+32:30
+Dale, entonces instala lo que te diga que que necesita instalar, y ya
+no pasa nada. Debería de de de de pasarles algo así. Vale, elvianito súper suave, va clarísimo.
+el reto de ustedes, o van a ver que de pronto, las respuestas de los modelos no son tan bacanas. Sí, porque pues obviamente tiene los parámetros muy bajitos
+entre mayor número de parámetros tenga el modelo, va a tender a ser más preciso.
+listo, pero, al igual que más preciso, pues más pesado, entonces ustedes van subiendo el número de de billones y de parámetros van subiendo, van subiendo.
+En En En la mesita miramos que ya casi 10 minutitos.
+¡qué pena ahora sí lo que decía entonces.
+o sea, ustedes van tanteando, cuántos billones de parámetros les va dando el computador
+dándole con 4, con 8. Y si ya no choque queda pues.
+en 8 o en 4 listo.
+yiceth mata lozano
+yiceth mata lozano
+33:39
+Yo le coloqué 16.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+33:41
+Will: Sí.
+No, no, no, no, no. El F. L o a D.
+No, no, no, no. El modelo. El modelo.
+yiceth mata lozano
+yiceth mata lozano
+33:47
+Ya ya.
+A ver.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+33:53
+No me asuste que que que que después sale de la clase por por por mi culpa, porque le estallo, el computador y vo.
+yiceth mata lozano
+yiceth mata lozano
+34:00
+Ya te fuimos avisando.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+34:03
+Perfecto. Perfecto.
+yiceth mata lozano
+yiceth mata lozano
+34:04
+Bueno, yo tengo aquí. Ah, bueno, aquí me salieron las respuestas.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+34:09
+De qué.
+yiceth mata lozano
+yiceth mata lozano
+34:10
+De la pregunta que lancé es es que yo aquí ya ya estoy lanzando una pregunta, ¿cierto?
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+34:17
+Ajá.
+yiceth mata lozano
+yiceth mata lozano
+34:17
+Y mi pregunta es de una sola respuesta.
+pero me manda. Me saca 4 documentos.
+o sea, la primer documento. La respuesta es bien, pero el resto nada que ver.
+Sí me hago entender.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+34:32
+Entiendo, entiendo, o sea, el primero nada que ver, pero el segundo bien, o al revés.
+yiceth mata lozano
+yiceth mata lozano
+34:37
+No, no, no. El primero. Bien.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+34:39
+Ah, sí. Ok.
+yiceth mata lozano
+yiceth mata lozano
+34:40
+Y el resto de documentos. Pues.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+34:42
+Nada que ver. Ah, Bueno, cosa importante, cosa muy, muy, muy, muy, muy importante. Muchachos. El por default, recuerden que les trae 4 documentos, ¿cierto? Si ustedes ven que el que el Embayn está siendo muy preciso, bájenle, pero ojo mucho, ojo, no le bajen menos de 3. ¿por qué?
+A veces no sabemos si el modelo puede fallar y bajar la importancia a un documento sobre otro, porque tal vez tiene más palabras clave, etc. Listo. Entonces siempre en una ventana segura.
+lo máximo que puede hacer el modelo Sí, con esa información redundante en caso de que se los dé, es demorarse un poco en la respuesta o 2, decirles que
+sí, demorarse un poco en la respuesta, porque él va a ignorar las cosas que son redundantes. Listo, Entonces.
+es preferible que dejen una ventanita y que se les demore tal vez un poquito más el modelo a que el modelo o directamente no sepa responder lo que lo que sea, porque tal vez el documento importante sea el documento 5 por X o y el motivo.
+o o 2 que directamente responda a una Chambona o no responda nada listo.
+entonces siempre colóquenle 3 documentos mínimo.
+yiceth mata lozano
+yiceth mata lozano
+36:00
+En el en el Keyword.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+36:02
+En el Keyword Exacto, que mínimo sea 3 vale para dejar esa ventanita. Si ustedes están muy seguros de que su embail funciona muy bien. Vale.
+¿es eso.
+yiceth mata lozano
+yiceth mata lozano
+36:13
+Sí, Sí, Sí, sí. Sí a ver. Me explico.
+es que yo subí aquí lo de lo de lo que yo te decía lo de los documentos.
+pero prácticamente lo todos los documentos dicen lo mismo, pero varían de a poquito, o sea, son tarifas.
+Entonces quiero saber la tarifa de un lote en el 2 025.
+Puede ser que en el 2 025 y en el 2 024, sea la misma. No
+es más normalmente es eso, entonces sí se puede seguir trabajando así. Tengo 2 documentos hasta el momento No, no he encontrado más.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+37:00
+No, no pasa nada, no pasa nada, está.
+yiceth mata lozano
+yiceth mata lozano
+37:04
+De eso. No sé cómo he trabajado.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+37:09
+Sí, El computador empieza.
+¿qué Bueno.
+María J. Carvajal
+María J. Carvajal
+37:14
+Que parece entonces que la I A sigue necesitando del humano.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+37:18
+Más que sí que Uf!
+Ustedes no saben el el el bollo tan increíble que pagan los trabajos, y ninguna de ella. Puede hacerlo porque
+la ya se imagina que todo es perfecto, pero ¿cuánto es horrible.
+María J. Carvajal
+María J. Carvajal
+37:34
+Serie más modernita que yo. Me vi, que es brasileña.
+Les muestra eso como el drama. En pocos artículos.
+yiceth mata lozano
+yiceth mata lozano
+37:43
+No igual el humano también. No. Si se le dificulta el humano, dice Uy, me lo va a faci, me va a facilitar la vida. Esta vaina.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+37:54
+Sí.
+María J. Carvajal
+María J. Carvajal
+37:57
+En el frente.
+digamos que está en entreno, hay que ser positivos y que digamos que a mediano plazo puede que sí. Después de
+hacer y deshacer algo, me imagino a 1 parametrizando, o entendiendo como trabajarle.
+yiceth mata lozano
+yiceth mata lozano
+38:13
+Exactamente. Ese es el Ese es el objetivo.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+38:17
+De esto súper esperamos mañana.
+yiceth mata lozano
+yiceth mata lozano
+38:21
+Terminar y y seguiré cachorreando el fin de semana. Aunque el fin de semana no tengo tantas cosas.
+pero si trabajar el fin de semana. Esto no.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+38:31
+Y está mucho.
+yiceth mata lozano
+yiceth mata lozano
+38:32
+Ya te han dicho algo del calendario de la próxima semana o no.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+38:35
+Todo depende de mañana. Todo depende de mañana. Cuántas sesiones me asigne? Porque honestamente, no se esperen.
+Esperen. Yo veo en en mi en mi calendario de tutores para tener acá
+a ver mi calendario de tutores
+académico, generar notificación, programación, sesión y consulta programación de Python
+ya colocaron otro grupo de de de Python.
+Han perdido harto esto uy, Sí, sí.
+Bueno, mañ hoy dice que hasta las 7
+mañana dice mañana. Dice que solo tengo una sesión.
+yiceth mata lozano
+yiceth mata lozano
+39:30
+Mhm.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+39:30
+Que solo tengo una sesión. Eso significa que
+eso significa algo. Esperense. Yo veo 2.
+yiceth mata lozano
+yiceth mata lozano
+39:37
+O mañ mañana tenemos 2.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+39:38
+Ey's.
+O sea, mañana tenemos 2 sesiones.
+yiceth mata lozano
+yiceth mata lozano
+39:42
+Sí.
+Anyi Lisbeth
+Anyi Lisbeth
+39:43
+Pero algunas.
+yiceth mata lozano
+yiceth mata lozano
+39:46
+No, no. Yo quería irres mañana. Es viernes.
+Yo tengo acá. Proyecto final de seguridad de pruebas.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+39:53
+Sí, señora, tiene toda la razón. Mañana son 2 sesiones. Entonces, el lunes solamente vamos a tener la sesión de de sustentación. Vale.
+mañana terminamos en la primera sesión en los primeros 15 20 min. Terminamos ya el chatbot. Listo ya el chatvo
+les doy un código Es en 5 minutitos con el que pueden desplegarlo, sí con el que pueden hacer como el despliegue, verlo de forma interactiva, charlar con él y todo eso.
+Y la otra parte de la clase puede ser o sustentación, o puede ser
+N. Ocho N para hacer las integraciones con las apis que honestamente, honestamente, honestamente les creo que
+les voy a mandar trabajito el fin de semana si les va a mandar trabajito el fin de semana
+porque no mentira. Mañana Mañana mañana podemos ver algo de N, 8. N, Si N. Ocho N no queda tan feo y todo el tema, pues siguen con eso. Y si queda igual feo
+sustenta que mañana, No, No, No, no, no sustentación mañana. No es lunes.
+Y el N. Ocho N es para automatizar todo esto. Si quieren, si quieren, por curiosidad, si tienen tiempo, fíjense, está la plataforma.
+yiceth mata lozano
+yiceth mata lozano
+41:13
+Por favor.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+41:14
+Y con la i A, díganle
+díganle más o menos su proyecto. Sí, más o menos su proyecto y gane que quieren integrarlo con con otras cosas, por ejemplo, a P. Is.
+por ejemplo, un 1 de vanesa que era
+que era, creo que de viajes, algo de Booking, Entonces, por ejemplo, una pide calendario, por ejemplo, que que el mandiga Bueno, compre los asientos del avión y quiero que se me refleje una vez en mi calendario. Sí,
+eso se hace a través de una Api con Google, calendar todo eso. Todo eso tienen que irlo viendo. Tienen que ir charlando con con con la I a listo
+y que vayan viendo qué es, qué es N Ocho. N, Y mañana lo usamos Bien, bacano. Vale, mañana. Lo usamos Bien, bien, bacano.
+Bien, muchachas.
+yiceth mata lozano
+yiceth mata lozano
+42:07
+Mhm.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+42:08
+Bueno, está bien, muchachas.
+Vanessa Hernandez
+Vanessa Hernandez
+42:10
+Esto debería tener más módulos.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+42:13
+Y si.
+Vanessa Hernandez
+Vanessa Hernandez
+42:14
+Cuando se pone interesante, no.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+42:19
+No, Sí, Sí, la verdad, honestamente, debería tener más moulitos. Debería tener más moulitos, pero
+pero no, yo creo que con esto con eso son unas duchas.
+Sí, la profundización es algo más complejo si requiere más tiempo.
+pero esto ustedes van voladas. Van voladas. Vale, Vale.
+yiceth mata lozano
+yiceth mata lozano
+42:45
+Súper.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+42:46
+Bueno, bueno, muchachas. Entonces
+no siendo más. Si no hay preguntas, si no hay otras dudas, no hay nada, pues podemos despedirnos por aquí.
+yiceth mata lozano
+yiceth mata lozano
+42:59
+Listón, muchas.
+Vanessa Hernandez
+Vanessa Hernandez
+43:00
+Muchas gracias. Profe.
+Tutoría PYTHON IV
+Tutoría PYTHON IV
+43:02
+Muchas gracias. Muchachas a ustedes que pasen buenas noches y Dios que nos vemos mañana. Nos vemos chao.
+yiceth mata lozano
+yiceth mata lozano
+43:08
+Chucho.
+
