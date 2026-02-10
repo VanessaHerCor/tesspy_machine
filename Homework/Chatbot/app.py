@@ -14,7 +14,7 @@ from pathlib import Path
 from langchain_community.document_loaders import PyPDFLoader  # Carga archivos PDF
 from langchain_text_splitters import RecursiveCharacterTextSplitter  # Divide textos en fragmentos
 from langchain_community.vectorstores import FAISS  # Base de datos de vectores (embeddings)
-from langchain_community.embeddings import HuggingFaceEmbeddings  # Convierte texto a vectores
+from langchain_huggingface import HuggingFaceEmbeddings  # Convierte texto a vectores (versión actualizada)
 from langchain_community.llms import HuggingFacePipeline  # Pipeline local de HuggingFace
 
 # Para usar modelos locales

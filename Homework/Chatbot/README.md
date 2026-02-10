@@ -96,16 +96,16 @@ source .venv/bin/activate
 #### 3. Instalar dependencias (VERSIONES EXACTAS)
 ```bash
 pip install --upgrade pip
-pip install langchain==1.2.9
-pip install langchain-community==0.4.1
-pip install langchain-text-splitters==1.1.0
-pip install langchain-huggingface==1.2.0
-pip install transformers==5.1.0
-pip install torch==2.10.0
-pip install sentence-transformers==5.2.2
-pip install huggingface_hub==1.4.1
-pip install faiss-cpu==1.13.2
-pip install pypdf==6.6.2
+pip install langchain
+pip install langchain-community
+pip install langchain-text-splitters
+pip install langchain-huggingface
+pip install huggingface_hub
+pip install torch
+pip install sentence-transformers
+pip install faiss-cpu
+pip install transformers
+pip install pypdf
 ```
 
 **O más fácil:**
@@ -288,54 +288,6 @@ Resultado: Preciso, con fuentes, sin alucinaciones ✅
 
 ---
 
-## 📦 COMPATIBILIDAD DE LIBRERÍAS
-
-### Versiones EXACTAS necesarias
-
-⚠️ **IMPORTANTE**: Usar EXACTAMENTE estas versiones para evitar conflictos
-
-```
-langchain==1.2.9
-langchain-community==0.4.1
-langchain-text-splitters==1.1.0
-langchain-huggingface==1.2.0
-transformers==5.1.0
-torch==2.10.0
-sentence-transformers==5.2.2
-huggingface_hub==1.4.1
-faiss-cpu==1.13.2
-pypdf==6.6.2
-```
-
-### Por qué estas versiones?
-
-**LangChain API cambió en versiones nuevas**:
-- ConversationalRetrievalChain fue deprecado
-- Necesitamos langchain==1.2.9 para estabilidad
-
-**Transformers y huggingface_hub deben ser compatibles**:
-- Transformers 5.1.0 requiere huggingface_hub 1.4.1
-- Otras combinaciones causan ImportError
-
-**Torch es crítico**:
-- 2.10.0 es estable y eficiente
-- Versiones más nuevas pueden tener bugs
-
-### ❌ Errores comunes de versiones
-
-```bash
-# ❌ NO HAGAS ESTO:
-pip install transformers           # Instala versión nueva = conflicto
-pip install -U langchain           # Actualiza = API diferente
-pip install huggingface_hub==0.36  # Versión vieja = ImportError
-
-# ✅ HAZLO ASÍ:
-pip install -r requirements.txt    # Usa versiones exactas
-pip install transformers==5.1.0    # Especifica versión
-```
-
----
-
 ## 💻 COMANDOS ÚTILES
 
 ### Instalación
@@ -399,27 +351,6 @@ du -sh .
 
 ---
 
-## 🔧 SOLUCIÓN DE PROBLEMAS
-
-### Error: `ModuleNotFoundError: No module named 'langchain'`
-```bash
-# Solución
-pip install -r requirements.txt
-```
-
-### Error: `ImportError: cannot import name 'ConversationalRetrievalChain'`
-```bash
-# Causa: Versión de langchain incorrecta
-# Solución
-pip install langchain==1.2.9 langchain-community==0.4.1
-```
-
-### Error: `ImportError: cannot import name 'is_offline_mode'`
-```bash
-# Causa: huggingface_hub incompatible con transformers
-# Solución
-pip install transformers==5.1.0 huggingface_hub==1.4.1 --force-reinstall
-```
 
 ### Error: `No PDF files found`
 ```bash
