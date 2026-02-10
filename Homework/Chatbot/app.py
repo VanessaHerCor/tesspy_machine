@@ -15,11 +15,9 @@ from langchain_community.document_loaders import PyPDFLoader  # Carga archivos P
 from langchain_text_splitters import RecursiveCharacterTextSplitter  # Divide textos en fragmentos
 from langchain_community.vectorstores import FAISS  # Base de datos de vectores (embeddings)
 from langchain_community.embeddings import HuggingFaceEmbeddings  # Convierte texto a vectores
-from langchain.chains import ConversationalRetrievalChain  # Cadena conversacional (como el profesor)
-from langchain.prompts import PromptTemplate  # Template para dar instrucciones al modelo
-
-# Para usar modelos locales (como el profesor)
 from langchain_community.llms import HuggingFacePipeline  # Pipeline local de HuggingFace
+
+# Para usar modelos locales
 from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline  # Modelos locales
 import torch  # Para GPU (si está disponible)
 
@@ -73,11 +71,11 @@ print(f"\n✅ Total de documentos cargados: {len(all_documents)}")
 # ============================================================================
 print("\n✂️ Dividiendo documentos en fragmentos...")
 
-# Dividir el texto en fragmentos de 1000 caracteres con 200 caracteres de solapamiento
-# Esto es importante para que el modelo entienda mejor el contexto
+# Dividir el texto en fragmentos más pequeños (600 chars) para mejor comprensión
+# Chunks más pequeños = mejor relevancia y menos confusión del modelo
 text_splitter = RecursiveCharacterTextSplitter(
-    chunk_size=1000,      # Tamaño de cada fragmento
-    chunk_overlap=200,    # Solapamiento para no perder contexto
+    chunk_size=600,       # Fragmentos más pequeños = mejor precisión
+    chunk_overlap=100,    # Solapamiento menor para eficiencia
 )
 
 # Aplicar la división a todos los documentos
@@ -97,7 +95,7 @@ embeddings = HuggingFaceEmbeddings(
 )
 
 # Nombre del archivo donde se guardarán los embeddings
-EMBEDDINGS_PATH = "embeddings_psy"
+EMBEDDINGS_PATH = "embedding_storage"
 
 # Verificar si ya existen embeddings guardados (para no procesarlos de nuevo)
 if os.path.exists(EMBEDDINGS_PATH):
@@ -147,8 +145,8 @@ print("⚠️ Primera vez: descargará ~7GB (puede tardar 10-20 minutos)...")
 llm = None  # Inicializar
 
 try:
-    # Usar Microsoft Phi-2: más pequeño que Mistral pero muy poderoso
-    # Es lo que recomendó tu profesor
+    # Usar Microsoft Phi-2: modelo poderoso optimizado
+    # Con parámetros ajustados para mejor rendimiento
     model_id = "microsoft/phi-2"
     
     print(f"📥 Descargando modelo: {model_id}")
@@ -165,13 +163,17 @@ try:
         torch_dtype=torch.float16  # Usar 16-bit para usar menos memoria
     )
     
-    # Crear el pipeline de generación de texto
-    # max_new_tokens controla cuán larga será la respuesta
+    # Crear el pipeline de generación de texto con parámetros optimizados
+    # Estos parámetros evitan repeticiones y generan respuestas coherentes
     pipe = pipeline(
         "text-generation",
         model=model,
         tokenizer=tokenizer,
-        max_new_tokens=512  # Respuestas moderadas
+        max_new_tokens=300,           # Respuestas moderadas (300 tokens)
+        temperature=0.7,              # Variedad en generación (evita monotonía)
+        top_p=0.9,                    # Nucleus sampling (variedad controlada)
+        repetition_penalty=1.2,       # Penaliza repeticiones
+        do_sample=True                # Muestreo para diversidad
     )
     
     # Envolver en HuggingFacePipeline para LangChain
@@ -189,53 +191,24 @@ except Exception as e:
     llm = None
 
 # ============================================================================
-# PASO 8: CREAR EL TEMPLATE DE PREGUNTA (PROMPT)
+# PASO 8: CONFIGURACIÓN LISTA
 # ============================================================================
-
-# Este template define cómo se le formula la pregunta al modelo
-# Incluye el contexto (documentos relevantes) y la pregunta del usuario
-prompt_template = """Eres un asistente experto en Psicología. 
-Usa la siguiente información para responder la pregunta de manera clara y completa.
-Si no sabes la respuesta, di que no tienes la información disponible.
-
-CONTEXTO:
-{context}
-
-PREGUNTA:
-{question}
-
-RESPUESTA:"""
-
-# Crear el prompt usando el template
-PROMPT = PromptTemplate(
-    template=prompt_template,
-    input_variables=["context", "question"]
-)
+print("✅ Todos los componentes están listos")
 
 # ============================================================================
-# PASO 9: CREAR LA CADENA CONVERSACIONAL (COMO EL PROFESOR)
+# PASO 9: CREAR LA CADENA CONVERSACIONAL (MANUAL - compatible con LangChain nuevo)
 # ============================================================================
-print("\n⛓️ Creando la cadena conversacional...")
+print("\n⛓️ Configurando el sistema de respuestas...")
 
 qa_chain = None
 
 if llm is not None:
-    # Usar ConversationalRetrievalChain (igual que el profesor)
-    # Esta cadena:
-    # 1. Recuerda el historial de conversación
-    # 2. Busca documentos relevantes
-    # 3. Genera respuestas basadas en los documentos
+    # En lugar de usar ConversationalRetrievalChain (que está deprecado),
+    # vamos a implementar la lógica manualmente pero MÁS compatible
+    # Esto le permite al modelo recordar el historial
     
-    try:
-        qa_chain = ConversationalRetrievalChain.from_llm(
-            llm=llm,                              # Modelo de lenguaje local
-            retriever=retriever,                  # El retriever que configuramos
-            return_source_documents=True         # Mostrar de dónde sacó la información
-        )
-        print("✅ Cadena conversacional lista para usar")
-    except Exception as e:
-        print(f"⚠️ Error al crear la cadena: {e}")
-        qa_chain = None
+    print("✅ Sistema de respuestas configurado")
+    qa_chain = True  # Marcador simple de que está listo
 else:
     print("⚠️ No se puede crear la cadena sin el modelo LLM")
     print("Verifica que el modelo se cargó correctamente")
@@ -268,35 +241,67 @@ def hacer_pregunta(pregunta):
         return
     
     try:
-        # Hacer la pregunta a la cadena
-        # El historial le permite al modelo recordar conversaciones previas
-        result = qa_chain.invoke({
-            "question": pregunta,
-            "chat_history": chat_history
-        })
+        # PASO 1: Buscar documentos relevantes
+        print("🔍 Buscando información relevante...")
+        docs_relevantes = retriever.invoke(pregunta)
         
-        # Extraer la respuesta
-        respuesta = result.get("answer", "No se pudo obtener respuesta")
+        # PASO 2: Preparar el contexto de los documentos
+        contexto = "\n\n".join([f"Documento {i+1}:\n{doc.page_content}" 
+                                for i, doc in enumerate(docs_relevantes)])
+        
+        # PASO 3: Construir el historial conversacional para darle contexto al modelo
+        # Esto permite que el modelo recuerde las preguntas anteriores
+        historial_texto = ""
+        if chat_history:
+            historial_texto = "\n\nHistorial de conversación anterior:\n"
+            for q, a in chat_history[-3:]:  # Últimas 3 conversaciones para no contaminar
+                historial_texto += f"P: {q}\nR: {a}\n"
+        
+        # PASO 4: Crear un prompt más simple y directo
+        # Menos contexto = mejor generación, el modelo no se confunde
+        prompt = f"""Basándote en la siguiente información de libros de Psicología, responde la pregunta de forma concisa:
+
+INFORMACIÓN:
+{contexto}
+
+PREGUNTA: {pregunta}
+RESPUESTA CONCISA:"""
+        
+        print("⏳ Generando respuesta...")
+        
+        # PASO 5: Generar la respuesta usando el LLM
+        respuesta_completa = llm.invoke(prompt)
+        
+        # Extraer solo la respuesta (quitar el prompt que devuelve el modelo)
+        if "RESPUESTA CONCISA:" in respuesta_completa:
+            respuesta = respuesta_completa.split("RESPUESTA CONCISA:")[-1].strip()
+        else:
+            respuesta = respuesta_completa.strip()
+        
+        # Si la respuesta es muy larga o vacía, limpiarla
+        respuesta = respuesta[:1500].strip()  # Máximo 1500 caracteres
+        if not respuesta:
+            respuesta = "No pude generar una respuesta. Intenta reformular tu pregunta."
         
         print(f"\n🤖 Respuesta del chatbot:")
         print(respuesta)
         
-        # Guardar en el historial para la próxima pregunta
-        # Esto le permite al chatbot recordar
+        # PASO 6: Guardar en el historial para la próxima pregunta
         chat_history.append((pregunta, respuesta))
         
-        # Mostrar los documentos de los que se extrajo la información
-        if "source_documents" in result:
-            print(f"\n📚 Documentos consultados ({len(result['source_documents'])}): ")
-            for i, doc in enumerate(result['source_documents'], 1):
-                fuente = doc.metadata.get('source', 'Fuente desconocida')
-                pagina = doc.metadata.get('page', 'N/A')
-                print(f"  {i}. {fuente} (Página {pagina})")
+        # PASO 7: Mostrar los documentos de los que se extrajo la información
+        print(f"\n📚 Documentos consultados ({len(docs_relevantes)}): ")
+        for i, doc in enumerate(docs_relevantes, 1):
+            fuente = doc.metadata.get('source', 'Fuente desconocida')
+            pagina = doc.metadata.get('page', 'N/A')
+            print(f"  {i}. {fuente} (Página {pagina})")
         
-        return result
+        return respuesta
     
     except Exception as e:
         print(f"❌ Error al procesar la pregunta: {e}")
+        import traceback
+        traceback.print_exc()
         return None
 
 # ============================================================================

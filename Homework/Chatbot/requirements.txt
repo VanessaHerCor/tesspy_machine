@@ -1,0 +1,33 @@
+# ============================================================================
+# CHATBOT DE PSICOLOGÍA - DEPENDENCIAS
+# ============================================================================
+# IMPORTANTE: Estas versiones EXACTAS son necesarias para evitar conflictos
+# 
+# Instalación:
+#   pip install -r requirements.txt
+# ============================================================================
+
+# FRAMEWORK PRINCIPAL
+langchain==1.2.9
+langchain-community==0.4.1
+langchain-text-splitters==1.1.0
+langchain-huggingface==1.2.0
+
+# MODELOS DE IA
+transformers==5.1.0
+torch==2.10.0
+sentence-transformers==5.2.2
+huggingface_hub==1.4.1
+
+# BASE DE DATOS VECTORIAL
+faiss-cpu==1.13.2
+
+# LECTURA DE PDFs
+pypdf==6.6.2
+
+# Dependencias adicionales (instaladas automáticamente)
+# numpy
+# scikit-learn
+# requests
+# tqdm
+# pydantic
