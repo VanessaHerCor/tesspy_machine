@@ -13,6 +13,7 @@ ENV/
 django_env/
 flask_env/
 *.env
+*.venv
 .env
 
 # Django
