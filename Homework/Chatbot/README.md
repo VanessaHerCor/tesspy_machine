@@ -504,16 +504,6 @@ Costo:            $0 (open source)
 
 ---
 
-## 📞 SOPORTE
-
-- **Instalación**: Ver "INSTALACIÓN COMPLETA"
-- **Problemas**: Ver "SOLUCIÓN DE PROBLEMAS"
-- **Comandos**: Ver "COMANDOS ÚTILES"
-- **Entender sistema**: Ver "CÓMO FUNCIONA (RAG)"
-- **Eligir versión**: Ver "app.py VS main.py"
-
----
-
 ## 🎓 CRÉDITOS
 
 Basado en:
